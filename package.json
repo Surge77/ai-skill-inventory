@@ -1,0 +1,13 @@
+{
+  "name": "skill-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scan, deduplicate, categorise and document every AI coding skill installed on a machine.",
+  "type": "module",
+  "scripts": {
+    "scan": "node tools/scan.mjs data/scan-raw.json",
+    "build": "node tools/generate.mjs . data/scan-raw.json",
+    "refresh": "npm run scan && npm run build"
+  },
+  "license": "MIT"
+}
