@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-04T04:11:21.616Z",
+  "generatedAt": "2026-09-04T17:03:50.791Z",
   "host": {
     "platform": "win32",
     "node": "v24.13.1"
   },
   "totals": {
-    "skillDirsFound": 2342,
-    "uniqueSkills": 1139,
-    "installedUnique": 801,
+    "skillDirsFound": 2345,
+    "uniqueSkills": 1141,
+    "installedUnique": 803,
     "availableOnly": 338,
     "emptyDirs": 119,
     "emptyRecoverable": 118,
@@ -17,7 +17,7 @@
     "commands": 76,
     "mcpServers": 28,
     "hooks": 5,
-    "installedPlugins": 31
+    "installedPlugins": 32
   },
   "catalog": [
     {
@@ -29257,6 +29257,61 @@
       "categorySource": "keywords"
     },
     {
+      "name": "design-dna",
+      "dirName": "design-dna",
+      "description": "Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll effects, etc.). Use this skill when: (1) a user wants to see the full 3-dimension design structure/schema, (2) a user provides images, screenshots, or URLs of reference designs and wants them analyzed into a structured JSON profile covering all three dimensions, (3) a user has a Design DNA JSON and content and wants a design generated from it, or (4) any combination of these phases. Triggers on \"design DNA\", \"extract design style\", \"analyze design\", \"design tokens from reference\", \"generate design from JSON\", \"design system from screenshot\", \"design profile\", \"style guide JSON\", \"visual effects analysis\", \"design with effects\", \"3d design analysis\".",
+      "frontmatter": {
+        "name": "design-dna",
+        "description": "Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll effects, etc.). Use this skill when: (1) a user wants to see the full 3-dimension design structure/schema, (2) a user provides images, screenshots, or URLs of reference designs and wants them analyzed into a structured JSON profile covering all three dimensions, (3) a user has a Design DNA JSON and content and wants a design generated from it, or (4) any combination of these phases. Triggers on \"design DNA\", \"extract design style\", \"analyze design\", \"design tokens from reference\", \"generate design from JSON\", \"design system from screenshot\", \"design profile\", \"style guide JSON\", \"visual effects analysis\", \"design with effects\", \"3d design analysis\"."
+      },
+      "tool": "claude-code",
+      "surface": "personal",
+      "status": "installed",
+      "pathKey": ".claude/skills/design-dna",
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "isLink": false,
+      "linkTarget": null,
+      "bodyBytes": 8543,
+      "bodyLines": 115,
+      "descTokens": 211,
+      "skillTokens": 2136,
+      "files": 10,
+      "bytes": 66266,
+      "subdirs": [
+        "references",
+        "scripts",
+        "test"
+      ],
+      "hash": "7d41d94ebe26",
+      "mtime": "2026-09-04",
+      "locations": [
+        {
+          "path": ".claude/skills/design-dna",
+          "tool": "claude-code",
+          "surface": "personal",
+          "status": "installed",
+          "isLink": false
+        }
+      ],
+      "installCount": 1,
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "family": "standalone",
+      "category": "Frontend & UI",
+      "categoryConfidence": 9,
+      "categoryAlt": "Docs & Writing",
+      "anyInstalled": true,
+      "categorySource": "keywords"
+    },
+    {
       "name": "design-system-patterns",
       "dirName": "design-system-patterns",
       "description": "Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building component libraries, or establishing design system foundations.",
@@ -55933,6 +55988,71 @@
       "categorySource": "keywords"
     },
     {
+      "name": "scroll-craft",
+      "dirName": "scroll-craft",
+      "description": "Build a premium, scroll-driven interactive landing page for any business: a service company, a physical product, a food brand, a drink brand. Scroll becomes the timeline. Video scrubs frame by frame under the wheel, sections pin and advance, rails pan sideways, headlines assemble line by line, the page ground shifts colour as you travel, and the pointer moves things that are not scrolling. Interviews the human first (their vibe, their journey, one unbroken world or distinct scenes, and what assets they already own), then picks a page grammar and a signature move so no two builds share a skeleton, generates photoreal assets through kie.ai or builds from the user's own footage and photos, writes real semantic HTML on a design-system floor, and verifies the result by screenshotting its own scroll. Use for \"scrollytelling\", \"scroll animation site\", \"a site where scrolling plays a video\", \"Apple-style landing page\", \"3D scroll world\", \"interactive landing page\", \"make my brand a scroll experience\", \"make it feel different\", \"this looks like a template\", \"a unique scroll site\", or any request for a site that should feel like an experience rather than a document.",
+      "frontmatter": {
+        "name": "scroll-craft",
+        "description": "Build a premium, scroll-driven interactive landing page for any business: a service company, a physical product, a food brand, a drink brand. Scroll becomes the timeline. Video scrubs frame by frame under the wheel, sections pin and advance, rails pan sideways, headlines assemble line by line, the page ground shifts colour as you travel, and the pointer moves things that are not scrolling. Interviews the human first (their vibe, their journey, one unbroken world or distinct scenes, and what assets they already own), then picks a page grammar and a signature move so no two builds share a skeleton, generates photoreal assets through kie.ai or builds from the user's own footage and photos, writes real semantic HTML on a design-system floor, and verifies the result by screenshotting its own scroll. Use for \"scrollytelling\", \"scroll animation site\", \"a site where scrolling plays a video\", \"Apple-style landing page\", \"3D scroll world\", \"interactive landing page\", \"make my brand a scroll experience\", \"make it feel different\", \"this looks like a template\", \"a unique scroll site\", or any request for a site that should feel like an experience rather than a document.",
+        "allowed-tools": "Bash, Read, Write, Edit, Glob, Grep, AskUserQuestion"
+      },
+      "tool": "claude-code",
+      "surface": "plugin",
+      "status": "installed",
+      "pathKey": ".claude/plugins/cache/nateherk/nateherk-design/0.2.0/skills/scroll-craft",
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "nateherk",
+        "plugin": "nateherk-design"
+      },
+      "isLink": false,
+      "linkTarget": null,
+      "bodyBytes": 22718,
+      "bodyLines": 421,
+      "descTokens": 294,
+      "skillTokens": 5680,
+      "files": 22,
+      "bytes": 367789,
+      "subdirs": [
+        "engine",
+        "references",
+        "scripts",
+        "templates"
+      ],
+      "hash": "3e0c920b05a2",
+      "mtime": "2026-09-04",
+      "locations": [
+        {
+          "path": ".claude/plugins/cache/nateherk/nateherk-design/0.2.0/skills/scroll-craft",
+          "tool": "claude-code",
+          "surface": "plugin",
+          "status": "installed",
+          "isLink": false
+        },
+        {
+          "path": ".claude/plugins/marketplaces/nateherk/plugins/nateherk-design/skills/scroll-craft",
+          "tool": "claude-code",
+          "surface": "marketplace",
+          "status": "available",
+          "isLink": false
+        }
+      ],
+      "installCount": 2,
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "marketplace",
+        "plugin"
+      ],
+      "family": "nateherk-design",
+      "category": "Frontend & UI",
+      "categoryConfidence": 17,
+      "categoryAlt": null,
+      "anyInstalled": true,
+      "categorySource": "keywords"
+    },
+    {
       "name": "sdk",
       "dirName": "sdk",
       "description": "Guide users building apps, scripts, CI pipelines, or automations on top of the Cursor TypeScript SDK (`@cursor/sdk`). Use when the user mentions integrating, installing, or writing code against the Cursor SDK; says `Agent.create`, `Agent.prompt`, `Agent.resume`, `agent.send`, `run.stream`, `CursorAgentError`, or `@cursor/sdk`; asks to run Cursor agents programmatically from a script, CI/CD pipeline, GitHub Action, backend service, or other code outside the Cursor IDE; wants to pick between local and cloud runtime, configure MCP servers for an SDK agent, or handle streaming, cancellation, or errors; or is wiring Cursor into an automation, bot, or REST `/v1/agents` migration. Use eagerly rather than answering from memory; the SDK surface evolves and this skill is the source of truth for the external package.",
@@ -78257,6 +78377,14 @@
       "scope": "user",
       "version": "ea8df8290a51",
       "installedAt": "2026-02-21"
+    },
+    {
+      "id": "nateherk-design@nateherk",
+      "plugin": "nateherk-design",
+      "marketplace": "nateherk",
+      "scope": "user",
+      "version": "0.2.0",
+      "installedAt": "2026-09-04"
     },
     {
       "id": "playwright@claude-plugins-official",
