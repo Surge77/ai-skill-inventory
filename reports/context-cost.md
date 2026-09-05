@@ -8,9 +8,9 @@ A skill's **description** is loaded into every session so the model can decide w
 
 | | |
 |---|---:|
-| Skills reachable from Claude Code | 394 |
-| Their descriptions, summed | **~27,684 tokens** |
-| Average description | ~70 tokens |
+| Skills reachable from Claude Code | 396 |
+| Their descriptions, summed | **~28,189 tokens** |
+| Average description | ~71 tokens |
 
 That is what the library costs before a single question is asked.
 
@@ -20,7 +20,9 @@ Trimming these is the cheapest context win available.
 
 | Skill | Description tokens | Pack |
 |---|---:|---|
+| `scroll-craft` | 294 | nateherk-design |
 | `context-mode` | 237 | context-mode |
+| `design-dna` | 211 | standalone |
 | `customer-research` | 204 | marketing-skills |
 | `directory-submissions` | 204 | marketing-skills |
 | `token-budget-advisor` | 204 | ecc |
@@ -43,8 +45,6 @@ Trimming these is the cheapest context win available.
 | `ad-creative` | 162 | marketing-skills |
 | `churn-prevention` | 159 | marketing-skills |
 | `community-marketing` | 158 | marketing-skills |
-| `competitor-profiling` | 158 | marketing-skills |
-| `free-tools` | 158 | marketing-skills |
 
 ## The 25 heaviest bodies
 
@@ -98,6 +98,7 @@ Bundled scripts, references and assets. Disk, not context.
 | `reasoning-trace-optimizer` | 574 KB | 60 |
 | `documents` | 419 KB | 78 |
 | `react-best-practices` | 408 KB | 137 |
+| `scroll-craft` | 359 KB | 22 |
 | `skill-creator` | 225 KB | 18 |
 | `openclaw` | 222 KB | 17 |
 | `vercel-react-best-practices` | 203 KB | 68 |
@@ -108,4 +109,3 @@ Bundled scripts, references and assets. Disk, not context.
 | `vercel-react-best-practices` | 171 KB | 59 |
 | `writing-clearly-and-concisely` | 170 KB | 7 |
 | `huggingface-llm-trainer` | 166 KB | 19 |
-| `shadcn-ui` | 154 KB | 5 |

@@ -2,7 +2,7 @@
 
 [← back](../README.md)
 
-869 of the 2,342 skill directories on disk are symlinks. The pattern is one shared store with every tool linking into it, which is the right shape: install once, reach every tool.
+869 of the 2,345 skill directories on disk are symlinks. The pattern is one shared store with every tool linking into it, which is the right shape: install once, reach every tool.
 
 ```
 ~/.agents/skills/<skill>/          <- the actual content

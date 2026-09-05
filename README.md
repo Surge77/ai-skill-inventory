@@ -2,15 +2,15 @@
 
 Every AI coding skill installed on one machine, scanned, deduplicated, categorised and documented.
 
-Generated **2026-09-04** from a live filesystem scan of 2,342 skill directories across 13 AI tools.
+Generated **2026-09-04** from a live filesystem scan of 2,345 skill directories across 13 AI tools.
 
 ## The numbers
 
 | | |
 |---|---|
-| Unique skills (deduplicated by content hash) | **1,139** |
-| Skill directories on disk | 2,342 |
-| Installed and loadable | 801 |
+| Unique skills (deduplicated by content hash) | **1,141** |
+| Skill directories on disk | 2,345 |
+| Installed and loadable | 803 |
 | Sitting in a marketplace, not installed | 338 |
 | Shared across more than one tool | 136 |
 | Symlinks into the shared store | 869 |
@@ -19,7 +19,7 @@ Generated **2026-09-04** from a live filesystem scan of 2,342 skill directories 
 | Subagents | 98 |
 | Slash commands | 76 |
 | MCP servers | 28 |
-| Installed Claude Code plugins | 31 |
+| Installed Claude Code plugins | 32 |
 
 ## Read this first
 
@@ -35,7 +35,7 @@ Generated **2026-09-04** from a live filesystem scan of 2,342 skill directories 
 |---|---:|---|
 | AI & Agents | 210 | [open](catalog/ai-and-agents.md) |
 | Marketing & Growth | 83 | [open](catalog/marketing-and-growth.md) |
-| Frontend & UI | 79 | [open](catalog/frontend-and-ui.md) |
+| Frontend & UI | 81 | [open](catalog/frontend-and-ui.md) |
 | Meta & Skill Tooling | 77 | [open](catalog/meta-and-skill-tooling.md) |
 | Planning & Product | 72 | [open](catalog/planning-and-product.md) |
 | Backend & APIs | 60 | [open](catalog/backend-and-apis.md) |
@@ -60,7 +60,7 @@ Generated **2026-09-04** from a live filesystem scan of 2,342 skill directories 
 
 | Tool | Unique skills reachable |
 |---|---:|
-| claude-code | 732 |
+| claude-code | 734 |
 | codex | 248 |
 | continue | 136 |
 | factory | 136 |
@@ -87,7 +87,7 @@ Generated **2026-09-04** from a live filesystem scan of 2,342 skill directories 
 | `marketing-skills` | 69 |
 | `.agents` | 45 |
 | `.claude` | 35 |
-| `standalone` | 33 |
+| `standalone` | 34 |
 | `skills` | 18 |
 | `superpowers` | 14 |
 | `claude-mem` | 13 |
@@ -107,7 +107,7 @@ Generated **2026-09-04** from a live filesystem scan of 2,342 skill directories 
 - [Slash commands](inventory/commands.md) (76)
 - [MCP servers](inventory/mcp-servers.md) (28)
 - [Hooks](inventory/hooks.md) (5)
-- [Plugins](inventory/plugins.md) (31)
+- [Plugins](inventory/plugins.md) (32)
 
 ## Data
 
@@ -132,6 +132,6 @@ Keyword scoring over the skill name and its frontmatter description, with pack p
 
 | Source | Skills |
 |---|---:|
-| keywords | 919 |
+| keywords | 921 |
 | none | 168 |
 | family-inference | 52 |

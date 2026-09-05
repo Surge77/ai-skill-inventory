@@ -2,7 +2,7 @@
 
 [← back](../README.md)
 
-31 installed Claude Code plugins.
+32 installed Claude Code plugins.
 
 | Plugin | Marketplace | Scope | Version | Installed |
 |---|---|---|---|---|
@@ -22,6 +22,7 @@
 | `hookify` | claude-plugins-official | user | `1dd995193ba2` | 2026-05-16 |
 | `jdtls-lsp` | claude-plugins-official | user | `1.0.0` | 2026-05-07 |
 | `marketing-skills` | marketingskills | user | `ea8df8290a51` | 2026-02-21 |
+| `nateherk-design` | nateherk | user | `0.2.0` | 2026-09-04 |
 | `playwright` | claude-plugins-official | user | `1dd995193ba2` | 2026-05-01 |
 | `pr-review-toolkit` | claude-code-plugins | user | `1.0.0` | 2026-05-16 |
 | `pyright-lsp` | claude-plugins-official | user | `1.0.0` | 2026-05-07 |

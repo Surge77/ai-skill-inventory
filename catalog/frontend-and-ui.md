@@ -1,6 +1,6 @@
 # Frontend & UI
 
-79 skills — 74 installed, 5 available in a marketplace but not installed.
+81 skills — 76 installed, 5 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -26,6 +26,7 @@
 | `canvas-design` | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece.… *(marketplace only)* | skills | claude-code | 83 files, 5.3 MB |
 | `collabboard-phase-delivery` | Proven end-to-end workflow for delivering a feature phase in the CollabBoard project (Next.js 16 + React 19 + Prisma 6 + Auth.js v5 + Liveblocks + tldraw + Vercel AI SDK). Use when implemen… | standalone | claude-code | 1 files, 7 KB |
 | `dashboard-style-test` | A polished dark-mode house style for HTML dashboards, briefings, reports, and visual pages. Ships with a warm dark default palette (dark brown background, cream cards, orange accent, serif… | standalone | claude-code | 2 files, 14 KB |
+| `design-dna` | Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll eff… | standalone | claude-code | 10 files, 65 KB |
 | `design-system-patterns` | Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building compon… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 49 KB |
 | `design-system-starter` | Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates. Ensures consistent, scalable, and accessible UI across pr… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 66 KB |
 | `design-taste-frontend` | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 21 KB |
@@ -69,6 +70,7 @@
 | `react-useeffect` | React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 15 KB |
 | `responsive-design` | Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid la… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 45 KB |
 | `satori` | Expert guidance for Satori — Vercel's library that converts HTML and CSS to SVG, commonly used to generate dynamic OG images for Next.js and other frameworks. | vercel | codex | 2 files, 8 KB |
+| `scroll-craft` | Build a premium, scroll-driven interactive landing page for any business: a service company, a physical product, a food brand, a drink brand. Scroll becomes the timeline. Video scrubs frame… | nateherk-design | claude-code | 22 files, 359 KB |
 | `shadcn` | shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing… | vercel | claude-code | 1 files, 20 KB |
 | `shadcn` | shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing… | vercel | codex | 2 files, 20 KB |
 | `shadcn-ui` | Provides complete shadcn/ui component library patterns including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing co… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 154 KB |
@@ -513,6 +515,28 @@ A polished dark-mode house style for HTML dashboards, briefings, reports, and vi
 | Last modified | 2026-05-01 |
 | Category source | keywords |
 | Content hash | `e55d4de2afd0` |
+
+### `design-dna`
+
+Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll effects, etc.). Use this skill when: (1) a user wants to see the full 3-dimension design structure/schema, (2) a user provides images, screenshots, or URLs of reference designs and wants them analyzed into a structured JSON profile covering all three dimensions, (3) a user has a Design DNA JSON and content and wants a design generated from it, or (4) any combination of these phases. Triggers on "design DNA", "extract design style", "analyze design", "design tokens from reference", "generate design from JSON", "design system from screenshot", "design profile", "style guide JSON", "visual effects analysis", "design with effects", "3d design analysis".
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/design-dna` |
+| Size | 10 files, 65 KB |
+| SKILL.md | 115 lines, ~2,136 tokens |
+| Description cost | ~211 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-04 |
+| Category source | keywords |
+| Content hash | `7d41d94ebe26` |
+| Bundled | `references`, `scripts`, `test` |
 
 ### `design-system-patterns`
 
@@ -1437,6 +1461,28 @@ Expert guidance for Satori — Vercel's library that converts HTML and CSS to SV
 | Category source | keywords |
 | Content hash | `4feac41ad03f` |
 | Bundled | `agents` |
+
+### `scroll-craft`
+
+Build a premium, scroll-driven interactive landing page for any business: a service company, a physical product, a food brand, a drink brand. Scroll becomes the timeline. Video scrubs frame by frame under the wheel, sections pin and advance, rails pan sideways, headlines assemble line by line, the page ground shifts colour as you travel, and the pointer moves things that are not scrolling. Interviews the human first (their vibe, their journey, one unbroken world or distinct scenes, and what assets they already own), then picks a page grammar and a signature move so no two builds share a skeleton, generates photoreal assets through kie.ai or builds from the user's own footage and photos, writes real semantic HTML on a design-system floor, and verifies the result by screenshotting its own scroll. Use for "scrollytelling", "scroll animation site", "a site where scrolling plays a video", "Apple-style landing page", "3D scroll world", "interactive landing page", "make my brand a scroll experience", "make it feel different", "this looks like a template", "a unique scroll site", or any request for a site that should feel like an experience rather than a document.
+
+| Field | Value |
+|---|---|
+| Pack | nateherk-design |
+| Origin | plugin `nateherk-design` from `nateherk` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/nateherk/nateherk-design/0.2.0/skills/scroll-craft` |
+| Size | 22 files, 359 KB |
+| SKILL.md | 421 lines, ~5,680 tokens |
+| Description cost | ~294 tokens always in context |
+| Allowed tools | Bash, Read, Write, Edit, Glob, Grep, AskUserQuestion |
+| Model | — |
+| Last modified | 2026-09-04 |
+| Category source | keywords |
+| Content hash | `3e0c920b05a2` |
+| Bundled | `engine`, `references`, `scripts`, `templates` |
 
 ### `shadcn`
 
