@@ -195,6 +195,10 @@ ${Object.entries(familyCount).sort((a, b) => b[1] - a[1]).slice(0, 15).map(([k, 
 - [Context cost](reports/context-cost.md) — what this library costs in tokens before you ask a question
 - [Symlink topology](reports/symlinks.md) — how the shared store is wired into each tool
 
+## Sources
+
+- [\`SOURCES.md\`](SOURCES.md) — the upstream repos these skills come from, what was evaluated, what was installed or rejected, and why. Hand-maintained: the scan reads the disk, and the disk does not record where a skill was published.
+
 ## Inventory
 
 - [Subagents](inventory/agents.md) (${data.totals.agents})
