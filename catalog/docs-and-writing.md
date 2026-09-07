@@ -1,6 +1,6 @@
 # Docs & Writing
 
-33 skills — 29 installed, 4 available in a marketplace but not installed.
+34 skills — 30 installed, 4 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -12,6 +12,7 @@
 | `agency-specialized-document-generator` | Agency agent wrapper for Document Generator. Expert document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formattin… | agency-roles | codex | 1 files, 3 KB |
 | `article-writing` | Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user want… | ecc | claude-code | 1 files, 3 KB |
 | `article-writing` | Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user want… | agents-std-store | agents-std | 2 files, 3 KB |
+| `better-writing` | Focuses on improving product copy in your project. | standalone | claude-code | 2 files, 6 KB |
 | `brand-voice` | Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the… | ecc | claude-code | 2 files, 5 KB |
 | `brand-voice` | Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the… | agents-std-store | agents-std | 3 files, 5 KB |
 | `c4-architecture` | Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 di… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 56 KB |
@@ -22,6 +23,7 @@
 | `documents` | Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to gene… | documents | codex | 78 files, 419 KB |
 | `docx` | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word… *(marketplace only)* | skills | claude-code | 61 files, 1.1 MB |
 | `excalidraw` | Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents t… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `explain-interface` | Helps you figure out how something was built on the web. | standalone | claude-code | 6 files, 30 KB |
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slid… | ecc | claude-code | 7 files, 52 KB |
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slid… | agents-std-store | agents-std | 3 files, 16 KB |
 | `google-workspace-ops` | Operate across Google Drive, Docs, Sheets, and Slides as one workflow surface for plans, trackers, decks, and shared documents. Use when the user needs to find, summarize, edit, migrate, or… | ecc | claude-code | 1 files, 3 KB |
@@ -29,7 +31,6 @@
 | `humanizer` | Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive "Signs of AI writing"… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 18 KB |
 | `marp-slide` | Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, business). Use when users request slide creation, presentations, or M… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 22 files, 83 KB |
 | `mermaid-diagrams` | Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain mod… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 8 files, 78 KB |
-| `netlify-blobs` | Guide for using Netlify Blobs object storage. Use when storing files, images, documents, or simple key-value data without a full database. Covers getStore(), CRUD operations, metadata, list… | netlify | codex | 5 files, 18 KB |
 | `nutrient-document-processing` | Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images. | ecc | claude-code | 1 files, 6 KB |
 | `pptx` | Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or ex… *(marketplace only)* | skills | claude-code | 56 files, 1.1 MB |
 | `Presentations` | Read, create or edit PowerPoint or Google Slides decks. Use for presentation, slide deck, PowerPoint, PPT, PPTX, or Google Slides requests. | presentations | codex | 113 files, 4.5 MB |
@@ -167,6 +168,28 @@ Write articles, guides, blog posts, tutorials, newsletter issues, and other long
 | Last modified | 2026-05-17 |
 | Category source | keywords |
 | Content hash | `f0cd9e025692` |
+| Bundled | `agents` |
+
+### `better-writing`
+
+Focuses on improving product copy in your project.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/better-writing` |
+| Size | 2 files, 6 KB |
+| SKILL.md | 115 lines, ~1,634 tokens |
+| Description cost | ~13 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-07 |
+| Category source | keywords |
+| Content hash | `06f3b30eb08d` |
 | Bundled | `agents` |
 
 ### `brand-voice`
@@ -386,6 +409,28 @@ Use when working with *.excalidraw or *.excalidraw.json files, user mentions dia
 | Category source | keywords |
 | Content hash | `60a610c7bb8f` |
 
+### `explain-interface`
+
+Helps you figure out how something was built on the web.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/explain-interface` |
+| Size | 6 files, 30 KB |
+| SKILL.md | 133 lines, ~2,508 tokens |
+| Description cost | ~14 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-07 |
+| Category source | keywords |
+| Content hash | `ce297e874dd6` |
+| Bundled | `agents` |
+
 ### `frontend-slides`
 
 Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
@@ -536,28 +581,6 @@ Comprehensive guide for creating software diagrams using Mermaid syntax. Use whe
 | Category source | keywords |
 | Content hash | `0ce3de5723f5` |
 | Bundled | `references` |
-
-### `netlify-blobs`
-
-Guide for using Netlify Blobs object storage. Use when storing files, images, documents, or simple key-value data without a full database. Covers getStore(), CRUD operations, metadata, listing, deploy-scoped vs site-scoped stores, and local development.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-blobs` |
-| Size | 5 files, 18 KB |
-| SKILL.md | 100 lines, ~714 tokens |
-| Description cost | ~64 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `9af4a2162310` |
-| Bundled | `agents`, `assets` |
 
 ### `nutrient-document-processing`
 

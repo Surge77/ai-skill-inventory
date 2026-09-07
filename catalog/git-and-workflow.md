@@ -20,10 +20,10 @@
 | `github-release-management` | Comprehensive GitHub release orchestration with AI swarm coordination for automated versioning, testing, deployment, and rollback management *(marketplace only)* | .agents | claude-code | 1 files, 30 KB |
 | `github-release-management` | Comprehensive GitHub release orchestration with AI swarm coordination for automated versioning, testing, deployment, and rollback management *(marketplace only)* | .claude | claude-code | 1 files, 30 KB |
 | `next-upgrade` | Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js versions, running codemods, or migrating between major releases. | vercel | claude-code | 3 files, 7 KB |
+| `next-upgrade` | Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js versions, running codemods, or migrating between major releases. | vercel | codex | 2 files, 3 KB |
 | `release` | Release vercel-plugin — run gates, bump version, generate artifacts, commit, and push. Use when asked to "release", "ship", "bump and push", or "cut a release". | vercel | claude-code | 1 files, 2 KB |
 | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safet… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
 | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree f… | superpowers | claude-code | 1 files, 7 KB |
-| `yeet` | Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a f… | github | codex | 5 files, 17 KB |
 
 ## Detail
 
@@ -325,6 +325,28 @@ Upgrade Next.js to the latest version following official migration guides and co
 | Content hash | `8efdeb62e28e` |
 | Bundled | `upstream` |
 
+### `next-upgrade`
+
+Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js versions, running codemods, or migrating between major releases.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `openai-curated` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/next-upgrade` |
+| Size | 2 files, 3 KB |
+| SKILL.md | 84 lines, ~753 tokens |
+| Description cost | ~45 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-05 |
+| Category source | keywords |
+| Content hash | `079b8320a9d6` |
+| Bundled | `agents` |
+
 ### `release`
 
 Release vercel-plugin — run gates, bump version, generate artifacts, commit, and push. Use when asked to "release", "ship", "bump and push", or "cut a release".
@@ -387,25 +409,3 @@ Use when starting feature work that needs isolation from current workspace or be
 | Last modified | 2026-08-13 |
 | Category source | keywords |
 | Content hash | `c8de24e34cfa` |
-
-### `yeet`
-
-Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a fallback where connector coverage is insufficient.
-
-| Field | Value |
-|---|---|
-| Pack | github |
-| Origin | plugin `github` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/github/bd2122cb/skills/yeet` |
-| Size | 5 files, 17 KB |
-| SKILL.md | 71 lines, ~1,023 tokens |
-| Description cost | ~60 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `aee4f91046ba` |
-| Bundled | `agents`, `assets` |

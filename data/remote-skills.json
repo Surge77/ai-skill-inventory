@@ -1,0 +1,4321 @@
+{
+  "generated": "2026-09-07",
+  "skills": [
+    {
+      "repo": "codeswithroh/tastemaker",
+      "name": "ideagram",
+      "group": "skills/tastemaker",
+      "path": "skills/tastemaker/ideagram",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 15127,
+      "descTokens": 161,
+      "skillTokens": 2213,
+      "hash": "fbb89c38eaba",
+      "files": [
+        "LICENSE",
+        "README.md",
+        "assets/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Turn a concept, feature description, blog post, or pitch into a single beautiful, on-brand illustration by matching it to a real unDraw illustration in a local library and recoloring it to the brand accent — genuine illustrator quality, not an AI-drawn approximation. Use whenever the user asks to \"make an illustration,\" \"create a graphic,\" \"visualize this concept,\" \"explain this visually,\" wants something \"unDraw-style\" or \"Storyset-style,\" needs a hero/feature/blog illustration, or says an idea needs a picture. Trigger even if they don't name a style — \"make something to explain X\" or \"I need a graphic for this tweet\" both qualify."
+    },
+    {
+      "repo": "codeswithroh/tastemaker",
+      "name": "tastemaker",
+      "group": "skills",
+      "path": "skills/tastemaker",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 59136,
+      "descTokens": 218,
+      "skillTokens": 13769,
+      "hash": "52c3b93bb9eb",
+      "files": [
+        "SECURITY.md",
+        "assets/",
+        "ideagram/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Generate genuinely beautiful, on-brand UI instead of generic \"AI slop\" — use whenever the user asks to build, design, style, or improve a UI, landing page, dashboard, app screen, or component, whenever a PRD/spec needs a design pass before implementation, whenever the user pastes reference images/Pinterest/Dribbble links and wants the app to look like them, or whenever the user complains the AI-generated UI looks generic, boring, cookie-cutter, or \"like every other AI app.\" Make sure to trigger this even if the user doesn't say \"design\" explicitly — phrases like \"make this look good\", \"build the frontend for X\", \"this looks like every other SaaS site\", or \"match this vibe\" all qualify. Also triggers on two verbs, \"study\"/\"extract the look of\" a reference screenshot or URL, and \"audit\"/\"review\"/\"why does this look AI-generated\" for critiquing existing UI."
+    },
+    {
+      "repo": "ConardLi/garden-skills",
+      "name": "beautiful-article",
+      "group": "skills",
+      "path": "skills/beautiful-article",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 81564,
+      "descTokens": 201,
+      "skillTokens": 7987,
+      "hash": "9fb2f73aca31",
+      "files": [
+        "README.md",
+        "README.zh-CN.md",
+        "assets/",
+        "manifest.json",
+        "references/",
+        "scripts/",
+        "theme-profiles/"
+      ],
+      "description": "把用户提供的素材（网页 URL / PDF / DOCX / Markdown / 纯文本 / 截图 / 粘贴材料）编辑、设计成一篇美丽的、可离线打开和分享的**单文件 HTML 网页文章**。基于 reacticle 组件协议：不手写裸 HTML/CSS，而用语义组件 + 受主题约束的 Raw 自由层；按 source→规划→双确认→生成→终审→修复的小型 harness 流程推进，默认 100% 信息保留的长文。触发场景：把 URL/PDF/DOCX/文章做成网页文章 / 长文 / briefing / 解释文 / 视觉文章 / 教程 / 审阅复盘 / 方案分析，'render this as a beautiful web article / 把这篇做成网页文章 / 生成一篇可分享的 HTML 长文 / reacticle 文章'。只生成文章，不生成后台、表单、dashboard、产品原型或通用 Web App。"
+    },
+    {
+      "repo": "ConardLi/garden-skills",
+      "name": "gpt-image-2",
+      "group": "skills",
+      "path": "skills/gpt-image-2",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 66446,
+      "descTokens": 146,
+      "skillTokens": 6786,
+      "hash": "a31726cca6e4",
+      "files": [
+        "README.md",
+        "README.zh-CN.md",
+        "manifest.json",
+        "references/",
+        "scripts/"
+      ],
+      "description": "面向 GPT Image 2 的图像生成 / 编辑技能。可在 3 种环境下使用：(A) Garden 本地模式，通过 OpenAI 兼容接口直接出图并落盘；(B) Host-Native 模式，把本 Skill 当作提示词工程指引，把渲染好的 prompt 交给宿主 Agent 自带的图像工具出图；(C) Advisor 模式，宿主无任何图像工具时退化为高质量 prompt 顾问。涵盖 18 大类、80+ 个结构化模板，覆盖海报 / UI / 产品 / 信息图 / 学术图 / 技术架构图 / 漫画 / 头像 / 流程板 / 电影分镜 / IP 周边 / 编辑工作流等场景。"
+    },
+    {
+      "repo": "ConardLi/garden-skills",
+      "name": "kb-retriever",
+      "group": "skills",
+      "path": "skills/kb-retriever",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 29225,
+      "descTokens": 96,
+      "skillTokens": 3559,
+      "hash": "a40e6cf06d04",
+      "files": [
+        "README.md",
+        "README.zh-CN.md",
+        "manifest.json",
+        "references/",
+        "scripts/"
+      ],
+      "description": "面向本地知识库目录的检索和问答助手。核心流程：(1)分层索引导航 (2)遇到PDF/Excel时必须先读取references学习处理方法 (3)处理文件后再检索。按文件类型组合使用 grep、Read、pdfplumber、pandas 进行渐进式检索，避免整文件加载。用户问题涉及\"从知识库目录回答问题/检索信息/查资料\"时使用。"
+    },
+    {
+      "repo": "ConardLi/garden-skills",
+      "name": "web-design-engineer",
+      "group": "skills",
+      "path": "skills/web-design-engineer",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 93345,
+      "descTokens": 114,
+      "skillTokens": 8975,
+      "hash": "d3d2a0f92cd0",
+      "files": [
+        "README.md",
+        "README.zh-CN.md",
+        "agents/",
+        "manifest.json",
+        "references/"
+      ],
+      "description": "Build or redesign polished browser-rendered visual artifacts with HTML/CSS/JavaScript/React: pages, dashboards, prototypes, slide decks, animations, UI mockups, and data visualizations. Use for visual front-end creation, design-system exploration, design critique, or explicit browser acceptance / QA of a web artifact. Not for back-end, CLI, non-visual coding, source-to-longform article conversion, or narration-driven click-through video presentations."
+    },
+    {
+      "repo": "ConardLi/garden-skills",
+      "name": "web-video-presentation",
+      "group": "skills",
+      "path": "skills/web-video-presentation",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 60554,
+      "descTokens": 269,
+      "skillTokens": 5923,
+      "hash": "30d2ec3a58df",
+      "files": [
+        "README.md",
+        "README.zh-CN.md",
+        "manifest.json",
+        "references/",
+        "scripts/",
+        "templates/",
+        "themes/"
+      ],
+      "description": "把一篇文章或口播稿，做成\"看起来像视频\"的点击驱动 16:9 网页演示，可选合成口播音频。流程：原始文章 → **一次产出**口播稿 + outline 开发计划 → 用户**一次对齐** 5 件事（稿子 / outline / 主题 / 素材 / 开发模式）→ 网页开发（逐章 / 顺序 / 并行）→ 可选音频合成（provider-agnostic：内置 MiniMax mmx-cli + OpenAI TTS，可换 ElevenLabs / edge-tts / Azure / 自带 TTS）。**outline 只规划节奏与信息密度，不规划动画** —— 动画由章节开发时按 PRINCIPLES + ANTI-AI 法则即时设计。每次点击推进口播稿的一个节拍，每一步独占整屏，进度条平时隐藏只在悬浮时出现。适用场景：用网页做视频（动态 PPT 但不像 PPT）、把口播稿 / 文章变成可交互的解说、为 B 站 / YouTube / 视频号录屏教程、做有电影感的产品 / talk demo。本 Skill 沉淀的是设计方法论 + 协作流程 —— 不绑定任何特定样式 / 字体 / 颜色 —— 因此能复用到任意主题与美学。"
+    },
+    {
+      "repo": "elayadesign/ai-design-skills",
+      "name": "landing-page-design",
+      "group": "skills",
+      "path": "skills/landing-page-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 16931,
+      "descTokens": 164,
+      "skillTokens": 4233,
+      "hash": "9193843cedf4",
+      "files": [],
+      "description": "Complete system for building high converting landing pages: intake questions, page structure, layout selection, conversion copywriting, SEO, plus strict visual rules for typography, spacing, corner radius, backgrounds, hero layout, icons, and motion. Use this skill whenever building, editing, styling, reviewing, or writing copy for ANY landing page, marketing site, web UI, page section, component, or prototype, even when the user does not mention design, conversion, tokens, or a design system. Always consult it before choosing page sections, headlines, CTAs, fonts, font sizes, spacing values, border radii, background colors, icons, or transitions."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "animate",
+      "group": "skills",
+      "path": "skills/animate",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 20055,
+      "descTokens": 119,
+      "skillTokens": 2944,
+      "hash": "b41c465cd834",
+      "files": [
+        "RECIPES.md"
+      ],
+      "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "animate-expo",
+      "group": "skills",
+      "path": "skills/animate-expo",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 35012,
+      "descTokens": 132,
+      "skillTokens": 4455,
+      "hash": "6a290a5c578e",
+      "files": [
+        "RECIPES.md"
+      ],
+      "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "animation-vocabulary",
+      "group": "skills",
+      "path": "skills/animation-vocabulary",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 13301,
+      "descTokens": 108,
+      "skillTokens": 3326,
+      "hash": "c2379a776ac0",
+      "files": [],
+      "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "apple-design",
+      "group": "skills",
+      "path": "skills/apple-design",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 22997,
+      "descTokens": 107,
+      "skillTokens": 5750,
+      "hash": "e37e415a0290",
+      "files": [],
+      "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "ask-sonner",
+      "group": "skills",
+      "path": "skills/ask-sonner",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 11633,
+      "descTokens": 107,
+      "skillTokens": 1756,
+      "hash": "5e22ed662239",
+      "files": [
+        "API.md"
+      ],
+      "description": "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning and multiple toasters. Use when working with Sonner or troubleshooting it — toasts that don't appear, appear twice, lose their styles, ignore Tailwind classes, sit behind a modal, or don't follow dark mode."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "emil-design-eng",
+      "group": "skills",
+      "path": "skills/emil-design-eng",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 27900,
+      "descTokens": 39,
+      "skillTokens": 6975,
+      "hash": "db555de80b51",
+      "files": [],
+      "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "find-animation-opportunities",
+      "group": "skills",
+      "path": "skills/find-animation-opportunities",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 9623,
+      "descTokens": 90,
+      "skillTokens": 2406,
+      "hash": "b44f63c6516c",
+      "files": [],
+      "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "improve-animations",
+      "group": "skills",
+      "path": "skills/improve-animations",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 18691,
+      "descTokens": 113,
+      "skillTokens": 2004,
+      "hash": "faa9ce9ddd3d",
+      "files": [
+        "AUDIT.md",
+        "PLAN-TEMPLATE.md"
+      ],
+      "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "pick-ui-library",
+      "group": "skills",
+      "path": "skills/pick-ui-library",
+      "status": "installed",
+      "trigger": "slash-only",
+      "bytes": 4591,
+      "descTokens": 66,
+      "skillTokens": 1148,
+      "hash": "380cbea1c89e",
+      "files": [],
+      "description": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "prototype",
+      "group": "skills",
+      "path": "skills/prototype",
+      "status": "installed",
+      "trigger": "slash-only",
+      "bytes": 15323,
+      "descTokens": 61,
+      "skillTokens": 1895,
+      "hash": "66d018b591bb",
+      "files": [
+        "PICKER.md"
+      ],
+      "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "review-animations",
+      "group": "skills",
+      "path": "skills/review-animations",
+      "status": "installed",
+      "trigger": "slash-only",
+      "bytes": 18208,
+      "descTokens": 40,
+      "skillTokens": 2055,
+      "hash": "c06a1a3d827e",
+      "files": [
+        "STANDARDS.md"
+      ],
+      "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned."
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "write-swift",
+      "group": "skills",
+      "path": "skills/write-swift",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 42573,
+      "descTokens": 121,
+      "skillTokens": 10644,
+      "hash": "4ccbc73dae57",
+      "files": [],
+      "description": "How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "better-accessibility",
+      "group": "skills",
+      "path": "skills/better-accessibility",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 37311,
+      "descTokens": 19,
+      "skillTokens": 2092,
+      "hash": "8f89e2bccf1d",
+      "files": [
+        "agents/",
+        "focus-and-keyboard.md",
+        "forms.md",
+        "hit-areas.md",
+        "motion-and-zoom.md",
+        "screen-readers.md",
+        "semantics-and-aria.md"
+      ],
+      "description": "Helps your project comply with accessibility standards and best practices."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "better-colors",
+      "group": "skills",
+      "path": "skills/better-colors",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 40110,
+      "descTokens": 45,
+      "skillTokens": 1938,
+      "hash": "86a835aa9ac4",
+      "files": [
+        "agents/",
+        "color-formats.md",
+        "color-usage.md",
+        "contrast.md",
+        "palette-generation.md",
+        "palette-structure.md",
+        "token-naming.md"
+      ],
+      "description": "Helps you build a color system and answer anything about color in your project. You can generate palettes, use semantic tokens, convert between formats, check contrast and more."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "better-interface",
+      "group": "skills",
+      "path": "skills/better-interface",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 12262,
+      "descTokens": 33,
+      "skillTokens": 2418,
+      "hash": "a788f736ac27",
+      "files": [
+        "agents/",
+        "review-format.md"
+      ],
+      "description": "Combines all of the `better-*` skills into a single review across accessibility, layout, writing, typography, color and UI polish."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "better-layout",
+      "group": "skills",
+      "path": "skills/better-layout",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 18039,
+      "descTokens": 28,
+      "skillTokens": 1432,
+      "hash": "70de4506d6ba",
+      "files": [
+        "agents/",
+        "grouping-and-alignment.md",
+        "spacing-and-adaptivity.md"
+      ],
+      "description": "Helps with grouping, alignment, reading order, progressive disclosure and other details that make a good layout."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "better-typography",
+      "group": "skills",
+      "path": "skills/better-typography",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 34758,
+      "descTokens": 42,
+      "skillTokens": 2752,
+      "hash": "51e9a9b1b642",
+      "files": [
+        "agents/",
+        "choosing-fonts.md",
+        "css-cheat-sheet.md",
+        "details-and-accessibility.md",
+        "spacing-and-sizing.md",
+        "variable-fonts-and-opentype.md",
+        "wrapping-and-punctuation.md"
+      ],
+      "description": "Focuses on type scale, spacing, sizing, variable fonts, OpenType features, wrapping, truncation and other details that make typography feel great across your product."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "better-ui",
+      "group": "skills",
+      "path": "skills/better-ui",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 36499,
+      "descTokens": 38,
+      "skillTokens": 1816,
+      "hash": "ef13637037ba",
+      "files": [
+        "agents/",
+        "animations.md",
+        "enter-exit.md",
+        "icon-transitions.md",
+        "icons.md",
+        "performance.md",
+        "surfaces.md"
+      ],
+      "description": "Polishes and improves the UI in your project. Covers concentric border radius, optical alignment, surface depth, contextual icons, hit areas and more."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "better-writing",
+      "group": "skills",
+      "path": "skills/better-writing",
+      "status": "installed",
+      "trigger": "auto",
+      "bytes": 6534,
+      "descTokens": 13,
+      "skillTokens": 1634,
+      "hash": "06f3b30eb08d",
+      "files": [
+        "agents/"
+      ],
+      "description": "Focuses on improving product copy in your project."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "break",
+      "group": "skills",
+      "path": "skills/break",
+      "status": "installed",
+      "trigger": "slash-only",
+      "bytes": 11164,
+      "descTokens": 25,
+      "skillTokens": 1692,
+      "hash": "0c635b5dcc26",
+      "files": [
+        "agents/",
+        "scenarios.md"
+      ],
+      "description": "Renders a component you choose in every state and scenario on a temporary page and stress tests it."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "explain-interface",
+      "group": "skills",
+      "path": "skills/explain-interface",
+      "status": "installed",
+      "trigger": "slash-only",
+      "bytes": 30649,
+      "descTokens": 14,
+      "skillTokens": 2508,
+      "hash": "ce297e874dd6",
+      "files": [
+        "agents/",
+        "find-the-effect.md",
+        "from-an-image.md",
+        "no-browser.md",
+        "read-the-system.md"
+      ],
+      "description": "Helps you figure out how something was built on the web."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "interface-review",
+      "group": "skills",
+      "path": "skills/interface-review",
+      "status": "installed",
+      "trigger": "slash-only",
+      "bytes": 22032,
+      "descTokens": 40,
+      "skillTokens": 2711,
+      "hash": "2c3902e91970",
+      "files": [
+        "agents/",
+        "removed-signals.md",
+        "scope-resolution.md"
+      ],
+      "description": "Reviews your work across multiple categories like UI, typography, layout, color, writing and accessibility and gives you a detailed analysis of the findings."
+    },
+    {
+      "repo": "jakubkrehel/skills",
+      "name": "variant",
+      "group": "skills",
+      "path": "skills/variant",
+      "status": "installed",
+      "trigger": "slash-only",
+      "bytes": 9085,
+      "descTokens": 24,
+      "skillTokens": 1569,
+      "hash": "b9fd04f9d388",
+      "files": [
+        "agents/",
+        "picker.md"
+      ],
+      "description": "Builds multiple variants of a component you're working on and helps you iterate and pick one."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "add-mouse-driven-orbit",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/add-mouse-driven-orbit",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6066,
+      "descTokens": 87,
+      "skillTokens": 1517,
+      "hash": "2a16437f5578",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Add restrained mouse-driven orbit and parallax depth to a Three.js hero by damping one pointer target and splitting it across camera translation, look-at, and small object rotations. Use for passive cinematic 3D heroes, pointer-responsive scenes, organic model parallax, and interactive depth where OrbitControls would feel like a product viewer."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "add-shader-cursor-trail",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/add-shader-cursor-trail",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3072,
+      "descTokens": 128,
+      "skillTokens": 768,
+      "hash": "8c1f1c5dc449",
+      "files": [
+        "agents/",
+        "assets/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Add the Shaders WebGPU mouse effect used for the Tidal Commons hero: a white twinkling halftone cursor trail driven by ChromaFlow, masked through a DotGrid, finished with chromatic ripples and film grain, and protected by static, touch, accessibility, SSR, and performance fallbacks. Use when a user asks for this shader mouse effect, a halftone cursor trail, an interactive WebGPU hero/contact background, or a reusable cursor-following shader layer in React, Next.js, Vue, Svelte, Solid, or plain web projects."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "agency-grid-layout-minimal",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/agency-grid-layout-minimal",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4167,
+      "descTokens": 46,
+      "skillTokens": 1042,
+      "hash": "e95aaed0a5f8",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a minimal agency design system with a disciplined editorial grid, oversized typography, quiet uppercase utility labels, restrained image blocks, and subtle structural detail."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "ambient-section-particles",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/ambient-section-particles",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4675,
+      "descTokens": 95,
+      "skillTokens": 1041,
+      "hash": "aea36afe31a4",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Add a restrained particle atmosphere inside one section with configurable shapes, density, gravity, wind, sway, rotation, recycling or settling, pointer disturbance, visibility pausing, responsive limits, and reduced-motion fallbacks. Use for petals, leaves, snow, sparks, confetti, dots, paper, icons, or brand fragments that support a section's mood without obscuring content."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "animation-on-scroll",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/animation-on-scroll",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3659,
+      "descTokens": 59,
+      "skillTokens": 915,
+      "hash": "b2113cccd760",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create an on-scroll animation trigger using IntersectionObserver with Tailwind-friendly animation classes and keyframes. Use when asked for scroll-reveal, animate-on-scroll, or sequencing element animations when they enter the viewport."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "animation-systems",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/animation-systems",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5424,
+      "descTokens": 69,
+      "skillTokens": 1356,
+      "hash": "2c16aa42d275",
+      "files": [
+        "demo/"
+      ],
+      "description": "Use when designing or implementing product-grade web motion like Stripe, Linear, Apple, and Vercel. Covers motion principles, easing/duration defaults, choreography patterns, scroll/hover interactions, performance, accessibility (reduced motion), and implementation guidance."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "article-prompts-to-skills",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/article-prompts-to-skills",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6587,
+      "descTokens": 107,
+      "skillTokens": 1647,
+      "hash": "2ff9d846510c",
+      "files": [
+        "agents/",
+        "demo/",
+        "references/"
+      ],
+      "description": "Convert an article, tutorial, or prompt pack into focused reusable AgentSkills, one independent capability per skill, with portable instructions, example prompts, working demos, preview screenshots, validation, gallery updates, and a narrow commit. Use when the user asks to turn an article's prompts, tutorial sections, design patterns, interactions, or workflow ideas into complete skills rather than leaving them as prose."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "atmosphere-background",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/atmosphere-background",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3068,
+      "descTokens": 38,
+      "skillTokens": 767,
+      "hash": "6a5c78010547",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a dark atmospheric background with drifting vertical light folds, screen-blended glow, and a concentrated luminous corner or lower-edge bloom."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "audit-ai-design-slop",
+      "group": "agent-skills/ui",
+      "path": "agent-skills/ui/audit-ai-design-slop",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7190,
+      "descTokens": 73,
+      "skillTokens": 1588,
+      "hash": "8de674146a5e",
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "description": "Audit websites, apps, screenshots, mockups, and design code for harmful AI-design clichés, generic generated defaults, and established UI defects. Use when the user wants evidence-backed design feedback, an anti-slop review, or a removal-first cleanup plan without a speculative redesign."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "audit-reference-originality",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/audit-reference-originality",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7196,
+      "descTokens": 115,
+      "skillTokens": 1799,
+      "hash": "b9a1065857d3",
+      "files": [
+        "agents/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Audit a website or digital experience against its supplied source references for originality and plagiarism risk. Use when Codex must compare current or historical site output with reference pages, capture packs, screenshots, copy, brands, numbers, images, assets, videos, layouts, motion, or code; raise evidence-backed red flags; distinguish common visual grammar from distinctive copying; and propose concrete fixes without making unsupported legal claims."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "audit-verify-explain-grade-5",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/audit-verify-explain-grade-5",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3783,
+      "descTokens": 82,
+      "skillTokens": 946,
+      "hash": "074a8f8123d2",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Audit work, verify claims with concrete evidence, and explain the result in simple grade-5 language. Use when the user asks to review, audit, check, verify, explain a change, explain a fix, summarize test results, validate whether something works, or translate technical findings into plain language for non-technical readers."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "aura-asset-images",
+      "group": "agent-skills/media",
+      "path": "agent-skills/media/aura-asset-images",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6343,
+      "descTokens": 99,
+      "skillTokens": 1586,
+      "hash": "04eb322797f7",
+      "files": [
+        "demo/"
+      ],
+      "description": "Use when you need high-quality stock-style images from Aura Assets (aura.build/assets) similar to Unsplash for design mockups and marketing: backgrounds, abstract wallpapers, architecture, portraits, and headshots. Includes a workflow for searching by tag on aura.build/assets and returns 5 real image URLs per category plus practical guidance for using different resolutions and aspect ratios."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "author-game-levels",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/author-game-levels",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4436,
+      "descTokens": 69,
+      "skillTokens": 1109,
+      "hash": "2027480f1588",
+      "files": [
+        "agents/"
+      ],
+      "description": "Author or revise readable, flat-world Three.js game levels. Use for movement and camera routes, collision and navigation, encounter zones, landmarks, objectives, pickups, motivated lighting, visibility, deterministic level data, or desktop and mobile playthrough verification."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "background-grid-webgl",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/background-grid-webgl",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2664,
+      "descTokens": 33,
+      "skillTokens": 666,
+      "hash": "93cbd73f5e25",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a perspective WebGL background grid with fading lines, subtle particle haze, slow forward drift, and gentle camera parallax."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "beam-glow-states",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/beam-glow-states",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 14273,
+      "descTokens": 96,
+      "skillTokens": 3273,
+      "hash": "0abf4fd7168e",
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "description": "Create React loading, processing, selected, current, focus, and pressed states with the border-beam package's animated edge glow. Use when a card, button, input, tab, option, task panel, or agent surface needs a restrained traveling or breathing beam; includes installation, imports, prop selection, state wiring, reduced motion, accessibility, and performance and layout guardrails."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "beautiful-shadows",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/beautiful-shadows",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2597,
+      "descTokens": 69,
+      "skillTokens": 650,
+      "hash": "878cb9308c73",
+      "files": [
+        "demo/"
+      ],
+      "description": "Apply exact Tailwind arbitrary shadow utilities for polished, layered neutral elevation. Use when compact cards, controls, panels, popovers, hero media, feature callouts, or modal-like containers need refined shadows without default Tailwind shadow scales or colored tinting."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "blue-cloudy-clean-modern",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/blue-cloudy-clean-modern",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4222,
+      "descTokens": 39,
+      "skillTokens": 1056,
+      "hash": "a7f7ca49a091",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a clean modern design system with a luminous blue sky atmosphere, soft drifting cloud light, minimal white framing, and serene premium typography."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "blue-laser-clean-glass-layout",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/blue-laser-clean-glass-layout",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4434,
+      "descTokens": 33,
+      "skillTokens": 1109,
+      "hash": "74fdacd5f456",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a clean dark glass layout system with a thin blue laser atmosphere, frosted premium shells, and polished dashboard structure."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "book-serif-index",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/book-serif-index",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4578,
+      "descTokens": 39,
+      "skillTokens": 1145,
+      "hash": "f81aa12967ed",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create an archival book-reader design system with serif-led pages, mono index navigation, aged paper surfaces, margin notes, and a premium catalog frame."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "bright-green-tech-system-webgl",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/bright-green-tech-system-webgl",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4482,
+      "descTokens": 42,
+      "skillTokens": 1121,
+      "hash": "0d11003d5fd0",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a bright-green technical design system with structured split layouts, hard-framed dark surfaces, mono utility labels, and a prominent WebGL visualization zone."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "browser-video-recording",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/browser-video-recording",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6277,
+      "descTokens": 133,
+      "skillTokens": 1570,
+      "hash": "ec85d64122f1",
+      "files": [
+        "demo/",
+        "scripts/"
+      ],
+      "description": "Create polished 60 fps 4:3 4K browser screen-recording style videos from Codex in-app browser captures, with browser-only crop, natural macOS cursor styling, deliberate click choreography, zoom-follow framing, ffprobe/thumbnail verification, and optional native recording compatibility checks. Use when the user asks to record or re-record browser actions, show cursor clicks and zooms, make Dribbble/UI inspiration or product demo recordings, or asks whether Codex, Playwright, or an MCP can produce a natural browser demo video."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-awwwards-quality-sites",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/build-awwwards-quality-sites",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7281,
+      "descTokens": 124,
+      "skillTokens": 1821,
+      "hash": "5e1efc1c47a1",
+      "files": [
+        "agents/"
+      ],
+      "description": "Art-direct and implement distinctive, motion-rich marketing, editorial, portfolio, and landing websites with original reference-inspired imagery, standout heroes, GSAP choreography, one smooth-scroll engine, optional Three.js shaders, honest icon and logo sourcing, photo avatars, accessibility, and performance safeguards. Use when a user asks for an Awwwards-quality, premium, cinematic, interactive, high-concept, or motion-led website, or explicitly requests this visual and motion system."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-daily-inspiration-sites",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/build-daily-inspiration-sites",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7663,
+      "descTokens": 101,
+      "skillTokens": 1916,
+      "hash": "9508080c9c06",
+      "files": [
+        "agents/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Turn a completed daily UI inspiration capture into exactly five original landing-page builds, one per separate Codex task, using Sites. Use when the user asks to turn the daily inspiration references, a five-item UI prompt pack, or a dated `*-ui-inspiration-capture` article into distinct HTML landing pages while changing the source brands, names, copy, people, numbers, pricing, claims, and imagery."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-game-audio-feedback",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-game-audio-feedback",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1127,
+      "descTokens": 58,
+      "skillTokens": 282,
+      "hash": "f7982a4e7a0e",
+      "files": [
+        "agents/"
+      ],
+      "description": "Design or implement responsive audio feedback for a Three.js or web game. Use for action sounds, combat layers, music states, spatial audio, mix priorities, mute controls, accessibility, mobile audio unlock, and audio performance."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-game-camera-controls",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-game-camera-controls",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1215,
+      "descTokens": 48,
+      "skillTokens": 304,
+      "hash": "5232fafb3358",
+      "files": [
+        "agents/"
+      ],
+      "description": "Implement or tune Three.js game cameras. Use for isometric framing, follow behavior, orbit/zoom limits, occlusion, lock-on, camera shake, touch camera controls, and camera regression tests."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-game-changelog",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-game-changelog",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8849,
+      "descTokens": 123,
+      "skillTokens": 2213,
+      "hash": "eb57db47442d",
+      "files": [
+        "agents/",
+        "references/"
+      ],
+      "description": "Design, implement, backfill, audit, and release in-game changelogs with contiguous versioning, deployment provenance, menu-state navigation, accessible toggle, close, and Escape behavior, and responsive release-ledger UI. Use when Codex needs to add or revise a changelog or version screen in a game, reconstruct release history from deployments and Git, define version-bump rules, keep displayed versions synchronized with live builds, or test changelog mechanics across desktop and mobile."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-game-inventory",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-game-inventory",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1700,
+      "descTokens": 60,
+      "skillTokens": 425,
+      "hash": "077a6430ffd1",
+      "files": [
+        "agents/"
+      ],
+      "description": "Build or repair game inventory, loot, equipment, tooltips, drag-and-drop, persistence, and progression systems. Use for item schemas, pickup flows, stack rules, equipment slots, atomic swaps, save migration, and no-loss regression testing."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-game-map-editor",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-game-map-editor",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 9303,
+      "descTokens": 130,
+      "skillTokens": 2326,
+      "hash": "303ddc77c3a4",
+      "files": [
+        "agents/",
+        "references/"
+      ],
+      "description": "Build, extend, or audit production-linked browser map editors for Three.js and isometric games. Use when Codex needs to create a private director view, derive a versioned editor document from authored placements, add outliner, layer, selection, drag, snap, inspector, or camera controls, expose enemy aggro, leash, or patrol overlays, implement local draft import, export, undo, and reset, secure an editor route with IP and password sessions, or validate and release a map editor without mutating live gameplay data."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-game-monster-system",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-game-monster-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4539,
+      "descTokens": 91,
+      "skillTokens": 1135,
+      "hash": "79a3cf6802be",
+      "files": [
+        "agents/",
+        "references/"
+      ],
+      "description": "Build, integrate, audit, or refactor rigged monsters for Three.js and web action games. Use for monster asset contracts, procedural or imported creature rigs, semantic joints and sockets, hurtboxes and attack volumes, combat animation states, enemy-runtime adapters, LODs, deterministic review fixtures, and validating that every monster follows one shared system."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-hybrid-game-assets",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-hybrid-game-assets",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3029,
+      "descTokens": 63,
+      "skillTokens": 758,
+      "hash": "00102532ffe7",
+      "files": [
+        "agents/"
+      ],
+      "description": "Plan, create, integrate, or audit a hybrid asset pipeline for a Three.js or web game. Use when choosing among imported meshes, procedural 3D geometry, AI-generated reference art, 2D UI media, sprites, VFX, and performance-ready runtime asset delivery."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-interactive-particle-trail",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/build-interactive-particle-trail",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6160,
+      "descTokens": 93,
+      "skillTokens": 1540,
+      "hash": "76498551e763",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Build a cursor or touch particle interaction that emits by distance along the traveled segment into a recycled GPU point pool, with optional keyboard-triggered bursts. Use for interactive particle trails, pollen lifted from a surface, dust disturbed by a pointer, hover particle bursts, and discrete motes whose spacing must stay consistent at different gesture speeds."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-isometric-arpg",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-isometric-arpg",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2386,
+      "descTokens": 62,
+      "skillTokens": 597,
+      "hash": "d6df167a6266",
+      "files": [
+        "agents/"
+      ],
+      "description": "Build or extend a playable isometric action RPG in Three.js, React, or similar web technology. Use for game-loop architecture, camera and movement, zones, combat integration, content data, progression, saves, or production-ready vertical slices."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-mobile-threejs-games",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-mobile-threejs-games",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1222,
+      "descTokens": 61,
+      "skillTokens": 306,
+      "hash": "2bb8710d91da",
+      "files": [
+        "agents/"
+      ],
+      "description": "Build, tune, or test a Three.js game for mobile web. Use for touch movement, action controls, target selection, touch inventory, safe areas, portrait/landscape layouts, responsive HUD, battery/performance budgets, and real mobile browser QA."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-rigged-game-assets",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-rigged-game-assets",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7867,
+      "descTokens": 157,
+      "skillTokens": 1967,
+      "hash": "12cad415ada2",
+      "files": [
+        "agents/",
+        "assets/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Create, integrate, or audit production-ready rigged 3D characters and monsters with a main model, skeleton, animation library, sockets, collision contracts, separate character equipment, optimized runtime files, catalog media, and an interactive moveset inspector. Use when generating or importing FBX/GLB game actors; defining character-versus-monster asset requirements; separating swords, shields, helmets, armor, or stowed gear; adding idle, walk, run, attack, hit, dodge, block, cast, or death clips; wiring an asset into gameplay; or adding action and equipment controls plus deterministic tests to a game asset catalog."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-threejs-enemy-systems",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-threejs-enemy-systems",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4477,
+      "descTokens": 79,
+      "skillTokens": 1120,
+      "hash": "c28a137cf54f",
+      "files": [
+        "agents/"
+      ],
+      "description": "Build or refactor reusable, data-driven enemy archetype and moveset systems for Three.js action games. Use for enemy content schemas, model and rig conventions, combat move timing and contact contracts, runtime state boundaries, placeholder fallbacks, deterministic fixtures, or production playthrough validation."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-threejs-scroll-worlds",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/build-threejs-scroll-worlds",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 18967,
+      "descTokens": 127,
+      "skillTokens": 4742,
+      "hash": "e73237ec0cf7",
+      "files": [
+        "agents/",
+        "demo/",
+        "references/"
+      ],
+      "description": "Build rich, scroll-controlled real-time Three.js experiences as one persistent 3D world whose camera, lighting, atmosphere, materials, objects, DOM story, and interactions evolve across authored chapters. Use for 3D scrollytelling, scroll-driven WebGL worlds, camera journeys, interactive portfolios, product stories, exhibitions, explainers, game or film microsites, spatial narratives, and multi-scene websites where native scroll should travel through one continuous place. Not limited to landing pages."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-vesperfall-review-assets",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/build-vesperfall-review-assets",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3535,
+      "descTokens": 104,
+      "skillTokens": 884,
+      "hash": "b49797e124cf",
+      "files": [
+        "agents/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Build truthful Vesperfall asset-library review pairs from transparent PNG references and live Three.js, FBX, or img2threejs models. Use when adding a character, enemy, prop, or equipment asset to the Vesperfall catalog; creating a card-PNG plus inspector-model treatment; exposing an isolated model or moveset route; or standardizing provenance, grounding, tests, and Codex-browser validation for game art review."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "build-wireframe-scan-reveal",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/build-wireframe-scan-reveal",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6413,
+      "descTokens": 75,
+      "skillTokens": 1604,
+      "hash": "92cdc67bdbb9",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Reveal Three.js geometry with an expanding world-space scan whose wire cage leads the solid surface, then burns away. Use for wireframe scanning, radial mesh reveals, survey pulses, holographic assembly, topology intros, and 3D model entrances where a plain opacity wipe does not explain the form."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "cinematic-gsap-lenis-motion-system",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/cinematic-gsap-lenis-motion-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 18386,
+      "descTokens": 79,
+      "skillTokens": 4555,
+      "hash": "d0880e79a1ba",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Create premium cinematic web motion systems with GSAP, ScrollTrigger, and Lenis. Use for luxury editorial websites, creative studio portfolios, Awwwards-style interactions, smooth scroll reveals, staggered text, parallax, pinned sections, magnetic hover states, custom cursors, and mouse-reactive layered movement."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "cinematic-scroll-storytelling",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/cinematic-scroll-storytelling",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 12496,
+      "descTokens": 102,
+      "skillTokens": 3101,
+      "hash": "291b1e36a907",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Create cinematic scroll-driven landing pages with Lenis smooth scrolling, GSAP ScrollTrigger, scroll-linked progression, staggered text reveals, sticky card stacks, parallax backgrounds, scroll-scrubbed transitions, footer reveals, and immersive preloaders. Use when analyzing or building premium editorial scroll experiences, sticky project stacks, kinetic typography, or section-by-section storytelling."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "clean-minimal-beige-light-mode",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/clean-minimal-beige-light-mode",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3843,
+      "descTokens": 41,
+      "skillTokens": 961,
+      "hash": "8e537b80abde",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a clean minimal beige light-mode design system with warm neutral shells, quiet process grids, restrained accent color, and elegant low-contrast structure."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "cobejs",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/cobejs",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2429,
+      "descTokens": 35,
+      "skillTokens": 590,
+      "hash": "20abbf941d80",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when adding a lightweight interactive globe with cobe (canvas setup, markers, interaction, performance, integration with React/Next.js)."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "company-logos",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/company-logos",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1088,
+      "descTokens": 16,
+      "skillTokens": 272,
+      "hash": "fc9392c8b97d",
+      "files": [
+        "demo/"
+      ],
+      "description": "Use Iconify Simple Icons logos (64x64) instead of text logos."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "container-lines",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/container-lines",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3730,
+      "descTokens": 62,
+      "skillTokens": 933,
+      "hash": "b3a2b7642817",
+      "files": [
+        "demo/"
+      ],
+      "description": "Add vertical container-size guide lines with mini corner squares for precise, structured web layouts. Use when asked for container lines, measured layout guides, vertical boundary lines, editorial grid markers, or small corner-square frame details."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "corner-diagonals",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/corner-diagonals",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5743,
+      "descTokens": 67,
+      "skillTokens": 1436,
+      "hash": "76b8c92773e9",
+      "files": [
+        "demo/"
+      ],
+      "description": "Apply diagonal-cut corners and chamfered edges to buttons, cards, panels, and container shells. Use when a design needs precise geometric framing, sci-fi UI surfaces, clipped-corner controls, or engineered sharp containers instead of rounded pills or plain rectangles."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "corner-lasers",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/corner-lasers",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2892,
+      "descTokens": 30,
+      "skillTokens": 723,
+      "hash": "3b64236f147d",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a corner-anchored laser composition with thin beams, a bright emitter node, bloom, and atmospheric glow or fog."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "create-game-vfx",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/create-game-vfx",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1098,
+      "descTokens": 54,
+      "skillTokens": 275,
+      "hash": "ae928626a0b1",
+      "files": [
+        "agents/"
+      ],
+      "description": "Create readable, performance-safe Three.js game visual effects. Use for attacks, impacts, damage feedback, status effects, spell trails, particles, shaders, telegraphs, quality tiers, and reduced-motion alternatives."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "css-alpha-masking",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/css-alpha-masking",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1824,
+      "descTokens": 47,
+      "skillTokens": 456,
+      "hash": "aba934270cb7",
+      "files": [
+        "demo/"
+      ],
+      "description": "Apply CSS alpha masking with linear-gradient for horizontal or vertical edge fades (mask-image and -webkit-mask-image). Use when asked for alpha masks, fade edges, or CSS mask gradients."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "css-border-gradient",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/css-border-gradient",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3025,
+      "descTokens": 48,
+      "skillTokens": 757,
+      "hash": "ab31beaa3955",
+      "files": [
+        "demo/"
+      ],
+      "description": "Apply subtle gradient-border treatments for premium web surfaces. Use when cards, pricing panels, nav bars, modals, buttons, or hero surfaces need a refined edge highlight without a loud glow."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "daily-ui-inspiration-capture",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/daily-ui-inspiration-capture",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8261,
+      "descTokens": 96,
+      "skillTokens": 2066,
+      "hash": "bb79cfab46e1",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Create a recurring daily UI inspiration capture. Use when the user asks to run, refresh, package, or validate dated UI inspiration bundles, especially for `articles/YYYY-MM-DD-ui-inspiration-capture/` outputs, Framer/Dribbble landing-page inspiration, motion-study screenshots/videos, AI-builder prompts, duplicate checking, or converting a project runbook into repeatable workflow."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "dark-blue-contrasting-clean",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/dark-blue-contrasting-clean",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4439,
+      "descTokens": 37,
+      "skillTokens": 1110,
+      "hash": "7317a4e3353f",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a dark-blue clean design system with strong contrast, cobalt gradient feature blocks, crisp framed structure, and restrained premium glow."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "dark-glass-clean-layout",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/dark-glass-clean-layout",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4920,
+      "descTokens": 40,
+      "skillTokens": 1230,
+      "hash": "5c620f4d9f45",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a dark glass layout system with frosted premium shells, clean multi-column workspace structure, floating data cards, and restrained atmospheric depth."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "design-action-combat",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/design-action-combat",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1897,
+      "descTokens": 58,
+      "skillTokens": 475,
+      "hash": "93572c84548b",
+      "files": [
+        "agents/"
+      ],
+      "description": "Design, implement, tune, or test readable tactical action combat for web games. Use for attack timing, guard and dodge windows, hit contact, posture, lock-on, weapons, boss phases, combat feedback, and deterministic combat tests."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "design-first-ui-prompting",
+      "group": "agent-skills/ui",
+      "path": "agent-skills/ui/design-first-ui-prompting",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6682,
+      "descTokens": 52,
+      "skillTokens": 800,
+      "hash": "7f0b5f0dd0f8",
+      "files": [
+        "ARTICLE.md",
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when you need design-first, spec-driven, skimmable prompts for UI generation. Covers prompt structure, constraints, variations, typography/spacing rules, and iteration workflow for consistent UI outputs."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "design-game-encounters",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/design-game-encounters",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1053,
+      "descTokens": 52,
+      "skillTokens": 264,
+      "hash": "ac30e509175c",
+      "files": [
+        "agents/"
+      ],
+      "description": "Design, implement, tune, or test Three.js action-game encounters. Use for arena layout, enemy composition, spawn pacing, objectives, boss phases, reward cadence, encounter fixtures, and difficulty validation."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "dither-background",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/dither-background",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7144,
+      "descTokens": 76,
+      "skillTokens": 1786,
+      "hash": "5cee89d4b2b2",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a dark monochrome procedural background with enlarged square pixels and visible Bayer-style ordered dithering. Use when a page needs an atmospheric near-black dither field, broad organic waves or cloud masses, and restrained gray-white highlights behind framed UI, hero content, or data overlays."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "dither-laser-dark-mode",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/dither-laser-dark-mode",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4346,
+      "descTokens": 37,
+      "skillTokens": 1087,
+      "hash": "c54ff43e46c5",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a dark premium design system that combines near-black surfaces, subtle ordered-dither texture, and a thin accent-colored laser atmosphere."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "documentary-brutalist-agency",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/documentary-brutalist-agency",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4392,
+      "descTokens": 72,
+      "skillTokens": 1060,
+      "hash": "2b2d6ef3489c",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Create or redesign creative agency, production studio, architecture, culture, and portfolio websites with billboard typography, hard black-and-white chapters, exposed grids, documentary imagery, irregular collages, restrained parallax, brutalist navigation, and accessible FAQ controls."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "editorial-portfolio-chapters",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/editorial-portfolio-chapters",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 24205,
+      "descTokens": 76,
+      "skillTokens": 1147,
+      "hash": "a3b9e4694bca",
+      "files": [
+        "ARTICLE.md",
+        "REFERENCES.md",
+        "agents/",
+        "assets/",
+        "demo/"
+      ],
+      "description": "Create or redesign creative-studio, agency, photographer, artist, and portfolio websites where project work leads the story. Use for dark editorial shells, full-bleed campaign media, color-coded case-study chapters, oversized service typography, restrained project reveals, and a decisive contact finale."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "editorial-service-booking",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/editorial-service-booking",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4661,
+      "descTokens": 81,
+      "skillTokens": 1126,
+      "hash": "f0b961a9748c",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Create or redesign appointment-based service websites for salons, barbers, spas, wellness studios, clinics, and hospitality brands. Use for warm editorial layouts, serif-led identity, documentary portrait crops, calm treatment selectors, location-aware booking, and operational states that remain elegant and trustworthy."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "editorial-tech",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/editorial-tech",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4313,
+      "descTokens": 44,
+      "skillTokens": 1079,
+      "hash": "0f2ed0927dcc",
+      "files": [
+        "demo/"
+      ],
+      "description": "Blend editorial magazine composition with precision product-tech detailing using asymmetrical grids, cinematic media bands, mono utility labels, and restrained accent color."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "elevenlabs-tts",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/elevenlabs-tts",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3610,
+      "descTokens": 83,
+      "skillTokens": 903,
+      "hash": "43bd1253e7b2",
+      "files": [
+        "demo/",
+        "scripts/"
+      ],
+      "description": "Generate ElevenLabs text-to-speech audio from scripts or inline text using local voice profiles. Use when the user asks for ElevenLabs, text-to-speech, TTS, narration, voiceover, speech audio, or voice generation; load voice names, voice ids, emails, owners, and account-specific defaults only from local config outside the skill."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "falling-leaves",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/falling-leaves",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8033,
+      "descTokens": 138,
+      "skillTokens": 2009,
+      "hash": "8d12ebd525a0",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Build falling leaves that read as leaves, with each one tumbling on its own axis so it presents a face, thins to an edge, and opens out again, and with its sideways slip driven by that same tumble. Covers the 2-D canvas build and the instanced-3-D variant, where leaves are recycled from, density-versus-count maths, depth layering, colour under a tone-mapped composite, reduced motion, and visibility pausing. Use for autumn maple, sakura petals, blossom, ash, snowfall shapes, or any drifting foliage where a generic particle field reads as confetti."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "framed-grid-layout",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/framed-grid-layout",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4929,
+      "descTokens": 66,
+      "skillTokens": 1233,
+      "hash": "f2a377062c94",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create minimal framed grid layouts with thin visible boundary lines, L-shaped corner brackets, subtle diagonal line texture, and strict section alignment. Use when asked for clean, neutral, precise, structured, editorial, technical, or guide-border web layouts."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "framed-tech-dark-border-gradient",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/framed-tech-dark-border-gradient",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4933,
+      "descTokens": 40,
+      "skillTokens": 1234,
+      "hash": "572b5b5aaa54",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a framed dark technical design system with border-gradient shells, asymmetrical grid panels, mono utility labeling, and restrained monochrome atmosphere."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "funky-purple-container-tech",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/funky-purple-container-tech",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4503,
+      "descTokens": 41,
+      "skillTokens": 1126,
+      "hash": "15bbd5964075",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a dark container-led technical design system with fuchsia-purple accents, layered rounded shells, crisp frame lines, and playful futuristic focal objects."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "generate-reference-inspired-brand-worlds",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/generate-reference-inspired-brand-worlds",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7990,
+      "descTokens": 120,
+      "skillTokens": 1998,
+      "hash": "6d7b946c09b5",
+      "files": [
+        "agents/",
+        "assets/",
+        "references/"
+      ],
+      "description": "Generate multiple original brand campaign worlds from a supplied visual reference while controlling how close the new work feels without copying protected signature elements. Use when a user provides a brand identity image, poster, editorial campaign, moodboard, or generated concept and asks for inspired alternatives, several distinct brands in one visual family, a closer-to-reference V2, exact wordmarks inside images, or originality-safe image-generation prompts and outputs."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "glass-dark-mode-clock",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/glass-dark-mode-clock",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4203,
+      "descTokens": 38,
+      "skillTokens": 1051,
+      "hash": "8a5616f50c0c",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a dark glass design system with frosted shells, soft beam grids, circular clock-like calibration dials, and precise sci-fi instrument framing."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "glass-dark-ui",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/glass-dark-ui",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3237,
+      "descTokens": 63,
+      "skillTokens": 810,
+      "hash": "739d7a55d8b2",
+      "files": [
+        "demo/"
+      ],
+      "description": "Build dark-mode glassmorphism interfaces with readable contrast, frosted surfaces, and gradient borders using a pseudo-element mask. Use when asked for glass cards, frosted dark hero sections, blur panels, or dark UI systems with gradient/glow borders."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "globe-gl",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/globe-gl",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1691,
+      "descTokens": 52,
+      "skillTokens": 423,
+      "hash": "c9dc99986c59",
+      "files": [
+        "demo/"
+      ],
+      "description": "Use when implementing globe.gl (Globe.GL) for 3D globe data visualization with WebGL/ThreeJS, including setup, data layers (points, arcs, polygons, labels), and integration patterns in plain HTML or React."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "globe-particles",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/globe-particles",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 10188,
+      "descTokens": 77,
+      "skillTokens": 2547,
+      "hash": "604446f9d108",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a globe-like 3D particle visualization with a dense luminous spherical core and thinner orbital ring or flattened disc. Use when a design needs a premium planetary, orbital, synthesized data-globe effect rendered with real WebGL/Three.js particles, not generic starfields or full page layout changes."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "gooey-blob-system",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/gooey-blob-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1382,
+      "descTokens": 124,
+      "skillTokens": 346,
+      "hash": "3fdff5a74a6e",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a gooey blob system using SVG filters where multiple shapes merge into a single fluid form. Use overlapping circles combined with a Gaussian blur and color matrix filter to produce a continuous, organic mass. The forms should visually fuse and separate based on proximity. Focus on filter-driven merging (blur + threshold effect), soft organic boundaries with no hard edges, multiple independent shapes behaving as one system, and smooth continuous motion that feels fluid and cohesive."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "gsap",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/gsap",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3367,
+      "descTokens": 53,
+      "skillTokens": 792,
+      "hash": "aa6a81e83e55",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when you need to add or debug professional web animations with GSAP (timelines, ScrollTrigger, stagger, transforms) in HTML/CSS/JS/React. Includes patterns for smooth motion, performance, and common pitfalls."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "gsap-scrolltrigger-storytelling",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/gsap-scrolltrigger-storytelling",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4084,
+      "descTokens": 44,
+      "skillTokens": 1021,
+      "hash": "68d3b78e7b50",
+      "files": [
+        "demo/"
+      ],
+      "description": "Build cinematic sticky product storytelling with GSAP ScrollTrigger, progressive UI reveals, scroll-synced animation, smooth interpolation, and immersive section transitions."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "high-contrast-skeuomorphic-clean",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/high-contrast-skeuomorphic-clean",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4767,
+      "descTokens": 40,
+      "skillTokens": 1192,
+      "hash": "d90500041a27",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a high-contrast clean skeuomorphic design system with molded dark surfaces, crisp light separation, tactile inset depth, and restrained signal accents."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "html-to-interaction-prompts",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/html-to-interaction-prompts",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 15247,
+      "descTokens": 101,
+      "skillTokens": 3812,
+      "hash": "1f8285e717a6",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Convert a supplied HTML page or generated HTML reference into a screenshot-backed article containing multiple reusable interaction prompts. Use when the user provides an HTML file, exported page, generated-page.html, or local/live reference and asks to extract animation/interactions, create prompts, capture screenshots for each prompt, add them to an article, or commit the resulting article/assets."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "image-first-grid-layout",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/image-first-grid-layout",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4605,
+      "descTokens": 38,
+      "skillTokens": 1152,
+      "hash": "e9450453252f",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create an image-led grid design system with full-bleed photography, structural guide lines, anchored content blocks, and restrained technical overlays."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "implement-fog-of-war",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/implement-fog-of-war",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6782,
+      "descTokens": 99,
+      "skillTokens": 1696,
+      "hash": "6ffce89e01cd",
+      "files": [
+        "agents/",
+        "references/"
+      ],
+      "description": "Implement, tune, debug, or validate soft wall-aware fog of war and gameplay perception in Three.js action games. Use for orthographic or isometric visibility masks, obstacle-aware line of sight, player and enemy vision ranges, hidden-enemy targeting rules, fog shader artifacts such as spokes or seams, mobile ray budgets, lifecycle and menu-state integration, and deterministic fog-of-war tests."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "iterate-until-verified",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/iterate-until-verified",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7679,
+      "descTokens": 97,
+      "skillTokens": 1906,
+      "hash": "7a11d8f18fad",
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "description": "Apply a prompt-agnostic execution and verification loop to any substantial task while preserving the original request. Use when the user asks to fan out work, use subagents or independent reviewers, loop until done, benchmark against references, apply a harsh critic, compare candidates blind, improve an existing prompt with verification, or continue until explicit quality gates pass."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "landing-page",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/landing-page",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5774,
+      "descTokens": 52,
+      "skillTokens": 1371,
+      "hash": "8956536ce99e",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when designing or rewriting a high-converting landing page (single-offer page) for SaaS/apps/services. Covers structure, layout patterns, conversion strategies, copywriting, SEO/AEO, and common pitfalls."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "light-mode-paper-technical",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/light-mode-paper-technical",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4241,
+      "descTokens": 44,
+      "skillTokens": 1061,
+      "hash": "ee4bbf5ebb85",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a light-mode technical design system with warm paper surfaces, dark outer framing, subtle diagonal texture, precise bracketed geometry, and restrained accent signals."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "liquid-metal-border",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/liquid-metal-border",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 14315,
+      "descTokens": 108,
+      "skillTokens": 3493,
+      "hash": "a4e1e2cbb402",
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "description": "Add and tune animated liquid-metal WebGL borders with the React `metal-fx` package. Use when buttons, icon controls, chips, tabs, cards, or selected surfaces need a metallic active, selected, hover, focus, or premium border; when implementing the MetalFx component from metal.jakubantalik.com; or when troubleshooting its presets, themes, strength, glow, reflections, sizing, radius, animation, accessibility, SSR, or performance."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "marquee-loop",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/marquee-loop",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 839,
+      "descTokens": 16,
+      "skillTokens": 210,
+      "hash": "36faaac39277",
+      "files": [
+        "demo/"
+      ],
+      "description": "Apply seamless infinite marquee loops using duplicated items."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "masked-reveal",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/masked-reveal",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4112,
+      "descTokens": 54,
+      "skillTokens": 1028,
+      "hash": "ed7a664cbe89",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create masked staggered word reveals on scroll with GSAP ScrollTrigger. Use when headings, hero copy, section titles, or editorial text should reveal word-by-word through an overflow mask as they enter the viewport."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "matterjs",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/matterjs",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2293,
+      "descTokens": 50,
+      "skillTokens": 574,
+      "hash": "e3f9c544ed28",
+      "files": [
+        "demo/"
+      ],
+      "description": "Use when implementing 2D physics interactions with Matter.js, including Engine/World setup, Render/Runner configuration, adding bodies and constraints, and scroll/interaction-friendly canvas scenes."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "mesh-gradient-dark-blue-clean",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/mesh-gradient-dark-blue-clean",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 10182,
+      "descTokens": 85,
+      "skillTokens": 2546,
+      "hash": "7c9292841e4f",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a futuristic, premium, clean dark-blue mesh-gradient design system across background rendering, hero shell, navigation, floating nodes, framed sections, CTAs, and motion. Use when the interface needs a near-black navy foundation, procedural blue mesh atmosphere, disciplined minimal structure, and infrastructural or planetary depth."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "nested-container-clean-agency",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/nested-container-clean-agency",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4062,
+      "descTokens": 44,
+      "skillTokens": 1016,
+      "hash": "d178a61c0c17",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a clean agency design system built from nested containers, with an outer editorial shell, inset dark feature blocks, rounded premium cards, and restrained accent color."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "nested-container-frames",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/nested-container-frames",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1300,
+      "descTokens": 120,
+      "skillTokens": 325,
+      "hash": "7d2279fe99f7",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a container-in-container layout system using nested frames. Use an outer centered container with visible vertical boundary lines and corner markers. Inside, place inner containers inset from the edges, each with its own background and rounded frame. Technique: outer container defines global bounds, inner containers use padding to create inset spacing, layered frames (border + background) to separate levels, and consistent spacing between outer frame and inner blocks."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "no-ai-design-slop",
+      "group": "agent-skills/ui",
+      "path": "agent-skills/ui/no-ai-design-slop",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 26071,
+      "descTokens": 90,
+      "skillTokens": 1782,
+      "hash": "d56a7cefa3fa",
+      "files": [
+        "ARTICLE.md",
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "description": "Prevent and remove generic AI-generated design defaults, incoherent visual choices, and established UI defects while creating, revising, or reviewing websites, apps, screenshots, mockups, and design code. Use as a passive quality gate during UI work or for an explicit anti-slop cleanup; preserve the chosen art direction instead of forcing a neutral redesign."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "number-details",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/number-details",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 813,
+      "descTokens": 13,
+      "skillTokens": 204,
+      "hash": "9d745964582e",
+      "files": [
+        "demo/"
+      ],
+      "description": "Add decorative 01, 02, 03 numeric detail markers."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "operational-enterprise-ai",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/operational-enterprise-ai",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4877,
+      "descTokens": 84,
+      "skillTokens": 1181,
+      "hash": "f76940d7225e",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Create or redesign enterprise AI, automation, security, and operations product pages that explain system boundaries, approvals, auditability, exceptions, and rollback. Use for dark cinematic heroes, hairline grids, metric pauses, expandable solution rows, case-study evidence, security proof, and qualified demo or waitlist handoffs."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "optimize-threejs-games",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/optimize-threejs-games",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1708,
+      "descTokens": 69,
+      "skillTokens": 427,
+      "hash": "2522ef3f3a3d",
+      "files": [
+        "agents/"
+      ],
+      "description": "Profile, diagnose, and improve Three.js or WebGL game performance without regressing gameplay. Use for frame-time drops, CPU/GPU pressure, draw calls, texture and geometry budgets, animation loops, adaptive quality, mobile performance, and browser performance verification."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "optimize-web-animations",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/optimize-web-animations",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8384,
+      "descTokens": 142,
+      "skillTokens": 2096,
+      "hash": "fbee78788fcb",
+      "files": [
+        "agents/",
+        "demo/",
+        "references/"
+      ],
+      "description": "Profile, audit, and optimize frontend page performance with emphasis on animation work, memory-leak risks, long-session slowdowns, CSS animations, canvas/WebGL requestAnimationFrame loops, marquees, skeletons, GSAP/Three/Matter effects, timers, listeners, and observers. Use when the user asks to make animations performant, pause offscreen animations, look for memory leaks, profile pages that slow the computer over time, fix janky scrolling, reduce CPU/GPU use, or repeat the \"only play in view\" optimization on React/Vite/Next/frontend pages using Codex Browser."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "orange-clean-paper-saas",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/orange-clean-paper-saas",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4090,
+      "descTokens": 39,
+      "skillTokens": 1023,
+      "hash": "6d6655ae1aa2",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a clean paper-toned SaaS design system with warm neutrals, orange accent signals, rounded premium forms, and polished product illustration surfaces."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "performance-profiling",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/performance-profiling",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6306,
+      "descTokens": 82,
+      "skillTokens": 1577,
+      "hash": "2d7fedfa8af0",
+      "files": [
+        "agents/",
+        "demo/",
+        "references/"
+      ],
+      "description": "Guide performance profiling for Apple platform apps with Instruments, Xcode diagnostics, and MetricKit. Use when investigating app hangs, stutters, high CPU, memory leaks, memory growth, OOM crashes, slow launch, battery drain, thermal issues, App Store performance readiness, or when adding os_signpost and measurement hooks."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "pointer-trail-emitter",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/pointer-trail-emitter",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 10723,
+      "descTokens": 190,
+      "skillTokens": 2681,
+      "hash": "9f70d4844f5e",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Build a cursor trail whose spacing stays constant at any hand speed, by emitting motes per unit of distance travelled rather than on a timer, so a flick draws the same continuous ribbon as a crawl instead of breaking into scattered dots. Covers sub-segment placement, the ring-buffer ordering trap, the idle breath a distance emitter needs, anchoring the trail to the screen in a 3-D scene, scaling scatter against the plane it hangs on, coasting instead of stopping dead, touch and reduced-motion fallbacks, and why moving the emitter to a DOM overlay to raise its z-index costs more than it buys. Use for cursor wisps, pointer sparks, embers, magic trails, comet tails, plankton, dust, or any mote trail that must stay legible however fast the hand moves."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "pricing-page",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/pricing-page",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6351,
+      "descTokens": 51,
+      "skillTokens": 1518,
+      "hash": "6dbef9570445",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when designing or rewriting a high-converting SaaS pricing page (structure, plan design, copywriting, SEO/AEO, FAQs, layout patterns, experiments). Includes checklists, templates, and common pitfalls."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "product-proof-saas",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/product-proof-saas",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4590,
+      "descTokens": 75,
+      "skillTokens": 1110,
+      "hash": "6bfa553f1ca8",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Create or redesign SaaS and AI product landing pages where a real workflow, interface, or deterministic demo is the central proof. Use for pale atmospheric shells, product UI in the hero, prompt-to-output stories, audience tabs, compact feature modules, honest pricing comparisons, and FAQ handoffs."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "progressive-blur",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/progressive-blur",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6256,
+      "descTokens": 62,
+      "skillTokens": 1564,
+      "hash": "512f15dfd485",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a layered CSS progressive blur (top or bottom) using multiple backdrop-filter masks for depth and softness. Use when asked for “progressive blur”, “gradient blur overlay”, or stepped blur masks that fade from an edge of the viewport."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "publish-project-to-github",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/publish-project-to-github",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 9036,
+      "descTokens": 104,
+      "skillTokens": 2259,
+      "hash": "f4194dc259fc",
+      "files": [
+        "agents/",
+        "assets/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Package a finished local project into an intentional GitHub repository, create a strong README and visual preview, push it safely, configure a public GitHub Pages URL when the project is compatible, and verify the deployed result. Use when a user asks to upload, publish, open-source, share, or turn a local HTML/CSS/JavaScript experiment or small web project into a documented GitHub repository with a live demo."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "reveal-hover-effect",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/reveal-hover-effect",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 11135,
+      "descTokens": 83,
+      "skillTokens": 2691,
+      "hash": "4cfd24580ad9",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Build cursor-following spotlight reveals that expose a second aligned image through a soft radial mask. Use for hover-to-color, before-and-after, x-ray, material, texture, product-detail, and illustrated hero effects where a desaturated or embossed base image should remain visible while another treatment follows an eased pointer."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "scroll-progress-timeline",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/scroll-progress-timeline",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4565,
+      "descTokens": 96,
+      "skillTokens": 1016,
+      "hash": "5141e28954ba",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Turn any ordered process into a data-driven vertical or horizontal scroll story with a base line, progress fill, active step states, responsive collapse, semantic fallback, and reduced-motion behavior. Use for onboarding, checkout, roadmaps, recipes, case studies, service processes, histories, or narratives where progress through the sequence should become visible while scrolling."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "scroll-scrubbed-visual-sequence",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/scroll-scrubbed-visual-sequence",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5246,
+      "descTokens": 88,
+      "skillTokens": 1183,
+      "hash": "87e4b0ebd5cb",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Build reversible scroll-controlled visual transformations with a pinned or sticky stage, normalized progress, and video, image-sequence, canvas, SVG, or DOM renderers. Use for hero transformations, product assembly, interface state walkthroughs, object rotation, diagrams, or photo sequences that must move forward and backward with native scrolling."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "scroll-scrubbed-word-reveal",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/scroll-scrubbed-word-reveal",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4682,
+      "descTokens": 86,
+      "skillTokens": 1046,
+      "hash": "ae8ce3f0273a",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Reveal marked-up text word by word as scroll progress advances, while preserving semantic inline links, emphasis, responsive line wrapping, and reduced-motion readability. Use for headlines, quotes, manifestos, product statements, onboarding messages, or editorial passages where scrolling should pace comprehension rather than simulate typing."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "scroll-world-storytelling",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/scroll-world-storytelling",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 12751,
+      "descTokens": 122,
+      "skillTokens": 3033,
+      "hash": "070aa984394c",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "demo/"
+      ],
+      "description": "Turn an article, case study, brand narrative, product journey, or long-form story into a cinematic scroll-driven landing page using one of three renderers: scrubbed video, a real-time Three.js world, or semantic HTML/SVG data and typography. Use when the user asks for a scroll world, fly-through landing page, article-to-website transformation, animated planet, data scrollytelling, video-scrubbed page, connected visual journey, or story-led alternative to ordinary stacked sections."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "shaders-cursor-ripples",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/shaders-cursor-ripples",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8281,
+      "descTokens": 107,
+      "skillTokens": 2016,
+      "hash": "ab9d499e9ab9",
+      "files": [
+        "REFERENCES.md",
+        "agents/",
+        "assets/"
+      ],
+      "description": "Add cursor-following fluid WebGPU distortion over an existing image with the Shaders library's ImageTexture and CursorRipples components. Use when a hero, gallery, or media panel needs a water-ripple mouse effect; when replacing a drifting CSS spotlight or flashlight reveal; or when a prompt says to borrow only the shader interaction from a Shaders.com reference while preserving the current brand, image, copy, and layout."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "ship-web-games",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/ship-web-games",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1159,
+      "descTokens": 60,
+      "skillTokens": 290,
+      "hash": "364f74f4b483",
+      "files": [
+        "agents/"
+      ],
+      "description": "Package, deploy, and verify a playable Three.js or web game. Use for release builds, asset delivery, private/public deployment, production smoke tests, browser proof, release notes, rollback readiness, and cleanup of temporary QA resources."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "skeuomorphic-ui",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/skeuomorphic-ui",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4501,
+      "descTokens": 73,
+      "skillTokens": 1126,
+      "hash": "53093ded5190",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create skeuomorphic web UI surfaces with layered gradients, stacked inner and outer shadows, reflective gradient borders, micro texture, and embossed text or icon details. Use when asked for pressed, carved, tactile, realistic, soft-plastic, soft-metal, or premium physical interface styling."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "solar-duotone-bold",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/solar-duotone-bold",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 763,
+      "descTokens": 11,
+      "skillTokens": 191,
+      "hash": "4a3608b8601c",
+      "files": [
+        "demo/"
+      ],
+      "description": "Use Iconify Solar Duotone Bold icon style."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "split-layout-technical",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/split-layout-technical",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4310,
+      "descTokens": 38,
+      "skillTokens": 1078,
+      "hash": "38f61271d9a3",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a technical split-screen design system with dual panels, fine frame lines, mono metadata, quiet editorial typography, and premium inset surfaces."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "staggered-word-reveal",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/staggered-word-reveal",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5087,
+      "descTokens": 77,
+      "skillTokens": 1272,
+      "hash": "e641f4b3d2a6",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create subtle editorial word-by-word text reveal animations where each word fades and rises into place once it enters the viewport. Use for premium portfolio headlines, hero copy, section intros, and short marketing text that needs a cinematic staggered reveal with IntersectionObserver or in-view detection."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "stitched-full-page-capture",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/stitched-full-page-capture",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3850,
+      "descTokens": 88,
+      "skillTokens": 963,
+      "hash": "fa302aa0fad1",
+      "files": [
+        "agents/",
+        "demo/",
+        "scripts/"
+      ],
+      "description": "Capture or repair reliable full-page screenshots for lazy-loaded, scroll-animated, Framer, WebGL/canvas, or reveal-heavy web pages. Use when full-page screenshots are blank, gray, white, sparse, show a tiny content strip, disagree with a working scroll video, or when article evidence/section crops must be derived from a trustworthy full-page image."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "tailwindcss",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/tailwindcss",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2967,
+      "descTokens": 47,
+      "skillTokens": 724,
+      "hash": "5da65c80cad6",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when designing/implementing UI with Tailwind CSS (layout, typography, responsive, theming, component patterns). Includes quick recipes and conventions for clean, consistent web design."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "tech-green-dark-mode-modern",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/tech-green-dark-mode-modern",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4080,
+      "descTokens": 42,
+      "skillTokens": 1020,
+      "hash": "915974985ad8",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a modern dark-mode technical design system with matte-black surfaces, emerald signal accents, mono system labeling, framed dashboard cards, and restrained glow."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "technical-wireframe-info-layout",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/technical-wireframe-info-layout",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4324,
+      "descTokens": 42,
+      "skillTokens": 1081,
+      "hash": "1f41e87e7771",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a monochrome technical wireframe design system with exploded 3D structure, connector annotations, sparse information labels, and precise dark diagnostic framing."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "test-playable-web-games",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/test-playable-web-games",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1739,
+      "descTokens": 67,
+      "skillTokens": 435,
+      "hash": "cfffe8b3b4e5",
+      "files": [
+        "agents/"
+      ],
+      "description": "Test a playable browser game end to end with deterministic fixtures and real browser evidence. Use for gameplay QA, regression testing, controls, accessibility, responsive/mobile testing, save flows, console checks, performance smoke tests, and release verification."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "thinking-orbs",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/thinking-orbs",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 10816,
+      "descTokens": 106,
+      "skillTokens": 2479,
+      "hash": "02eca4e47a75",
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "description": "Add accessible animated AI loading and agent-status indicators with the React thinking-orbs library. Use when a chat, copilot, voice, search, generation, or tool-running interface needs a semantic working, searching, solving, listening, composing, or shaping state; when replacing a generic spinner with an AI activity orb; or when implementing the library's size, theme, speed, pause, reduced-motion, and canvas behavior."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "threejs",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/threejs",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3623,
+      "descTokens": 51,
+      "skillTokens": 894,
+      "hash": "b91fcbcb2b1d",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when building or debugging interactive 3D scenes on the web with Three.js (scene/camera/renderer, lights/materials, GLTF loading, controls, performance). Helpful for designers shipping 3D UI moments."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "threejs-landscape",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/threejs-landscape",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8617,
+      "descTokens": 138,
+      "skillTokens": 2155,
+      "hash": "b1bee18019ca",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Build a live Three.js landscape that stays quiet behind a subject — a noise heightfield on a polar grid so resolution follows the lens, ground coloured by slope and moisture rather than by texture, instanced GPU grass whose wind costs nothing on the CPU, scattered stones, a gradient sky dome, a star field you can actually see, and a time-of-day system that cross-fades instead of cutting. Use for hero backdrops, product stages, scroll worlds, or any scene where a building, object, or figure has to sit in a place rather than float on a gradient."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "threejs-towers",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/threejs-towers",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8388,
+      "descTokens": 131,
+      "skillTokens": 2097,
+      "hash": "8a8cf190dce8",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Generate architecture procedurally in Three.js and film it assembling — a small geometry vocabulary that builds pagodas, castles, domes and spires from parameters instead of mesh files, hip roofs with flying eaves driven by a single profile function, and a clipping-plane build animation where everything below a rising line is finished work and scaffolding stands above it. Use for construction studies, architectural title sequences, procedural landmarks, or any hero object that should build itself rather than fade in."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "threejs-weather",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/threejs-weather",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 8111,
+      "descTokens": 131,
+      "skillTokens": 2028,
+      "hash": "1d29e9f32a52",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Put weather into a Three.js scene that reads as weather — rain anchored inside the frustum, a storm that is the rain leaned on rather than a second system, lightning on its own light with thunder scheduled by distance, snow that blows up into blizzards and keeps settling until the ground goes white, wet ground with puddles and splashes, and looping ambience that has no seam. Use for scene atmosphere, seasonal states, hero backdrops, or any world where clear/rain/storm/snow needs to be a control the viewer can turn."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "tune-enemy-ai",
+      "group": "agent-skills/game-development",
+      "path": "agent-skills/game-development/tune-enemy-ai",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1728,
+      "descTokens": 61,
+      "skillTokens": 432,
+      "hash": "150d8a10aa57",
+      "files": [
+        "agents/"
+      ],
+      "description": "Build, debug, balance, or test combat enemy AI for playable action games. Use for aggro, target selection, navigation, spacing, attack choices, telegraphs, retreats, boss behavior, behavior-state machines, and deterministic AI regression tests."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "unicorn-studio",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/unicorn-studio",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2954,
+      "descTokens": 39,
+      "skillTokens": 658,
+      "hash": "01d9a225b51b",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when embedding and customizing Unicorn Studio interactive animations on the web (embed, responsive sizing, performance, layering with UI, fallbacks)."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "unsplash-asset-images",
+      "group": "agent-skills/media",
+      "path": "agent-skills/media/unsplash-asset-images",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5207,
+      "descTokens": 77,
+      "skillTokens": 1302,
+      "hash": "b5e389b97d1d",
+      "files": [
+        "demo/"
+      ],
+      "description": "Use when you need to pick high-quality Unsplash images for product/design assets (avatars, headshots, portraits, large website backgrounds, and abstract wallpapers) and output real Unsplash URLs plus practical instructions for producing the right resolutions and aspect ratios (1:1, 4:5, 3:4, 16:9, 9:16)."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "vantajs",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/vantajs",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2218,
+      "descTokens": 35,
+      "skillTokens": 523,
+      "hash": "71a3a1a423a1",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when adding animated WebGL background effects with Vanta.js (setup, parameters, resizing, performance, integration in React/Next.js)."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "video-to-superprompt",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/video-to-superprompt",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5610,
+      "descTokens": 104,
+      "skillTokens": 1403,
+      "hash": "543841f00b17",
+      "files": [
+        "agents/",
+        "demo/",
+        "references/"
+      ],
+      "description": "Turn a reference video into a super detailed recreation or inspiration prompt. Use when the user provides, mentions, uploads, links, or points to a video and asks to analyze the design, UI, animations, transitions, scroll interactions, typography, colors, assets, WebGL/Three.js, storytelling, section-by-section behavior, or to create a prompt/article that recreates the page, app, interaction, or motion system."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "web-technique-to-skill",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/web-technique-to-skill",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 17312,
+      "descTokens": 198,
+      "skillTokens": 4328,
+      "hash": "6426035923b8",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Turn a visual or interaction technique you already built into a reusable web-design skill, by isolating the one mechanism that makes it work while reproducing its approved reference exactly around that focus, and packaging it with a demo that proves both the mechanism and the visual fidelity. Covers finding the mechanism, naming the technique plainly, disclosing the verified runtime and renderer, auditing reference layers, carrying real numbers instead of adjectives, preserving owned staging, keeping expensive gotchas, declaring the boundary against neighbouring skills, and browser-verifying before claiming it works. Use when a page, canvas scene, shader, scroll effect, layout system, or hover interaction turned out well and should become a skill rather than staying in one project."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "webgl-3d-object",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/webgl-3d-object",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6800,
+      "descTokens": 75,
+      "skillTokens": 1700,
+      "hash": "8a1f44354e7f",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a real 3D WebGL object with geometric mesh depth, physically based material, directional and ambient lighting, perspective camera, subtle rotation, and floating motion. Use when a page needs a faceted 3D hero object or product-like visual with real lighting instead of CSS transform tricks."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "webgl-landing-steering",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/webgl-landing-steering",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5628,
+      "descTokens": 58,
+      "skillTokens": 1318,
+      "hash": "b93c82dfb984",
+      "files": [
+        "REFERENCES.md",
+        "demo/"
+      ],
+      "description": "Use when creating or refining WebGL-heavy landing pages and you need to steer toward a specific visual outcome (premium, technical, playful, cinematic) while balancing conversion clarity, performance, and implementation complexity."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "webgl-laser",
+      "group": "agent-skills/web-design",
+      "path": "agent-skills/web-design/webgl-laser",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 9713,
+      "descTokens": 72,
+      "skillTokens": 2429,
+      "hash": "faa9c9f27e06",
+      "files": [
+        "demo/"
+      ],
+      "description": "Create a fixed full-screen WebGL laser background effect with a thin white-hot vertical core, restrained brand-colored halo, and soft smoky fog around the beam. Use only for laser background effects, not full page layout, copy, generic hero scenes, particles, or unrelated motion systems."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "write-like-meng-on-x",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/write-like-meng-on-x",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7989,
+      "descTokens": 124,
+      "skillTokens": 1998,
+      "hash": "af87e50c7350",
+      "files": [
+        "agents/",
+        "references/",
+        "scripts/"
+      ],
+      "description": "Write, rewrite, review, or continuously refine X/Twitter posts in Meng To's current voice using his deduplicated authored-post corpus, personal and product context, shared resources, and Content repo evidence. Use when asked to improve a tweet in Meng's tone, draft an original post, reply, thread, resource share, or quote post as Meng, check whether an angle repeats an earlier post, study Meng's writing style, ingest another 20-50 authored posts, or hone the reusable Meng X voice profile."
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "x-bookmark-quote-posts",
+      "group": "agent-skills/codex",
+      "path": "agent-skills/codex/x-bookmark-quote-posts",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 9523,
+      "descTokens": 94,
+      "skillTokens": 2381,
+      "hash": "6b0138fb2fe6",
+      "files": [
+        "agents/",
+        "demo/"
+      ],
+      "description": "Check a user's latest X/Twitter bookmarks and turn recent saved posts into source-backed quote-post drafts calibrated against the user's latest 100 authored posts. Use when asked to review X bookmarks, create quote posts from bookmarks, refresh a bookmark quote queue, run a bookmark quote automation, study a user's X voice, or write first-person quote posts from X sources."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "a-b-test-design",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/a-b-test-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1933,
+      "descTokens": 51,
+      "skillTokens": 484,
+      "hash": "048ffa9aa2df",
+      "files": [],
+      "description": "Design an A/B experiment — hypothesis, variants, primary metric, and sample size. Use when a change can be measured quantitatively at scale. For observing behaviour qualitatively, use `test-scenario`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "accessibility-audit",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/accessibility-audit",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1415,
+      "descTokens": 70,
+      "skillTokens": 354,
+      "hash": "a811213c28dc",
+      "files": [],
+      "description": "Audit an existing interface against WCAG, producing findings with severity ratings and remediation steps. Use when you have a design or build to assess now. Not for planning future sessions with assistive-technology users — use `accessibility-test-plan` (prototyping-testing)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "accessibility-test-plan",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/accessibility-test-plan",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1956,
+      "descTokens": 62,
+      "skillTokens": 489,
+      "hash": "916424db0701",
+      "files": [],
+      "description": "Plan accessibility testing — assistive technologies, participant criteria, WCAG coverage, and session protocol. Use when scheduling testing with real AT users. Not for evaluating a design yourself — use `accessibility-audit` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "aesthetic-usability",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/aesthetic-usability",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2760,
+      "descTokens": 76,
+      "skillTokens": 690,
+      "hash": "d0014ba2290c",
+      "files": [],
+      "description": "Apply the Aesthetic-Usability Effect — polished, consistent interfaces are perceived as more usable and forgive minor friction. Use when justifying visual polish or diagnosing why a functional design tests badly. For emotional resonance specifically, use `interfaces-that-feel` (interaction-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "affinity-diagram",
+      "group": "design-research/skills",
+      "path": "design-research/skills/affinity-diagram",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2113,
+      "descTokens": 58,
+      "skillTokens": 529,
+      "hash": "fee85880e2bf",
+      "files": [],
+      "description": "Cluster many qualitative data points into themes and insight statements. Use when synthesising across multiple sessions or sources. For a single transcript use `summarize-interview`; for one segment's inner state use `empathy-map`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "animation-principles",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/animation-principles",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2011,
+      "descTokens": 69,
+      "skillTokens": 503,
+      "hash": "a001d94a3dbb",
+      "files": [],
+      "description": "Apply animation principles — easing, staging, follow-through — to one specific UI motion. Use when tuning how an animation feels. For product-wide duration and easing tokens use `motion-system` (design-systems); for a full interaction spec use `micro-interaction-spec`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "behavioural-analytics",
+      "group": "design-research/skills",
+      "path": "design-research/skills/behavioural-analytics",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7566,
+      "descTokens": 86,
+      "skillTokens": 970,
+      "hash": "0fe5b820b56a",
+      "files": [
+        "EVALS.md"
+      ],
+      "description": "Read funnels, retention curves, and event data as a designer — separating a design problem from a tracking artefact. Use when handed product data you did not design and asked why people drop off. For choosing what to measure, use `metrics-definition` (ux-strategy); for running a controlled test, use `a-b-test-design` (prototyping-testing)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "business-design",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/business-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4438,
+      "descTokens": 58,
+      "skillTokens": 1110,
+      "hash": "92dc96b6c95b",
+      "files": [],
+      "description": "Read financials, map competitive landscapes, and argue design decisions in the language of value. Use when defending design to commercial stakeholders. For the live negotiation itself, use `design-negotiation` (designer-toolkit)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "card-sort-analysis",
+      "group": "design-research/skills",
+      "path": "design-research/skills/card-sort-analysis",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1167,
+      "descTokens": 52,
+      "skillTokens": 292,
+      "hash": "7cd36a84b18d",
+      "files": [],
+      "description": "Analyse open or closed card sort results into a proposed grouping and label set. Use after running a sort study. For turning that evidence into a full structure, use `information-architecture` (ux-strategy)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "case-study",
+      "group": "designer-toolkit/skills",
+      "path": "designer-toolkit/skills/case-study",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2151,
+      "descTokens": 50,
+      "skillTokens": 538,
+      "hash": "98d4d855c644",
+      "files": [],
+      "description": "Craft a portfolio case study with narrative arc, process evidence, and outcomes. Use when telling a project's story to an external audience. For an internal stakeholder deck, use `presentation-deck`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "click-test-plan",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/click-test-plan",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1741,
+      "descTokens": 44,
+      "skillTokens": 436,
+      "hash": "b86aba3a1ff3",
+      "files": [],
+      "description": "Design first-click and click tests for findability and navigation. Use when testing whether people can locate something. For full task-based observation, use `test-scenario`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "color-system",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/color-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1716,
+      "descTokens": 78,
+      "skillTokens": 429,
+      "hash": "9ba76081ba68",
+      "files": [],
+      "description": "Build a product colour system — tonal scales, semantic roles, and contrast compliance. Use when defining or rebuilding colour from scratch. For dark-mode adaptation use `dark-mode-design`; for chart palettes use `data-visualization`; for multi-brand token architecture use `theming-system` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "competitive-analysis",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/competitive-analysis",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1492,
+      "descTokens": 52,
+      "skillTokens": 373,
+      "hash": "044eddbb4a62",
+      "files": [],
+      "description": "Compare UX patterns, features, strengths, and gaps across rival products. Use when you need to know what others actually do. For deliberately adopting their conventions, use `jakobs-law` (interaction-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "component-spec",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/component-spec",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1367,
+      "descTokens": 59,
+      "skillTokens": 342,
+      "hash": "dd1396a3bc07",
+      "files": [],
+      "description": "Specify one component — props, states, variants, accessibility, and usage rules. Use when defining a library component. For the reusable doc scaffold use `documentation-template`; for a problem-solution pattern use `pattern-library`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "concept-selection",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/concept-selection",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3464,
+      "descTokens": 80,
+      "skillTokens": 866,
+      "hash": "57500c66970e",
+      "files": [],
+      "description": "Choose between competing concepts against criteria fixed in advance, and record what each rejected concept was testing. Use when several directions are alive and one has to win. For picking which problem to work on, use `opportunity-framework` (ux-strategy); for deciding by production traffic, use `a-b-test-design`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "content-strategy",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/content-strategy",
+      "status": "clash",
+      "trigger": "auto",
+      "bytes": 3467,
+      "descTokens": 60,
+      "skillTokens": 867,
+      "hash": "0d163205f838",
+      "files": [],
+      "description": "Define what content a product needs, how it is structured, and who owns it. Use when content itself is the problem. For the words in the interface use `ux-writing` (designer-toolkit); for structural hierarchy use `information-architecture`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "conversational-ux",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/conversational-ux",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7264,
+      "descTokens": 52,
+      "skillTokens": 1816,
+      "hash": "09fc4105ecab",
+      "files": [],
+      "description": "Design voice and conversational interfaces — dialog flows, error recovery, and persona. Use when the interface speaks and listens rather than being tapped. For graphical input collection, use `form-design`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "critique-affordance",
+      "group": "visual-critique/skills",
+      "path": "visual-critique/skills/critique-affordance",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3288,
+      "descTokens": 63,
+      "skillTokens": 822,
+      "hash": "9e264a2aaee6",
+      "files": [],
+      "description": "Critique a rendered screen's affordances — what looks clickable, state visibility, CTA clarity, and action discoverability. Use when reviewing an existing screen. For sizing and positioning targets in new work, use `fitts-law` (interaction-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "critique-brand-consistency",
+      "group": "visual-critique/skills",
+      "path": "visual-critique/skills/critique-brand-consistency",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2956,
+      "descTokens": 54,
+      "skillTokens": 739,
+      "hash": "c8d234e660d5",
+      "files": [],
+      "description": "Critique a rendered screen against mood.md, voice.md, and tokens.md. Use when those brand files exist and you are checking compliance. For defining the visual language itself, use `illustration-style` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "critique-color",
+      "group": "visual-critique/skills",
+      "path": "visual-critique/skills/critique-color",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3222,
+      "descTokens": 65,
+      "skillTokens": 806,
+      "hash": "fa33f809369c",
+      "files": [],
+      "description": "Critique a rendered screen's colour — contrast ratios, palette coherence, and semantic meaning. Use when reviewing one screen. For a product-wide WCAG audit use `accessibility-audit` (design-systems); for building the palette use `color-system` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "critique-composition",
+      "group": "visual-critique/skills",
+      "path": "visual-critique/skills/critique-composition",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3153,
+      "descTokens": 55,
+      "skillTokens": 789,
+      "hash": "786a62d5145d",
+      "files": [],
+      "description": "Critique a rendered screen's composition — balance, whitespace, rhythm, and gestalt grouping. Use when a layout feels off but hierarchy is fine. For emphasis and eye flow specifically, use `critique-visual-hierarchy`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "critique-information-density",
+      "group": "visual-critique/skills",
+      "path": "visual-critique/skills/critique-information-density",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3457,
+      "descTokens": 62,
+      "skillTokens": 865,
+      "hash": "96851ac4ffa8",
+      "files": [],
+      "description": "Critique a rendered screen's density — cognitive load, content prioritisation, scanning patterns, and progressive disclosure. Use when a screen feels overwhelming. For the underlying choice-count principle, use `hicks-law` (interaction-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "critique-typography",
+      "group": "visual-critique/skills",
+      "path": "visual-critique/skills/critique-typography",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3380,
+      "descTokens": 52,
+      "skillTokens": 845,
+      "hash": "5084249a6723",
+      "files": [],
+      "description": "Critique a rendered screen's typography — scale usage, readability, consistency, and token compliance. Use when reviewing type on a screen. For defining the scale itself, use `typography-scale` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "critique-visual-hierarchy",
+      "group": "visual-critique/skills",
+      "path": "visual-critique/skills/critique-visual-hierarchy",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2493,
+      "descTokens": 56,
+      "skillTokens": 624,
+      "hash": "3f2f75b50d32",
+      "files": [],
+      "description": "Critique a rendered screen's hierarchy — entry point, eye flow, weight distribution, and emphasis. Use when attention lands in the wrong place. For establishing hierarchy in new work, use `visual-hierarchy` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "dark-mode-design",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/dark-mode-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1757,
+      "descTokens": 55,
+      "skillTokens": 440,
+      "hash": "f11dd894498d",
+      "files": [],
+      "description": "Adapt an existing palette to dark mode — surface elevation, contrast rebalancing, and desaturation rules. Use when you already have a light palette to translate. For building the base palette first, use `color-system`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "data-visualization",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/data-visualization",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2100,
+      "descTokens": 60,
+      "skillTokens": 525,
+      "hash": "249bc56ebff9",
+      "files": [],
+      "description": "Select chart types and design data encodings — marks, axes, labels, and accessible chart styling. Use when presenting data graphically. Owns chart selection and encoding only; the categorical colour ramp itself belongs to `color-system`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-brief",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/design-brief",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1255,
+      "descTokens": 58,
+      "skillTokens": 314,
+      "hash": "ab7d519f6d1b",
+      "files": [],
+      "description": "Write a project brief — problem space, constraints, audience, and success criteria. Use at kickoff for one specific project. For long-horizon aspiration use `north-star-vision`; for reusable decision rules use `design-principles`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-critique",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/design-critique",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2106,
+      "descTokens": 55,
+      "skillTokens": 527,
+      "hash": "23ed5d4d24c1",
+      "files": [],
+      "description": "Facilitate a structured team critique — framing, feedback rules, and actionable outcomes. Use when running a session with people in the room. For a solo expert review, use `heuristic-evaluation` (prototyping-testing)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-debt-audit",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/design-debt-audit",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4716,
+      "descTokens": 63,
+      "skillTokens": 1179,
+      "hash": "9b5f793a504a",
+      "files": [],
+      "description": "Inventory and prioritise accumulated design inconsistencies across a product. Use when drift has built up over time. For token coverage specifically use `design-token-audit` (designer-toolkit); for WCAG gaps use `accessibility-audit` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-impact-reporting",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/design-impact-reporting",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4889,
+      "descTokens": 52,
+      "skillTokens": 1223,
+      "hash": "be1f35f84041",
+      "files": [],
+      "description": "Communicate design's contribution to business and user outcomes in stakeholder language. Use when reporting results upward. For choosing the metrics in the first place, use `metrics-definition` (ux-strategy)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-negotiation",
+      "group": "designer-toolkit/skills",
+      "path": "designer-toolkit/skills/design-negotiation",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5664,
+      "descTokens": 55,
+      "skillTokens": 1416,
+      "hash": "d1c5b41d90a7",
+      "files": [],
+      "description": "Advocate for design quality, scope, and timeline with partners and leadership using evidence and shared goals. Use in the conversation itself. For the commercial vocabulary behind it, use `business-design` (ux-strategy)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-principles",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/design-principles",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1238,
+      "descTokens": 46,
+      "skillTokens": 310,
+      "hash": "5fb2b90d01f1",
+      "files": [],
+      "description": "Define actionable principles that resolve trade-offs when the team disagrees. Use when the same decisions keep getting relitigated. For a single project's framing, use `design-brief`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-qa-checklist",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/design-qa-checklist",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2192,
+      "descTokens": 38,
+      "skillTokens": 548,
+      "hash": "0f920dff6c25",
+      "files": [],
+      "description": "Build a QA checklist for verifying that a build matches the design. Use at implementation review. For the spec engineers build from, use `handoff-spec`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-rationale",
+      "group": "designer-toolkit/skills",
+      "path": "designer-toolkit/skills/design-rationale",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1899,
+      "descTokens": 46,
+      "skillTokens": 475,
+      "hash": "955224b4bb35",
+      "files": [],
+      "description": "Write rationale connecting decisions to user needs, business goals, and principles. Use when a decision needs defending in writing. For a live conversation, use `design-negotiation`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-review-process",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/design-review-process",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1873,
+      "descTokens": 44,
+      "skillTokens": 469,
+      "hash": "199b67fbe7ed",
+      "files": [],
+      "description": "Establish review gates — criteria, checkpoints, and approval flow. Use when work ships without consistent review. For running one individual session, use `design-critique`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-sprint-plan",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/design-sprint-plan",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1937,
+      "descTokens": 44,
+      "skillTokens": 485,
+      "hash": "ecee18fdcb4c",
+      "files": [],
+      "description": "Plan and facilitate a design sprint from challenge framing through prototype testing. Use when compressing discovery into days. For ongoing team cadence, use `team-workflow`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-system-adoption",
+      "group": "designer-toolkit/skills",
+      "path": "designer-toolkit/skills/design-system-adoption",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2239,
+      "descTokens": 54,
+      "skillTokens": 560,
+      "hash": "dd894f2516f6",
+      "files": [],
+      "description": "Create adoption strategy and enablement materials to drive design system usage. Use when the system exists but teams ignore it. For contribution and versioning rules, use `design-system-governance` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-system-governance",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/design-system-governance",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5151,
+      "descTokens": 69,
+      "skillTokens": 1288,
+      "hash": "b2b79a436e0c",
+      "files": [],
+      "description": "Define how the system evolves — contribution model, versioning, deprecation, and change management. Use when multiple teams contribute. For driving uptake use `design-system-adoption` (designer-toolkit); for design file history use `version-control-strategy` (design-ops)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-token",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/design-token",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1581,
+      "descTokens": 64,
+      "skillTokens": 396,
+      "hash": "02b6bb2da43d",
+      "files": [],
+      "description": "Define and organise tokens for colour, spacing, type, and elevation with naming and usage rules. Use when establishing the token layer. For auditing existing usage use `design-token-audit` (designer-toolkit); for multi-brand mapping use `theming-system`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "design-token-audit",
+      "group": "designer-toolkit/skills",
+      "path": "designer-toolkit/skills/design-token-audit",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1984,
+      "descTokens": 55,
+      "skillTokens": 496,
+      "hash": "9871ff456c39",
+      "files": [],
+      "description": "Audit token usage across a product for coverage, drift, and hard-coded values. Use when tokens exist and you suspect they are being bypassed. For defining tokens in the first place, use `design-token` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "diary-study-plan",
+      "group": "design-research/skills",
+      "path": "design-research/skills/diary-study-plan",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1281,
+      "descTokens": 49,
+      "skillTokens": 321,
+      "hash": "10d07f1e0fec",
+      "files": [],
+      "description": "Design a diary study — prompts, cadence, duration, participant criteria, and analysis frame. Use when behaviour unfolds over days or weeks. For a single-session study, use `usability-test-plan`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "documentation-template",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/documentation-template",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1195,
+      "descTokens": 50,
+      "skillTokens": 299,
+      "hash": "2b5d8eb2d14d",
+      "files": [],
+      "description": "Generate a reusable documentation scaffold for components, patterns, or guidelines. Use when standardising how the system is documented. For the content of one component's spec, use `component-spec`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "doherty-threshold",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/doherty-threshold",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3835,
+      "descTokens": 56,
+      "skillTokens": 959,
+      "hash": "2cb6f5576fe5",
+      "files": [],
+      "description": "Apply the Doherty Threshold — keep system response under 400ms to preserve user flow. Use when diagnosing perceived slowness or setting a performance budget. For what to show during unavoidable waits, use `loading-states`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "empathy-map",
+      "group": "design-research/skills",
+      "path": "design-research/skills/empathy-map",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1995,
+      "descTokens": 57,
+      "skillTokens": 499,
+      "hash": "0f3e2120d524",
+      "files": [],
+      "description": "Build a Says, Thinks, Does, Feels map for one user or segment. Use when sharing user understanding quickly. For a composite archetype with goals and behaviours use `user-persona`; for cross-session themes use `affinity-diagram`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "error-handling-ux",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/error-handling-ux",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1999,
+      "descTokens": 53,
+      "skillTokens": 500,
+      "hash": "3ef3ecf08bca",
+      "files": [],
+      "description": "Design error prevention, detection, and recovery across a product — message content, placement, and escape routes. Use when errors span multiple flows. For validation inside a single form, use `form-design`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "experience-map",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/experience-map",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1442,
+      "descTokens": 65,
+      "skillTokens": 361,
+      "hash": "dcb9b6a7feea",
+      "files": [],
+      "description": "Map the full ecosystem of touchpoints, channels, and relationships across a service. Use when the experience spans more than one product. For one persona's linear journey use `journey-map` (design-research); for backstage operations use `service-blueprint`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "feedback-patterns",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/feedback-patterns",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2169,
+      "descTokens": 57,
+      "skillTokens": 543,
+      "hash": "ff002cd2c8f5",
+      "files": [],
+      "description": "Design confirmations, status updates, and notifications that tell users an action registered. Use when the system must acknowledge success or change. For waiting states use `loading-states`; for failures use `error-handling-ux`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "fitts-law",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/fitts-law",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3579,
+      "descTokens": 49,
+      "skillTokens": 895,
+      "hash": "5d1cd237ab3a",
+      "files": [],
+      "description": "Apply Fitts's Law — target acquisition time depends on size and distance. Use when sizing and positioning controls, especially for touch. For how many controls to show at once, use `hicks-law`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "form-design",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/form-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4047,
+      "descTokens": 54,
+      "skillTokens": 1012,
+      "hash": "386ed81d8526",
+      "files": [],
+      "description": "Design a form end to end — field order, grouping, validation, and completion. Use when the artifact is a form. For product-wide error strategy use `error-handling-ux`; for first-run signup use `onboarding-design`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "gesture-patterns",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/gesture-patterns",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2051,
+      "descTokens": 55,
+      "skillTokens": 513,
+      "hash": "2e008a5d8ac6",
+      "files": [],
+      "description": "Design gesture interactions for touch and pointer — swipe, drag, long-press, and their discoverability. Use when input is gestural. For OS-standard gestures on iOS and Android, use `platform-conventions` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "handoff-spec",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/handoff-spec",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2033,
+      "descTokens": 67,
+      "skillTokens": 509,
+      "hash": "ae2c8a46c0d1",
+      "files": [],
+      "description": "Write the implementation handoff — measurements, behaviours, assets, states, and edge cases. Use when engineering picks up the work. For verifying the result afterwards use `design-qa-checklist`; for reusable library components use `component-spec` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "heuristic-evaluation",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/heuristic-evaluation",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2024,
+      "descTokens": 58,
+      "skillTokens": 506,
+      "hash": "2b4922652266",
+      "files": [],
+      "description": "Run an expert review against Nielsen's heuristics and domain criteria, with severity ratings. Use when you need findings without recruiting participants. For a facilitated team feedback session, use `design-critique` (design-ops)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "hicks-law",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/hicks-law",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2703,
+      "descTokens": 50,
+      "skillTokens": 676,
+      "hash": "55b8f16ed1a9",
+      "files": [],
+      "description": "Apply Hick's Law — decision time grows with the number of simultaneous choices. Use when a screen offers too many options at once. For how many items survive in memory afterwards, use `millers-law`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "icon-system",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/icon-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1157,
+      "descTokens": 49,
+      "skillTokens": 290,
+      "hash": "7ff391949094",
+      "files": [],
+      "description": "Specify an icon system — grid, sizing, stroke weight, naming, categories, and implementation. Use when standardising iconography. For broader illustration, use `illustration-style` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "illustration-style",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/illustration-style",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1915,
+      "descTokens": 49,
+      "skillTokens": 479,
+      "hash": "2b086904051c",
+      "files": [],
+      "description": "Define an illustration style guide — visual language, colour usage, and application rules. Use when commissioning or standardising illustration. For icons, use `icon-system` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "information-architecture",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/information-architecture",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3422,
+      "descTokens": 66,
+      "skillTokens": 856,
+      "hash": "aa2591fd0733",
+      "files": [],
+      "description": "Design content structure, hierarchy, labelling, and the navigation model. Use when organising what exists. For the UI that exposes it use `navigation-patterns` (interaction-design); for user-generated grouping evidence use `card-sort-analysis` (design-research)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "interfaces-that-feel",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/interfaces-that-feel",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4016,
+      "descTokens": 66,
+      "skillTokens": 1004,
+      "hash": "b556c07daafc",
+      "files": [],
+      "description": "Apply an emotional resonance lens to a UI that is technically correct but flat, prescribing changes at the copy, motion, and interaction layer. Use when a design tests fine but lands cold. For the polish-perception argument, use `aesthetic-usability` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "interview-script",
+      "group": "design-research/skills",
+      "path": "design-research/skills/interview-script",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2694,
+      "descTokens": 42,
+      "skillTokens": 674,
+      "hash": "f8b32b37dd61",
+      "files": [],
+      "description": "Write a structured interview guide — warm-up, core exploration, and wrap-up. Use before running interviews. For analysing what comes back, use `summarize-interview`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "jakobs-law",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/jakobs-law",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4083,
+      "descTokens": 58,
+      "skillTokens": 1021,
+      "hash": "a90b75f4b5a6",
+      "files": [],
+      "description": "Apply Jakob's Law — users expect your product to work like the others they already use. Use when deciding whether to innovate on a familiar pattern. For OS-mandated conventions specifically, use `platform-conventions` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "jobs-to-be-done",
+      "group": "design-research/skills",
+      "path": "design-research/skills/jobs-to-be-done",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1636,
+      "descTokens": 45,
+      "skillTokens": 409,
+      "hash": "39ffd806108f",
+      "files": [],
+      "description": "Map functional, emotional, and social jobs with outcome expectations. Use when reframing decisions around motivation rather than features. For who the user is, use `user-persona`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "journey-map",
+      "group": "design-research/skills",
+      "path": "design-research/skills/journey-map",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2117,
+      "descTokens": 69,
+      "skillTokens": 530,
+      "hash": "d1989df6921f",
+      "files": [],
+      "description": "Map one persona's end-to-end experience with stages, touchpoints, emotions, and pain points. Use when improving an existing experience. For the multi-channel ecosystem use `experience-map` (ux-strategy); for screen-level paths use `user-flow-diagram` (prototyping-testing)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "law-of-closure",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/law-of-closure",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4711,
+      "descTokens": 58,
+      "skillTokens": 1178,
+      "hash": "80371e1e8486",
+      "files": [],
+      "description": "Apply the Law of Closure — the eye completes implied shapes from partial forms. Use when reducing visual weight by dropping borders or letting negative space suggest structure. For explicit containers, use `law-of-common-region`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "law-of-common-region",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/law-of-common-region",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3028,
+      "descTokens": 55,
+      "skillTokens": 757,
+      "hash": "6df14fc5b348",
+      "files": [],
+      "description": "Apply the Law of Common Region — a shared container, background, or border groups elements regardless of spacing. Use when grouping must survive a tight layout. For grouping by spacing alone, use `law-of-proximity`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "law-of-continuity",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/law-of-continuity",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4468,
+      "descTokens": 56,
+      "skillTokens": 1117,
+      "hash": "191ac86b5c77",
+      "files": [],
+      "description": "Apply the Law of Continuity — the eye follows alignment and unbroken paths. Use when sequencing steps, aligning content, or designing carousels and timelines. For grouping rather than sequencing, use `law-of-proximity`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "law-of-figure-ground",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/law-of-figure-ground",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5048,
+      "descTokens": 55,
+      "skillTokens": 1262,
+      "hash": "cba1314c5208",
+      "files": [],
+      "description": "Apply the Law of Figure-Ground — establish which layer is foreground and actionable versus background. Use when designing modals, overlays, and depth. For emphasising one element among peers, use `von-restorff-effect`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "law-of-proximity",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/law-of-proximity",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2709,
+      "descTokens": 62,
+      "skillTokens": 678,
+      "hash": "4355066e86c6",
+      "files": [],
+      "description": "Apply the Law of Proximity — spatial closeness groups elements more strongly than any other cue. Use when spacing alone must carry grouping. For grouping via containers use `law-of-common-region`; via shared appearance use `law-of-similarity`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "law-of-similarity",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/law-of-similarity",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4744,
+      "descTokens": 52,
+      "skillTokens": 1186,
+      "hash": "aeb17f395e92",
+      "files": [],
+      "description": "Apply the Law of Similarity — shared colour, shape, or size signals that elements belong to one category. Use when signalling relationships across distance. For grouping by position, use `law-of-proximity`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "layout-grid",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/layout-grid",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1650,
+      "descTokens": 59,
+      "skillTokens": 413,
+      "hash": "0e018b5f0544",
+      "files": [],
+      "description": "Define a responsive grid — columns, gutters, margins, and breakpoint behaviour. Use when establishing page structure. For the spacing scale inside components use `spacing-system`; for cross-device behaviour use `responsive-design`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "loading-states",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/loading-states",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1954,
+      "descTokens": 60,
+      "skillTokens": 489,
+      "hash": "b302a7953ba8",
+      "files": [],
+      "description": "Design waiting experiences — spinners, skeletons, optimistic updates, and progressive reveal. Use when content takes time to arrive. For the latency budget itself use `doherty-threshold`; for success confirmation use `feedback-patterns`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "localization-design",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/localization-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5381,
+      "descTokens": 57,
+      "skillTokens": 1346,
+      "hash": "ab91e2bdb0e2",
+      "files": [],
+      "description": "Design for multiple languages, writing directions, and cultural contexts — text expansion, RTL mirroring, and locale formats. Use when shipping beyond one locale. For the words themselves, use `ux-writing` (designer-toolkit)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "metrics-definition",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/metrics-definition",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1269,
+      "descTokens": 50,
+      "skillTokens": 318,
+      "hash": "cf7cfbac1527",
+      "files": [],
+      "description": "Define UX metrics and KPIs that connect design decisions to measurable outcomes. Use when choosing what to measure. For presenting the results afterwards, use `design-impact-reporting` (design-ops)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "micro-interaction-spec",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/micro-interaction-spec",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1900,
+      "descTokens": 61,
+      "skillTokens": 475,
+      "hash": "724319d795cd",
+      "files": [],
+      "description": "Specify one micro-interaction completely — trigger, rules, feedback, loops, and modes. Use when handing a single interaction to engineering. For motion craft alone use `animation-principles`; for multi-state components use `state-machine`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "millers-law",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/millers-law",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2752,
+      "descTokens": 50,
+      "skillTokens": 688,
+      "hash": "41873f9d3f26",
+      "files": [],
+      "description": "Apply Miller's Law — chunk information into groups of about four to fit working memory. Use when grouping fields, menu items, or steps. For reducing the number of choices offered, use `hicks-law`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "motion-system",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/motion-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4573,
+      "descTokens": 63,
+      "skillTokens": 1144,
+      "hash": "035864751189",
+      "files": [],
+      "description": "Define motion tokens — durations, easing vocabulary, and reduced-motion handling — for consistency product-wide. Use when standardising motion across a system. For crafting one specific animation, use `animation-principles` (interaction-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "naming-convention",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/naming-convention",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1259,
+      "descTokens": 49,
+      "skillTokens": 315,
+      "hash": "9345c39d0787",
+      "files": [],
+      "description": "Establish naming rules for components, tokens, and layers with patterns and worked examples. Use when names are inconsistent or being set. For what the tokens actually contain, use `design-token`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "navigation-patterns",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/navigation-patterns",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4229,
+      "descTokens": 65,
+      "skillTokens": 1058,
+      "hash": "e36f9f79b400",
+      "files": [],
+      "description": "Select and design a navigation pattern — tabs, drawer, hierarchy, or hub — matched to product structure and user tasks. Use when choosing how users move between sections. For the underlying content structure, use `information-architecture` (ux-strategy)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "north-star-vision",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/north-star-vision",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1245,
+      "descTokens": 43,
+      "skillTokens": 312,
+      "hash": "d663d1ffae50",
+      "files": [],
+      "description": "Articulate a long-horizon product vision that aligns teams and anchors strategy. Use when direction is contested or absent. For near-term project scope, use `design-brief`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "onboarding-design",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/onboarding-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4544,
+      "descTokens": 51,
+      "skillTokens": 1136,
+      "hash": "819df3d76234",
+      "files": [],
+      "description": "Design the first-run experience — activation path, progressive disclosure, and time to first value. Use for a user's very first session. For the mechanics of the signup form itself, use `form-design`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "opportunity-framework",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/opportunity-framework",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1151,
+      "descTokens": 44,
+      "skillTokens": 288,
+      "hash": "a1f7966c7eb9",
+      "files": [],
+      "description": "Identify, score, and prioritise design opportunities against impact and effort. Use when there are more ideas than capacity. For framing the one you choose, use `design-brief`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "parallel-concepts",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/parallel-concepts",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3747,
+      "descTokens": 72,
+      "skillTokens": 937,
+      "hash": "17f4cf26b2c3",
+      "files": [],
+      "description": "Build several genuinely different solutions to the same problem at once, spread across what the user does rather than how it looks. Use when one direction is on the table and the team is about to refine it by default. For choosing between the concepts afterwards, use `concept-selection`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "pattern-library",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/pattern-library",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1353,
+      "descTokens": 54,
+      "skillTokens": 339,
+      "hash": "0c4748982f3f",
+      "files": [],
+      "description": "Structure a pattern entry — problem context, solution, usage examples, and related patterns. Use when documenting a recurring solution rather than a component. For a single component's API, use `component-spec`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "peak-end-rule",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/peak-end-rule",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4081,
+      "descTokens": 55,
+      "skillTokens": 1021,
+      "hash": "a0a22c1cecc5",
+      "files": [],
+      "description": "Apply the Peak-End Rule — a flow is remembered by its most intense moment and its last. Use when designing completion, celebration, or cancellation moments. For sustaining engagement mid-flow, use `zeigarnik-effect`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "platform-conventions",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/platform-conventions",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 6731,
+      "descTokens": 65,
+      "skillTokens": 1683,
+      "hash": "e5e546f89d46",
+      "files": [],
+      "description": "Design to iOS and Android conventions — what each OS mandates, where they diverge, and when to unify. Use when shipping native apps. For breakpoint adaptation use `responsive-design`; for matching competitor patterns use `jakobs-law` (interaction-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "presentation-deck",
+      "group": "designer-toolkit/skills",
+      "path": "designer-toolkit/skills/presentation-deck",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2237,
+      "descTokens": 49,
+      "skillTokens": 560,
+      "hash": "f7e009395cd8",
+      "files": [],
+      "description": "Structure a design presentation for a specific audience and decision. Use when presenting internally. For a portfolio narrative use `case-study`; for the written argument use `design-rationale`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "prototype-strategy",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/prototype-strategy",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1896,
+      "descTokens": 45,
+      "skillTokens": 474,
+      "hash": "8404aa5c1746",
+      "files": [],
+      "description": "Choose prototype fidelity and method to match the design question and the decision at stake. Use before building a prototype. For what to test once it exists, use `test-scenario`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "qual-quant-triangulation",
+      "group": "design-research/skills",
+      "path": "design-research/skills/qual-quant-triangulation",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 7444,
+      "descTokens": 78,
+      "skillTokens": 923,
+      "hash": "91db5eb4fc8e",
+      "files": [
+        "EVALS.md"
+      ],
+      "description": "Reconcile what the numbers say with what users say, and design the study that settles it rather than restates it. Use when behavioural data and research findings point different ways. For reading the data on its own, use `behavioural-analytics`; for synthesising interviews on their own, use `affinity-diagram`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "readable-measure",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/readable-measure",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2280,
+      "descTokens": 50,
+      "skillTokens": 570,
+      "hash": "66a0f33bcb6c",
+      "files": [],
+      "description": "Set line length and measure for comfortable reading across type sizes and breakpoints. Use when tuning body text. Covers measure only — for the full size and weight scale, use `typography-scale`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "research-repository",
+      "group": "design-research/skills",
+      "path": "design-research/skills/research-repository",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5626,
+      "descTokens": 47,
+      "skillTokens": 1407,
+      "hash": "8016eec615c3",
+      "files": [],
+      "description": "Build a repository that makes findings findable, reusable, and cumulative across teams. Use when the same research keeps getting redone. For synthesising one study, use `affinity-diagram`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "responsive-design",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/responsive-design",
+      "status": "clash",
+      "trigger": "auto",
+      "bytes": 1770,
+      "descTokens": 58,
+      "skillTokens": 443,
+      "hash": "a90d9724cb63",
+      "files": [],
+      "description": "Design layouts and interactions that adapt across screen sizes and input methods. Use when one design must serve many viewports. For the underlying column grid use `layout-grid`; for OS-specific patterns use `platform-conventions`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "search-ux",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/search-ux",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4409,
+      "descTokens": 44,
+      "skillTokens": 1103,
+      "hash": "dc79622b343f",
+      "files": [],
+      "description": "Design search — query input, zero results, refinement, and result presentation. Use when users retrieve rather than browse. For browse structure, use `navigation-patterns`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "serial-position-effect",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/serial-position-effect",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4034,
+      "descTokens": 57,
+      "skillTokens": 1009,
+      "hash": "dacd8c40a7e9",
+      "files": [],
+      "description": "Apply the Serial Position Effect — first and last items in a sequence are recalled best. Use when ordering menus, lists, and steps. For emphasising one item regardless of its position, use `von-restorff-effect` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "service-blueprint",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/service-blueprint",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4146,
+      "descTokens": 53,
+      "skillTokens": 1037,
+      "hash": "1b44c761574d",
+      "files": [],
+      "description": "Map service delivery across frontstage actions, backstage processes, and supporting systems. Use when staff and operations are part of the experience. For the customer-visible layer only, use `experience-map`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "spacing-system",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/spacing-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1454,
+      "descTokens": 45,
+      "skillTokens": 364,
+      "hash": "9c788aed614c",
+      "files": [],
+      "description": "Create a spacing scale from a base unit with rules for when each step applies. Use when standardising padding and margins. For page-level columns and gutters, use `layout-grid`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "stakeholder-alignment",
+      "group": "ux-strategy/skills",
+      "path": "ux-strategy/skills/stakeholder-alignment",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1298,
+      "descTokens": 54,
+      "skillTokens": 325,
+      "hash": "e40e22d8d288",
+      "files": [],
+      "description": "Build alignment artifacts — responsibility matrices, decision rights, and communication plans. Use when unclear ownership stalls decisions. For persuading in the moment, use `design-negotiation` (designer-toolkit)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "state-machine",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/state-machine",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1993,
+      "descTokens": 57,
+      "skillTokens": 499,
+      "hash": "5973edec0e32",
+      "files": [],
+      "description": "Model component behaviour as explicit states, events, and transitions. Use when a component has many interacting states that must be exhaustive. For the feel and feedback of a single interaction, use `micro-interaction-spec`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "summarize-interview",
+      "group": "design-research/skills",
+      "path": "design-research/skills/summarize-interview",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1436,
+      "descTokens": 44,
+      "skillTokens": 359,
+      "hash": "e3e90939b6fd",
+      "files": [],
+      "description": "Turn one interview transcript into themes, supporting quotes, and action items. Use immediately after a session. For synthesising many sessions at once, use `affinity-diagram`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "survey-design",
+      "group": "design-research/skills",
+      "path": "design-research/skills/survey-design",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 5650,
+      "descTokens": 57,
+      "skillTokens": 1413,
+      "hash": "539621294e32",
+      "files": [],
+      "description": "Design unbiased survey instruments — question wording, scales, and sampling — to measure attitudes at scale. Use when you need quantitative breadth. For behavioural experiments, use `a-b-test-design` (prototyping-testing)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "team-workflow",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/team-workflow",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2265,
+      "descTokens": 48,
+      "skillTokens": 567,
+      "hash": "f2857d44e2c0",
+      "files": [],
+      "description": "Design the team's operating rhythm — task management, collaboration rituals, and tooling. Use when the day-to-day cadence needs structure. For a time-boxed sprint, use `design-sprint-plan`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "teslers-law",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/teslers-law",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 4025,
+      "descTokens": 50,
+      "skillTokens": 1007,
+      "hash": "3dc2960e01c5",
+      "files": [],
+      "description": "Apply Tesler's Law — every process has irreducible complexity that someone must absorb. Use when deciding whether the product or the user carries it. For reducing apparent choice, use `hicks-law`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "test-scenario",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/test-scenario",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1773,
+      "descTokens": 53,
+      "skillTokens": 444,
+      "hash": "3809186419b9",
+      "files": [],
+      "description": "Write realistic usability task scenarios with success criteria and facilitation notes. Use when you have a study and need the tasks. For the surrounding study design, use `usability-test-plan` (design-research)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "theming-system",
+      "group": "design-systems/skills",
+      "path": "design-systems/skills/theming-system",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1448,
+      "descTokens": 67,
+      "skillTokens": 362,
+      "hash": "a7607c0c5dcd",
+      "files": [],
+      "description": "Design theming architecture — brand variants, dark mode, and high-contrast — mapped through token layers. Use when one system must serve multiple themes. For a single palette use `color-system` (ui-design); for dark mode craft use `dark-mode-design` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "typography-scale",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/typography-scale",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1585,
+      "descTokens": 63,
+      "skillTokens": 397,
+      "hash": "372d1ea8d6e7",
+      "files": [],
+      "description": "Create a modular type scale with size, weight, and line-height relationships. Use when establishing typographic structure. For line length only use `readable-measure`; for judging type on an existing screen use `critique-typography` (visual-critique)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "usability-test-plan",
+      "group": "design-research/skills",
+      "path": "design-research/skills/usability-test-plan",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1677,
+      "descTokens": 61,
+      "skillTokens": 420,
+      "hash": "bf8d74134bc3",
+      "files": [],
+      "description": "Design a usability study — research questions, methodology, participant criteria, metrics, and facilitation guide. Use when planning the study as a whole. For writing the task scenarios inside it, use `test-scenario` (prototyping-testing)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "user-flow-diagram",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/user-flow-diagram",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1833,
+      "descTokens": 46,
+      "skillTokens": 459,
+      "hash": "b54a393fc11c",
+      "files": [],
+      "description": "Diagram screen-level paths, decision points, and branch logic. Use when specifying how a feature is traversed. For the emotional end-to-end arc, use `journey-map` (design-research)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "user-persona",
+      "group": "design-research/skills",
+      "path": "design-research/skills/user-persona",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2452,
+      "descTokens": 60,
+      "skillTokens": 613,
+      "hash": "7d0c7b7e8694",
+      "files": [],
+      "description": "Build research-grounded personas with goals, frustrations, and behavioural patterns. Use when decisions need a consistent user reference. For one session's emotional snapshot use `empathy-map`; for motivation framing use `jobs-to-be-done`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "ux-writing",
+      "group": "designer-toolkit/skills",
+      "path": "designer-toolkit/skills/ux-writing",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2093,
+      "descTokens": 48,
+      "skillTokens": 524,
+      "hash": "7d08fe448fac",
+      "files": [],
+      "description": "Write interface copy — microcopy, error messages, empty states, and CTAs. Use when the words are the deliverable. For content structure and ownership, use `content-strategy` (ux-strategy)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "version-control-strategy",
+      "group": "design-ops/skills",
+      "path": "design-ops/skills/version-control-strategy",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1912,
+      "descTokens": 56,
+      "skillTokens": 478,
+      "hash": "3ecf33f2eda2",
+      "files": [],
+      "description": "Define version control for design files, components, and libraries — branching, naming, and release. Use when file history is chaotic. For design system contribution rules, use `design-system-governance` (design-systems)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "visual-hierarchy",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/visual-hierarchy",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1913,
+      "descTokens": 56,
+      "skillTokens": 479,
+      "hash": "d942d7fcadd5",
+      "files": [],
+      "description": "Establish hierarchy through size, weight, colour, spacing, and position so the eye lands in the intended order. Use when composing new work. For judging an existing screen, use `critique-visual-hierarchy` (visual-critique)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "von-restorff-effect",
+      "group": "ui-design/skills",
+      "path": "ui-design/skills/von-restorff-effect",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 2427,
+      "descTokens": 56,
+      "skillTokens": 607,
+      "hash": "27f10451e329",
+      "files": [],
+      "description": "Apply the Von Restorff Effect — the element that differs from its neighbours is the one remembered. Use when a single action must dominate. For overall ordering rather than single-element emphasis, use `visual-hierarchy`."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "wireframe-spec",
+      "group": "prototyping-testing/skills",
+      "path": "prototyping-testing/skills/wireframe-spec",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 1771,
+      "descTokens": 46,
+      "skillTokens": 443,
+      "hash": "93130bc42ff9",
+      "files": [],
+      "description": "Specify wireframe layout — content priority, component placement, and annotation. Use when defining structure before visual design. For grid mechanics, use `layout-grid` (ui-design)."
+    },
+    {
+      "repo": "Owl-Listener/designer-skills",
+      "name": "zeigarnik-effect",
+      "group": "interaction-design/skills",
+      "path": "interaction-design/skills/zeigarnik-effect",
+      "status": "absent",
+      "trigger": "auto",
+      "bytes": 3659,
+      "descTokens": 51,
+      "skillTokens": 915,
+      "hash": "412acc135dbf",
+      "files": [],
+      "description": "Apply the Zeigarnik Effect — incomplete tasks stay mentally active. Use when designing progress indicators, saved drafts, and return hooks. For the emotional shape of the ending, use `peak-end-rule`."
+    }
+  ]
+}

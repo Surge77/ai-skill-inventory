@@ -1,6 +1,6 @@
 # AI & Agents
 
-210 skills — 78 installed, 132 available in a marketplace but not installed.
+208 skills — 76 installed, 132 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -96,7 +96,7 @@
 | `ai-sdk` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, rer… | vercel | claude-code | 11 files, 80 KB |
 | `ai-sdk` | Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2)… | vercel | claude-code | 5 files, 25 KB |
 | `ai-sdk` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, rer… | vercel | claude-code | 11 files, 80 KB |
-| `ai-sdk` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, rer… | vercel | codex | 3 files, 36 KB |
+| `ai-sdk` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, rer… | vercel | codex | 7 files, 26 KB |
 | `autonomous-loops` | Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems. | ecc | claude-code | 1 files, 25 KB |
 | `benchmark-agents` | Advanced AI agent benchmark scenarios that push Vercel's cutting-edge platform features — Workflow DevKit, AI Gateway, MCP, Chat SDK, Queues, Flags, Sandbox, and multi-agent orchestration.… | vercel | claude-code | 2 files, 26 KB |
 | `benchmark-agents` | Advanced AI agent benchmark scenarios that push Vercel's cutting-edge platform features — Workflow SDK, AI Gateway, MCP, Chat SDK, Queues, Flags, Sandbox, and multi-agent orchestration. Des… | vercel | claude-code | 2 files, 26 KB |
@@ -135,6 +135,7 @@
 | `eve` | Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agen… | vercel | claude-code | 3 files, 13 KB |
 | `eve` | Build durable backend AI agents with the eve framework. Use when creating, editing, or debugging an eve project — agent instructions, skills, tools, connections, channels, sandboxes, subage… | vercel | claude-code | 1 files, 2 KB |
 | `eve` | eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging an eve project, when the user explicitly asks for eve, or when the buil… | vercel | claude-code | 3 files, 12 KB |
+| `eve` | Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agen… | vercel | codex | 2 files, 5 KB |
 | `everything-claude-code` | Development conventions and patterns for everything-claude-code. JavaScript project with conventional commits. | agents-std-store | agents-std | 2 files, 12 KB |
 | `exa-search` | Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural… | ecc | claude-code | 1 files, 4 KB |
 | `exa-search` | Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural… | agents-std-store | agents-std | 2 files, 5 KB |
@@ -155,8 +156,6 @@
 | `Hooks Automation` | Automated coordination, formatting, and learning from Claude Code operations using intelligent hooks with MCP integration. Includes pre$post task hooks, session management, Git integration,… *(marketplace only)* | .agents | claude-code | 1 files, 32 KB |
 | `Hooks Automation` | Automated coordination, formatting, and learning from Claude Code operations using intelligent hooks with MCP integration. Includes pre/post task hooks, session management, Git integration,… *(marketplace only)* | .claude | claude-code | 1 files, 32 KB |
 | `hosted-agents` | This skill should be used when the user asks to "build background agent", "create hosted coding agent", "set up sandboxed execution", "implement multiplayer agent", or mentions background a… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 48 KB |
-| `huggingface-community-evals` | Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelera… | hugging-face | codex | 7 files, 30 KB |
-| `huggingface-vision-trainer` | Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transfo… | hugging-face | codex | 13 files, 202 KB |
 | `init-project` | Initialize a new Ruflo project with MCP tools, hooks, and agent configuration *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `investigation-mode` | Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung, broken, waiting) and systematically triages: runtime logs → workflow status → browser verify → deploy/env.… | vercel | codex | 2 files, 9 KB |
 | `knowledge-agent` | Build and query AI-powered knowledge bases from claude-mem observations. Use when users want to create focused "brains" from their observation history, ask questions about past work pattern… | claude-mem | claude-code | 1 files, 2 KB |
@@ -170,7 +169,6 @@
 | `memory-management` | AgentDB memory system with HNSW vector search. Use when: need to store patterns, search for solutions, semantic lookup. Skip when: no learning needed, ephemeral tasks. *(marketplace only)* | v3 | claude-code | 1 files, 1 KB |
 | `memory-systems` | This skill should be used when the user asks to "implement agent memory", "persist state across sessions", "build knowledge graph", "track entities", or mentions memory architecture, tempor… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 42 KB |
 | `multi-agent-patterns` | This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-age… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 42 KB |
-| `netlify-ai-gateway` | Guide for using Netlify AI Gateway to access AI models. Use when adding AI capabilities or selecting/changing AI models. Must be read before choosing a model. Covers supported providers (Op… | netlify | codex | 5 files, 18 KB |
 | `neural-train` | Train SONA + MicroLoRA neural patterns from successful task completions; runs the DISTILL + CONSOLIDATE phases of the 4-step pipeline *(marketplace only)* | plugins | claude-code | 1 files, 4 KB |
 | `neural-training` | Neural pattern training with SONA (Self-Optimizing Neural Architecture), MoE (Mixture of Experts), and EWC++ for knowledge consolidation. Use when: pattern learning, model optimization, kno… *(marketplace only)* | .agents | claude-code | 1 files, 2 KB |
 | `openai-docs` | Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding… | standalone | codex | 17 files, 101 KB |
@@ -214,7 +212,7 @@
 | `wasm-agent` | Create and manage sandboxed WASM agents for isolated code execution *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `workflow` | Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-s… | vercel | claude-code | 5 files, 70 KB |
 | `workflow` | Vercel Workflow SDK expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orche… | vercel | claude-code | 3 files, 89 KB |
-| `workflow` | Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-s… | vercel | codex | 3 files, 33 KB |
+| `workflow` | Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-s… | vercel | codex | 3 files, 30 KB |
 | `workflow-automation` | Workflow creation, execution, and template management. Automates complex multi-step processes with agent coordination. Use when: automating processes, creating reusable workflows, orchestra… *(marketplace only)* | .agents | claude-code | 1 files, 2 KB |
 
 ## Detail
@@ -910,7 +908,7 @@ This skill should be used when the user asks to "create an agent", "add an agent
 | Description cost | ~90 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `e8998e53c678` |
 | Bundled | `examples`, `references`, `scripts` |
@@ -2126,15 +2124,15 @@ Vercel AI SDK expert guidance. Use when building AI-powered features — chat in
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ai-sdk` |
-| Size | 3 files, 36 KB |
-| SKILL.md | 799 lines, ~8,483 tokens |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-sdk` |
+| Size | 7 files, 26 KB |
+| SKILL.md | 150 lines, ~1,629 tokens |
 | Description cost | ~63 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
-| Content hash | `c324a28d58b1` |
+| Content hash | `4a2e70a6fbfc` |
 | Bundled | `agents`, `references` |
 
 ### `autonomous-loops`
@@ -2281,7 +2279,7 @@ This skill should be used when the user wants to build an "MCP app", add "intera
 | Description cost | ~114 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `d66f9b04a223` |
 | Bundled | `references` |
@@ -2388,7 +2386,7 @@ Analyze a codebase and recommend Claude Code automations (hooks, subagents, skil
 | Description cost | ~89 tokens always in context |
 | Allowed tools | Read, Glob, Grep, Bash |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `7e64b26465b5` |
 | Bundled | `references` |
@@ -2431,7 +2429,7 @@ Audit and improve CLAUDE.md files in repositories. Use when user asks to check, 
 | Description cost | ~85 tokens always in context |
 | Allowed tools | Read, Glob, Grep, Bash, Edit |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `159624e19a03` |
 | Bundled | `references` |
@@ -2475,7 +2473,7 @@ The Claude Security menu — pick a job: scan the codebase (the whole repository
 | Description cost | ~77 tokens always in context |
 | Allowed tools | - Read - Write - Glob - Grep - AskUserQuestion - Workflow - Workflow(claude-security:scan) - Agent(claude-security:scan-inventory, claude-security:scan-researcher, claude-security:scan-verifier, claude-security:scan-loader, claude-security:patch-generator, claude-security:patch-verifier, claude-security:explore) - Bash(date *) - Bash(ls *) - Bash(wc *) - Bash(mkdir -p *) - Bash(git *) - Bash(GIT_CONFIG_GLOBAL=/dev/null GIT_TERMINAL_PROMPT=0 git *) - Bash(find . -maxdepth 1 -type d -name "CLAUDE-SECURITY-2*") - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/render_report.py" *) - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/save_result.py" *) - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/write_scan_meta.py" *) - Bash(bash "${CLAUDE_PLUGIN_ROOT}/scripts/keep-waiting.sh" *) - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/patch_artifacts.py" *) - Bash(sleep *) - Bash(GIT_TERMINAL_PROMPT=0 git *) |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `c466f4b51a75` |
 | Bundled | `jobs`, `specs` |
@@ -2950,6 +2948,28 @@ eve framework guidance for durable AI agents and agent-powered applications. Use
 | Content hash | `a0212dfcbc40` |
 | Bundled | `upstream` |
 
+### `eve`
+
+Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agent experience that could benefit from eve's filesystem-first runtime, durable sessions, tools, skills, connections, channels, sandboxes, subagents, schedules, evals, or frontend clients. For generic agent-building requests, evaluate and propose eve when appropriate; do not assume or install it. Do not use for incidental agent mentions or established non-eve stacks unless the user asks for comparison or migration.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `openai-curated` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/eve` |
+| Size | 2 files, 5 KB |
+| SKILL.md | 139 lines, ~1,198 tokens |
+| Description cost | ~151 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-05 |
+| Category source | keywords |
+| Content hash | `04fcc05f1b8c` |
+| Bundled | `agents` |
+
 ### `everything-claude-code`
 
 Development conventions and patterns for everything-claude-code. JavaScript project with conventional commits.
@@ -3375,50 +3395,6 @@ This skill should be used when the user asks to "build background agent", "creat
 | Content hash | `a789420c5431` |
 | Bundled | `references`, `scripts` |
 
-### `huggingface-community-evals`
-
-Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/community-evals` |
-| Size | 7 files, 30 KB |
-| SKILL.md | 208 lines, ~1,690 tokens |
-| Description cost | ~75 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `d7049951e4d8` |
-| Bundled | `agents`, `examples`, `scripts` |
-
-### `huggingface-vision-trainer`
-
-Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/vision-trainer` |
-| Size | 13 files, 202 KB |
-| SKILL.md | 594 lines, ~7,697 tokens |
-| Description cost | ~195 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `d921071a5d9a` |
-| Bundled | `agents`, `references`, `scripts` |
-
 ### `init-project`
 
 Initialize a new Ruflo project with MCP tools, hooks, and agent configuration
@@ -3451,13 +3427,13 @@ Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/investigation-mode` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/investigation-mode` |
 | Size | 2 files, 9 KB |
 | SKILL.md | 277 lines, ~2,396 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `c6b121b0fe10` |
 | Bundled | `agents` |
@@ -3585,7 +3561,7 @@ This skill should be used when the user asks to "add MCP server", "integrate MCP
 | Description cost | ~110 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `3a8c73fc7cad` |
 | Bundled | `examples`, `references` |
@@ -3698,28 +3674,6 @@ This skill should be used when the user asks to "design multi-agent system", "im
 | Content hash | `c52ad54c7fc0` |
 | Bundled | `references`, `scripts` |
 
-### `netlify-ai-gateway`
-
-Guide for using Netlify AI Gateway to access AI models. Use when adding AI capabilities or selecting/changing AI models. Must be read before choosing a model. Covers supported providers (OpenAI, Anthropic, Google), SDK setup, environment variables, and the list of available models.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-ai-gateway` |
-| Size | 5 files, 18 KB |
-| SKILL.md | 120 lines, ~900 tokens |
-| Description cost | ~71 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `f6baabd43712` |
-| Bundled | `agents`, `assets` |
-
 ### `neural-train`
 
 Train SONA + MicroLoRA neural patterns from successful task completions; runs the DISTILL + CONSOLIDATE phases of the 4-step pipeline
@@ -3779,7 +3733,7 @@ Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubles
 | Description cost | ~116 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-22 |
+| Last modified | 2026-09-06 |
 | Category source | keywords |
 | Content hash | `50a4b64f4072` |
 | Bundled | `agents`, `assets`, `references`, `scripts` |
@@ -3992,7 +3946,7 @@ Perform a read-only, defect-first review of a specified code change and return e
 | Description cost | ~58 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-22 |
+| Last modified | 2026-09-06 |
 | Category source | keywords |
 | Content hash | `f53558561e05` |
 | Bundled | `agents` |
@@ -4014,7 +3968,7 @@ Generate an explorable HTML report of Claude Code session usage (tokens, cache, 
 | Description cost | ~39 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `786892c24d60` |
 
@@ -4644,15 +4598,15 @@ Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflow
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/workflow` |
-| Size | 3 files, 33 KB |
-| SKILL.md | 970 lines, ~7,704 tokens |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/workflow` |
+| Size | 3 files, 30 KB |
+| SKILL.md | 881 lines, ~7,099 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
-| Content hash | `ea5f867bc0da` |
+| Content hash | `917ced0afa7f` |
 | Bundled | `agents`, `references` |
 
 ### `workflow-automation`

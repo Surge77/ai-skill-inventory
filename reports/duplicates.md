@@ -71,7 +71,7 @@
 
 ## Same name, different content
 
-135 names resolve to more than one distinct `SKILL.md`. Usually two versions of the same pack; occasionally two unrelated skills that picked the same name, which is a real ambiguity when you type the slash command.
+136 names resolve to more than one distinct `SKILL.md`. Usually two versions of the same pack; occasionally two unrelated skills that picked the same name, which is a real ambiguity when you type the slash command.
 
 | Name | Variants | Where |
 |---|---:|---|
@@ -85,22 +85,22 @@
 | `AgentDB Performance Optimization` | 2 | `.agents/skills/agentdb-optimization`<br>`.claude/skills/agentdb-optimization` |
 | `AgentDB Vector Search` | 2 | `.agents/skills/agentdb-vector-search`<br>`.claude/skills/agentdb-vector-search` |
 | `agentic-jujutsu` | 2 | `.agents/skills/agentic-jujutsu`<br>`.claude/skills/agentic-jujutsu` |
-| `ai-gateway` | 2 | `0.45.1/skills/ai-gateway`<br>`bd2122cb/skills/ai-gateway` |
-| `ai-sdk` | 4 | `0.45.1/skills/ai-sdk`<br>`skills/ai-sdk/upstream`<br>`0.48.0/skills/ai-sdk`<br>`bd2122cb/skills/ai-sdk` |
+| `ai-gateway` | 2 | `0.45.1/skills/ai-gateway`<br>`1e285826/skills/ai-gateway` |
+| `ai-sdk` | 4 | `0.45.1/skills/ai-sdk`<br>`skills/ai-sdk/upstream`<br>`0.48.0/skills/ai-sdk`<br>`1e285826/skills/ai-sdk` |
 | `ai-seo` | 2 | `1.9.0/skills/ai-seo`<br>`ea8df8290a51/skills/ai-seo` |
 | `api-design` | 2 | `skills/ecc/api-design`<br>`.agents/skills/api-design` |
 | `article-writing` | 2 | `skills/ecc/article-writing`<br>`.agents/skills/article-writing` |
-| `auth` | 2 | `0.45.1/skills/auth`<br>`bd2122cb/skills/auth` |
+| `auth` | 2 | `0.45.1/skills/auth`<br>`1e285826/skills/auth` |
 | `babysit` | 2 | `13.2.0/skills/babysit`<br>`.cursor/skills-cursor/babysit` |
 | `backend-patterns` | 2 | `skills/ecc/backend-patterns`<br>`.agents/skills/backend-patterns` |
 | `benchmark-agents` | 2 | `.claude/skills/benchmark-agents`<br>`.claude/skills/benchmark-agents` |
-| `bootstrap` | 2 | `0.45.1/skills/bootstrap`<br>`bd2122cb/skills/bootstrap` |
+| `bootstrap` | 2 | `0.45.1/skills/bootstrap`<br>`1e285826/skills/bootstrap` |
 | `brainstorming` | 2 | `.agents/skills/brainstorming`<br>`6.3.0/skills/brainstorming` |
 | `brand-voice` | 2 | `skills/ecc/brand-voice`<br>`.agents/skills/brand-voice` |
 | `caveman-compress` | 2 | `.agents/skills/caveman-compress`<br>`caveman/skills/caveman-compress` |
 | `caveman-help` | 2 | `.agents/skills/caveman-help`<br>`63a91ecadbf4/skills/caveman-help` |
-| `cdn-caching` | 2 | `0.45.1/skills/cdn-caching`<br>`0.48.0/skills/cdn-caching` |
-| `chat-sdk` | 4 | `0.45.1/skills/chat-sdk`<br>`skills/chat-sdk/upstream`<br>`0.48.0/skills/chat-sdk`<br>`bd2122cb/skills/chat-sdk` |
+| `cdn-caching` | 3 | `0.45.1/skills/cdn-caching`<br>`0.48.0/skills/cdn-caching`<br>`1e285826/skills/cdn-caching` |
+| `chat-sdk` | 4 | `0.45.1/skills/chat-sdk`<br>`skills/chat-sdk/upstream`<br>`0.48.0/skills/chat-sdk`<br>`1e285826/skills/chat-sdk` |
 | `churn-prevention` | 2 | `1.9.0/skills/churn-prevention`<br>`ea8df8290a51/skills/churn-prevention` |
 | `claude-code-plugin-release` | 2 | `12.4.9/skills/version-bump`<br>`13.2.0/skills/version-bump` |
 | `coding-standards` | 2 | `skills/ecc/coding-standards`<br>`.agents/skills/coding-standards` |
@@ -112,14 +112,14 @@
 | `copywriting` | 2 | `1.9.0/skills/copywriting`<br>`ea8df8290a51/skills/copywriting` |
 | `crosspost` | 2 | `skills/ecc/crosspost`<br>`.agents/skills/crosspost` |
 | `deep-research` | 4 | `skills/ecc/deep-research`<br>`.agents/skills/deep-research`<br>`ruflo-goals/skills/deep-research`<br>`0.1.14/skills/deep-research` |
-| `deployments-cicd` | 2 | `0.45.1/skills/deployments-cicd`<br>`bd2122cb/skills/deployments-cicd` |
+| `deployments-cicd` | 2 | `0.45.1/skills/deployments-cicd`<br>`1e285826/skills/deployments-cicd` |
 | `dispatching-parallel-agents` | 2 | `.agents/skills/dispatching-parallel-agents`<br>`6.3.0/skills/dispatching-parallel-agents` |
 | `dmux-workflows` | 2 | `skills/ecc/dmux-workflows`<br>`.agents/skills/dmux-workflows` |
 | `do` | 2 | `12.4.9/skills/do`<br>`openclaw/skills/do` |
 | `e2e-testing` | 2 | `skills/ecc/e2e-testing`<br>`.agents/skills/e2e-testing` |
-| `env-vars` | 2 | `0.45.1/skills/env-vars`<br>`bd2122cb/skills/env-vars` |
+| `env-vars` | 2 | `0.45.1/skills/env-vars`<br>`1e285826/skills/env-vars` |
 | `eval-harness` | 2 | `skills/ecc/eval-harness`<br>`.agents/skills/eval-harness` |
-| `eve` | 3 | `0.45.1/skills/eve`<br>`skills/eve/upstream`<br>`0.48.0/skills/eve` |
+| `eve` | 4 | `0.45.1/skills/eve`<br>`skills/eve/upstream`<br>`0.48.0/skills/eve`<br>`1e285826/skills/eve` |
 | `exa-search` | 2 | `skills/ecc/exa-search`<br>`.agents/skills/exa-search` |
 | `executing-plans` | 2 | `.agents/skills/executing-plans`<br>`6.3.0/skills/executing-plans` |
 | `fal-ai-media` | 2 | `skills/ecc/fal-ai-media`<br>`.agents/skills/fal-ai-media` |
@@ -139,19 +139,19 @@
 | `Hooks Automation` | 2 | `.agents/skills/hooks-automation`<br>`.claude/skills/hooks-automation` |
 | `investor-materials` | 2 | `skills/ecc/investor-materials`<br>`.agents/skills/investor-materials` |
 | `investor-outreach` | 2 | `skills/ecc/investor-outreach`<br>`.agents/skills/investor-outreach` |
-| `knowledge-update` | 2 | `0.45.1/skills/knowledge-update`<br>`0.48.0/skills/knowledge-update` |
+| `knowledge-update` | 3 | `0.45.1/skills/knowledge-update`<br>`0.48.0/skills/knowledge-update`<br>`1e285826/skills/knowledge-update` |
 | `make-plan` | 2 | `12.4.9/skills/make-plan`<br>`openclaw/skills/make-plan` |
 | `market-research` | 2 | `skills/ecc/market-research`<br>`.agents/skills/market-research` |
 | `marketing-ideas` | 2 | `1.9.0/skills/marketing-ideas`<br>`ea8df8290a51/skills/marketing-ideas` |
 | `marketing-psychology` | 2 | `1.9.0/skills/marketing-psychology`<br>`ea8df8290a51/skills/marketing-psychology` |
-| `marketplace` | 2 | `0.45.1/skills/marketplace`<br>`bd2122cb/skills/marketplace` |
+| `marketplace` | 2 | `0.45.1/skills/marketplace`<br>`1e285826/skills/marketplace` |
 | `mcp-server-patterns` | 2 | `skills/ecc/mcp-server-patterns`<br>`.agents/skills/mcp-server-patterns` |
 | `memory-management` | 2 | `.agents/skills/memory-management`<br>`.agents/skills/memory-management` |
+| `microfrontends` | 2 | `0.45.1/skills/microfrontends`<br>`1e285826/skills/microfrontends` |
 | `mle-workflow` | 2 | `skills/ecc/mle-workflow`<br>`.agents/skills/mle-workflow` |
-| `next-cache-components` | 2 | `0.45.1/skills/next-cache-components`<br>`skills/next-cache-components/upstream` |
-| `next-forge` | 3 | `0.45.1/skills/next-forge`<br>`skills/next-forge/upstream`<br>`bd2122cb/skills/next-forge` |
-| `next-upgrade` | 2 | `0.45.1/skills/next-upgrade`<br>`skills/next-upgrade/upstream` |
-| `nextjs` | 2 | `0.45.1/skills/nextjs`<br>`bd2122cb/skills/nextjs` |
+| `next-cache-components` | 3 | `0.45.1/skills/next-cache-components`<br>`skills/next-cache-components/upstream`<br>`1e285826/skills/next-cache-components` |
+| `next-forge` | 3 | `0.45.1/skills/next-forge`<br>`skills/next-forge/upstream`<br>`1e285826/skills/next-forge` |
+| `next-upgrade` | 3 | `0.45.1/skills/next-upgrade`<br>`skills/next-upgrade/upstream`<br>`1e285826/skills/next-upgrade` |
+| `nextjs` | 2 | `0.45.1/skills/nextjs`<br>`1e285826/skills/nextjs` |
 | `Pair Programming` | 2 | `.agents/skills/pair-programming`<br>`.claude/skills/pair-programming` |
 | `pdf` | 3 | `anthropic-agent-skills/skills/pdf`<br>`.codex/skills/pdf`<br>`26.805.11740/skills/pdf` |
-| `performance-analysis` | 2 | `.agents/skills/performance-analysis`<br>`.claude/skills/performance-analysis` |

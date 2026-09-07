@@ -1,6 +1,6 @@
 # Uncategorized
 
-168 skills — 105 installed, 63 available in a marketplace but not installed.
+169 skills — 106 installed, 63 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -38,6 +38,7 @@
 | `caveman-stats` | Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log — no AI estimation. Triggers on /caveman-stats. Output is injected by th… | caveman | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 1 KB |
 | `cdn-caching` | Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs. | vercel | claude-code | 1 files, 19 KB |
 | `cdn-caching` | Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason) and PPR state (ppr_state), and costs. | vercel | claude-code | 1 files, 21 KB |
+| `cdn-caching` | Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs. | vercel | codex | 2 files, 19 KB |
 | `cisco-ios-patterns` | Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. | ecc | claude-code | 1 files, 5 KB |
 | `cms` | Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io. Covers studio setup, content modeling, preview mode, revalidation web… | vercel | codex | 2 files, 11 KB |
 | `code-tour` | Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. Use for onboarding tours, architecture walkthroughs, PR tours, RCA tours, and st… | ecc | claude-code | 1 files, 7 KB |
@@ -93,7 +94,6 @@
 | `gepetto` | Creates detailed, sectionized implementation plans through research, stakeholder interviews, and multi-LLM review. Use when planning features that need thorough pre-implementation analysis. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 32 KB |
 | `gget` | gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs. | ecc | claude-code | 1 files, 5 KB |
 | `grill-me` | Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grille… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 1 KB |
-| `hf-cli` | Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing repositories, models, datasets, and Spaces on the Hugging Face Hub. Replaces now deprecated `huggingface-cli` command. | hugging-face | codex | 2 files, 15 KB |
 | `horizon-track` | Track long-horizon objectives across multiple sessions with milestone checkpoints, progress persistence, and drift detection *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `how-it-works` | Explain how claude-mem captures observations, when memory injection kicks in, and where data lives. Use when the user asks "how does claude-mem work?" or "what is this thing doing?". | claude-mem | claude-code | 2 files, 2 KB |
 | `intelligence-route` | Route tasks via the 3-tier model selector and learned patterns; emits a routing rationale via hooks_explain *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
@@ -113,6 +113,7 @@
 | `knowledge-ops` | Knowledge base management, ingestion, sync, and retrieval across multiple storage layers (local files, MCP memory, vector stores, Git repos). Use when the user wants to save, organize, sync… | ecc | claude-code | 1 files, 7 KB |
 | `knowledge-update` | Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start. | vercel | claude-code | 1 files, 7 KB |
 | `knowledge-update` | Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start. | vercel | claude-code | 1 files, 7 KB |
+| `knowledge-update` | Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start. | vercel | codex | 2 files, 7 KB |
 | `learn-codebase` | Prime a codebase by reading every source file in full. Use when starting work on a new or unfamiliar project, or when the user asks to "learn the codebase", "read the codebase", "prime", or… | claude-mem | claude-code | 1 files, 1 KB |
 | `lesson-learned` | Analyze recent code changes via git history and extract software engineering lessons. Use when the user asks 'what is the lesson here?', 'what can I learn from this?', 'engineering takeaway… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 13 KB |
 | `liquid-glass-design` | iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit. | ecc | claude-code | 1 files, 9 KB |
@@ -131,7 +132,7 @@
 | `ncc` | Expert guidance for @vercel/ncc — a simple CLI for compiling Node.js modules into a single file with all dependencies included. Use when bundling serverless functions, CLI tools, or any Nod… | vercel | codex | 2 files, 5 KB |
 | `netmiko-ssh-automation` | Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling. | ecc | claude-code | 1 files, 6 KB |
 | `next-forge` | next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/*… | vercel | claude-code | 11 files, 70 KB |
-| `next-forge` | next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/*… | vercel | codex | 2 files, 13 KB |
+| `next-forge` | next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/*… | vercel | codex | 6 files, 33 KB |
 | `next-upgrade` | Upgrade Next.js to the latest version following official migration guides and codemods | vercel | claude-code | 1 files, 2 KB |
 | `observe-metrics` | Aggregate and display system metrics with anomaly detection for a time period *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `openclaw` | — *(marketplace only)* | openclaw | claude-code | 17 files, 222 KB |
@@ -482,13 +483,13 @@ Vercel AI Gateway expert guidance. Use when configuring model routing, provider 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ai-gateway` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-gateway` |
 | Size | 2 files, 19 KB |
 | SKILL.md | 563 lines, ~4,924 tokens |
 | Description cost | ~41 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `ac2df5b05e49` |
 | Bundled | `agents` |
@@ -504,13 +505,13 @@ AI generation persistence patterns — unique IDs, addressable URLs, database st
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ai-generation-persistence` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-generation-persistence` |
 | Size | 2 files, 8 KB |
 | SKILL.md | 242 lines, ~1,998 tokens |
 | Description cost | ~33 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `a368e84cee29` |
 | Bundled | `agents` |
@@ -633,13 +634,13 @@ Project bootstrapping orchestrator for repos that depend on Vercel-linked resour
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/bootstrap` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/bootstrap` |
 | Size | 2 files, 7 KB |
 | SKILL.md | 203 lines, ~1,798 tokens |
 | Description cost | ~72 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `46569fd1b3f8` |
 | Bundled | `agents` |
@@ -661,7 +662,7 @@ Iterate on the Cardputer-Adv MicroPython app bundle (Claude Buddy, Snake, Hello)
 | Description cost | ~103 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `a85c4653c0bd` |
 
@@ -856,6 +857,28 @@ Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavio
 | Category source | none |
 | Content hash | `3e47a6ecc523` |
 
+### `cdn-caching`
+
+Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `openai-curated` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/cdn-caching` |
+| Size | 2 files, 19 KB |
+| SKILL.md | 259 lines, ~4,791 tokens |
+| Description cost | ~37 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-05 |
+| Category source | none |
+| Content hash | `320b951c5096` |
+| Bundled | `agents` |
+
 ### `cisco-ios-patterns`
 
 Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification.
@@ -888,13 +911,13 @@ Headless CMS integration guidance — Sanity (native Vercel Marketplace), Conten
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/cms` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/cms` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 337 lines, ~2,717 tokens |
 | Description cost | ~72 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `50cb50684860` |
 | Bundled | `agents` |
@@ -1290,13 +1313,13 @@ Vercel Cron Jobs configuration and best practices. Use when adding, editing, or 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/cron-jobs` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/cron-jobs` |
 | Size | 2 files, 2 KB |
 | SKILL.md | 72 lines, ~541 tokens |
 | Description cost | ~31 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `b4abb9fa813c` |
 | Bundled | `agents` |
@@ -1756,13 +1779,13 @@ Vercel environment variable expert guidance. Use when working with .env files, v
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/env-vars` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/env-vars` |
 | Size | 2 files, 9 KB |
 | SKILL.md | 259 lines, ~2,355 tokens |
 | Description cost | ~40 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `6751d40cf2f2` |
 | Bundled | `agents` |
@@ -1805,7 +1828,7 @@ An example user-invoked skill that demonstrates frontmatter options and the skil
 | Description cost | ~27 tokens always in context |
 | Allowed tools | [Read, Glob, Grep, Bash] |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `c644e984feb3` |
 
@@ -2020,28 +2043,6 @@ Interview the user relentlessly about a plan or design until reaching shared und
 | Last modified | 2026-05-01 |
 | Category source | none |
 | Content hash | `75441dec856b` |
-
-### `hf-cli`
-
-Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing repositories, models, datasets, and Spaces on the Hugging Face Hub. Replaces now deprecated `huggingface-cli` command.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/cli` |
-| Size | 2 files, 15 KB |
-| SKILL.md | 173 lines, ~3,777 tokens |
-| Description cost | ~47 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | none |
-| Content hash | `c0d216bbe085` |
-| Bundled | `agents` |
 
 ### `horizon-track`
 
@@ -2444,6 +2445,28 @@ Corrects outdated LLM knowledge about the Vercel platform and introduces new pro
 | Category source | none |
 | Content hash | `4fb4901d5ff6` |
 
+### `knowledge-update`
+
+Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `openai-curated` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/knowledge-update` |
+| Size | 2 files, 7 KB |
+| SKILL.md | 85 lines, ~1,803 tokens |
+| Description cost | ~29 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-05 |
+| Category source | none |
+| Content hash | `f538af59cbf1` |
+| Bundled | `agents` |
+
 ### `learn-codebase`
 
 Prime a codebase by reading every source file in full. Use when starting work on a new or unfamiliar project, or when the user asks to "learn the codebase", "read the codebase", "prime", or "get up to speed".
@@ -2525,7 +2548,7 @@ End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, 
 | Description cost | ~83 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `8d784d26e79d` |
 
@@ -2588,7 +2611,7 @@ Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial veri
 | Description cost | ~177 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `3194b4eb541a` |
 | Bundled | `evals`, `references`, `scripts` |
@@ -2772,13 +2795,13 @@ Expert guidance for @vercel/ncc — a simple CLI for compiling Node.js modules i
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ncc` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ncc` |
 | Size | 2 files, 5 KB |
 | SKILL.md | 158 lines, ~1,168 tokens |
 | Description cost | ~58 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `13ea4e0e90dc` |
 | Bundled | `agents` |
@@ -2837,16 +2860,16 @@ next-forge expert guidance — production-grade Turborepo monorepo SaaS starter 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/next-forge` |
-| Size | 2 files, 13 KB |
-| SKILL.md | 375 lines, ~3,401 tokens |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/next-forge` |
+| Size | 6 files, 33 KB |
+| SKILL.md | 238 lines, ~1,938 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
-| Content hash | `c5b1fbdf8b20` |
-| Bundled | `agents` |
+| Content hash | `6a59b5faf052` |
+| Bundled | `agents`, `references` |
 
 ### `next-upgrade`
 
@@ -2950,7 +2973,7 @@ Creates interactive HTML playgrounds — self-contained single-file explorers th
 | Description cost | ~68 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `d2917333c61e` |
 | Bundled | `templates` |
@@ -3431,13 +3454,13 @@ Turborepo expert guidance. Use when setting up or optimizing monorepo builds, co
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/turborepo` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/turborepo` |
 | Size | 2 files, 17 KB |
 | SKILL.md | 612 lines, ~4,370 tokens |
 | Description cost | ~46 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | none |
 | Content hash | `0b2f6a5fb246` |
 | Bundled | `agents` |

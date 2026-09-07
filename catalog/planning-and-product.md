@@ -1,6 +1,6 @@
 # Planning & Product
 
-72 skills — 55 installed, 17 available in a marketplace but not installed.
+71 skills — 54 installed, 17 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -47,7 +47,6 @@
 | `domain-name-brainstormer` | Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
 | `executing-plans` | Use when you have a written implementation plan to execute in a separate session with review checkpoints | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 2 KB |
 | `executing-plans` | Use when you have a written implementation plan to execute in a separate session with review checkpoints | superpowers | claude-code | 1 files, 2 KB |
-| `github` | Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs rep… | github | codex | 4 files, 7 KB |
 | `goal-plan` | Create and execute Goal-Oriented Action Plans (GOAP) with precondition analysis, cost optimization, and adaptive replanning *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `improve-codebase-architecture` | Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring o… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 4 files, 14 KB |
 | `inventory-demand-planning` | Codified expertise for demand forecasting, safety stock optimization, replenishment planning, and promotional lift estimation at multi-location retailers. Informed by demand planners with 1… | ecc | claude-code | 1 files, 24 KB |
@@ -946,28 +945,6 @@ Use when you have a written implementation plan to execute in a separate session
 | Last modified | 2026-08-13 |
 | Category source | keywords |
 | Content hash | `9ac71371ec0d` |
-
-### `github`
-
-Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs repository context before choosing a more specific GitHub workflow.
-
-| Field | Value |
-|---|---|
-| Pack | github |
-| Origin | plugin `github` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/github/bd2122cb/skills/github` |
-| Size | 4 files, 7 KB |
-| SKILL.md | 75 lines, ~1,108 tokens |
-| Description cost | ~64 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `765b879d3af4` |
-| Bundled | `agents`, `assets` |
 
 ### `goal-plan`
 

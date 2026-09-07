@@ -1,6 +1,6 @@
 # Research & Analysis
 
-20 skills — 15 installed, 5 available in a marketplace but not installed.
+18 skills — 13 installed, 5 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -16,8 +16,6 @@
 | `deep-research` | Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough researc… | agents-std-store | agents-std | 2 files, 5 KB |
 | `deep-research` | Orchestrate multi-phase deep research with web search, memory retrieval, pattern matching, and synthesis into structured findings *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `deep-research` | Conduct thorough research using authoritative sources and produce evidence-backed findings with citations. Use this skill only when the user asks specifically for Deep research, uses $deep-… | deep-research-work | codex | 2 files, 12 KB |
-| `huggingface-paper-publisher` | Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based res… | hugging-face | codex | 9 files, 77 KB |
-| `huggingface-papers` | Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when… | hugging-face | codex | 2 files, 9 KB |
 | `literature-review` | Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence loggi… | ecc | claude-code | 1 files, 5 KB |
 | `market-research` | Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizi… | ecc | claude-code | 1 files, 2 KB |
 | `market-research` | Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizi… | agents-std-store | agents-std | 2 files, 2 KB |
@@ -241,50 +239,6 @@ Conduct thorough research using authoritative sources and produce evidence-backe
 | Last modified | 1970-01-01 |
 | Category source | keywords |
 | Content hash | `5e4424b13aa7` |
-| Bundled | `agents` |
-
-### `huggingface-paper-publisher`
-
-Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/paper-publisher` |
-| Size | 9 files, 77 KB |
-| SKILL.md | 625 lines, ~4,332 tokens |
-| Description cost | ~51 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `005baf6fe836` |
-| Bundled | `agents`, `examples`, `references`, `scripts`, `templates` |
-
-### `huggingface-papers`
-
-Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/papers` |
-| Size | 2 files, 9 KB |
-| SKILL.md | 239 lines, ~2,397 tokens |
-| Description cost | ~80 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `5b57c8c2f131` |
 | Bundled | `agents` |
 
 ### `literature-review`

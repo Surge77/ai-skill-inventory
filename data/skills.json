@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T17:03:50.791Z",
-  "count": 1141,
+  "generatedAt": "2026-09-07T10:48:05.237Z",
+  "count": 1144,
   "skills": [
     {
       "name": "ab-test-setup",
@@ -112,7 +112,7 @@
       "skillTokens": 1090,
       "descTokens": 51,
       "bodyLines": 138,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "aec806211989"
     },
     {
@@ -140,7 +140,7 @@
       "skillTokens": 1189,
       "descTokens": 51,
       "bodyLines": 141,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "9f2079190270"
     },
     {
@@ -168,7 +168,7 @@
       "skillTokens": 1116,
       "descTokens": 51,
       "bodyLines": 147,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "86e970af14d7"
     },
     {
@@ -5250,13 +5250,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/agent-browser",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/agent-browser",
       "files": 2,
       "bytes": 6949,
       "skillTokens": 1711,
       "descTokens": 76,
       "bodyLines": 228,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "4ad05c784189"
     },
     {
@@ -5278,13 +5278,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/agent-browser-verify",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/agent-browser-verify",
       "files": 2,
       "bytes": 6881,
       "skillTokens": 1690,
       "descTokens": 63,
       "bodyLines": 196,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "0a9f10615662"
     },
     {
@@ -5676,7 +5676,7 @@
       "skillTokens": 2792,
       "descTokens": 90,
       "bodyLines": 402,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "e8998e53c678"
     },
     {
@@ -8180,13 +8180,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ai-elements",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-elements",
       "files": 2,
       "bytes": 22170,
       "skillTokens": 5499,
       "descTokens": 65,
       "bodyLines": 483,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "95e907f05924"
     },
     {
@@ -8264,13 +8264,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ai-gateway",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-gateway",
       "files": 2,
       "bytes": 19796,
       "skillTokens": 4924,
       "descTokens": 41,
       "bodyLines": 563,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "ac2df5b05e49"
     },
     {
@@ -8292,13 +8292,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ai-generation-persistence",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-generation-persistence",
       "files": 2,
       "bytes": 8183,
       "skillTokens": 1998,
       "descTokens": 33,
       "bodyLines": 242,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "a368e84cee29"
     },
     {
@@ -8432,14 +8432,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ai-sdk",
-      "files": 3,
-      "bytes": 36463,
-      "skillTokens": 8483,
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-sdk",
+      "files": 7,
+      "bytes": 27119,
+      "skillTokens": 1629,
       "descTokens": 63,
-      "bodyLines": 799,
-      "mtime": "2026-07-13",
-      "hash": "c324a28d58b1"
+      "bodyLines": 150,
+      "mtime": "2026-09-05",
+      "hash": "4a2e70a6fbfc"
     },
     {
       "name": "ai-seo",
@@ -8640,6 +8640,90 @@
       "hash": "2136622e1737"
     },
     {
+      "name": "animate",
+      "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/animate",
+      "files": 2,
+      "bytes": 20055,
+      "skillTokens": 2944,
+      "descTokens": 119,
+      "bodyLines": 200,
+      "mtime": "2026-09-07",
+      "hash": "b41c465cd834"
+    },
+    {
+      "name": "animate-expo",
+      "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/animate-expo",
+      "files": 2,
+      "bytes": 35012,
+      "skillTokens": 4455,
+      "descTokens": 132,
+      "bodyLines": 256,
+      "mtime": "2026-09-07",
+      "hash": "6a290a5c578e"
+    },
+    {
+      "name": "animation-vocabulary",
+      "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/animation-vocabulary",
+      "files": 1,
+      "bytes": 13301,
+      "skillTokens": 3326,
+      "descTokens": 108,
+      "bodyLines": 174,
+      "mtime": "2026-09-07",
+      "hash": "c2379a776ac0"
+    },
+    {
       "name": "api-connector-builder",
       "description": "Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.",
       "category": "Backend & APIs",
@@ -8789,6 +8873,34 @@
       "hash": "e32a400af981"
     },
     {
+      "name": "apple-design",
+      "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/apple-design",
+      "files": 1,
+      "bytes": 22997,
+      "skillTokens": 5750,
+      "descTokens": 107,
+      "bodyLines": 283,
+      "mtime": "2026-09-07",
+      "hash": "e37e415a0290"
+    },
+    {
       "name": "apple-hig-designer",
       "description": "Design iOS apps following Apple's Human Interface Guidelines. Generate native components, validate designs, and ensure accessibility compliance for iPhone, iPad, and Apple Watch.",
       "category": "Frontend & UI",
@@ -8882,6 +8994,34 @@
       "hash": "f0cd9e025692"
     },
     {
+      "name": "ask-sonner",
+      "description": "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning and multiple toasters. Use when working with Sonner or troubleshooting it — toasts that don't appear, appear twice, lose their styles, ignore Tailwind classes, sit behind a modal, or don't follow dark mode.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/ask-sonner",
+      "files": 2,
+      "bytes": 11633,
+      "skillTokens": 1756,
+      "descTokens": 107,
+      "bodyLines": 81,
+      "mtime": "2026-09-07",
+      "hash": "5e22ed662239"
+    },
+    {
       "name": "aso",
       "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
       "category": "Marketing & Growth",
@@ -8957,13 +9097,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/auth",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/auth",
       "files": 2,
       "bytes": 9915,
       "skillTokens": 2436,
       "descTokens": 64,
       "bodyLines": 356,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "52a826ee9eb0"
     },
     {
@@ -9110,7 +9250,7 @@
     {
       "name": "babysit",
       "description": "Keep a PR merge-ready by triaging comments, resolving clear conflicts, and fixing CI in a loop.",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -9443,6 +9583,202 @@
       "hash": "9a0cc08b4a9e"
     },
     {
+      "name": "better-accessibility",
+      "description": "Helps your project comply with accessibility standards and best practices.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/better-accessibility",
+      "files": 8,
+      "bytes": 37435,
+      "skillTokens": 2092,
+      "descTokens": 19,
+      "bodyLines": 112,
+      "mtime": "2026-09-07",
+      "hash": "8f89e2bccf1d"
+    },
+    {
+      "name": "better-colors",
+      "description": "Helps you build a color system and answer anything about color in your project. You can generate palettes, use semantic tokens, convert between formats, check contrast and more.",
+      "category": "Frontend & UI",
+      "categorySource": "family-inference",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/better-colors",
+      "files": 8,
+      "bytes": 40223,
+      "skillTokens": 1938,
+      "descTokens": 45,
+      "bodyLines": 106,
+      "mtime": "2026-09-07",
+      "hash": "86a835aa9ac4"
+    },
+    {
+      "name": "better-interface",
+      "description": "Combines all of the `better-*` skills into a single review across accessibility, layout, writing, typography, color and UI polish.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/better-interface",
+      "files": 3,
+      "bytes": 12368,
+      "skillTokens": 2418,
+      "descTokens": 33,
+      "bodyLines": 138,
+      "mtime": "2026-09-07",
+      "hash": "a788f736ac27"
+    },
+    {
+      "name": "better-layout",
+      "description": "Helps with grouping, alignment, reading order, progressive disclosure and other details that make a good layout.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/better-layout",
+      "files": 4,
+      "bytes": 18159,
+      "skillTokens": 1432,
+      "descTokens": 28,
+      "bodyLines": 82,
+      "mtime": "2026-09-07",
+      "hash": "70de4506d6ba"
+    },
+    {
+      "name": "better-typography",
+      "description": "Focuses on type scale, spacing, sizing, variable fonts, OpenType features, wrapping, truncation and other details that make typography feel great across your product.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/better-typography",
+      "files": 8,
+      "bytes": 34872,
+      "skillTokens": 2752,
+      "descTokens": 42,
+      "bodyLines": 163,
+      "mtime": "2026-09-07",
+      "hash": "51e9a9b1b642"
+    },
+    {
+      "name": "better-ui",
+      "description": "Polishes and improves the UI in your project. Covers concentric border radius, optical alignment, surface depth, contextual icons, hit areas and more.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/better-ui",
+      "files": 8,
+      "bytes": 36615,
+      "skillTokens": 1816,
+      "descTokens": 38,
+      "bodyLines": 113,
+      "mtime": "2026-09-07",
+      "hash": "ef13637037ba"
+    },
+    {
+      "name": "better-writing",
+      "description": "Focuses on improving product copy in your project.",
+      "category": "Docs & Writing",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/better-writing",
+      "files": 2,
+      "bytes": 6645,
+      "skillTokens": 1634,
+      "descTokens": 13,
+      "bodyLines": 115,
+      "mtime": "2026-09-07",
+      "hash": "06f3b30eb08d"
+    },
+    {
       "name": "blueprint",
       "description": "Turn a one-line objective into a step-by-step construction plan for multi-session, multi-agent engineering projects. Each step has a self-contained context brief so a fresh agent can execute it cold. Includes adversarial review gate, dependency graph, parallel step detection, anti-pattern catalog, and plan mutation protocol. TRIGGER when: user requests a plan, blueprint, or roadmap for a complex multi-PR task, or describes work that needs multiple sessions. DO NOT TRIGGER when: task is completable in a single PR or fewer than 3 tool calls, or user says \"just do it\".",
       "category": "AI & Agents",
@@ -9554,13 +9890,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/bootstrap",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/bootstrap",
       "files": 2,
       "bytes": 7365,
       "skillTokens": 1798,
       "descTokens": 72,
       "bodyLines": 203,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "46569fd1b3f8"
     },
     {
@@ -9748,6 +10084,34 @@
       "bodyLines": 799,
       "mtime": "2026-05-01",
       "hash": "629f7041aeb5"
+    },
+    {
+      "name": "break",
+      "description": "Renders a component you choose in every state and scenario on a temporary page and stress tests it.",
+      "category": "Frontend & UI",
+      "categorySource": "family-inference",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/break",
+      "files": 3,
+      "bytes": 11335,
+      "skillTokens": 1692,
+      "descTokens": 25,
+      "bodyLines": 86,
+      "mtime": "2026-09-07",
+      "hash": "0c635b5dcc26"
     },
     {
       "name": "browser",
@@ -10082,7 +10446,7 @@
       "skillTokens": 4848,
       "descTokens": 114,
       "bodyLines": 393,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "d66f9b04a223"
     },
     {
@@ -10110,7 +10474,7 @@
       "skillTokens": 3021,
       "descTokens": 122,
       "bodyLines": 222,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "45791cdfb5c0"
     },
     {
@@ -10138,7 +10502,7 @@
       "skillTokens": 1967,
       "descTokens": 101,
       "bodyLines": 200,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "96a999bce4af"
     },
     {
@@ -10287,7 +10651,7 @@
       "skillTokens": 472,
       "descTokens": 103,
       "bodyLines": 47,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "a85c4653c0bd"
     },
     {
@@ -10697,6 +11061,34 @@
       "hash": "3e47a6ecc523"
     },
     {
+      "name": "cdn-caching",
+      "description": "Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs.",
+      "category": "Uncategorized",
+      "categorySource": "none",
+      "family": "vercel",
+      "tools": [
+        "codex"
+      ],
+      "surfaces": [
+        "plugin"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "openai-curated",
+        "plugin": "vercel"
+      },
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/cdn-caching",
+      "files": 2,
+      "bytes": 19284,
+      "skillTokens": 4791,
+      "descTokens": 37,
+      "bodyLines": 259,
+      "mtime": "2026-09-05",
+      "hash": "320b951c5096"
+    },
+    {
       "name": "changelog-generator",
       "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation.",
       "category": "Git & Workflow",
@@ -10864,14 +11256,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/chat-sdk",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/chat-sdk",
       "files": 2,
-      "bytes": 19333,
-      "skillTokens": 4810,
+      "bytes": 11455,
+      "skillTokens": 2840,
       "descTokens": 74,
-      "bodyLines": 666,
-      "mtime": "2026-07-13",
-      "hash": "dc45a3fb3006"
+      "bodyLines": 289,
+      "mtime": "2026-09-05",
+      "hash": "b0e81d32eab0"
     },
     {
       "name": "churn-prevention",
@@ -11039,7 +11431,7 @@
       "skillTokens": 2749,
       "descTokens": 89,
       "bodyLines": 290,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "7e64b26465b5"
     },
     {
@@ -11152,7 +11544,7 @@
       "skillTokens": 1507,
       "descTokens": 85,
       "bodyLines": 180,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "159624e19a03"
     },
     {
@@ -11208,7 +11600,7 @@
       "skillTokens": 1312,
       "descTokens": 77,
       "bodyLines": 70,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "c466f4b51a75"
     },
     {
@@ -11258,13 +11650,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/cms",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/cms",
       "files": 2,
       "bytes": 11038,
       "skillTokens": 2717,
       "descTokens": 72,
       "bodyLines": 337,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "50cb50684860"
     },
     {
@@ -11299,7 +11691,7 @@
     {
       "name": "code-structure-cleanup",
       "description": "Use after an AI-built feature works but the code has duplicated mechanics, repeated API calls, or messy structure. Guides a cleanup pass that extracts reusable service-layer modules without changing behavior.",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -11706,7 +12098,7 @@
       "skillTokens": 4809,
       "descTokens": 122,
       "bodyLines": 885,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "bfa93e255594"
     },
     {
@@ -11988,7 +12380,7 @@
       "skillTokens": 1081,
       "descTokens": 59,
       "bodyLines": 100,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "b401122bd480"
     },
     {
@@ -12016,7 +12408,7 @@
       "skillTokens": 887,
       "descTokens": 53,
       "bodyLines": 83,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "e28cde7ebcde"
     },
     {
@@ -12044,7 +12436,7 @@
       "skillTokens": 1077,
       "descTokens": 59,
       "bodyLines": 109,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "064c61a4fa57"
     },
     {
@@ -13341,7 +13733,7 @@
     {
       "name": "create-rule",
       "description": "Create Cursor rules for persistent AI guidance. Use when you want to create a rule, add coding standards, set up project conventions, configure file-specific patterns, create RULE.md files, or asks about .cursor/rules/ or AGENTS.md.",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -13470,13 +13862,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/cron-jobs",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/cron-jobs",
       "files": 2,
       "bytes": 2279,
       "skillTokens": 541,
       "descTokens": 31,
       "bodyLines": 72,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "b4abb9fa813c"
     },
     {
@@ -13917,7 +14309,7 @@
     {
       "name": "dare",
       "description": "First-principles reasoning chain for decisions that have no oracle — architecture forks, build-or-skip calls, \"is this framing even right\" questions. Four human-gated phases (Decompose, Audit, Reconstruct, Experiment) with a hard stop between each and state persisted to disk so the chain survives /clear. Use when about to inherit a default without noticing. Do NOT use for bugs, build errors, or anything a compiler or test suite already answers. Trigger words include \"dare\", \"first principles\", \"from first principles\", \"question the framing\", \"am I solving the right problem\".",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -14520,13 +14912,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/deployments-cicd",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/deployments-cicd",
       "files": 2,
       "bytes": 11610,
       "skillTokens": 2874,
       "descTokens": 46,
       "bodyLines": 331,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "224d0d6db3a5"
     },
     {
@@ -15580,13 +15972,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/email",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/email",
       "files": 2,
       "bytes": 10929,
       "skillTokens": 2692,
       "descTokens": 62,
       "bodyLines": 392,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "05ed024dbcb9"
     },
     {
@@ -15701,6 +16093,34 @@
       "bodyLines": 70,
       "mtime": "2026-05-16",
       "hash": "8196f4d3f1de"
+    },
+    {
+      "name": "emil-design-eng",
+      "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/emil-design-eng",
+      "files": 1,
+      "bytes": 27900,
+      "skillTokens": 6975,
+      "descTokens": 39,
+      "bodyLines": 675,
+      "mtime": "2026-09-07",
+      "hash": "db555de80b51"
     },
     {
       "name": "end-of-day-summary-test",
@@ -15833,13 +16253,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/env-vars",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/env-vars",
       "files": 2,
       "bytes": 9527,
       "skillTokens": 2355,
       "descTokens": 40,
       "bodyLines": 259,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "6751d40cf2f2"
     },
     {
@@ -16085,6 +16505,34 @@
       "hash": "a0212dfcbc40"
     },
     {
+      "name": "eve",
+      "description": "Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agent experience that could benefit from eve's filesystem-first runtime, durable sessions, tools, skills, connections, channels, sandboxes, subagents, schedules, evals, or frontend clients. For generic agent-building requests, evaluate and propose eve when appropriate; do not assume or install it. Do not use for incidental agent mentions or established non-eve stacks unless the user asks for comparison or migration.",
+      "category": "AI & Agents",
+      "categorySource": "keywords",
+      "family": "vercel",
+      "tools": [
+        "codex"
+      ],
+      "surfaces": [
+        "plugin"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "openai-curated",
+        "plugin": "vercel"
+      },
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/eve",
+      "files": 2,
+      "bytes": 4892,
+      "skillTokens": 1198,
+      "descTokens": 151,
+      "bodyLines": 139,
+      "mtime": "2026-09-05",
+      "hash": "04fcc05f1b8c"
+    },
+    {
       "name": "everything-claude-code",
       "description": "Development conventions and patterns for everything-claude-code. JavaScript project with conventional commits.",
       "category": "AI & Agents",
@@ -16221,7 +16669,7 @@
       "skillTokens": 307,
       "descTokens": 27,
       "bodyLines": 40,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "c644e984feb3"
     },
     {
@@ -16249,7 +16697,7 @@
       "skillTokens": 682,
       "descTokens": 57,
       "bodyLines": 85,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "afea9f68bd8e"
     },
     {
@@ -16383,6 +16831,34 @@
       "bodyLines": 65,
       "mtime": "2026-08-13",
       "hash": "9ac71371ec0d"
+    },
+    {
+      "name": "explain-interface",
+      "description": "Helps you figure out how something was built on the web.",
+      "category": "Docs & Writing",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/explain-interface",
+      "files": 6,
+      "bytes": 30814,
+      "skillTokens": 2508,
+      "descTokens": 14,
+      "bodyLines": 133,
+      "mtime": "2026-09-07",
+      "hash": "ce297e874dd6"
     },
     {
       "name": "fal-ai-media",
@@ -16653,6 +17129,34 @@
       "bodyLines": 128,
       "mtime": "2026-05-17",
       "hash": "ddf13222d33f"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/find-animation-opportunities",
+      "files": 1,
+      "bytes": 9623,
+      "skillTokens": 2406,
+      "descTokens": 90,
+      "bodyLines": 133,
+      "mtime": "2026-09-07",
+      "hash": "b44f63c6516c"
     },
     {
       "name": "find-skills",
@@ -17084,7 +17588,7 @@
         "plugin"
       ],
       "installed": true,
-      "copies": 6,
+      "copies": 7,
       "origin": {
         "kind": "plugin",
         "marketplace": "claude-plugins-official",
@@ -17451,13 +17955,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/geist",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/geist",
       "files": 2,
       "bytes": 7292,
       "skillTokens": 1781,
       "descTokens": 63,
       "bodyLines": 227,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "71f225b26822"
     },
     {
@@ -17479,13 +17983,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/geistdocs",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/geistdocs",
       "files": 2,
       "bytes": 8718,
       "skillTokens": 2135,
       "descTokens": 71,
       "bodyLines": 276,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "c45a1805b88a"
     },
     {
@@ -17591,62 +18095,6 @@
       "hash": "224000faa18d"
     },
     {
-      "name": "gh-address-comments",
-      "description": "Address actionable GitHub pull request review feedback. Use when the user wants to inspect unresolved review threads, requested changes, or inline review comments on a PR, then implement selected fixes. Use the GitHub app for PR metadata and flat comment reads, and use the bundled GraphQL script via `gh` whenever thread-level state, resolution status, or inline review context matters.",
-      "category": "Code Quality & Review",
-      "categorySource": "keywords",
-      "family": "github",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "github"
-      },
-      "path": ".codex/plugins/cache/openai-curated/github/bd2122cb/skills/gh-address-comments",
-      "files": 6,
-      "bytes": 24937,
-      "skillTokens": 895,
-      "descTokens": 97,
-      "bodyLines": 45,
-      "mtime": "2026-07-13",
-      "hash": "76b6c5823883"
-    },
-    {
-      "name": "gh-fix-ci",
-      "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. Use the GitHub app from this plugin for PR metadata and patch context, and use `gh` for Actions check and log inspection before implementing any approved fix.",
-      "category": "Meta & Skill Tooling",
-      "categorySource": "keywords",
-      "family": "github",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "github"
-      },
-      "path": ".codex/plugins/cache/openai-curated/github/bd2122cb/skills/gh-fix-ci",
-      "files": 6,
-      "bytes": 34145,
-      "skillTokens": 1102,
-      "descTokens": 62,
-      "bodyLines": 82,
-      "mtime": "2026-07-13",
-      "hash": "90cea3002b38"
-    },
-    {
       "name": "git-workflow",
       "description": "Advanced git workflows with branch management, conflict resolution, and PR lifecycle",
       "category": "Git & Workflow",
@@ -17673,34 +18121,6 @@
       "bodyLines": 46,
       "mtime": "2026-05-16",
       "hash": "e9437b4b654c"
-    },
-    {
-      "name": "github",
-      "description": "Triage and orient GitHub repository, pull request, and issue work through the connected GitHub app. Use when the user asks for general GitHub help, wants PR or issue summaries, or needs repository context before choosing a more specific GitHub workflow.",
-      "category": "Planning & Product",
-      "categorySource": "keywords",
-      "family": "github",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "github"
-      },
-      "path": ".codex/plugins/cache/openai-curated/github/bd2122cb/skills/github",
-      "files": 4,
-      "bytes": 7448,
-      "skillTokens": 1108,
-      "descTokens": 64,
-      "bodyLines": 75,
-      "mtime": "2026-07-13",
-      "hash": "765b879d3af4"
     },
     {
       "name": "github-automation",
@@ -18217,7 +18637,7 @@
     {
       "name": "graphify-windows",
       "description": "any input (code, docs, papers, images) → knowledge graph → clustered communities → HTML + JSON + audit report",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -18365,34 +18785,6 @@
       "bodyLines": 146,
       "mtime": "2026-05-17",
       "hash": "9feaa3e247f3"
-    },
-    {
-      "name": "hf-cli",
-      "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing repositories, models, datasets, and Spaces on the Hugging Face Hub. Replaces now deprecated `huggingface-cli` command.",
-      "category": "Uncategorized",
-      "categorySource": "none",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/cli",
-      "files": 2,
-      "bytes": 15243,
-      "skillTokens": 3777,
-      "descTokens": 47,
-      "bodyLines": 173,
-      "mtime": "2026-07-13",
-      "hash": "c0d216bbe085"
     },
     {
       "name": "high-end-visual-design",
@@ -18650,7 +19042,7 @@
       "skillTokens": 4062,
       "descTokens": 132,
       "bodyLines": 713,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "834effaaa8ae"
     },
     {
@@ -18867,258 +19259,6 @@
       "hash": "9a5777a3a2ea"
     },
     {
-      "name": "huggingface-community-evals",
-      "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.",
-      "category": "AI & Agents",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/community-evals",
-      "files": 7,
-      "bytes": 31231,
-      "skillTokens": 1690,
-      "descTokens": 75,
-      "bodyLines": 208,
-      "mtime": "2026-07-13",
-      "hash": "d7049951e4d8"
-    },
-    {
-      "name": "huggingface-datasets",
-      "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
-      "category": "Meta & Skill Tooling",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/datasets",
-      "files": 2,
-      "bytes": 4837,
-      "skillTokens": 1176,
-      "descTokens": 48,
-      "bodyLines": 122,
-      "mtime": "2026-07-13",
-      "hash": "763c9a7e0d20"
-    },
-    {
-      "name": "huggingface-gradio",
-      "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
-      "category": "Frontend & UI",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/gradio",
-      "files": 3,
-      "bytes": 38270,
-      "skillTokens": 5766,
-      "descTokens": 34,
-      "bodyLines": 246,
-      "mtime": "2026-07-13",
-      "hash": "0ce2a21f9ca6"
-    },
-    {
-      "name": "huggingface-jobs",
-      "description": "This skill should be used when users want to run any workload on Hugging Face Jobs infrastructure. Covers UV scripts, Docker-based jobs, hardware selection, cost estimation, authentication with tokens, secrets management, timeout configuration, and result persistence. Designed for general-purpose compute workloads including data processing, inference, experiments, batch jobs, and any Python-based tasks. Should be invoked for tasks involving cloud compute, GPU workloads, or when users mention running jobs on Hugging Face infrastructure without local setup.",
-      "category": "DevOps & Infra",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/jobs",
-      "files": 10,
-      "bytes": 146356,
-      "skillTokens": 8181,
-      "descTokens": 141,
-      "bodyLines": 1043,
-      "mtime": "2026-07-13",
-      "hash": "6c6ad6dfd891"
-    },
-    {
-      "name": "huggingface-llm-trainer",
-      "description": "This skill should be used when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, and model persistence. Should be invoked for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
-      "category": "DevOps & Infra",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/llm-trainer",
-      "files": 19,
-      "bytes": 170136,
-      "skillTokens": 7144,
-      "descTokens": 158,
-      "bodyLines": 717,
-      "mtime": "2026-07-13",
-      "hash": "d17eed99f3d2"
-    },
-    {
-      "name": "huggingface-paper-publisher",
-      "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
-      "category": "Research & Analysis",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/paper-publisher",
-      "files": 9,
-      "bytes": 78476,
-      "skillTokens": 4332,
-      "descTokens": 51,
-      "bodyLines": 625,
-      "mtime": "2026-07-13",
-      "hash": "005baf6fe836"
-    },
-    {
-      "name": "huggingface-papers",
-      "description": "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.",
-      "category": "Research & Analysis",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/papers",
-      "files": 2,
-      "bytes": 9706,
-      "skillTokens": 2397,
-      "descTokens": 80,
-      "bodyLines": 239,
-      "mtime": "2026-07-13",
-      "hash": "5b57c8c2f131"
-    },
-    {
-      "name": "huggingface-trackio",
-      "description": "Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.",
-      "category": "Backend & APIs",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/trackio",
-      "files": 5,
-      "bytes": 25277,
-      "skillTokens": 1251,
-      "descTokens": 79,
-      "bodyLines": 116,
-      "mtime": "2026-07-13",
-      "hash": "828b805b8147"
-    },
-    {
-      "name": "huggingface-vision-trainer",
-      "description": "Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs.",
-      "category": "AI & Agents",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/vision-trainer",
-      "files": 13,
-      "bytes": 207029,
-      "skillTokens": 7697,
-      "descTokens": 195,
-      "bodyLines": 594,
-      "mtime": "2026-07-13",
-      "hash": "d921071a5d9a"
-    },
-    {
       "name": "humanizer",
       "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including: inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, negative parallelisms, and excessive conjunctive phrases. Credits: Original skill by @blader - https://github.com/blader/humanizer",
       "category": "Docs & Writing",
@@ -19240,11 +19380,11 @@
       },
       "path": ".codex/skills/.system/imagegen",
       "files": 12,
-      "bytes": 129225,
+      "bytes": 129734,
       "skillTokens": 4879,
       "descTokens": 143,
       "bodyLines": 316,
-      "mtime": "2026-08-22",
+      "mtime": "2026-09-06",
       "hash": "f549d16f276a"
     },
     {
@@ -19388,6 +19528,34 @@
       "bodyLines": 253,
       "mtime": "2026-02-10",
       "hash": "c3d47c3e8bed"
+    },
+    {
+      "name": "improve-animations",
+      "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/improve-animations",
+      "files": 3,
+      "bytes": 18691,
+      "skillTokens": 2004,
+      "descTokens": 113,
+      "bodyLines": 102,
+      "mtime": "2026-09-07",
+      "hash": "faa9ce9ddd3d"
     },
     {
       "name": "improve-codebase-architecture",
@@ -19608,6 +19776,34 @@
       "hash": "087ded13140d"
     },
     {
+      "name": "interface-review",
+      "description": "Reviews your work across multiple categories like UI, typography, layout, color, writing and accessibility and gives you a detailed analysis of the findings.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/interface-review",
+      "files": 4,
+      "bytes": 22194,
+      "skillTokens": 2711,
+      "descTokens": 40,
+      "bodyLines": 155,
+      "mtime": "2026-09-07",
+      "hash": "2c3902e91970"
+    },
+    {
       "name": "internal-comms",
       "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
       "category": "Uncategorized",
@@ -19682,13 +19878,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/investigation-mode",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/investigation-mode",
       "files": 2,
       "bytes": 9691,
       "skillTokens": 2396,
       "descTokens": 57,
       "bodyLines": 277,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "c6b121b0fe10"
     },
     {
@@ -20111,13 +20307,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/json-render",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/json-render",
       "files": 2,
       "bytes": 10890,
       "skillTokens": 2678,
       "descTokens": 61,
       "bodyLines": 335,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "b7cc3fb4cbec"
     },
     {
@@ -20288,6 +20484,34 @@
       "bodyLines": 86,
       "mtime": "2026-09-02",
       "hash": "4fb4901d5ff6"
+    },
+    {
+      "name": "knowledge-update",
+      "description": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start.",
+      "category": "Uncategorized",
+      "categorySource": "none",
+      "family": "vercel",
+      "tools": [
+        "codex"
+      ],
+      "surfaces": [
+        "plugin"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "openai-curated",
+        "plugin": "vercel"
+      },
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/knowledge-update",
+      "files": 2,
+      "bytes": 7340,
+      "skillTokens": 1803,
+      "descTokens": 29,
+      "bodyLines": 85,
+      "mtime": "2026-09-05",
+      "hash": "f538af59cbf1"
     },
     {
       "name": "kotlin-coroutines-flows",
@@ -20970,7 +21194,7 @@
       "skillTokens": 5979,
       "descTokens": 83,
       "bodyLines": 186,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "8d784d26e79d"
     },
     {
@@ -21370,7 +21594,7 @@
     },
     {
       "name": "marketplace",
-      "description": "Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment variables, unified billing, and the vercel integration CLI. Use when consuming third-party services, building custom integrations, or managing marketplace resources on Vercel.",
+      "description": "Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel integration` CLI. Use when building any app that needs an external capability without a dedicated skill — commerce (stores, storefronts, selling products), payments (checkout, subscriptions, billing), observability/monitoring, messaging/email, search, or CMS — or when discovering, installing, or managing integrations.",
       "category": "Meta & Skill Tooling",
       "categorySource": "keywords",
       "family": "vercel",
@@ -21387,14 +21611,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/marketplace",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/marketplace",
       "files": 2,
-      "bytes": 19347,
-      "skillTokens": 4792,
-      "descTokens": 74,
-      "bodyLines": 468,
-      "mtime": "2026-07-13",
-      "hash": "a4d2de1778c6"
+      "bytes": 6882,
+      "skillTokens": 1676,
+      "descTokens": 111,
+      "bodyLines": 89,
+      "mtime": "2026-09-05",
+      "hash": "97421e8f6ac8"
     },
     {
       "name": "marp-slide",
@@ -21495,7 +21719,7 @@
       "skillTokens": 4991,
       "descTokens": 177,
       "bodyLines": 412,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "3194b4eb541a"
     },
     {
@@ -21579,7 +21803,7 @@
       "skillTokens": 3133,
       "descTokens": 110,
       "bodyLines": 555,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "3a8c73fc7cad"
     },
     {
@@ -21965,13 +22189,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/micro",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/micro",
       "files": 2,
       "bytes": 4323,
       "skillTokens": 1045,
       "descTokens": 46,
       "bodyLines": 180,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "49dad35398ae"
     },
     {
@@ -22001,6 +22225,34 @@
       "bodyLines": 81,
       "mtime": "2026-07-24",
       "hash": "6ee2f50bf425"
+    },
+    {
+      "name": "microfrontends",
+      "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfrontends, multi-zones, splitting an app across teams, independent deployments, cross-app routing, incremental migration, composing multiple frontends under one domain, microfrontends.json, @vercel/microfrontends, the microfrontends local proxy, or path-based routing between Vercel projects. Also use when the user asks about shared layouts across projects, navigation between microfrontends, fallback environments, asset prefixes, or feature flag controlled routing.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "vercel",
+      "tools": [
+        "codex"
+      ],
+      "surfaces": [
+        "plugin"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "openai-curated",
+        "plugin": "vercel"
+      },
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/microfrontends",
+      "files": 8,
+      "bytes": 44794,
+      "skillTokens": 1090,
+      "descTokens": 146,
+      "bodyLines": 54,
+      "mtime": "2026-09-05",
+      "hash": "1a0334cb40dd"
     },
     {
       "name": "migrate-create",
@@ -22456,13 +22708,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/ncc",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/ncc",
       "files": 2,
       "bytes": 4842,
       "skillTokens": 1168,
       "descTokens": 58,
       "bodyLines": 158,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "13ea4e0e90dc"
     },
     {
@@ -22492,342 +22744,6 @@
       "bodyLines": 231,
       "mtime": "2026-05-17",
       "hash": "a19b2a59ed49"
-    },
-    {
-      "name": "netlify-ai-gateway",
-      "description": "Guide for using Netlify AI Gateway to access AI models. Use when adding AI capabilities or selecting/changing AI models. Must be read before choosing a model. Covers supported providers (OpenAI, Anthropic, Google), SDK setup, environment variables, and the list of available models.",
-      "category": "AI & Agents",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-ai-gateway",
-      "files": 5,
-      "bytes": 18906,
-      "skillTokens": 900,
-      "descTokens": 71,
-      "bodyLines": 120,
-      "mtime": "2026-07-13",
-      "hash": "f6baabd43712"
-    },
-    {
-      "name": "netlify-blobs",
-      "description": "Guide for using Netlify Blobs object storage. Use when storing files, images, documents, or simple key-value data without a full database. Covers getStore(), CRUD operations, metadata, listing, deploy-scoped vs site-scoped stores, and local development.",
-      "category": "Docs & Writing",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-blobs",
-      "files": 5,
-      "bytes": 18138,
-      "skillTokens": 714,
-      "descTokens": 64,
-      "bodyLines": 100,
-      "mtime": "2026-07-13",
-      "hash": "9af4a2162310"
-    },
-    {
-      "name": "netlify-caching",
-      "description": "Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate, implementing on-demand cache purge, or understanding Netlify's CDN caching behavior. Covers Cache-Control, Netlify-CDN-Cache-Control, cache tags, durable cache, and framework-specific caching patterns.",
-      "category": "Backend & APIs",
-      "categorySource": "family-inference",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-caching",
-      "files": 5,
-      "bytes": 19353,
-      "skillTokens": 1008,
-      "descTokens": 80,
-      "bodyLines": 137,
-      "mtime": "2026-07-13",
-      "hash": "6c0820fa5784"
-    },
-    {
-      "name": "netlify-cli-and-deploy",
-      "description": "Guide for using the Netlify CLI and deploying sites. Use when installing the CLI, linking sites, deploying (Git-based or manual), managing environment variables, or running local development. Covers netlify dev, netlify deploy, Git vs non-Git workflows, and environment variable management.",
-      "category": "DevOps & Infra",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-cli-and-deploy",
-      "files": 5,
-      "bytes": 19732,
-      "skillTokens": 1109,
-      "descTokens": 73,
-      "bodyLines": 152,
-      "mtime": "2026-07-13",
-      "hash": "edebd7b4fbd3"
-    },
-    {
-      "name": "netlify-config",
-      "description": "Reference for netlify.toml configuration. Use when configuring build settings, redirects, rewrites, headers, deploy contexts, environment variables, or any site-level configuration. Covers the complete netlify.toml syntax including redirects with splats/conditions, headers, deploy contexts, functions config, and edge functions config.",
-      "category": "Meta & Skill Tooling",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-config",
-      "files": 5,
-      "bytes": 19170,
-      "skillTokens": 967,
-      "descTokens": 84,
-      "bodyLines": 176,
-      "mtime": "2026-07-13",
-      "hash": "46f4c19f50a8"
-    },
-    {
-      "name": "netlify-deploy",
-      "description": "Deploy projects to Netlify with the Netlify CLI. Use when the user wants to link a repo, validate deploy settings, run a deploy, or choose between preview and production flows.",
-      "category": "DevOps & Infra",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-deploy",
-      "files": 8,
-      "bytes": 36573,
-      "skillTokens": 1811,
-      "descTokens": 44,
-      "bodyLines": 248,
-      "mtime": "2026-07-13",
-      "hash": "59ad4db59605"
-    },
-    {
-      "name": "netlify-edge-functions",
-      "description": "Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geolocation, and when to choose edge vs serverless.",
-      "category": "Backend & APIs",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-edge-functions",
-      "files": 5,
-      "bytes": 19014,
-      "skillTokens": 923,
-      "descTokens": 76,
-      "bodyLines": 127,
-      "mtime": "2026-07-13",
-      "hash": "dd2029d6d270"
-    },
-    {
-      "name": "netlify-forms",
-      "description": "Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms, or any form that should be collected by Netlify. Covers the data-netlify attribute, spam filtering, AJAX submissions, file uploads, notifications, and the submissions API.",
-      "category": "Backend & APIs",
-      "categorySource": "family-inference",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-forms",
-      "files": 5,
-      "bytes": 21813,
-      "skillTokens": 1628,
-      "descTokens": 73,
-      "bodyLines": 173,
-      "mtime": "2026-07-13",
-      "hash": "249cae5cf3f7"
-    },
-    {
-      "name": "netlify-frameworks",
-      "description": "Guide for deploying web frameworks on Netlify. Use when setting up a framework project (Vite/React, Astro, TanStack Start, Next.js, Nuxt, SvelteKit, Remix) for Netlify deployment, configuring adapters or plugins, or troubleshooting framework-specific Netlify integration. Covers what Netlify needs from each framework and how adapters handle server-side rendering.",
-      "category": "Frontend & UI",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-frameworks",
-      "files": 9,
-      "bytes": 28075,
-      "skillTokens": 757,
-      "descTokens": 91,
-      "bodyLines": 74,
-      "mtime": "2026-07-13",
-      "hash": "21a77140bcb5"
-    },
-    {
-      "name": "netlify-functions",
-      "description": "Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks, or any server-side logic using Netlify Functions. Covers modern syntax (default export + Config), TypeScript, path routing, background functions, scheduled functions, streaming, and method routing.",
-      "category": "Backend & APIs",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-functions",
-      "files": 5,
-      "bytes": 20690,
-      "skillTokens": 1342,
-      "descTokens": 80,
-      "bodyLines": 169,
-      "mtime": "2026-07-13",
-      "hash": "27087ae3b744"
-    },
-    {
-      "name": "netlify-identity",
-      "description": "Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access control, or protecting routes and functions. Always use `@netlify/identity`. Never use `netlify-identity-widget` or `gotrue-js` — they are deprecated.",
-      "category": "Backend & APIs",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-identity",
-      "files": 6,
-      "bytes": 29735,
-      "skillTokens": 2557,
-      "descTokens": 68,
-      "bodyLines": 336,
-      "mtime": "2026-07-13",
-      "hash": "251666c459da"
-    },
-    {
-      "name": "netlify-image-cdn",
-      "description": "Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creating responsive image markup, setting up user-uploaded image pipelines, or configuring image transformations. Covers the /.netlify/images endpoint, query parameters, remote image allowlisting, clean URL rewrites, and composing uploads with Functions + Blobs.",
-      "category": "Media & Content",
-      "categorySource": "keywords",
-      "family": "netlify",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "netlify"
-      },
-      "path": ".codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-image-cdn",
-      "files": 6,
-      "bytes": 23034,
-      "skillTokens": 691,
-      "descTokens": 94,
-      "bodyLines": 85,
-      "mtime": "2026-07-13",
-      "hash": "71936008eebd"
     },
     {
       "name": "netmiko-ssh-automation",
@@ -23082,6 +22998,34 @@
       "hash": "8121fba66979"
     },
     {
+      "name": "next-cache-components",
+      "description": "Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from unstable_cache. Use when implementing partial prerendering, caching strategies, or migrating from older Next.js cache patterns.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "vercel",
+      "tools": [
+        "codex"
+      ],
+      "surfaces": [
+        "plugin"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "openai-curated",
+        "plugin": "vercel"
+      },
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/next-cache-components",
+      "files": 2,
+      "bytes": 10903,
+      "skillTokens": 2693,
+      "descTokens": 62,
+      "bodyLines": 448,
+      "mtime": "2026-09-05",
+      "hash": "93644c0f26e1"
+    },
+    {
       "name": "next-forge",
       "description": "next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.",
       "category": "Uncategorized",
@@ -23156,14 +23100,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/next-forge",
-      "files": 2,
-      "bytes": 13759,
-      "skillTokens": 3401,
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/next-forge",
+      "files": 6,
+      "bytes": 33977,
+      "skillTokens": 1938,
       "descTokens": 53,
-      "bodyLines": 375,
-      "mtime": "2026-07-13",
-      "hash": "c5b1fbdf8b20"
+      "bodyLines": 238,
+      "mtime": "2026-09-05",
+      "hash": "6a59b5faf052"
     },
     {
       "name": "next-upgrade",
@@ -23222,6 +23166,34 @@
       "hash": "d35cf389165e"
     },
     {
+      "name": "next-upgrade",
+      "description": "Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js versions, running codemods, or migrating between major releases.",
+      "category": "Git & Workflow",
+      "categorySource": "keywords",
+      "family": "vercel",
+      "tools": [
+        "codex"
+      ],
+      "surfaces": [
+        "plugin"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "openai-curated",
+        "plugin": "vercel"
+      },
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/next-upgrade",
+      "files": 2,
+      "bytes": 3134,
+      "skillTokens": 753,
+      "descTokens": 45,
+      "bodyLines": 84,
+      "mtime": "2026-09-05",
+      "hash": "079b8320a9d6"
+    },
+    {
       "name": "nextjs",
       "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel.",
       "category": "Frontend & UI",
@@ -23268,14 +23240,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/nextjs",
-      "files": 3,
-      "bytes": 33725,
-      "skillTokens": 7731,
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/nextjs",
+      "files": 22,
+      "bytes": 88142,
+      "skillTokens": 1382,
       "descTokens": 65,
-      "bodyLines": 746,
-      "mtime": "2026-07-13",
-      "hash": "ae6b32ecda21"
+      "bodyLines": 198,
+      "mtime": "2026-09-05",
+      "hash": "8f0f2033b174"
     },
     {
       "name": "nextjs-supabase-auth",
@@ -23417,13 +23389,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/observability",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/observability",
       "files": 2,
       "bytes": 27465,
       "skillTokens": 6821,
       "descTokens": 78,
       "bodyLines": 774,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "4a3ddef501eb"
     },
     {
@@ -23564,7 +23536,7 @@
       "skillTokens": 1371,
       "descTokens": 116,
       "bodyLines": 39,
-      "mtime": "2026-08-22",
+      "mtime": "2026-09-06",
       "hash": "50a4b64f4072"
     },
     {
@@ -23792,13 +23764,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/payments",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/payments",
       "files": 2,
       "bytes": 11117,
       "skillTokens": 2735,
       "descTokens": 57,
       "bodyLines": 352,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "29c511006b6d"
     },
     {
@@ -24157,6 +24129,34 @@
       "hash": "29687e43a532"
     },
     {
+      "name": "pick-ui-library",
+      "description": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/pick-ui-library",
+      "files": 1,
+      "bytes": 4591,
+      "skillTokens": 1148,
+      "descTokens": 66,
+      "bodyLines": 78,
+      "mtime": "2026-09-07",
+      "hash": "380cbea1c89e"
+    },
+    {
       "name": "pii-detect",
       "description": "Detect and flag personally identifiable information (PII) in text, code, and configurations",
       "category": "Uncategorized",
@@ -24237,7 +24237,7 @@
       "skillTokens": 956,
       "descTokens": 68,
       "bodyLines": 77,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "d2917333c61e"
     },
     {
@@ -24345,11 +24345,11 @@
       },
       "path": ".codex/skills/.system/plugin-creator",
       "files": 11,
-      "bytes": 70124,
+      "bytes": 70618,
       "skillTokens": 2929,
       "descTokens": 118,
       "bodyLines": 250,
-      "mtime": "2026-08-22",
+      "mtime": "2026-09-06",
       "hash": "e1f7df45e45d"
     },
     {
@@ -24442,7 +24442,7 @@
       "skillTokens": 3025,
       "descTokens": 102,
       "bodyLines": 545,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "2fda9b9bc46d"
     },
     {
@@ -24470,7 +24470,7 @@
       "skillTokens": 3449,
       "descTokens": 109,
       "bodyLines": 477,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "85d3dd9e2419"
     },
     {
@@ -25061,7 +25061,7 @@
       "skillTokens": 5107,
       "descTokens": 228,
       "bodyLines": 262,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "28a2f02a8bce"
     },
     {
@@ -25193,6 +25193,34 @@
       "bodyLines": 399,
       "mtime": "2026-05-17",
       "hash": "d7c2cf3a551b"
+    },
+    {
+      "name": "prototype",
+      "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.",
+      "category": "Frontend & UI",
+      "categorySource": "family-inference",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/prototype",
+      "files": 2,
+      "bytes": 15323,
+      "skillTokens": 1895,
+      "descTokens": 61,
+      "bodyLines": 91,
+      "mtime": "2026-09-07",
+      "hash": "66d018b591bb"
     },
     {
       "name": "pubmed-database",
@@ -25530,14 +25558,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/react-best-practices",
-      "files": 2,
-      "bytes": 4558,
-      "skillTokens": 1110,
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/react-best-practices",
+      "files": 69,
+      "bytes": 207577,
+      "skillTokens": 1777,
       "descTokens": 56,
-      "bodyLines": 86,
-      "mtime": "2026-07-13",
-      "hash": "2dd030977d5a"
+      "bodyLines": 158,
+      "mtime": "2026-09-05",
+      "hash": "b5410c9d22cf"
     },
     {
       "name": "react-dev",
@@ -25787,7 +25815,7 @@
       "skillTokens": 4314,
       "descTokens": 152,
       "bodyLines": 301,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "988fed05487c"
     },
     {
@@ -26320,8 +26348,36 @@
       "skillTokens": 680,
       "descTokens": 58,
       "bodyLines": 58,
-      "mtime": "2026-08-22",
+      "mtime": "2026-09-06",
       "hash": "f53558561e05"
+    },
+    {
+      "name": "review-animations",
+      "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+      "category": "Frontend & UI",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/review-animations",
+      "files": 2,
+      "bytes": 18208,
+      "skillTokens": 2055,
+      "descTokens": 40,
+      "bodyLines": 113,
+      "mtime": "2026-09-07",
+      "hash": "c06a1a3d827e"
     },
     {
       "name": "revops",
@@ -26399,13 +26455,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/routing-middleware",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/routing-middleware",
       "files": 2,
       "bytes": 9937,
       "skillTokens": 2438,
       "descTokens": 59,
       "bodyLines": 251,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "0cb22ad8e7d5"
     },
     {
@@ -26483,13 +26539,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/runtime-cache",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/runtime-cache",
       "files": 2,
       "bytes": 8382,
       "skillTokens": 2053,
       "descTokens": 59,
       "bodyLines": 249,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "c150415a3923"
     },
     {
@@ -26652,13 +26708,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/satori",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/satori",
       "files": 2,
       "bytes": 7750,
       "skillTokens": 1894,
       "descTokens": 40,
       "bodyLines": 256,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "4feac41ad03f"
     },
     {
@@ -27202,7 +27258,7 @@
       "skillTokens": 788,
       "descTokens": 39,
       "bodyLines": 43,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "786892c24d60"
     },
     {
@@ -27286,13 +27342,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/shadcn",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/shadcn",
       "files": 2,
       "bytes": 20280,
       "skillTokens": 5027,
       "descTokens": 82,
       "bodyLines": 574,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "07935e3b9cbf"
     },
     {
@@ -27335,7 +27391,7 @@
     {
       "name": "shell",
       "description": "Runs the rest of a /shell request as a literal shell command. Use only when the user explicitly invokes /shell and wants the following text executed directly in the terminal.",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -27416,13 +27472,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/sign-in-with-vercel",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/sign-in-with-vercel",
       "files": 2,
       "bytes": 2566,
       "skillTokens": 596,
       "descTokens": 46,
       "bodyLines": 65,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "1597620c3cd9"
     },
     {
@@ -27644,11 +27700,11 @@
       },
       "path": ".codex/skills/.system/skill-creator",
       "files": 9,
-      "bytes": 54229,
+      "bytes": 54476,
       "skillTokens": 3885,
       "descTokens": 27,
       "bodyLines": 230,
-      "mtime": "2026-08-22",
+      "mtime": "2026-09-06",
       "hash": "26851dd4ef55"
     },
     {
@@ -27676,7 +27732,7 @@
       "skillTokens": 5707,
       "descTokens": 73,
       "bodyLines": 638,
-      "mtime": "2026-09-04",
+      "mtime": "2026-09-05",
       "hash": "0cb907253476"
     },
     {
@@ -27700,11 +27756,11 @@
       },
       "path": ".codex/skills/.system/skill-installer",
       "files": 8,
-      "bytes": 33111,
+      "bytes": 33229,
       "skillTokens": 857,
       "descTokens": 57,
       "bodyLines": 59,
-      "mtime": "2026-08-22",
+      "mtime": "2026-09-06",
       "hash": "4224e29f4718"
     },
     {
@@ -27982,7 +28038,7 @@
     {
       "name": "source-code-context",
       "description": "Use when an AI coding agent is guessing API names or framework behavior from incomplete docs. Shows how to provide local source-code references so the agent searches the real implementation before coding.",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -28178,7 +28234,7 @@
     {
       "name": "split-to-prs",
       "description": "Split current work into small reviewable PRs. Use when the user asks to split a chat, set of changes, branch, or PR.",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -28346,7 +28402,7 @@
     {
       "name": "statusline",
       "description": "Configure a custom status line in the CLI. Use when the user mentions status line, statusline, statusLine, CLI status bar, prompt footer customization, or wants to add session context above the prompt.",
-      "category": "Meta & Skill Tooling",
+      "category": "Frontend & UI",
       "categorySource": "family-inference",
       "family": "standalone",
       "tools": [
@@ -28958,13 +29014,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/swr",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/swr",
       "files": 2,
       "bytes": 6081,
       "skillTokens": 1497,
       "descTokens": 50,
       "bodyLines": 215,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "fce9799ed445"
     },
     {
@@ -29936,34 +29992,6 @@
       "hash": "ff52bbcbbcf1"
     },
     {
-      "name": "transformers-js",
-      "description": "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in Node.js and browsers (with WebGPU/WASM) using pre-trained models from Hugging Face Hub.",
-      "category": "Languages & Frameworks",
-      "categorySource": "keywords",
-      "family": "hugging-face",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "hugging-face"
-      },
-      "path": ".codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/transformers.js",
-      "files": 8,
-      "bytes": 87812,
-      "skillTokens": 5765,
-      "descTokens": 99,
-      "bodyLines": 636,
-      "mtime": "2026-07-13",
-      "hash": "7664e40a7324"
-    },
-    {
       "name": "triage",
       "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.",
       "category": "Personal & Communication",
@@ -30044,13 +30072,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/turbopack",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/turbopack",
       "files": 2,
       "bytes": 10341,
       "skillTokens": 2563,
       "descTokens": 41,
       "bodyLines": 318,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "316ea0b117dc"
     },
     {
@@ -30072,13 +30100,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/turborepo",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/turborepo",
       "files": 2,
       "bytes": 17569,
       "skillTokens": 4370,
       "descTokens": 46,
       "bodyLines": 612,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "0b2f6a5fb246"
     },
     {
@@ -30476,13 +30504,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/v0-dev",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/v0-dev",
       "files": 2,
       "bytes": 15189,
       "skillTokens": 3775,
       "descTokens": 57,
       "bodyLines": 496,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "7e28f328fbec"
     },
     {
@@ -30934,6 +30962,34 @@
       "hash": "6f5fa25edf38"
     },
     {
+      "name": "variant",
+      "description": "Builds multiple variants of a component you're working on and helps you iterate and pick one.",
+      "category": "Frontend & UI",
+      "categorySource": "family-inference",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/variant",
+      "files": 3,
+      "bytes": 9242,
+      "skillTokens": 1569,
+      "descTokens": 24,
+      "bodyLines": 111,
+      "mtime": "2026-09-07",
+      "hash": "b9fd04f9d388"
+    },
+    {
       "name": "vector-cluster",
       "description": "Cluster code by graph community detection via npx ruvector@0.2.25 hooks graph-cluster (spectral / Louvain)",
       "category": "Data & Databases",
@@ -31120,13 +31176,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-agent",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-agent",
       "files": 2,
       "bytes": 2582,
       "skillTokens": 605,
       "descTokens": 53,
       "bodyLines": 68,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "583150f13ace"
     },
     {
@@ -31148,13 +31204,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-api",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-api",
       "files": 2,
       "bytes": 10195,
       "skillTokens": 2523,
       "descTokens": 53,
       "bodyLines": 275,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "02ba1584c696"
     },
     {
@@ -31215,7 +31271,7 @@
     },
     {
       "name": "vercel-cli",
-      "description": "Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, managing domains, or interacting with the Vercel platform from the command line.",
+      "description": "Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, querying metrics, managing domains, or interacting with the Vercel platform from the command line.",
       "category": "DevOps & Infra",
       "categorySource": "keywords",
       "family": "vercel",
@@ -31232,14 +31288,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-cli",
-      "files": 2,
-      "bytes": 13371,
-      "skillTokens": 3320,
-      "descTokens": 48,
-      "bodyLines": 462,
-      "mtime": "2026-07-13",
-      "hash": "2c4503669271"
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-cli",
+      "files": 18,
+      "bytes": 37793,
+      "skillTokens": 1342,
+      "descTokens": 53,
+      "bodyLines": 127,
+      "mtime": "2026-09-05",
+      "hash": "8f4594786b09"
     },
     {
       "name": "vercel-connect",
@@ -31298,6 +31354,34 @@
       "hash": "3ec678dca66e"
     },
     {
+      "name": "vercel-connect",
+      "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use when wiring up third-party API access, connecting to MCP servers, sending Slack messages, accessing GitHub APIs, receiving webhook events from Slack/Linear/GitHub and forwarding them to your agents and apps, or building Eve agent connections.",
+      "category": "Backend & APIs",
+      "categorySource": "keywords",
+      "family": "vercel",
+      "tools": [
+        "codex"
+      ],
+      "surfaces": [
+        "plugin"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "plugin",
+        "marketplace": "openai-curated",
+        "plugin": "vercel"
+      },
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-connect",
+      "files": 2,
+      "bytes": 18051,
+      "skillTokens": 4480,
+      "descTokens": 109,
+      "bodyLines": 367,
+      "mtime": "2026-09-05",
+      "hash": "1888c7d7a075"
+    },
+    {
       "name": "vercel-firewall",
       "description": "Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI. Use when configuring platform-level security, responding to attacks, or staging firewall rules.",
       "category": "DevOps & Infra",
@@ -31327,7 +31411,7 @@
     },
     {
       "name": "vercel-firewall",
-      "description": "Vercel Firewall and security expert guidance. Use when configuring DDoS protection, WAF rules, rate limiting, bot filtering, IP allow/block lists, OWASP rulesets, Attack Challenge Mode, or any security configuration on the Vercel platform.",
+      "description": "Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI. Use when configuring platform-level security, responding to attacks, or staging firewall rules.",
       "category": "DevOps & Infra",
       "categorySource": "keywords",
       "family": "vercel",
@@ -31344,14 +31428,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-firewall",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-firewall",
       "files": 2,
-      "bytes": 18217,
-      "skillTokens": 4526,
-      "descTokens": 60,
-      "bodyLines": 687,
-      "mtime": "2026-07-13",
-      "hash": "9e6ca20a85e3"
+      "bytes": 20519,
+      "skillTokens": 5101,
+      "descTokens": 78,
+      "bodyLines": 344,
+      "mtime": "2026-09-05",
+      "hash": "697b00ef9c71"
     },
     {
       "name": "vercel-flags",
@@ -31372,13 +31456,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-flags",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-flags",
       "files": 2,
       "bytes": 10795,
       "skillTokens": 2654,
       "descTokens": 54,
       "bodyLines": 261,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "76f74321abe2"
     },
     {
@@ -31456,14 +31540,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-functions",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-functions",
       "files": 2,
-      "bytes": 9839,
-      "skillTokens": 2414,
+      "bytes": 14975,
+      "skillTokens": 3698,
       "descTokens": 56,
-      "bodyLines": 300,
-      "mtime": "2026-07-13",
-      "hash": "20b18a7d0de3"
+      "bodyLines": 424,
+      "mtime": "2026-09-05",
+      "hash": "18233ad63f3f"
     },
     {
       "name": "vercel-plugin-eval",
@@ -31512,13 +31596,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-queues",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-queues",
       "files": 2,
       "bytes": 8767,
       "skillTokens": 2147,
       "descTokens": 62,
       "bodyLines": 230,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "924ad3587fb0"
     },
     {
@@ -31661,14 +31745,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-sandbox",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-sandbox",
       "files": 2,
-      "bytes": 9874,
-      "skillTokens": 2428,
+      "bytes": 11424,
+      "skillTokens": 2816,
       "descTokens": 55,
-      "bodyLines": 289,
-      "mtime": "2026-07-13",
-      "hash": "051d10f069a3"
+      "bodyLines": 344,
+      "mtime": "2026-09-05",
+      "hash": "32b01173affe"
     },
     {
       "name": "vercel-services",
@@ -31717,13 +31801,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-services",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-services",
       "files": 6,
       "bytes": 8652,
       "skillTokens": 1909,
       "descTokens": 49,
       "bodyLines": 171,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "c50ee6db4982"
     },
     {
@@ -31773,13 +31857,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-storage",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-storage",
       "files": 2,
       "bytes": 15954,
       "skillTokens": 3944,
       "descTokens": 48,
       "bodyLines": 442,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "2badbacb44e5"
     },
     {
@@ -31829,13 +31913,13 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/verification",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/verification",
       "files": 2,
       "bytes": 7864,
       "skillTokens": 1921,
       "descTokens": 53,
       "bodyLines": 168,
-      "mtime": "2026-07-13",
+      "mtime": "2026-09-05",
       "hash": "96515f4a040d"
     },
     {
@@ -32662,14 +32746,14 @@
         "marketplace": "openai-curated",
         "plugin": "vercel"
       },
-      "path": ".codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/workflow",
+      "path": ".codex/plugins/cache/openai-curated/vercel/1e285826/skills/workflow",
       "files": 3,
-      "bytes": 33555,
-      "skillTokens": 7704,
+      "bytes": 31133,
+      "skillTokens": 7099,
       "descTokens": 57,
-      "bodyLines": 970,
-      "mtime": "2026-07-13",
-      "hash": "ea5f867bc0da"
+      "bodyLines": 881,
+      "mtime": "2026-09-05",
+      "hash": "917ced0afa7f"
     },
     {
       "name": "workflow-automation",
@@ -32847,6 +32931,34 @@
       "hash": "3feb6a121093"
     },
     {
+      "name": "write-swift",
+      "description": "How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.",
+      "category": "Languages & Frameworks",
+      "categorySource": "keywords",
+      "family": "standalone",
+      "tools": [
+        "claude-code"
+      ],
+      "surfaces": [
+        "personal"
+      ],
+      "installed": true,
+      "copies": 1,
+      "origin": {
+        "kind": "standalone",
+        "marketplace": null,
+        "plugin": null
+      },
+      "path": ".claude/skills/write-swift",
+      "files": 1,
+      "bytes": 42573,
+      "skillTokens": 10644,
+      "descTokens": 121,
+      "bodyLines": 389,
+      "mtime": "2026-09-07",
+      "hash": "4ccbc73dae57"
+    },
+    {
       "name": "Writing Hookify Rules",
       "description": "This skill should be used when the user asks to \"create a hookify rule\", \"write a hook rule\", \"configure hookify\", \"add a hookify rule\", or needs guidance on hookify rule syntax and patterns.",
       "category": "Meta & Skill Tooling",
@@ -32925,7 +33037,7 @@
         "plugin"
       ],
       "installed": true,
-      "copies": 8,
+      "copies": 9,
       "origin": {
         "kind": "plugin",
         "marketplace": "claude-plugins-official",
@@ -33157,34 +33269,6 @@
       "bodyLines": 100,
       "mtime": "2026-07-17",
       "hash": "54069c5dd7f8"
-    },
-    {
-      "name": "yeet",
-      "description": "Publish local changes to GitHub by confirming scope, committing intentionally, pushing the branch, and opening a draft PR through the GitHub app from this plugin, with `gh` used only as a fallback where connector coverage is insufficient.",
-      "category": "Git & Workflow",
-      "categorySource": "keywords",
-      "family": "github",
-      "tools": [
-        "codex"
-      ],
-      "surfaces": [
-        "plugin"
-      ],
-      "installed": true,
-      "copies": 1,
-      "origin": {
-        "kind": "plugin",
-        "marketplace": "openai-curated",
-        "plugin": "github"
-      },
-      "path": ".codex/plugins/cache/openai-curated/github/bd2122cb/skills/yeet",
-      "files": 5,
-      "bytes": 17602,
-      "skillTokens": 1023,
-      "descTokens": 60,
-      "bodyLines": 71,
-      "mtime": "2026-07-13",
-      "hash": "aee4f91046ba"
     },
     {
       "name": "zoom-out",

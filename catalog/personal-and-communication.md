@@ -9,7 +9,7 @@
 | `chat-sdk` | Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase. Covers the Cha… | vercel | claude-code | 3 files, 27 KB |
 | `chat-sdk` | Build multi-platform chat bots with Chat SDK (`chat` npm package). Use when developers want to (1) Build a Slack, Teams, Google Chat, Discord, Telegram, GitHub, Linear, or WhatsApp bot, (2)… | vercel | claude-code | 1 files, 9 KB |
 | `chat-sdk` | Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase. Covers the Cha… | vercel | claude-code | 3 files, 27 KB |
-| `chat-sdk` | Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase. Covers the Cha… | vercel | codex | 2 files, 19 KB |
+| `chat-sdk` | Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord, Google Chat, GitHub, Linear — with a single codebase. Covers the Cha… | vercel | codex | 2 files, 11 KB |
 | `cost-conversation` | Per-conversation cost view — list every session in cost-tracking with started-at, message count, top model, and total cost *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `daily-meeting-update` | Interactive daily standup/meeting update generator. Use when user says 'daily', 'standup', 'scrum update', 'status update', 'what did I do yesterday', 'prepare for meeting', 'morning update… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 23 KB |
 | `difficult-workplace-conversations` | Structured approach to workplace conflicts, performance discussions, and challenging feedback using preparation-delivery-followup framework. Use when preparing for tough conversations, addr… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 42 KB |
@@ -97,15 +97,15 @@ Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/chat-sdk` |
-| Size | 2 files, 19 KB |
-| SKILL.md | 666 lines, ~4,810 tokens |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/chat-sdk` |
+| Size | 2 files, 11 KB |
+| SKILL.md | 289 lines, ~2,840 tokens |
 | Description cost | ~74 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
-| Content hash | `dc45a3fb3006` |
+| Content hash | `b0e81d32eab0` |
 | Bundled | `agents` |
 
 ### `cost-conversation`

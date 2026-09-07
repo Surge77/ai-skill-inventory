@@ -1,6 +1,6 @@
 # Backend & APIs
 
-60 skills — 46 installed, 14 available in a marketplace but not installed.
+55 skills — 41 installed, 14 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -29,17 +29,11 @@
 | `build-mcp-server` | This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integration", "wrap an API for Claude", "expose tools to Claude", "make an MCP app", or… *(marketplace only)* | plugins | claude-code | 9 files, 49 KB |
 | `django-patterns` | Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps. | ecc | claude-code | 1 files, 21 KB |
 | `fastapi-patterns` | FastAPI patterns for async APIs, dependency injection, Pydantic request and response models, OpenAPI docs, tests, security, and production readiness. | ecc | claude-code | 1 files, 9 KB |
-| `huggingface-trackio` | Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metri… | hugging-face | codex | 5 files, 25 KB |
 | `laravel-patterns` | Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps. | ecc | claude-code | 1 files, 11 KB |
 | `loop-worker` | Run Ruflo background workers using Claude Code native /loop scheduling *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `mcp-server-patterns` | Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API. | ecc | claude-code | 1 files, 4 KB |
 | `mcp-server-patterns` | Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API. | agents-std-store | agents-std | 2 files, 4 KB |
 | `micro` | Expert guidance for micro — asynchronous HTTP microservices framework by Vercel. Use when building lightweight HTTP servers, API endpoints, or microservices using the micro library. | vercel | codex | 2 files, 4 KB |
-| `netlify-caching` | Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate, implementing on-demand cache purge, or understanding Netlify's CDN cac… | netlify | codex | 5 files, 19 KB |
-| `netlify-edge-functions` | Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge c… | netlify | codex | 5 files, 19 KB |
-| `netlify-forms` | Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms, or any form that should be collected by Netlify. Covers the data-netl… | netlify | codex | 5 files, 21 KB |
-| `netlify-functions` | Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks, or any server-side logic using Netlify Functions. Covers modern synt… | netlify | codex | 5 files, 20 KB |
-| `netlify-identity` | Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access control, or protecting routes and functions. Always use `@netlify/iden… | netlify | codex | 6 files, 29 KB |
 | `nextjs-supabase-auth` | Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 1 KB |
 | `openapi-to-typescript` | Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This skill should be used when the user asks to generate types from OpenAPI, convert schema to TS, create API interf… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
 | `payments` | Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK. Use when implementing payments, subscr… | vercel | codex | 2 files, 11 KB |
@@ -55,6 +49,7 @@
 | `vercel-api` | Vercel app and REST API expert guidance. Use when the agent needs live access to Vercel projects, deployments, environment variables, domains, logs, or documentation through the connected V… | vercel | codex | 2 files, 10 KB |
 | `vercel-connect` | Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use… | vercel | claude-code | 1 files, 19 KB |
 | `vercel-connect` | Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use… | vercel | claude-code | 1 files, 19 KB |
+| `vercel-connect` | Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use… | vercel | codex | 2 files, 18 KB |
 | `vercel-queues` | Vercel Queues guidance (public beta) — durable event streaming with topics, consumer groups, retries, and delayed delivery. $0.60/1M ops. Powers Workflow DevKit. Use when building async pro… | vercel | codex | 2 files, 9 KB |
 | `verification` | Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this wor… | vercel | claude-code | 1 files, 8 KB |
 | `verification` | Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this wor… | vercel | codex | 2 files, 8 KB |
@@ -397,13 +392,13 @@ Authentication integration guidance — Clerk (native Vercel Marketplace), Desco
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/auth` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/auth` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 356 lines, ~2,436 tokens |
 | Description cost | ~64 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `52a826ee9eb0` |
 | Bundled | `agents` |
@@ -510,7 +505,7 @@ This skill should be used when the user asks to "build an MCP server", "create a
 | Description cost | ~122 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `45791cdfb5c0` |
 | Bundled | `references` |
@@ -556,28 +551,6 @@ FastAPI patterns for async APIs, dependency injection, Pydantic request and resp
 | Last modified | 2026-05-17 |
 | Category source | keywords |
 | Content hash | `07a6b18999bc` |
-
-### `huggingface-trackio`
-
-Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/trackio` |
-| Size | 5 files, 25 KB |
-| SKILL.md | 116 lines, ~1,251 tokens |
-| Description cost | ~79 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `828b805b8147` |
-| Bundled | `agents`, `references` |
 
 ### `laravel-patterns`
 
@@ -675,126 +648,16 @@ Expert guidance for micro — asynchronous HTTP microservices framework by Verce
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/micro` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/micro` |
 | Size | 2 files, 4 KB |
 | SKILL.md | 180 lines, ~1,045 tokens |
 | Description cost | ~46 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `49dad35398ae` |
 | Bundled | `agents` |
-
-### `netlify-caching`
-
-Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate, implementing on-demand cache purge, or understanding Netlify's CDN caching behavior. Covers Cache-Control, Netlify-CDN-Cache-Control, cache tags, durable cache, and framework-specific caching patterns.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-caching` |
-| Size | 5 files, 19 KB |
-| SKILL.md | 137 lines, ~1,008 tokens |
-| Description cost | ~80 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | family-inference |
-| Content hash | `6c0820fa5784` |
-| Bundled | `agents`, `assets` |
-
-### `netlify-edge-functions`
-
-Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geolocation, and when to choose edge vs serverless.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-edge-functions` |
-| Size | 5 files, 19 KB |
-| SKILL.md | 127 lines, ~923 tokens |
-| Description cost | ~76 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `dd2029d6d270` |
-| Bundled | `agents`, `assets` |
-
-### `netlify-forms`
-
-Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms, or any form that should be collected by Netlify. Covers the data-netlify attribute, spam filtering, AJAX submissions, file uploads, notifications, and the submissions API.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-forms` |
-| Size | 5 files, 21 KB |
-| SKILL.md | 173 lines, ~1,628 tokens |
-| Description cost | ~73 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | family-inference |
-| Content hash | `249cae5cf3f7` |
-| Bundled | `agents`, `assets` |
-
-### `netlify-functions`
-
-Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks, or any server-side logic using Netlify Functions. Covers modern syntax (default export + Config), TypeScript, path routing, background functions, scheduled functions, streaming, and method routing.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-functions` |
-| Size | 5 files, 20 KB |
-| SKILL.md | 169 lines, ~1,342 tokens |
-| Description cost | ~80 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `27087ae3b744` |
-| Bundled | `agents`, `assets` |
-
-### `netlify-identity`
-
-Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access control, or protecting routes and functions. Always use `@netlify/identity`. Never use `netlify-identity-widget` or `gotrue-js` — they are deprecated.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-identity` |
-| Size | 6 files, 29 KB |
-| SKILL.md | 336 lines, ~2,557 tokens |
-| Description cost | ~68 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `251666c459da` |
-| Bundled | `agents`, `assets`, `references` |
 
 ### `nextjs-supabase-auth`
 
@@ -849,13 +712,13 @@ Stripe payments integration guidance — native Vercel Marketplace setup, checko
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/payments` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/payments` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 352 lines, ~2,735 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `29c511006b6d` |
 | Bundled | `agents` |
@@ -898,7 +761,7 @@ Generate a personal Claude Code usage & impact report ("receipts") from this mac
 | Description cost | ~152 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `988fed05487c` |
 | Bundled | `scripts` |
@@ -935,13 +798,13 @@ Vercel Routing Middleware guidance — request interception before cache, rewrit
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/routing-middleware` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/routing-middleware` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 251 lines, ~2,438 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `0cb22ad8e7d5` |
 | Bundled | `agents` |
@@ -978,13 +841,13 @@ Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/runtime-cache` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/runtime-cache` |
 | Size | 2 files, 8 KB |
 | SKILL.md | 249 lines, ~2,053 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `c150415a3923` |
 | Bundled | `agents` |
@@ -1064,13 +927,13 @@ Vercel app and REST API expert guidance. Use when the agent needs live access to
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-api` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-api` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 275 lines, ~2,523 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `02ba1584c696` |
 | Bundled | `agents` |
@@ -1117,6 +980,28 @@ Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third
 | Category source | keywords |
 | Content hash | `3ec678dca66e` |
 
+### `vercel-connect`
+
+Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use when wiring up third-party API access, connecting to MCP servers, sending Slack messages, accessing GitHub APIs, receiving webhook events from Slack/Linear/GitHub and forwarding them to your agents and apps, or building Eve agent connections.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `openai-curated` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-connect` |
+| Size | 2 files, 18 KB |
+| SKILL.md | 367 lines, ~4,480 tokens |
+| Description cost | ~109 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-05 |
+| Category source | keywords |
+| Content hash | `1888c7d7a075` |
+| Bundled | `agents` |
+
 ### `vercel-queues`
 
 Vercel Queues guidance (public beta) — durable event streaming with topics, consumer groups, retries, and delayed delivery. $0.60/1M ops. Powers Workflow DevKit. Use when building async processing, fan-out patterns, or event-driven architectures.
@@ -1128,13 +1013,13 @@ Vercel Queues guidance (public beta) — durable event streaming with topics, co
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-queues` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-queues` |
 | Size | 2 files, 9 KB |
 | SKILL.md | 230 lines, ~2,147 tokens |
 | Description cost | ~62 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `924ad3587fb0` |
 | Bundled | `agents` |
@@ -1171,13 +1056,13 @@ Full-story verification — infers what the user is building, then verifies the 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/verification` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/verification` |
 | Size | 2 files, 8 KB |
 | SKILL.md | 168 lines, ~1,921 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `96515f4a040d` |
 | Bundled | `agents` |
