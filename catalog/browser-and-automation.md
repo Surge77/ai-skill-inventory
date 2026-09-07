@@ -34,13 +34,13 @@ Browser automation CLI for AI agents. Use when the user needs to interact with w
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/agent-browser` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/agent-browser` |
 | Size | 2 files, 7 KB |
 | SKILL.md | 228 lines, ~1,711 tokens |
 | Description cost | ~76 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `4ad05c784189` |
 | Bundled | `agents` |
@@ -56,13 +56,13 @@ Automated browser verification for dev servers. Triggers when a dev server start
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/agent-browser-verify` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/agent-browser-verify` |
 | Size | 2 files, 7 KB |
 | SKILL.md | 196 lines, ~1,690 tokens |
 | Description cost | ~63 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `0a9f10615662` |
 | Bundled | `agents` |

@@ -1,6 +1,6 @@
 # Media & Content
 
-20 skills — 19 installed, 1 available in a marketplace but not installed.
+19 skills — 18 installed, 1 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -16,7 +16,6 @@
 | `json-render` | AI chat response rendering guidance — handling UIMessage parts, tool call displays, streaming states, and structured data presentation. Use when building custom chat UIs, rendering tool res… | vercel | codex | 2 files, 11 KB |
 | `manim-video` | Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user wants a cl… | ecc | claude-code | 2 files, 6 KB |
 | `meme-factory` | Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 52 KB |
-| `netlify-image-cdn` | Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creating responsive image markup, setting up user-uploaded image pipelines, o… | netlify | codex | 6 files, 22 KB |
 | `pdf` | Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs… *(marketplace only)* | skills | claude-code | 12 files, 59 KB |
 | `pdf` | Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab… | standalone | codex | 4 files, 15 KB |
 | `pdf` | Read, create, inspect, render, and verify PDF files where visual layout matters, including fillable AcroForms. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pyp… | pdf | codex | 3 files, 8 KB |
@@ -189,13 +188,13 @@ AI chat response rendering guidance — handling UIMessage parts, tool call disp
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/json-render` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/json-render` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 335 lines, ~2,678 tokens |
 | Description cost | ~61 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `b7cc3fb4cbec` |
 | Bundled | `agents` |
@@ -243,28 +242,6 @@ Generate memes using the memegen.link API. Use when users request memes, want to
 | Category source | keywords |
 | Content hash | `4076687a36af` |
 | Bundled | `references`, `scripts` |
-
-### `netlify-image-cdn`
-
-Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creating responsive image markup, setting up user-uploaded image pipelines, or configuring image transformations. Covers the /.netlify/images endpoint, query parameters, remote image allowlisting, clean URL rewrites, and composing uploads with Functions + Blobs.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-image-cdn` |
-| Size | 6 files, 22 KB |
-| SKILL.md | 85 lines, ~691 tokens |
-| Description cost | ~94 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `71936008eebd` |
-| Bundled | `agents`, `assets`, `references` |
 
 ### `pdf`
 

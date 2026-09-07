@@ -1,6 +1,6 @@
 # Code Quality & Review
 
-27 skills — 19 installed, 8 available in a marketplace but not installed.
+26 skills — 18 installed, 8 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -20,7 +20,6 @@
 | `coding-standards` | Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. | ecc | claude-code | 1 files, 13 KB |
 | `coding-standards` | Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. | agents-std-store | agents-std | 2 files, 13 KB |
 | `dotnet-patterns` | Idiomatic C# and .NET patterns, conventions, dependency injection, async/await, and best practices for building robust, maintainable .NET applications. | ecc | claude-code | 1 files, 9 KB |
-| `gh-address-comments` | Address actionable GitHub pull request review feedback. Use when the user wants to inspect unresolved review threads, requested changes, or inline review comments on a PR, then implement se… | github | codex | 6 files, 24 KB |
 | `github-code-review` | Comprehensive GitHub code review with AI-powered swarm coordination *(marketplace only)* | .agents | claude-code | 1 files, 27 KB |
 | `github-code-review` | Comprehensive GitHub code review with AI-powered swarm coordination *(marketplace only)* | .claude | claude-code | 1 files, 26 KB |
 | `golang-patterns` | Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications. | ecc | claude-code | 1 files, 14 KB |
@@ -330,28 +329,6 @@ Idiomatic C# and .NET patterns, conventions, dependency injection, async/await, 
 | Last modified | 2026-05-17 |
 | Category source | keywords |
 | Content hash | `8cd9245ad092` |
-
-### `gh-address-comments`
-
-Address actionable GitHub pull request review feedback. Use when the user wants to inspect unresolved review threads, requested changes, or inline review comments on a PR, then implement selected fixes. Use the GitHub app for PR metadata and flat comment reads, and use the bundled GraphQL script via `gh` whenever thread-level state, resolution status, or inline review context matters.
-
-| Field | Value |
-|---|---|
-| Pack | github |
-| Origin | plugin `github` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/github/bd2122cb/skills/gh-address-comments` |
-| Size | 6 files, 24 KB |
-| SKILL.md | 45 lines, ~895 tokens |
-| Description cost | ~97 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `76b6c5823883` |
-| Bundled | `agents`, `assets`, `scripts` |
 
 ### `github-code-review`
 

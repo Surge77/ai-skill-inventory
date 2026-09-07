@@ -24,8 +24,8 @@
 | `swift-actor-persistence` | Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design. | ecc | claude-code | 1 files, 5 KB |
 | `swift-concurrency-6-2` | Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types. | ecc | claude-code | 1 files, 8 KB |
 | `swiftui-patterns` | SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices. | ecc | claude-code | 1 files, 7 KB |
-| `transformers-js` | Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image… | hugging-face | codex | 8 files, 86 KB |
 | `typescript-expert` | TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 41 KB |
+| `write-swift` | How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and ge… | standalone | claude-code | 1 files, 42 KB |
 
 ## Detail
 
@@ -46,7 +46,7 @@ This skill should be used when the user wants to "package an MCP server", "bundl
 | Description cost | ~101 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-04 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `96a999bce4af` |
 | Bundled | `references` |
@@ -410,28 +410,6 @@ SwiftUI architecture patterns, state management with @Observable, view compositi
 | Category source | keywords |
 | Content hash | `a48218ac0719` |
 
-### `transformers-js`
-
-Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in Node.js and browsers (with WebGPU/WASM) using pre-trained models from Hugging Face Hub.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/transformers.js` |
-| Size | 8 files, 86 KB |
-| SKILL.md | 636 lines, ~5,765 tokens |
-| Description cost | ~99 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `7664e40a7324` |
-| Bundled | `agents`, `references` |
-
 ### `typescript-expert`
 
 TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for any TypeScript/JavaScript issues including complex type gymnastics, build performance, debugging, and architectural decisions. If a specialized expert is a better fit, I will recommend switching and stop.
@@ -453,3 +431,24 @@ TypeScript and JavaScript expert with deep knowledge of type-level programming, 
 | Category source | keywords |
 | Content hash | `a85100f5e5fb` |
 | Bundled | `references`, `scripts` |
+
+### `write-swift`
+
+How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/write-swift` |
+| Size | 1 files, 42 KB |
+| SKILL.md | 389 lines, ~10,644 tokens |
+| Description cost | ~121 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-07 |
+| Category source | keywords |
+| Content hash | `4ccbc73dae57` |

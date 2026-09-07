@@ -800,13 +800,13 @@ Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/turbopack` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/turbopack` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 318 lines, ~2,563 tokens |
 | Description cost | ~41 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `316ea0b117dc` |
 | Bundled | `agents` |

@@ -1,6 +1,6 @@
 # DevOps & Infra
 
-48 skills — 47 installed, 1 available in a marketplace but not installed.
+44 skills — 43 installed, 1 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -25,12 +25,8 @@
 | `github-ops` | GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the user want… | ecc | claude-code | 1 files, 5 KB |
 | `homelab-network-readiness` | Readiness checklist for homelab VLAN segmentation, local DNS filtering, and WireGuard-style remote access before changing router, firewall, DHCP, or VPN configuration. | ecc | claude-code | 1 files, 8 KB |
 | `homelab-network-setup` | Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP reservations, DNS, cabling, and common beginner mistakes. | ecc | claude-code | 1 files, 4 KB |
-| `huggingface-jobs` | This skill should be used when users want to run any workload on Hugging Face Jobs infrastructure. Covers UV scripts, Docker-based jobs, hardware selection, cost estimation, authentication… | hugging-face | codex | 10 files, 143 KB |
-| `huggingface-llm-trainer` | This skill should be used when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and… | hugging-face | codex | 19 files, 166 KB |
 | `mle-workflow` | Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardenin… | ecc | claude-code | 1 files, 22 KB |
 | `mle-workflow` | Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardenin… | agents-std-store | agents-std | 2 files, 23 KB |
-| `netlify-cli-and-deploy` | Guide for using the Netlify CLI and deploying sites. Use when installing the CLI, linking sites, deploying (Git-based or manual), managing environment variables, or running local developmen… | netlify | codex | 5 files, 19 KB |
-| `netlify-deploy` | Deploy projects to Netlify with the Netlify CLI. Use when the user wants to link a repo, validate deploy settings, run a deploy, or choose between preview and production flows. | netlify | codex | 8 files, 36 KB |
 | `network-bgp-diagnostics` | Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, AS path inspection, and safe evidence collection. | ecc | claude-code | 1 files, 6 KB |
 | `network-config-validation` | Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style securit… | ecc | claude-code | 1 files, 8 KB |
 | `network-interface-health` | Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts. | ecc | claude-code | 1 files, 6 KB |
@@ -40,16 +36,16 @@
 | `vercel-agent` | Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and anomaly debugging. Use when configuring or understanding Vercel's AI… | vercel | codex | 2 files, 3 KB |
 | `vercel-cli` | Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, querying metrics, managing domains, or interacting with the Vercel platform f… | vercel | claude-code | 37 files, 78 KB |
 | `vercel-cli` | Deploy, manage, and develop projects on Vercel from the command line | vercel | claude-code | 18 files, 37 KB |
-| `vercel-cli` | Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, managing domains, or interacting with the Vercel platform from the command li… | vercel | codex | 2 files, 13 KB |
+| `vercel-cli` | Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, querying metrics, managing domains, or interacting with the Vercel platform f… | vercel | codex | 18 files, 37 KB |
 | `vercel-firewall` | Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the… | vercel | claude-code | 1 files, 20 KB |
-| `vercel-firewall` | Vercel Firewall and security expert guidance. Use when configuring DDoS protection, WAF rules, rate limiting, bot filtering, IP allow/block lists, OWASP rulesets, Attack Challenge Mode, or… | vercel | codex | 2 files, 18 KB |
+| `vercel-firewall` | Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the… | vercel | codex | 2 files, 20 KB |
 | `vercel-flags` | Vercel Flags guidance — feature flags platform with unified dashboard, Flags Explorer, gradual rollouts, A/B testing, and provider adapters. Use when implementing feature flags, experimenta… | vercel | codex | 2 files, 11 KB |
 | `vercel-functions` | Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing serve… | vercel | claude-code | 1 files, 22 KB |
 | `vercel-functions` | Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing serve… | vercel | claude-code | 1 files, 22 KB |
-| `vercel-functions` | Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing serve… | vercel | codex | 2 files, 10 KB |
+| `vercel-functions` | Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runtime configuration. Use when configuring, debugging, or optimizing serve… | vercel | codex | 2 files, 15 KB |
 | `vercel-sandbox` | Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI… | vercel | claude-code | 3 files, 24 KB |
 | `vercel-sandbox` | Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a Vercel app (Next.js, SvelteKit… | vercel | claude-code | 1 files, 10 KB |
-| `vercel-sandbox` | Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI… | vercel | codex | 2 files, 10 KB |
+| `vercel-sandbox` | Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code generation, and experimentation. Use when executing user-generated or AI… | vercel | codex | 2 files, 11 KB |
 | `vercel-services` | Configure and troubleshoot Vercel Services for multiple frontends and backends in one project. Use when composing a polyglot or multi-service application on one Vercel deployment; defining… | vercel | claude-code | 1 files, 11 KB |
 | `vercel-services` | Vercel Services — deploy multiple services within a single Vercel project. Use for monorepo layouts or when combining a backend (Python, Go) with a frontend (Next.js, Vite) in one deploymen… | vercel | codex | 6 files, 8 KB |
 | `vercel-storage` | Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when choosing, configuring, or using data storage with Vercel applications. | vercel | claude-code | 1 files, 20 KB |
@@ -323,13 +319,13 @@ Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, roll
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/deployments-cicd` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/deployments-cicd` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 331 lines, ~2,874 tokens |
 | Description cost | ~46 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `224d0d6db3a5` |
 | Bundled | `agents` |
@@ -366,13 +362,13 @@ Email sending integration guidance — Resend (native Vercel Marketplace) with R
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/email` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/email` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 392 lines, ~2,692 tokens |
 | Description cost | ~62 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `05ed024dbcb9` |
 | Bundled | `agents` |
@@ -388,13 +384,13 @@ Expert guidance for Geistdocs, Vercel's documentation template built with Next.j
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/geistdocs` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/geistdocs` |
 | Size | 2 files, 9 KB |
 | SKILL.md | 276 lines, ~2,135 tokens |
 | Description cost | ~71 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `c45a1805b88a` |
 | Bundled | `agents` |
@@ -462,50 +458,6 @@ Practical home and homelab network planning for gateways, switches, access point
 | Category source | keywords |
 | Content hash | `4387beda5a5c` |
 
-### `huggingface-jobs`
-
-This skill should be used when users want to run any workload on Hugging Face Jobs infrastructure. Covers UV scripts, Docker-based jobs, hardware selection, cost estimation, authentication with tokens, secrets management, timeout configuration, and result persistence. Designed for general-purpose compute workloads including data processing, inference, experiments, batch jobs, and any Python-based tasks. Should be invoked for tasks involving cloud compute, GPU workloads, or when users mention running jobs on Hugging Face infrastructure without local setup.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/jobs` |
-| Size | 10 files, 143 KB |
-| SKILL.md | 1043 lines, ~8,181 tokens |
-| Description cost | ~141 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `6c6ad6dfd891` |
-| Bundled | `agents`, `references`, `scripts` |
-
-### `huggingface-llm-trainer`
-
-This skill should be used when users want to train or fine-tune language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, and model persistence. Should be invoked for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.
-
-| Field | Value |
-|---|---|
-| Pack | hugging-face |
-| Origin | plugin `hugging-face` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/hugging-face/bd2122cb/skills/llm-trainer` |
-| Size | 19 files, 166 KB |
-| SKILL.md | 717 lines, ~7,144 tokens |
-| Description cost | ~158 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `d17eed99f3d2` |
-| Bundled | `agents`, `references`, `scripts` |
-
 ### `mle-workflow`
 
 Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.
@@ -548,50 +500,6 @@ Production machine-learning engineering workflow for data contracts, reproducibl
 | Category source | keywords |
 | Content hash | `d7c55674ba06` |
 | Bundled | `agents` |
-
-### `netlify-cli-and-deploy`
-
-Guide for using the Netlify CLI and deploying sites. Use when installing the CLI, linking sites, deploying (Git-based or manual), managing environment variables, or running local development. Covers netlify dev, netlify deploy, Git vs non-Git workflows, and environment variable management.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-cli-and-deploy` |
-| Size | 5 files, 19 KB |
-| SKILL.md | 152 lines, ~1,109 tokens |
-| Description cost | ~73 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `edebd7b4fbd3` |
-| Bundled | `agents`, `assets` |
-
-### `netlify-deploy`
-
-Deploy projects to Netlify with the Netlify CLI. Use when the user wants to link a repo, validate deploy settings, run a deploy, or choose between preview and production flows.
-
-| Field | Value |
-|---|---|
-| Pack | netlify |
-| Origin | plugin `netlify` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/netlify/bd2122cb/skills/netlify-deploy` |
-| Size | 8 files, 36 KB |
-| SKILL.md | 248 lines, ~1,811 tokens |
-| Description cost | ~44 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-13 |
-| Category source | keywords |
-| Content hash | `59ad4db59605` |
-| Bundled | `agents`, `assets`, `references` |
 
 ### `network-bgp-diagnostics`
 
@@ -667,13 +575,13 @@ Vercel Observability expert guidance — Drains (logs, traces, speed insights, w
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/observability` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/observability` |
 | Size | 2 files, 27 KB |
 | SKILL.md | 774 lines, ~6,821 tokens |
 | Description cost | ~78 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `4a3ddef501eb` |
 | Bundled | `agents` |
@@ -689,13 +597,13 @@ Sign in with Vercel guidance — OAuth 2.0/OIDC identity provider for user authe
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/sign-in-with-vercel` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/sign-in-with-vercel` |
 | Size | 2 files, 3 KB |
 | SKILL.md | 65 lines, ~596 tokens |
 | Description cost | ~46 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `1597620c3cd9` |
 | Bundled | `agents` |
@@ -732,13 +640,13 @@ Vercel Agent guidance — AI-powered code review, incident investigation, and SD
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-agent` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-agent` |
 | Size | 2 files, 3 KB |
 | SKILL.md | 68 lines, ~605 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `583150f13ace` |
 | Bundled | `agents` |
@@ -789,7 +697,7 @@ Deploy, manage, and develop projects on Vercel from the command line
 
 ### `vercel-cli`
 
-Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, managing domains, or interacting with the Vercel platform from the command line.
+Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, querying metrics, managing domains, or interacting with the Vercel platform from the command line.
 
 | Field | Value |
 |---|---|
@@ -798,16 +706,16 @@ Vercel CLI expert guidance. Use when deploying, managing environment variables, 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-cli` |
-| Size | 2 files, 13 KB |
-| SKILL.md | 462 lines, ~3,320 tokens |
-| Description cost | ~48 tokens always in context |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-cli` |
+| Size | 18 files, 37 KB |
+| SKILL.md | 127 lines, ~1,342 tokens |
+| Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
-| Content hash | `2c4503669271` |
-| Bundled | `agents` |
+| Content hash | `8f4594786b09` |
+| Bundled | `agents`, `references` |
 
 ### `vercel-firewall`
 
@@ -832,7 +740,7 @@ Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (c
 
 ### `vercel-firewall`
 
-Vercel Firewall and security expert guidance. Use when configuring DDoS protection, WAF rules, rate limiting, bot filtering, IP allow/block lists, OWASP rulesets, Attack Challenge Mode, or any security configuration on the Vercel platform.
+Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed rulesets, rate limiting), Attack Mode, system bypass, bot management, and the `vercel firewall` CLI. Use when configuring platform-level security, responding to attacks, or staging firewall rules.
 
 | Field | Value |
 |---|---|
@@ -841,15 +749,15 @@ Vercel Firewall and security expert guidance. Use when configuring DDoS protecti
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-firewall` |
-| Size | 2 files, 18 KB |
-| SKILL.md | 687 lines, ~4,526 tokens |
-| Description cost | ~60 tokens always in context |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-firewall` |
+| Size | 2 files, 20 KB |
+| SKILL.md | 344 lines, ~5,101 tokens |
+| Description cost | ~78 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
-| Content hash | `9e6ca20a85e3` |
+| Content hash | `697b00ef9c71` |
 | Bundled | `agents` |
 
 ### `vercel-flags`
@@ -863,13 +771,13 @@ Vercel Flags guidance — feature flags platform with unified dashboard, Flags E
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-flags` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-flags` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 261 lines, ~2,654 tokens |
 | Description cost | ~54 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `76f74321abe2` |
 | Bundled | `agents` |
@@ -927,15 +835,15 @@ Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-functions` |
-| Size | 2 files, 10 KB |
-| SKILL.md | 300 lines, ~2,414 tokens |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-functions` |
+| Size | 2 files, 15 KB |
+| SKILL.md | 424 lines, ~3,698 tokens |
 | Description cost | ~56 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
-| Content hash | `20b18a7d0de3` |
+| Content hash | `18233ad63f3f` |
 | Bundled | `agents` |
 
 ### `vercel-sandbox`
@@ -992,15 +900,15 @@ Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-sandbox` |
-| Size | 2 files, 10 KB |
-| SKILL.md | 289 lines, ~2,428 tokens |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-sandbox` |
+| Size | 2 files, 11 KB |
+| SKILL.md | 344 lines, ~2,816 tokens |
 | Description cost | ~55 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
-| Content hash | `051d10f069a3` |
+| Content hash | `32b01173affe` |
 | Bundled | `agents` |
 
 ### `vercel-services`
@@ -1035,13 +943,13 @@ Vercel Services — deploy multiple services within a single Vercel project. Use
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-services` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-services` |
 | Size | 6 files, 8 KB |
 | SKILL.md | 171 lines, ~1,909 tokens |
 | Description cost | ~49 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `c50ee6db4982` |
 | Bundled | `agents`, `references`, `fastapi-vite`, `backend`, `frontend` |
@@ -1078,13 +986,13 @@ Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (N
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/bd2122cb/skills/vercel-storage` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-storage` |
 | Size | 2 files, 16 KB |
 | SKILL.md | 442 lines, ~3,944 tokens |
 | Description cost | ~48 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-13 |
+| Last modified | 2026-09-05 |
 | Category source | keywords |
 | Content hash | `2badbacb44e5` |
 | Bundled | `agents` |

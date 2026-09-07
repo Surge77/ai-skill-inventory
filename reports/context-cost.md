@@ -8,8 +8,8 @@ A skill's **description** is loaded into every session so the model can decide w
 
 | | |
 |---|---:|
-| Skills reachable from Claude Code | 396 |
-| Their descriptions, summed | **~28,189 tokens** |
+| Skills reachable from Claude Code | 419 |
+| Their descriptions, summed | **~29,613 tokens** |
 | Average description | ~71 tokens |
 
 That is what the library costs before a single question is asked.
@@ -57,16 +57,15 @@ Cost paid only when the skill is actually invoked.
 | `graphify-windows` | 12,865 | 1,247 |
 | `workflow` | 11,301 | 1,222 |
 | `shadcn-ui` | 10,682 | 1,678 |
+| `write-swift` | 10,644 | 389 |
 | `imagegen-frontend-mobile` | 10,448 | 1,466 |
 | `documents` | 9,954 | 456 |
 | `image-to-code` | 9,418 | 1,229 |
 | `agency-healthcare-marketing-compliance` | 8,914 | 399 |
 | `modern-ui-designer` | 8,493 | 1,342 |
-| `ai-sdk` | 8,483 | 799 |
 | `skill-creator` | 8,414 | 486 |
 | `agency-supply-chain-strategist` | 8,327 | 586 |
 | `workflow` | 8,245 | 979 |
-| `huggingface-jobs` | 8,181 | 1,043 |
 | `Hooks Automation` | 8,137 | 1,202 |
 | `Hooks Automation` | 8,137 | 1,202 |
 | `subagent-driven-development` | 8,085 | 569 |
@@ -74,9 +73,10 @@ Cost paid only when the skill is actually invoked.
 | `windows-desktop-e2e` | 7,861 | 888 |
 | `workflow` | 7,832 | 795 |
 | `agency-marketing-short-video-editing-coach` | 7,744 | 416 |
-| `nextjs` | 7,731 | 746 |
 | `github-project-management` | 7,708 | 1,264 |
-| `workflow` | 7,704 | 970 |
+| `github-release-management` | 7,681 | 1,082 |
+| `quality-nonconformance` | 7,662 | 261 |
+| `agency-recruitment-specialist` | 7,585 | 513 |
 
 ## The 25 largest on disk
 
@@ -101,11 +101,11 @@ Bundled scripts, references and assets. Disk, not context.
 | `scroll-craft` | 359 KB | 22 |
 | `skill-creator` | 225 KB | 18 |
 | `openclaw` | 222 KB | 17 |
+| `react-best-practices` | 203 KB | 69 |
 | `vercel-react-best-practices` | 203 KB | 68 |
-| `huggingface-vision-trainer` | 202 KB | 13 |
 | `nextjs` | 197 KB | 43 |
 | `benchmark-sandbox` | 193 KB | 9 |
 | `continuous-learning-v2` | 172 KB | 12 |
 | `vercel-react-best-practices` | 171 KB | 59 |
 | `writing-clearly-and-concisely` | 170 KB | 7 |
-| `huggingface-llm-trainer` | 166 KB | 19 |
+| `shadcn-ui` | 154 KB | 5 |
