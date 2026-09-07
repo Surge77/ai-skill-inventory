@@ -6,6 +6,10 @@ The scan reads the disk. The disk does not record where a skill was published, w
 maintains it, or whether it was worth installing. This file does. It is hand-maintained
 and survives `npm run refresh`.
 
+For the skills themselves — every one published in these repos, installed or not, with
+descriptions, sizes and paths — see [`registry/`](registry/README.md). This file holds the
+judgment; the registry holds the shelf.
+
 ---
 
 ## 2026-09-07 — seven starred design/skill repos, evaluated

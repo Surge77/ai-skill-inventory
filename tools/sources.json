@@ -1,0 +1,11 @@
+{
+  "tracked": [
+    { "repo": "emilkowalski/skills", "starred": "2026-09-07", "note": "installed 2026-09-07 — animation craft" },
+    { "repo": "jakubkrehel/skills", "starred": "2026-09-07", "note": "installed 2026-09-07 — interface review" },
+    { "repo": "ConardLi/garden-skills", "starred": "2026-09-07", "note": "evaluated, not installed — overlaps the existing design pile" },
+    { "repo": "codeswithroh/tastemaker", "starred": "2026-09-07", "note": "evaluated, not installed — duplicates design-dna" },
+    { "repo": "elayadesign/ai-design-skills", "starred": "2026-09-07", "note": "evaluated, not installed — overlaps landing-page-copywriter" },
+    { "repo": "MengTo/Skills", "starred": "2026-09-07", "note": "evaluated, not installed — mostly game dev and video, out of scope" },
+    { "repo": "Owl-Listener/designer-skills", "starred": "2026-09-07", "note": "evaluated, not installed — encyclopedic, restates known theory" }
+  ]
+}

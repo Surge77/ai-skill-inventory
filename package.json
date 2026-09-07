@@ -7,7 +7,10 @@
   "scripts": {
     "scan": "node tools/scan.mjs data/scan-raw.json",
     "build": "node tools/generate.mjs . data/scan-raw.json",
-    "refresh": "npm run scan && npm run build"
+    "refresh": "npm run scan && npm run build",
+    "scan:remote": "node tools/scan-remote.mjs . data/remote-raw.json",
+    "build:remote": "node tools/generate-remote.mjs . data/remote-raw.json",
+    "refresh:remote": "npm run scan:remote && npm run build:remote"
   },
   "license": "MIT"
 }
