@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-19",
   "totals": {
-    "repos": 7,
-    "skills": 274
+    "repos": 9,
+    "skills": 311
   },
   "repos": [
     {
@@ -11,25 +11,25 @@
       "note": "installed 2026-09-07 — animation craft",
       "branch": "main",
       "description": "Skills for Designers and Engineers.",
-      "forks": 2025,
+      "forks": 2193,
       "license": "MIT",
-      "pushedAt": "2026-08-21T09:32:33Z",
-      "stars": 35960,
-      "commit": "d23d7f88a2e21c9e4b1418c7abe420f5c1052ba7",
-      "skills": 12,
-      "bytes": 239907,
-      "descTokens": 1103
+      "pushedAt": "2026-09-15T15:52:14Z",
+      "stars": 38771,
+      "commit": "85e8e2363b713506e1d5b6e07a0eb2da66be1bc3",
+      "skills": 13,
+      "bytes": 260347,
+      "descTokens": 1288
     },
     {
       "repo": "jakubkrehel/skills",
       "starred": "2026-09-07",
       "note": "installed 2026-09-07 — interface review",
       "branch": "main",
-      "description": "A collection of agent skills that help you build a great interface.",
-      "forks": 203,
+      "description": "A collection of agent skills that help you build great interfaces.",
+      "forks": 247,
       "license": "MIT",
       "pushedAt": "2026-08-29T17:01:49Z",
-      "stars": 5938,
+      "stars": 6903,
       "commit": "267330e1adfc66a718fb65fa6918c1f06d0a689e",
       "skills": 11,
       "bytes": 258443,
@@ -41,10 +41,10 @@
       "note": "evaluated, not installed — overlaps the existing design pile",
       "branch": "main",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "forks": 1478,
+      "forks": 1511,
       "license": "MIT",
       "pushedAt": "2026-07-12T14:36:31Z",
-      "stars": 12227,
+      "stars": 12514,
       "commit": "aaf9a82f5efd73e87cc0998edc398e75bfc35901",
       "skills": 5,
       "bytes": 331134,
@@ -56,13 +56,13 @@
       "note": "evaluated, not installed — duplicates design-dna",
       "branch": "main",
       "description": "A Claude Code skill that grounds AI-generated UI in real reference images and a persistent per-developer taste profile, instead of generic AI-slop defaults.",
-      "forks": 20,
+      "forks": 28,
       "license": "MIT",
-      "pushedAt": "2026-09-01T14:35:00Z",
-      "stars": 334,
-      "commit": "a8136a09cf3b3963db2938b9ef3116fdcd5fb740",
+      "pushedAt": "2026-09-10T02:01:26Z",
+      "stars": 392,
+      "commit": "20c438e1bdb3fb7eeba237cdbdcfa7a5b9f5869d",
       "skills": 2,
-      "bytes": 74263,
+      "bytes": 83460,
       "descTokens": 379
     },
     {
@@ -71,10 +71,10 @@
       "note": "evaluated, not installed — overlaps landing-page-copywriter",
       "branch": "main",
       "description": null,
-      "forks": 133,
+      "forks": 154,
       "license": "MIT",
       "pushedAt": "2026-07-29T06:53:54Z",
-      "stars": 1985,
+      "stars": 2252,
       "commit": "1c1e97cb9878e236552c772092dda7adcdddbcb2",
       "skills": 1,
       "bytes": 16931,
@@ -86,14 +86,14 @@
       "note": "evaluated, not installed — mostly game dev and video, out of scope",
       "branch": "main",
       "description": "Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents",
-      "forks": 696,
+      "forks": 721,
       "license": "MIT",
-      "pushedAt": "2026-08-28T23:38:17Z",
-      "stars": 5846,
-      "commit": "321c769739b823de5eb94eb3a52aa1974fe783a2",
-      "skills": 132,
-      "bytes": 769023,
-      "descTokens": 9918
+      "pushedAt": "2026-09-17T15:05:48Z",
+      "stars": 6085,
+      "commit": "5f47e389dac337a1bca5cddf376419248b3010f6",
+      "skills": 141,
+      "bytes": 828055,
+      "descTokens": 10603
     },
     {
       "repo": "Owl-Listener/designer-skills",
@@ -101,17 +101,461 @@
       "note": "evaluated, not installed — encyclopedic, restates known theory",
       "branch": "main",
       "description": "Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery.",
-      "forks": 362,
+      "forks": 384,
       "license": "MIT",
       "pushedAt": "2026-09-05T15:32:50Z",
-      "stars": 2557,
+      "stars": 2688,
       "commit": "9a6930cf84a822eb458624bd11c61aac5bbdf224",
       "skills": 111,
       "bytes": 312977,
       "descTokens": 6221
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "starred": "2026-09-19",
+      "note": "installed 2026-09-19 — ADHD output shaping, opt-in only",
+      "branch": "main",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "forks": 2811,
+      "license": "MIT",
+      "pushedAt": "2026-09-16T15:30:26Z",
+      "stars": 48388,
+      "commit": "b15d0be58f55b33972ba3e39709e0e5208ef30cb",
+      "skills": 2,
+      "bytes": 14698,
+      "descTokens": 122
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "starred": "2026-09-19",
+      "note": "installed 2026-09-19 — full-SDLC pack, 25 skills, all auto-invocable",
+      "branch": "main",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "forks": 10209,
+      "license": "MIT",
+      "pushedAt": "2026-09-18T03:32:22Z",
+      "stars": 96637,
+      "commit": "c004a74784a08295d52749b04cda634125b9a581",
+      "skills": 25,
+      "bytes": 384998,
+      "descTokens": 2163
     }
   ],
   "skills": [
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "api-and-interface-design",
+      "dirName": "api-and-interface-design",
+      "group": "skills",
+      "repoPath": "skills/api-and-interface-design",
+      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 14884,
+      "bytes": 14884,
+      "hash": "ef7ed3142c57",
+      "descTokens": 63,
+      "skillTokens": 3721
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "browser-testing-with-devtools",
+      "dirName": "browser-testing-with-devtools",
+      "group": "skills",
+      "repoPath": "skills/browser-testing-with-devtools",
+      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 14539,
+      "bytes": 14539,
+      "hash": "e2e4b18f7038",
+      "descTokens": 82,
+      "skillTokens": 3635
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "ci-cd-and-automation",
+      "dirName": "ci-cd-and-automation",
+      "group": "skills",
+      "repoPath": "skills/ci-cd-and-automation",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 11332,
+      "bytes": 11332,
+      "hash": "7652720b57dd",
+      "descTokens": 52,
+      "skillTokens": 2833
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "code-review-and-quality",
+      "dirName": "code-review-and-quality",
+      "group": "skills",
+      "repoPath": "skills/code-review-and-quality",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 20555,
+      "bytes": 20555,
+      "hash": "98cf7ffc76e8",
+      "descTokens": 60,
+      "skillTokens": 5139
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "code-simplification",
+      "dirName": "code-simplification",
+      "group": "skills",
+      "repoPath": "skills/code-simplification",
+      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 13545,
+      "bytes": 13545,
+      "hash": "967a7227962b",
+      "descTokens": 61,
+      "skillTokens": 3387
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "constraint-driven-development",
+      "dirName": "constraint-driven-development",
+      "group": "skills",
+      "repoPath": "skills/constraint-driven-development",
+      "description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-ignore or eslint-disable suppressions, skipped or deleted tests, assertions stripped out, unimplemented stubs, thresholds edited down. Use when no quality bar is written down, when the user says \"set up constraints\" or \"define our standards\", when the user wants dimensions they care about — accessibility, web performance, coverage — set up as enforced constraints, when an agent keeps silencing checks or skipping tests to get to green, when you need a coverage or performance threshold and don't know what number to pick, or when an agent writes more code than anyone will read.",
+      "modelInvocable": true,
+      "files": [
+        "references/"
+      ],
+      "entryBytes": 21008,
+      "bytes": 21008,
+      "hash": "ce6f43197d9b",
+      "descTokens": 222,
+      "skillTokens": 5252
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "context-engineering",
+      "dirName": "context-engineering",
+      "group": "skills",
+      "repoPath": "skills/context-engineering",
+      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 15486,
+      "bytes": 15486,
+      "hash": "e6ebab96be48",
+      "descTokens": 50,
+      "skillTokens": 3872
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "debugging-and-error-recovery",
+      "dirName": "debugging-and-error-recovery",
+      "group": "skills",
+      "repoPath": "skills/debugging-and-error-recovery",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 10913,
+      "bytes": 10913,
+      "hash": "f4fd9430e9aa",
+      "descTokens": 82,
+      "skillTokens": 2729
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "deprecation-and-migration",
+      "dirName": "deprecation-and-migration",
+      "group": "skills",
+      "repoPath": "skills/deprecation-and-migration",
+      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to maintain or sunset existing code.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 12642,
+      "bytes": 12642,
+      "hash": "c995d548ceca",
+      "descTokens": 84,
+      "skillTokens": 3161
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "documentation-and-adrs",
+      "dirName": "documentation-and-adrs",
+      "group": "skills",
+      "repoPath": "skills/documentation-and-adrs",
+      "description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 9848,
+      "bytes": 9848,
+      "hash": "0995b9996d49",
+      "descTokens": 73,
+      "skillTokens": 2462
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "doubt-driven-development",
+      "dirName": "doubt-driven-development",
+      "group": "skills",
+      "repoPath": "skills/doubt-driven-development",
+      "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production auth, security-sensitive logic, a high-stakes migration, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 16647,
+      "bytes": 16647,
+      "hash": "033ccd335781",
+      "descTokens": 122,
+      "skillTokens": 4162
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "frontend-ui-engineering",
+      "dirName": "frontend-ui-engineering",
+      "group": "skills",
+      "repoPath": "skills/frontend-ui-engineering",
+      "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 10711,
+      "bytes": 10711,
+      "hash": "c72c515a8691",
+      "descTokens": 77,
+      "skillTokens": 2678
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "git-workflow-and-versioning",
+      "dirName": "git-workflow-and-versioning",
+      "group": "skills",
+      "repoPath": "skills/git-workflow-and-versioning",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 14141,
+      "bytes": 14141,
+      "hash": "9cfda8ab5518",
+      "descTokens": 106,
+      "skillTokens": 3536
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "idea-refine",
+      "dirName": "idea-refine",
+      "group": "skills",
+      "repoPath": "skills/idea-refine",
+      "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
+      "modelInvocable": true,
+      "files": [
+        "examples.md",
+        "frameworks.md",
+        "refinement-criteria.md",
+        "scripts/"
+      ],
+      "entryBytes": 8111,
+      "bytes": 39537,
+      "hash": "1e970fd804c1",
+      "descTokens": 84,
+      "skillTokens": 2028
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "incremental-implementation",
+      "dirName": "incremental-implementation",
+      "group": "skills",
+      "repoPath": "skills/incremental-implementation",
+      "description": "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a change out behind a feature flag, when you're about to write a large amount of code at once, or when a task feels too big to land in one step.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 9629,
+      "bytes": 9629,
+      "hash": "7d6c324bff24",
+      "descTokens": 86,
+      "skillTokens": 2408
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "interview-me",
+      "dirName": "interview-me",
+      "group": "skills",
+      "repoPath": "skills/interview-me",
+      "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 14359,
+      "bytes": 14359,
+      "hash": "22a0935a1e4c",
+      "descTokens": 122,
+      "skillTokens": 3590
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "observability-and-instrumentation",
+      "dirName": "observability-and-instrumentation",
+      "group": "skills",
+      "repoPath": "skills/observability-and-instrumentation",
+      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 13948,
+      "bytes": 13948,
+      "hash": "035d71acc71b",
+      "descTokens": 77,
+      "skillTokens": 3487
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "performance-optimization",
+      "dirName": "performance-optimization",
+      "group": "skills",
+      "repoPath": "skills/performance-optimization",
+      "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 21717,
+      "bytes": 21717,
+      "hash": "a699f873366b",
+      "descTokens": 74,
+      "skillTokens": 5430
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "planning-and-task-breakdown",
+      "dirName": "planning-and-task-breakdown",
+      "group": "skills",
+      "repoPath": "skills/planning-and-task-breakdown",
+      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 10564,
+      "bytes": 10564,
+      "hash": "dc326460d22e",
+      "descTokens": 60,
+      "skillTokens": 2641
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "security-and-hardening",
+      "dirName": "security-and-hardening",
+      "group": "skills",
+      "repoPath": "skills/security-and-hardening",
+      "description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services. Use when auditing dependencies for known vulnerabilities, triaging package-manager audit findings, or assessing supply-chain risk in a new package. Use when personal data or privacy compliance (GDPR, CCPA) is involved.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 27993,
+      "bytes": 27993,
+      "hash": "4c3f7e063f87",
+      "descTokens": 146,
+      "skillTokens": 6999
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "shipping-and-launch",
+      "dirName": "shipping-and-launch",
+      "group": "skills",
+      "repoPath": "skills/shipping-and-launch",
+      "description": "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 11404,
+      "bytes": 11404,
+      "hash": "919ad68170a8",
+      "descTokens": 68,
+      "skillTokens": 2851
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "source-driven-development",
+      "dirName": "source-driven-development",
+      "group": "skills",
+      "repoPath": "skills/source-driven-development",
+      "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 10038,
+      "bytes": 10038,
+      "hash": "28efd1b4219d",
+      "descTokens": 77,
+      "skillTokens": 2510
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "spec-driven-development",
+      "dirName": "spec-driven-development",
+      "group": "skills",
+      "repoPath": "skills/spec-driven-development",
+      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 12595,
+      "bytes": 12595,
+      "hash": "67a7659b68de",
+      "descTokens": 108,
+      "skillTokens": 3149
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "test-driven-development",
+      "dirName": "test-driven-development",
+      "group": "skills",
+      "repoPath": "skills/test-driven-development",
+      "description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 16517,
+      "bytes": 16517,
+      "hash": "247b9f490c94",
+      "descTokens": 67,
+      "skillTokens": 4130
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "using-agent-skills",
+      "dirName": "using-agent-skills",
+      "group": "skills",
+      "repoPath": "skills/using-agent-skills",
+      "description": "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 10446,
+      "bytes": 10446,
+      "hash": "093a89ac32f4",
+      "descTokens": 60,
+      "skillTokens": 2612
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "dirName": "i-have-adhd",
+      "group": ".cursor/skills",
+      "repoPath": ".cursor/skills/i-have-adhd",
+      "description": "Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Invoke with /i-have-adhd; stays on until \"stop adhd mode\".",
+      "modelInvocable": false,
+      "files": [],
+      "entryBytes": 7349,
+      "bytes": 7349,
+      "hash": "52accd6319e1",
+      "descTokens": 61,
+      "skillTokens": 1838
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "name": "i-have-adhd",
+      "dirName": "i-have-adhd",
+      "group": "skills",
+      "repoPath": "skills/i-have-adhd",
+      "description": "Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Invoke with /i-have-adhd; stays on until \"stop adhd mode\".",
+      "modelInvocable": false,
+      "files": [
+        "agents/"
+      ],
+      "entryBytes": 7349,
+      "bytes": 7349,
+      "hash": "52accd6319e1",
+      "descTokens": 61,
+      "skillTokens": 1838
+    },
     {
       "repo": "codeswithroh/tastemaker",
       "name": "ideagram",
@@ -148,11 +592,11 @@
         "references/",
         "scripts/"
       ],
-      "entryBytes": 55074,
-      "bytes": 59136,
-      "hash": "52c3b93bb9eb",
+      "entryBytes": 64271,
+      "bytes": 68333,
+      "hash": "5830459a0d55",
       "descTokens": 218,
-      "skillTokens": 13769
+      "skillTokens": 16068
     },
     {
       "repo": "ConardLi/garden-skills",
@@ -289,11 +733,11 @@
       "files": [
         "RECIPES.md"
       ],
-      "entryBytes": 11774,
-      "bytes": 20055,
-      "hash": "b41c465cd834",
+      "entryBytes": 12067,
+      "bytes": 20348,
+      "hash": "702e1f2ab1ac",
       "descTokens": 119,
-      "skillTokens": 2944
+      "skillTokens": 3017
     },
     {
       "repo": "emilkowalski/skills",
@@ -306,11 +750,11 @@
       "files": [
         "RECIPES.md"
       ],
-      "entryBytes": 17819,
-      "bytes": 35012,
-      "hash": "6a290a5c578e",
+      "entryBytes": 18154,
+      "bytes": 35347,
+      "hash": "019cac874df1",
       "descTokens": 132,
-      "skillTokens": 4455
+      "skillTokens": 4539
     },
     {
       "repo": "emilkowalski/skills",
@@ -321,11 +765,11 @@
       "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one.",
       "modelInvocable": true,
       "files": [],
-      "entryBytes": 13301,
-      "bytes": 13301,
-      "hash": "c2379a776ac0",
+      "entryBytes": 13606,
+      "bytes": 13606,
+      "hash": "db4055060b0e",
       "descTokens": 108,
-      "skillTokens": 3326
+      "skillTokens": 3402
     },
     {
       "repo": "emilkowalski/skills",
@@ -336,11 +780,11 @@
       "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
       "modelInvocable": true,
       "files": [],
-      "entryBytes": 22997,
-      "bytes": 22997,
-      "hash": "e37e415a0290",
+      "entryBytes": 23326,
+      "bytes": 23326,
+      "hash": "a15772a201e6",
       "descTokens": 107,
-      "skillTokens": 5750
+      "skillTokens": 5832
     },
     {
       "repo": "emilkowalski/skills",
@@ -353,11 +797,11 @@
       "files": [
         "API.md"
       ],
-      "entryBytes": 7024,
-      "bytes": 11633,
-      "hash": "5e22ed662239",
+      "entryBytes": 7321,
+      "bytes": 11930,
+      "hash": "b3f4a11edbbd",
       "descTokens": 107,
-      "skillTokens": 1756
+      "skillTokens": 1831
     },
     {
       "repo": "emilkowalski/skills",
@@ -368,11 +812,11 @@
       "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
       "modelInvocable": true,
       "files": [],
-      "entryBytes": 27900,
-      "bytes": 27900,
-      "hash": "db555de80b51",
+      "entryBytes": 27797,
+      "bytes": 27797,
+      "hash": "0668d4c85425",
       "descTokens": 39,
-      "skillTokens": 6975
+      "skillTokens": 6950
     },
     {
       "repo": "emilkowalski/skills",
@@ -383,11 +827,11 @@
       "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead.",
       "modelInvocable": true,
       "files": [],
-      "entryBytes": 9623,
-      "bytes": 9623,
-      "hash": "b44f63c6516c",
+      "entryBytes": 9948,
+      "bytes": 9948,
+      "hash": "53e5a6a666d6",
       "descTokens": 90,
-      "skillTokens": 2406
+      "skillTokens": 2487
     },
     {
       "repo": "emilkowalski/skills",
@@ -401,11 +845,26 @@
         "AUDIT.md",
         "PLAN-TEMPLATE.md"
       ],
-      "entryBytes": 8016,
-      "bytes": 18691,
-      "hash": "faa9ce9ddd3d",
+      "entryBytes": 8317,
+      "bytes": 18992,
+      "hash": "0bcdbe2fa4af",
       "descTokens": 113,
-      "skillTokens": 2004
+      "skillTokens": 2080
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "name": "mobile-native",
+      "dirName": "mobile-native",
+      "group": "skills",
+      "repoPath": "skills/mobile-native",
+      "description": "Make a web app feel native on a phone — the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. Covers sticky hover states, tap highlight flashes, the 100vh bug, inputs that zoom the page, laggy taps, pull-to-refresh hijacking scroll, content under the notch, long-press selecting button text, carousels that scroll the wrong way, mismatched status bars, and the rule that you test on real hardware. Use when a web app is being built for or reviewed on mobile, when something \"works in Chrome but feels wrong on my phone\", when building a PWA, a bottom sheet, a carousel, a full-screen layout, or any touch interaction. For motion itself use animate; for React Native use animate-expo.",
+      "modelInvocable": true,
+      "files": [],
+      "entryBytes": 17149,
+      "bytes": 17149,
+      "hash": "38da5adbae12",
+      "descTokens": 185,
+      "skillTokens": 4288
     },
     {
       "repo": "emilkowalski/skills",
@@ -416,11 +875,11 @@
       "description": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own.",
       "modelInvocable": false,
       "files": [],
-      "entryBytes": 4591,
-      "bytes": 4591,
-      "hash": "380cbea1c89e",
+      "entryBytes": 4875,
+      "bytes": 4875,
+      "hash": "288573a99cd1",
       "descTokens": 66,
-      "skillTokens": 1148
+      "skillTokens": 1219
     },
     {
       "repo": "emilkowalski/skills",
@@ -433,11 +892,11 @@
       "files": [
         "PICKER.md"
       ],
-      "entryBytes": 7578,
-      "bytes": 15323,
-      "hash": "66d018b591bb",
+      "entryBytes": 7928,
+      "bytes": 15673,
+      "hash": "e8e0b90bfbd3",
       "descTokens": 61,
-      "skillTokens": 1895
+      "skillTokens": 1982
     },
     {
       "repo": "emilkowalski/skills",
@@ -450,11 +909,11 @@
       "files": [
         "STANDARDS.md"
       ],
-      "entryBytes": 8220,
-      "bytes": 18208,
-      "hash": "c06a1a3d827e",
+      "entryBytes": 8527,
+      "bytes": 18515,
+      "hash": "b556e31e11ea",
       "descTokens": 40,
-      "skillTokens": 2055
+      "skillTokens": 2132
     },
     {
       "repo": "emilkowalski/skills",
@@ -465,11 +924,11 @@
       "description": "How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.",
       "modelInvocable": true,
       "files": [],
-      "entryBytes": 42573,
-      "bytes": 42573,
-      "hash": "4ccbc73dae57",
+      "entryBytes": 42841,
+      "bytes": 42841,
+      "hash": "1c4b598ecaf3",
       "descTokens": 121,
-      "skillTokens": 10644
+      "skillTokens": 10711
     },
     {
       "repo": "jakubkrehel/skills",
@@ -692,6 +1151,150 @@
       "hash": "b9fd04f9d388",
       "descTokens": 24,
       "skillTokens": 1569
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-falling-leaves",
+      "dirName": "3d-falling-leaves",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-falling-leaves",
+      "description": "Build recognizable falling leaves in world space using instanced geometry, independent tumble, coupled sideways drift, shared wind, scene occlusion, and camera-aware recycling. Use for 3D autumn leaves or drifting foliage in Three.js and similar scenes; use falling-leaves for a 2D canvas overlay.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 5268,
+      "bytes": 5567,
+      "hash": "0b550d9e2502",
+      "descTokens": 75,
+      "skillTokens": 1317
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-four-seasons",
+      "dirName": "3d-four-seasons",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-four-seasons",
+      "description": "Add coordinated spring, summer, fall, and winter states to a 3D scene, blending foliage, sunlight, sky, ground materials, snow, and particles without rebuilding the world. Use for seasonal controls, architectural walkthroughs, and outdoor scenes with four-season transitions.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 5100,
+      "bytes": 5574,
+      "hash": "5848d0e85623",
+      "descTokens": 69,
+      "skillTokens": 1275
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-high-poly-models",
+      "dirName": "3d-high-poly-models",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-high-poly-models",
+      "description": "Create or integrate highly detailed 3D models with smooth silhouettes, shaped surfaces, believable bevels, and close-up geometry, then prepare suitable runtime LODs and loading. Use when a user requests high polygon counts, ultra-realistic models, detailed architectural assets, or removal of visibly faceted geometry.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 5801,
+      "bytes": 6288,
+      "hash": "89320cc910bc",
+      "descTokens": 80,
+      "skillTokens": 1451
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-high-resolution-textures",
+      "dirName": "3d-high-resolution-textures",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-high-resolution-textures",
+      "description": "Build sharp, physically coherent high-resolution materials for 3D rendering with appropriate PBR maps, texel density, UV direction, mipmaps, anisotropic filtering, and progressive asset delivery. Use for detailed wood, stone, fabric, foliage, and architectural close-ups without excessive download or GPU memory costs.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 5805,
+      "bytes": 6337,
+      "hash": "fa72732ed91a",
+      "descTokens": 80,
+      "skillTokens": 1452
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-retina-resolution",
+      "dirName": "3d-retina-resolution",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-retina-resolution",
+      "description": "Render a 3D canvas sharply on Retina and HiDPI displays, including explicit 200 percent resolution, synchronized renderer and post-processing sizes, correct pointer coordinates, and measured quality fallbacks. Use for blurry WebGL output, 2x rendering, high-resolution previews, and display-density changes.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 6352,
+      "bytes": 6785,
+      "hash": "3bbdfc9bbb47",
+      "descTokens": 77,
+      "skillTokens": 1588
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-sky-background",
+      "dirName": "3d-sky-background",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-sky-background",
+      "description": "Create a camera-correct sky background for a 3D scene with a procedural atmosphere or panorama, horizon haze, aligned sunlight, and coherent environment lighting. Use for architectural skies, outdoor 3D backgrounds, golden hour, and day-to-night sky transitions.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 5066,
+      "bytes": 5457,
+      "hash": "dcea9ead4152",
+      "descTokens": 66,
+      "skillTokens": 1267
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-sky-rays",
+      "dirName": "3d-sky-rays",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-sky-rays",
+      "description": "Add sun shafts and crepuscular rays to a Three.js or equivalent 3D scene, using scene occlusion, a projected sun position, controlled foreground spill, and scalable post-processing. Use for rays of light from the sky, sunlight through trees or roofs, and golden-hour architectural scenes.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 4979,
+      "bytes": 5275,
+      "hash": "c6471fe52326",
+      "descTokens": 72,
+      "skillTokens": 1245
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "3d-virtual-tour",
+      "dirName": "3d-virtual-tour",
+      "group": "agent-skills/3d",
+      "repoPath": "agent-skills/3d/3d-virtual-tour",
+      "description": "Build guided and interactive virtual tours through a 3D environment with authored camera paths, room and floor-plan navigation, orbit inspection, smooth mode handoffs, and progressive loading. Use for architectural walkthroughs, real-estate tours, museums, showrooms, and explorable spaces built with Three.js or a similar renderer.",
+      "modelInvocable": true,
+      "files": [
+        "REFERENCES.md",
+        "agents/"
+      ],
+      "entryBytes": 9180,
+      "bytes": 10013,
+      "hash": "8f2635059e76",
+      "descTokens": 83,
+      "skillTokens": 2295
     },
     {
       "repo": "MengTo/Skills",
@@ -1437,6 +2040,24 @@
       "hash": "20abbf941d80",
       "descTokens": 35,
       "skillTokens": 590
+    },
+    {
+      "repo": "MengTo/Skills",
+      "name": "codex-gpt-image-2-5-flare",
+      "dirName": "codex-gpt-image-2-5-flare",
+      "group": "agent-skills/codex",
+      "repoPath": "agent-skills/codex/codex-gpt-image-2-5-flare",
+      "description": "Generate or edit artwork with built-in Codex image gen, especially transparent PNG ornaments, game sprites, emblems, and UI graphics. Use when the user requests GPT 2.5 Flare, /codex-gpt-image-2-5-flare, or this built-in transparent-asset workflow. Includes alpha verification, prompt preservation, and optional project integration.",
+      "modelInvocable": true,
+      "files": [
+        "agents/",
+        "scripts/"
+      ],
+      "entryBytes": 7736,
+      "bytes": 7736,
+      "hash": "9e9c91c6f1d9",
+      "descTokens": 83,
+      "skillTokens": 1934
     },
     {
       "repo": "MengTo/Skills",

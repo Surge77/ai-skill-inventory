@@ -141,3 +141,81 @@ Two repos starred in the same session were already present and needed no action:
 [zanwei/design-dna](https://github.com/zanwei/design-dna) (`design-dna`) and
 [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft)
 (`nateherk-design:scroll-craft`, via plugin).
+
+---
+
+## 2026-09-19 — two plugin installs, and the first measured drift
+
+Both installed as Claude Code plugins rather than copied in, so they update with
+`claude plugin update` instead of a re-copy.
+
+| Repo | Skills | Stars | Last push | Install | Verdict |
+|---|---:|---:|---|---|---|
+| [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 2 | 48,388 | 2026-09-16 | plugin, user scope | **Installed** — opt-in only |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 25 | 96,637 | 2026-09-18 | plugin, user scope | **Installed** — against advice, see below |
+
+### `i-have-adhd` — cheap by construction
+
+One skill, `disable-model-invocation: true`. It never auto-fires; `/i-have-adhd` turns it on
+and it persists until "stop adhd mode". Standing cost is one index line, which is the whole
+reason it was an easy yes. Roughly 60% of its ten rules already exist in
+`~/.claude/CLAUDE.md` under Output discipline. The three that do not: restate progress each
+turn, give concrete time estimates, cap visible lists at five.
+
+Known conflict, unresolved: the `caveman` `UserPromptSubmit` hook re-injects on every prompt
+and lands after the skill body, so it wins. Run `stop caveman` before `/i-have-adhd`.
+Rule 7 ("make completed work visible") also contradicts the CLAUDE.md line "no trailing
+summaries after completing work"; CLAUDE.md outranks it.
+
+### `agent-skills` — installed knowing the cost
+
+The rule from 2026-09-07 — a skill earns its slot by encoding a decision the model would not
+reach on its own — grades this pack well on craft and badly on fit. The skills are strong
+(evals with fixtures, real thresholds). The problem is redundancy against what this machine
+already carries:
+
+| Upstream skill | Already here |
+|---|---|
+| `test-driven-development` | `superpowers:test-driven-development`, `tdd`, `tdd-guide` |
+| `debugging-and-error-recovery` | `superpowers:systematic-debugging`, `diagnose`, `debugger` |
+| `code-review-and-quality` | `code-review`, `python-reviewer`, `pr-review-toolkit` |
+| `performance-optimization` | `web-perf`, `performance`, `performance-auditor` |
+| `security-and-hardening` | `security-reviewer`, `security-scan` |
+| `source-driven-development` | `source-code-context` + the `~/.opensrc/` cache |
+| `context-engineering` | `context-budget`, `compress`, `token-optimizer` |
+
+**21 of 25 duplicate something already installed. Two are genuinely new:**
+`constraint-driven-development` (writes `CONSTRAINTS.md`, then watches diffs for a quietly
+lowered bar) and `deprecation-and-migration`.
+
+The cost is not the disk, it is the index. **0 of 25 set `disable-model-invocation`**, so all
+25 descriptions load every turn — ~2,400 tokens standing, and 25 fresh bids against existing
+routing. The descriptions are written to win: TDD's claims "any logic, any bug, any behavior."
+The pack also ships 4 agents (`code-reviewer`, `security-auditor`, `test-engineer`,
+`web-performance-auditor`) into a machine whose `firstApply/CLAUDE.md` exists specifically to
+disambiguate 98 colliding agent names, and which routes to `python-reviewer` by name.
+
+Installed anyway, as an explicit call. If it needs trimming later, the move is deleting the
+21 redundant skill directories from the plugin cache rather than uninstalling the pack.
+
+### The drift this pass caught
+
+`emilkowalski/skills` reads **13 published, 0 installed** — it was 12 and 12 on 2026-09-07.
+Upstream pushed 2026-09-15 and rewrote every one; matching is by SKILL.md content hash, so all
+12 local copies now show ⚠️ rather than ✅. They were copied in with `cp -r`, which does not
+update. **The 12 skills on this disk are a stale September 7 snapshot**, and `prototype` /
+`pick-ui-library` upstream are absent entirely.
+
+That is the failure mode of `cp -r` installs, and the reason both repos in this pass went in as
+plugins instead. Re-copying emilkowalski is open work, not done here.
+
+### Standing cost, before and after
+
+| | 2026-09-07 | 2026-09-19 |
+|---|---:|---:|
+| Skills reachable from Claude Code | 419 | 631 |
+| Descriptions, summed | ~29,613 tokens | **~45,946 tokens** |
+
++212 reachable skills and +16,333 standing tokens across twelve days. The addy pack is ~2,400
+of that; the rest arrived through plugin updates (artifact templates, Cloudflare, Vercel
+sandbox) without a decision being made about any of them. That number is the thing to watch.

@@ -1,6 +1,6 @@
 # Testing & QA
 
-37 skills — 30 installed, 7 available in a marketplace but not installed.
+41 skills — 34 installed, 7 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -15,6 +15,7 @@
 | `agent-tester` | Agent skill for tester - invoke with $agent-tester *(marketplace only)* | agent-pack | claude-code | 1 files, 9 KB |
 | `ai-regression-testing` | Regression testing strategies for AI-assisted development. Sandbox-mode API testing without database dependencies, automated bug-check workflows, and patterns to catch AI blind spots where… | ecc | claude-code | 1 files, 12 KB |
 | `browser-test` | UI test recipe -- composes browser-record (capture) + browser-replay (verify) so every test produces a replayable RVF artifact, not an ephemeral run *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
+| `constraint-driven-development` | Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they ha… | agent-skills | claude-code | 2 files, 26 KB |
 | `cpp-testing` | Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers. | ecc | claude-code | 1 files, 9 KB |
 | `csharp-testing` | C# and .NET testing patterns with xUnit, FluentAssertions, mocking, integration tests, and test organization best practices. | ecc | claude-code | 1 files, 9 KB |
 | `django-tdd` | Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs. | ecc | claude-code | 1 files, 21 KB |
@@ -26,20 +27,23 @@
 | `laravel-tdd` | Test-driven development for Laravel with PHPUnit and Pest, factories, database testing, fakes, and coverage targets. | ecc | claude-code | 1 files, 8 KB |
 | `laravel-verification` | Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness. | ecc | claude-code | 1 files, 4 KB |
 | `perl-testing` | Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology. | ecc | claude-code | 1 files, 11 KB |
+| `playwright-skill` | Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, tes… | standalone | claude-code | 5 files, 48 KB |
 | `python-testing` | Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements. | ecc | claude-code | 1 files, 19 KB |
-| `qa-test-planner` | Generate comprehensive test plans, manual test cases, regression test suites, and bug reports for QA engineers. Includes Figma MCP integration for design validation. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 65 KB |
+| `qa-test-planner` | Generate comprehensive test plans, manual test cases, regression test suites, and bug reports for QA engineers. Includes Figma MCP integration for design validation. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 65 KB |
 | `quarkus-tdd` | Test-driven development for Quarkus 3.x LTS using JUnit 5, Mockito, REST Assured, Camel testing, and JaCoCo. Use when adding features, fixing bugs, or refactoring event-driven services. | ecc | claude-code | 1 files, 26 KB |
 | `quarkus-verification` | Verification loop for Quarkus projects: build, static analysis, tests with coverage, security scans, native compilation, and diff review before release or PR. | ecc | claude-code | 1 files, 11 KB |
 | `rust-testing` | Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology. | ecc | claude-code | 1 files, 12 KB |
 | `sparc-refine` | Run the SPARC Refinement and Completion phases — review code, improve test coverage, validate against specification, and generate documentation *(marketplace only)* | plugins | claude-code | 1 files, 6 KB |
 | `springboot-tdd` | Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring. | ecc | claude-code | 1 files, 4 KB |
 | `swift-protocol-di-testing` | Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing. | ecc | claude-code | 1 files, 6 KB |
-| `tdd` | Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-f… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 6 files, 10 KB |
+| `tdd` | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests. | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 7 KB |
 | `tdd-workflow` | Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests. | ecc | claude-code | 1 files, 13 KB |
 | `tdd-workflow` | Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests. | agents-std-store | agents-std | 2 files, 10 KB |
 | `tdd-workflow` | TDD London School workflow -- mock-first, outside-in test development *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
-| `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 18 KB |
-| `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code | superpowers | claude-code | 2 files, 17 KB |
+| `test` | Run /test to write a test suite for code you just built or changed, after implementing a feature, route, or fix. Targets uncommitted changes automatically, reads test preferences.json for y… | standalone | codex | 5 files, 37 KB |
+| `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 17 KB |
+| `test-driven-development` | Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when… | agent-skills | claude-code | 1 files, 16 KB |
+| `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code | superpowers | claude-code | 2 files, 18 KB |
 | `test-gaps` | Detect missing test coverage and generate test suggestions *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewin… *(marketplace only)* | skills | claude-code | 6 files, 22 KB |
 | `windows-desktop-e2e` | E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation. | ecc | claude-code | 1 files, 31 KB |
@@ -235,6 +239,28 @@ UI test recipe -- composes browser-record (capture) + browser-replay (verify) so
 | Last modified | 2026-05-16 |
 | Category source | keywords |
 | Content hash | `01675f758576` |
+
+### `constraint-driven-development`
+
+Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-ignore or eslint-disable suppressions, skipped or deleted tests, assertions stripped out, unimplemented stubs, thresholds edited down. Use when no quality bar is written down, when the user says "set up constraints" or "define our standards", when the user wants dimensions they care about — accessibility, web performance, coverage — set up as enforced constraints, when an agent keeps silencing checks or skipping tests to get to green, when you need a coverage or performance threshold and don't know what number to pick, or when an agent writes more code than anyone will read.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/constraint-driven-development` |
+| Size | 2 files, 26 KB |
+| SKILL.md | 312 lines, ~5,252 tokens |
+| Description cost | ~222 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `ce6f43197d9b` |
+| Bundled | `references` |
 
 ### `cpp-testing`
 
@@ -468,6 +494,28 @@ Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, covera
 | Category source | keywords |
 | Content hash | `c906b80f8d86` |
 
+### `playwright-skill`
+
+Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/playwright-skill` |
+| Size | 5 files, 48 KB |
+| SKILL.md | 454 lines, ~3,483 tokens |
+| Description cost | ~95 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `345ad1c1180f` |
+| Bundled | `lib` |
+
 ### `python-testing`
 
 Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.
@@ -498,8 +546,8 @@ Generate comprehensive test plans, manual test cases, regression test suites, an
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/qa-test-planner` |
 | Size | 7 files, 65 KB |
 | SKILL.md | 758 lines, ~4,920 tokens |
@@ -639,24 +687,25 @@ Protocol-based dependency injection for testable Swift code — mock file system
 
 ### `tdd`
 
-Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.
+Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/tdd` |
-| Size | 6 files, 10 KB |
-| SKILL.md | 110 lines, ~1,126 tokens |
-| Description cost | ~52 tokens always in context |
+| Size | 4 files, 7 KB |
+| SKILL.md | 39 lines, ~897 tokens |
+| Description cost | ~38 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `5076551a8e1e` |
+| Content hash | `25df55fd0973` |
+| Bundled | `agents` |
 
 ### `tdd-workflow`
 
@@ -722,6 +771,28 @@ TDD London School workflow -- mock-first, outside-in test development
 | Category source | keywords |
 | Content hash | `b57740e7ad9e` |
 
+### `test`
+
+Run /test to write a test suite for code you just built or changed, after implementing a feature, route, or fix. Targets uncommitted changes automatically, reads test preferences.json for your framework (asks and saves it if absent), and picks the right strategy per file: happy path, edge cases, error states, accessibility.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/test` |
+| Size | 5 files, 37 KB |
+| SKILL.md | 217 lines, ~4,494 tokens |
+| Description cost | ~82 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `c3df5a393f05` |
+| Bundled | `agents`, `modes` |
+
 ### `test-driven-development`
 
 Use when implementing any feature or bugfix, before writing implementation code
@@ -732,16 +803,37 @@ Use when implementing any feature or bugfix, before writing implementation code
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/test-driven-development` |
-| Size | 2 files, 18 KB |
-| SKILL.md | 372 lines, ~2,467 tokens |
+| Size | 2 files, 17 KB |
+| SKILL.md | 321 lines, ~2,254 tokens |
 | Description cost | ~20 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `df8bf2ef8386` |
+| Content hash | `9bf54057abb7` |
+
+### `test-driven-development`
+
+Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/test-driven-development` |
+| Size | 1 files, 16 KB |
+| SKILL.md | 399 lines, ~4,130 tokens |
+| Description cost | ~67 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `247b9f490c94` |
 
 ### `test-driven-development`
 
@@ -750,19 +842,19 @@ Use when implementing any feature or bugfix, before writing implementation code
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/test-driven-development` |
-| Size | 2 files, 17 KB |
-| SKILL.md | 321 lines, ~2,254 tokens |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/test-driven-development` |
+| Size | 2 files, 18 KB |
+| SKILL.md | 372 lines, ~2,467 tokens |
 | Description cost | ~20 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `9bf54057abb7` |
+| Content hash | `df8bf2ef8386` |
 
 ### `test-gaps`
 
@@ -802,7 +894,7 @@ Toolkit for interacting with and testing local web applications using Playwright
 | Description cost | ~51 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
 | Content hash | `a71271f620ff` |
 | Bundled | `examples`, `scripts` |

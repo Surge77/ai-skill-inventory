@@ -1,6 +1,6 @@
 # Languages & Frameworks
 
-20 skills — 18 installed, 2 available in a marketplace but not installed.
+21 skills — 20 installed, 1 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -12,10 +12,11 @@
 | `dart-flutter-patterns` | Production-ready Dart and Flutter patterns covering null safety, immutable state, async composition, widget architecture, popular state management frameworks (BLoC, Riverpod, Provider), GoR… | ecc | claude-code | 1 files, 16 KB |
 | `django-verification` | Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR. | ecc | claude-code | 1 files, 12 KB |
 | `java-coding-standards` | Java coding standards for Spring Boot and Quarkus services: naming, immutability, Optional usage, streams, exceptions, generics, CDI, reactive patterns, and project layout. Automatically ap… | ecc | claude-code | 1 files, 12 KB |
+| `java-springboot` | Get best practices for developing applications with Spring Boot. | standalone | codex | 1 files, 4 KB |
 | `kotlin-coroutines-flows` | Kotlin Coroutines and Flow patterns for Android and KMP — structured concurrency, Flow operators, StateFlow, error handling, and testing. | ecc | claude-code | 1 files, 8 KB |
 | `kotlin-ktor-patterns` | Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing. | ecc | claude-code | 1 files, 20 KB |
 | `kotlin-patterns` | Idiomatic Kotlin patterns, best practices, and conventions for building robust, efficient, and maintainable Kotlin applications with coroutines, null safety, and DSL builders. | ecc | claude-code | 1 files, 19 KB |
-| `mcp-builder` | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integr… *(marketplace only)* | skills | claude-code | 10 files, 122 KB |
+| `mcp-builder` | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integr… | standalone | claude-code | 10 files, 119 KB |
 | `nodejs-keccak256` | Prevent Ethereum hashing bugs in JavaScript and TypeScript. Node's sha3-256 is NIST SHA3, not Ethereum Keccak-256, and silently breaks selectors, signatures, storage slots, and address deri… | ecc | claude-code | 1 files, 3 KB |
 | `python-patterns` | Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. | ecc | claude-code | 1 files, 17 KB |
 | `rust-patterns` | Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications. | ecc | claude-code | 1 files, 14 KB |
@@ -24,7 +25,7 @@
 | `swift-actor-persistence` | Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design. | ecc | claude-code | 1 files, 5 KB |
 | `swift-concurrency-6-2` | Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types. | ecc | claude-code | 1 files, 8 KB |
 | `swiftui-patterns` | SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices. | ecc | claude-code | 1 files, 7 KB |
-| `typescript-expert` | TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 41 KB |
+| `typescript-expert` | TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 41 KB |
 | `write-swift` | How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and ge… | standalone | claude-code | 1 files, 42 KB |
 
 ## Detail
@@ -46,7 +47,7 @@ This skill should be used when the user wants to "package an MCP server", "bundl
 | Description cost | ~101 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `96a999bce4af` |
 | Bundled | `references` |
@@ -157,6 +158,27 @@ Java coding standards for Spring Boot and Quarkus services: naming, immutability
 | Category source | keywords |
 | Content hash | `7700ef497001` |
 
+### `java-springboot`
+
+Get best practices for developing applications with Spring Boot.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/java-springboot` |
+| Size | 1 files, 4 KB |
+| SKILL.md | 66 lines, ~1,034 tokens |
+| Description cost | ~16 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `7ef61a8ab581` |
+
 ### `kotlin-coroutines-flows`
 
 Kotlin Coroutines and Flow patterns for Android and KMP — structured concurrency, Flow operators, StateFlow, error handling, and testing.
@@ -226,18 +248,18 @@ Guide for creating high-quality MCP (Model Context Protocol) servers that enable
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/mcp-builder` |
-| Size | 10 files, 122 KB |
-| SKILL.md | 237 lines, ~2,332 tokens |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/mcp-builder` |
+| Size | 10 files, 119 KB |
+| SKILL.md | 237 lines, ~2,273 tokens |
 | Description cost | ~70 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `2f59cc4805c5` |
 | Bundled | `reference`, `scripts` |
@@ -412,24 +434,24 @@ SwiftUI architecture patterns, state management with @Observable, view compositi
 
 ### `typescript-expert`
 
-TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for any TypeScript/JavaScript issues including complex type gymnastics, build performance, debugging, and architectural decisions. If a specialized expert is a better fit, I will recommend switching and stop.
+TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/typescript-expert` |
 | Size | 5 files, 41 KB |
-| SKILL.md | 430 lines, ~3,769 tokens |
-| Description cost | ~99 tokens always in context |
+| SKILL.md | 432 lines, ~3,806 tokens |
+| Description cost | ~42 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `a85100f5e5fb` |
+| Content hash | `0392dccaa6cc` |
 | Bundled | `references`, `scripts` |
 
 ### `write-swift`

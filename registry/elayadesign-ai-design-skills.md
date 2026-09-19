@@ -9,7 +9,7 @@ _No repository description._
 | Repo | https://github.com/elayadesign/ai-design-skills |
 | Skills published | 1 |
 | Installed here | 0 |
-| Stars / forks | 1,985 / 133 |
+| Stars / forks | 2,252 / 154 |
 | License | MIT |
 | Last push | 2026-07-29 |
 | Scanned at commit | `1c1e97cb9878` |

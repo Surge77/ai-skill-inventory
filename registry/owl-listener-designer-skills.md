@@ -9,7 +9,7 @@ Designer Skills Collection: agentic skills, commands, and plugins for design —
 | Repo | https://github.com/Owl-Listener/designer-skills |
 | Skills published | 111 |
 | Installed here | 0 |
-| Stars / forks | 2,557 / 362 |
+| Stars / forks | 2,688 / 384 |
 | License | MIT |
 | Last push | 2026-09-05 |
 | Scanned at commit | `9a6930cf84a8` |

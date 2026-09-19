@@ -1,6 +1,6 @@
 # Business & Ops
 
-25 skills — 22 installed, 3 available in a marketplace but not installed.
+27 skills — 24 installed, 3 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -24,6 +24,8 @@
 | `agency-supply-chain-strategist` | Agency agent wrapper for Supply Chain Strategist. Expert supply chain management and procurement strategy specialist â€” skilled in supplier development, strategic sourcing, quality control… | agency-roles | codex | 1 files, 33 KB |
 | `agency-support-finance-tracker` | Agency agent wrapper for Finance Tracker. Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financi… | agency-roles | codex | 1 files, 19 KB |
 | `agency-support-legal-compliance-checker` | Agency agent wrapper for Legal Compliance Checker. Expert legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regula… | agency-roles | codex | 1 files, 26 KB |
+| `artifact-template-financial-budget` | Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects or names Financial Budget. Model actuals, budget and scenario forecasts,… | openai-templates | codex | 5 files, 77 KB |
+| `artifact-template-legal-memorandum` | Create a document using the Legal Memorandum template and its retained reference file. Use when the user selects or names Legal Memorandum. Draft legal memoranda with the issue, brief answe… | openai-templates | codex | 5 files, 644 KB |
 | `cost-budget-check` | Read accumulated cost-tracking spend + budget config, compute utilization, emit 50/75/90/100% alert ladder *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `energy-procurement` | Codified expertise for electricity and gas procurement, tariff optimization, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. Informed by energ… | ecc | claude-code | 1 files, 30 KB |
 | `finance-billing-ops` | Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate-charge diagnosis, o… | ecc | claude-code | 1 files, 4 KB |
@@ -411,6 +413,50 @@ Agency agent wrapper for Legal Compliance Checker. Expert legal and compliance s
 | Last modified | 2026-03-13 |
 | Category source | keywords |
 | Content hash | `2aefaf22d03b` |
+
+### `artifact-template-financial-budget`
+
+Create a spreadsheet using the Financial Budget template and its retained reference file. Use when the user selects or names Financial Budget. Model actuals, budget and scenario forecasts, variances, cash runway, and departmental plans.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget` |
+| Size | 5 files, 77 KB |
+| SKILL.md | 23 lines, ~372 tokens |
+| Description cost | ~59 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | keywords |
+| Content hash | `da268b4df4d7` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-legal-memorandum`
+
+Create a document using the Legal Memorandum template and its retained reference file. Use when the user selects or names Legal Memorandum. Draft legal memoranda with the issue, brief answer, relevant facts, analysis, and conclusion.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum` |
+| Size | 5 files, 644 KB |
+| SKILL.md | 23 lines, ~359 tokens |
+| Description cost | ~59 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | keywords |
+| Content hash | `c4fb7e79aee2` |
+| Bundled | `agents`, `assets` |
 
 ### `cost-budget-check`
 

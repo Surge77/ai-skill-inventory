@@ -6,6 +6,8 @@
     { "repo": "codeswithroh/tastemaker", "starred": "2026-09-07", "note": "evaluated, not installed — duplicates design-dna" },
     { "repo": "elayadesign/ai-design-skills", "starred": "2026-09-07", "note": "evaluated, not installed — overlaps landing-page-copywriter" },
     { "repo": "MengTo/Skills", "starred": "2026-09-07", "note": "evaluated, not installed — mostly game dev and video, out of scope" },
-    { "repo": "Owl-Listener/designer-skills", "starred": "2026-09-07", "note": "evaluated, not installed — encyclopedic, restates known theory" }
+    { "repo": "Owl-Listener/designer-skills", "starred": "2026-09-07", "note": "evaluated, not installed — encyclopedic, restates known theory" },
+    { "repo": "ayghri/i-have-adhd", "starred": "2026-09-19", "note": "installed 2026-09-19 — ADHD output shaping, opt-in only" },
+    { "repo": "addyosmani/agent-skills", "starred": "2026-09-19", "note": "installed 2026-09-19 — full-SDLC pack, 25 skills, all auto-invocable" }
   ]
 }

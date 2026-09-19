@@ -1,6 +1,6 @@
 # Data & Databases
 
-25 skills — 17 installed, 8 available in a marketplace but not installed.
+28 skills — 20 installed, 8 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -13,18 +13,21 @@
 | `agent-migration-plan` | Agent skill for migration-plan - invoke with $agent-migration-plan *(marketplace only)* | agent-pack | claude-code | 1 files, 19 KB |
 | `analytics` | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "ev… | marketing-skills | claude-code | 5 files, 38 KB |
 | `analytics-tracking` | When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "ev… | marketing-skills | claude-code | 4 files, 31 KB |
+| `artifact-template-analytics-dashboard` | Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user selects or names Analytics Dashboard. Monitor acquisition, engagement, retenti… | openai-templates | codex | 5 files, 89 KB |
 | `clickhouse-io` | ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. | ecc | claude-code | 1 files, 11 KB |
+| `cloudflare-one-migrations` | Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout. | agents-std-store | claude-code, shared-store | 1 files, 12 KB |
 | `database-migrations` | Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across PostgreSQL, MySQL, and common ORMs (Prisma, Drizzle, Kysely, Django, T… | ecc | claude-code | 1 files, 12 KB |
-| `database-schema-designer` | Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimiza… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 23 KB |
+| `database-schema-designer` | Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimiza… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 23 KB |
+| `deprecation-and-migration` | Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in pro… | agent-skills | claude-code | 1 files, 12 KB |
 | `embeddings` | Vector embeddings with HNSW indexing, sql.js persistence, and hyperbolic support. 75x faster with agentic-flow integration. Use when: semantic search, pattern matching, similarity queries,… *(marketplace only)* | .agents | claude-code | 1 files, 2 KB |
 | `kotlin-exposed-patterns` | JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions, HikariCP connection pooling, Flyway migrations, and repository pattern. | ecc | claude-code | 1 files, 22 KB |
 | `migrate-create` | Create a new sequentially numbered database migration with up/down SQL files *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `postgres-patterns` | PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices. | ecc | claude-code | 1 files, 4 KB |
-| `postgresql-table-design` | Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 16 KB |
+| `postgresql-table-design` | Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 20 KB |
 | `prisma-patterns` | Prisma ORM patterns for TypeScript backends — schema design, query optimization, transactions, pagination, and critical traps like updateMany returning count not records, $transaction timeo… | ecc | claude-code | 1 files, 14 KB |
 | `schema` | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets,"… | marketing-skills | claude-code | 3 files, 20 KB |
 | `schema-markup` | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets,"… | marketing-skills | claude-code | 2 files, 13 KB |
-| `supabase-postgres-best-practices` | Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 33 files, 50 KB |
+| `supabase-postgres-best-practices` | Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or altering ta… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 36 files, 63 KB |
 | `uspto-database` | USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks, assignment data, and reproducible IP research logs. | ecc | claude-code | 1 files, 6 KB |
 | `vector-cluster` | Cluster code by graph community detection via npx ruvector@0.2.25 hooks graph-cluster (spectral / Louvain) *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `vector-embed` | Generate embeddings via npx ruvector@0.2.25 embed text (ONNX all-MiniLM-L6-v2, 384-dim), normalize, and store in HNSW index *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
@@ -183,6 +186,28 @@ When the user wants to set up, improve, or audit analytics tracking and measurem
 | Content hash | `24365eb7c081` |
 | Bundled | `references` |
 
+### `artifact-template-analytics-dashboard`
+
+Create a spreadsheet using the Analytics Dashboard template and its retained reference file. Use when the user selects or names Analytics Dashboard. Monitor acquisition, engagement, retention, revenue, and conversion funnel KPIs with charts.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard` |
+| Size | 5 files, 89 KB |
+| SKILL.md | 23 lines, ~375 tokens |
+| Description cost | ~61 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | keywords |
+| Content hash | `270d2334682a` |
+| Bundled | `agents`, `assets` |
+
 ### `clickhouse-io`
 
 ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
@@ -203,6 +228,27 @@ ClickHouse database patterns, query optimization, analytics, and data engineerin
 | Last modified | 2026-05-17 |
 | Category source | keywords |
 | Content hash | `027600a7004d` |
+
+### `cloudflare-one-migrations`
+
+Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/cloudflare-one-migrations` |
+| Size | 1 files, 12 KB |
+| SKILL.md | 111 lines, ~3,107 tokens |
+| Description cost | ~35 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `b2fbf819caff` |
 
 ### `database-migrations`
 
@@ -234,8 +280,8 @@ Design robust, scalable database schemas for SQL and NoSQL databases. Provides n
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/database-schema-designer` |
 | Size | 3 files, 23 KB |
 | SKILL.md | 688 lines, ~4,580 tokens |
@@ -246,6 +292,27 @@ Design robust, scalable database schemas for SQL and NoSQL databases. Provides n
 | Category source | keywords |
 | Content hash | `0a40801dcff6` |
 | Bundled | `assets`, `references`, `templates` |
+
+### `deprecation-and-migration`
+
+Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to maintain or sunset existing code.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/deprecation-and-migration` |
+| Size | 1 files, 12 KB |
+| SKILL.md | 248 lines, ~3,161 tokens |
+| Description cost | ~84 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `c995d548ceca` |
 
 ### `embeddings`
 
@@ -333,24 +400,25 @@ PostgreSQL database patterns for query optimization, schema design, indexing, an
 
 ### `postgresql-table-design`
 
-Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features
+Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/postgresql-table-design` |
-| Size | 1 files, 16 KB |
-| SKILL.md | 203 lines, ~4,062 tokens |
-| Description cost | ~35 tokens always in context |
+| Size | 2 files, 20 KB |
+| SKILL.md | 130 lines, ~2,011 tokens |
+| Description cost | ~44 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `6e601a7512b5` |
+| Content hash | `a3cacdf44510` |
+| Bundled | `references` |
 
 ### `prisma-patterns`
 
@@ -419,24 +487,24 @@ When the user wants to add, fix, or optimize schema markup and structured data o
 
 ### `supabase-postgres-best-practices`
 
-Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.
+Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or altering tables and columns (including choosing column types), schema design, migrations and declarative schema files, RLS policies and the tests that verify them, indexes, triggers, database functions, queues and scheduled jobs (pg_cron, pgmq), vector/semantic search (pgvector), and restoring dumps (pg_restore) or importing data. Also load it when diagnosing slow queries, high CPU, timeouts, EXPLAIN plans, connection exhaustion, locking, bloat, or rows visible to the wrong user or tenant. This is not just a performance guide — schema, migration, security, and SQL authoring tasks need these rules too, even for a one-column change or a single query.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/supabase-postgres-best-practices` |
-| Size | 33 files, 50 KB |
-| SKILL.md | 65 lines, ~661 tokens |
-| Description cost | ~46 tokens always in context |
+| Size | 36 files, 63 KB |
+| SKILL.md | 65 lines, ~824 tokens |
+| Description cost | ~209 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `e99dd584e9ac` |
+| Content hash | `149cb2830a9a` |
 | Bundled | `references` |
 
 ### `uspto-database`

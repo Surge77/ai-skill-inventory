@@ -7,22 +7,35 @@ Agent skills for designers and builders using Codex, Claude, Cursor, and other A
 | | |
 |---|---|
 | Repo | https://github.com/MengTo/Skills |
-| Skills published | 132 |
+| Skills published | 141 |
 | Installed here | 0 |
-| Stars / forks | 5,846 / 696 |
+| Stars / forks | 6,085 / 721 |
 | License | MIT |
-| Last push | 2026-08-28 |
-| Scanned at commit | `321c769739b8` |
+| Last push | 2026-09-17 |
+| Scanned at commit | `5f47e389dac3` |
 | Status | **Not installed** |
 | Starred | 2026-09-07 |
 
 > evaluated, not installed — mostly game dev and video, out of scope
 
-**Installing every skill here would add ~9,918 tokens** to every system prompt, before one of them fires. See [../reports/context-cost.md](../reports/context-cost.md) for what the installed library already costs.
+**Installing every skill here would add ~10,603 tokens** to every system prompt, before one of them fires. See [../reports/context-cost.md](../reports/context-cost.md) for what the installed library already costs.
 
 ## Skills
 
 ✅ installed here · ⚠️ a different skill already holds this name · — not on this disk
+
+### `agent-skills/3d`
+
+| Skill | On disk | Trigger | Size | Desc tokens | Description |
+|---|:---:|:---:|---:|---:|---|
+| `3d-falling-leaves` | — | auto | 5 KB | 75 | Build recognizable falling leaves in world space using instanced geometry, independent tumble, coupled sideways drift, shared wind, scene occlusion,… |
+| `3d-four-seasons` | — | auto | 5 KB | 69 | Add coordinated spring, summer, fall, and winter states to a 3D scene, blending foliage, sunlight, sky, ground materials, snow, and particles without… |
+| `3d-high-poly-models` | — | auto | 6 KB | 80 | Create or integrate highly detailed 3D models with smooth silhouettes, shaped surfaces, believable bevels, and close-up geometry, then prepare suitab… |
+| `3d-high-resolution-textures` | — | auto | 6 KB | 80 | Build sharp, physically coherent high-resolution materials for 3D rendering with appropriate PBR maps, texel density, UV direction, mipmaps, anisotro… |
+| `3d-retina-resolution` | — | auto | 7 KB | 77 | Render a 3D canvas sharply on Retina and HiDPI displays, including explicit 200 percent resolution, synchronized renderer and post-processing sizes,… |
+| `3d-sky-background` | — | auto | 5 KB | 66 | Create a camera-correct sky background for a 3D scene with a procedural atmosphere or panorama, horizon haze, aligned sunlight, and coherent environm… |
+| `3d-sky-rays` | — | auto | 5 KB | 72 | Add sun shafts and crepuscular rays to a Three.js or equivalent 3D scene, using scene occlusion, a projected sun position, controlled foreground spil… |
+| `3d-virtual-tour` | — | auto | 10 KB | 83 | Build guided and interactive virtual tours through a 3D environment with authored camera paths, room and floor-plan navigation, orbit inspection, smo… |
 
 ### `agent-skills/codex`
 
@@ -33,6 +46,7 @@ Agent skills for designers and builders using Codex, Claude, Cursor, and other A
 | `audit-verify-explain-grade-5` | — | auto | 4 KB | 82 | Audit work, verify claims with concrete evidence, and explain the result in simple grade-5 language. Use when the user asks to review, audit, check,… |
 | `browser-video-recording` | — | auto | 6 KB | 133 | Create polished 60 fps 4:3 4K browser screen-recording style videos from Codex in-app browser captures, with browser-only crop, natural macOS cursor… |
 | `build-daily-inspiration-sites` | — | auto | 7 KB | 101 | Turn a completed daily UI inspiration capture into exactly five original landing-page builds, one per separate Codex task, using Sites. Use when the… |
+| `codex-gpt-image-2-5-flare` | — | auto | 8 KB | 83 | Generate or edit artwork with built-in Codex image gen, especially transparent PNG ornaments, game sprites, emblems, and UI graphics. Use when the us… |
 | `daily-ui-inspiration-capture` | — | auto | 8 KB | 96 | Create a recurring daily UI inspiration capture. Use when the user asks to run, refresh, package, or validate dated UI inspiration bundles, especiall… |
 | `elevenlabs-tts` | — | auto | 4 KB | 83 | Generate ElevenLabs text-to-speech audio from scripts or inline text using local voice profiles. Use when the user asks for ElevenLabs, text-to-speec… |
 | `generate-reference-inspired-brand-worlds` | — | auto | 8 KB | 120 | Generate multiple original brand campaign worlds from a supplied visual reference while controlling how close the new work feels without copying prot… |

@@ -1,6 +1,6 @@
 # Planning & Product
 
-71 skills — 54 installed, 17 available in a marketplace but not installed.
+78 skills — 61 installed, 17 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -37,20 +37,24 @@
 | `agent-specification` | Agent skill for specification - invoke with $agent-specification *(marketplace only)* | agent-pack | claude-code | 1 files, 7 KB |
 | `agent-v3-memory-specialist` | Agent skill for v3-memory-specialist - invoke with $agent-v3-memory-specialist *(marketplace only)* | agent-pack | claude-code | 1 files, 10 KB |
 | `android-clean-architecture` | Clean Architecture patterns for Android and Kotlin Multiplatform projects — module structure, dependency rules, UseCases, Repositories, and data layer patterns. | ecc | claude-code | 1 files, 9 KB |
-| `behavioral-product-design` | Help users apply behavioral science to product design. Use when someone is designing for habit formation, reducing friction, applying psychology to UX, increasing retention through behavior… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 4 KB |
-| `brainstorming` | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implem… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 2 KB |
-| `brainstorming` | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implem… | superpowers | claude-code | 8 files, 79 KB |
+| `artifact-template-system-design` | Create a document using the System Design template and its retained reference file. Use when the user selects or names System Design. Document system architecture, requirements, components,… | openai-templates | codex | 5 files, 515 KB |
+| `behavioral-product-design` | Help users apply behavioral science to product design. Use when someone is designing for habit formation, reducing friction, applying psychology to UX, increasing retention through behavior… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 4 KB |
+| `brainstorming` | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implem… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 8 files, 79 KB |
+| `brainstorming` | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implem… | superpowers | claude-code | 1 files, 2 KB |
 | `competitor-alternatives` | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,… | marketing-skills | claude-code | 3 files, 21 KB |
 | `competitors` | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,… | marketing-skills | claude-code | 4 files, 28 KB |
 | `directory-submissions` | When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions "di… | marketing-skills | claude-code | 5 files, 86 KB |
 | `discernment-nudge` | After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projec… *(marketplace only)* | skills | claude-code | 2 files, 22 KB |
-| `domain-name-brainstormer` | Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
+| `domain-name-brainstormer` | Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, .ai, etc.). Saves hours of brainstorming and manual checking. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
+| `doubt-driven-development` | Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan f… | agent-skills | claude-code | 1 files, 16 KB |
 | `executing-plans` | Use when you have a written implementation plan to execute in a separate session with review checkpoints | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 2 KB |
 | `executing-plans` | Use when you have a written implementation plan to execute in a separate session with review checkpoints | superpowers | claude-code | 1 files, 2 KB |
 | `goal-plan` | Create and execute Goal-Oriented Action Plans (GOAP) with precondition analysis, cost optimization, and adaptive replanning *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
-| `improve-codebase-architecture` | Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring o… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 4 files, 14 KB |
+| `i-have-adhd` | Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Invok… | i-have-adhd | claude-code | 1 files, 7 KB |
+| `improve-codebase-architecture` | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 13 KB |
+| `interview-me` | Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent.… | agent-skills | claude-code | 1 files, 14 KB |
 | `inventory-demand-planning` | Codified expertise for demand forecasting, safety stock optimization, replenishment planning, and promotional lift estimation at multi-location retailers. Informed by demand planners with 1… | ecc | claude-code | 1 files, 24 KB |
-| `jira` | Use when the user mentions Jira issues (e.g., "PROJ-123"), asks about tickets, wants to create/view/update issues, check sprint status, or manage their Jira workflow. Triggers on keywords l… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 23 KB |
+| `jira` | Use when the user mentions Jira issues (e.g., "PROJ-123"), asks about tickets, wants to create/view/update issues, check sprint status, or manage their Jira workflow. Triggers on keywords l… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 23 KB |
 | `jira-integration` | Use this skill when retrieving Jira tickets, analyzing requirements, updating ticket status, adding comments, or transitioning issues. Provides Jira API patterns via MCP or direct REST call… | ecc | claude-code | 1 files, 9 KB |
 | `lead-intelligence` | AI-native lead intelligence and outreach pipeline. Replaces Apollo, Clay, and ZoomInfo with agent-powered signal scoring, mutual ranking, warm path discovery, source-derived voice modeling,… | ecc | claude-code | 5 files, 22 KB |
 | `logistics-exception-management` | Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience. Includ… | ecc | claude-code | 1 files, 17 KB |
@@ -58,25 +62,28 @@
 | `make-plan` | — *(marketplace only)* | openclaw | claude-code | 1 files, 1 KB |
 | `nestjs-patterns` | NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends. | ecc | claude-code | 1 files, 6 KB |
 | `next-forge` | Expert assistance for next-forge — a production-grade Turborepo template for Next.js SaaS apps. Triggers on questions about next-forge installation, setup, architecture, packages, customiza… | vercel | claude-code | 5 files, 31 KB |
+| `observability-and-instrumentation` | Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you nee… | agent-skills | claude-code | 1 files, 14 KB |
 | `pathfinder` | Map a codebase into feature-grouped flowcharts, identify duplicated concerns across features, and propose a unified architecture. Use when asked to "find the ideal path," unify duplicated s… | claude-mem | claude-code | 1 files, 6 KB |
+| `planning-and-ta[REDACTED]` | Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to es… | agent-skills | claude-code | 1 files, 10 KB |
 | `product-capability` | Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before mul… | ecc | claude-code | 1 files, 4 KB |
 | `product-capability` | Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before mul… | agents-std-store | agents-std | 2 files, 5 KB |
 | `product-marketing` | When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'w… | marketing-skills | claude-code | 2 files, 13 KB |
 | `product-marketing-context` | When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or… | marketing-skills | claude-code | 1 files, 7 KB |
 | `production-scheduling` | Codified expertise for production scheduling, job sequencing, line balancing, changeover optimization, and bottleneck resolution in discrete and batch manufacturing. Informed by production… | ecc | claude-code | 1 files, 28 KB |
 | `project-flow-ops` | Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking active work, and keeping GitHub public-facing while Linear remains the internal execution layer… | ecc | claude-code | 1 files, 3 KB |
-| `requirements-clarity` | Clarify ambiguous requirements through focused dialogue before implementation. Use when requirements are unclear, features are complex (>2 days), or involve cross-team coordination. Ask two… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 9 KB |
-| `setup-matt-pocock-skills` | Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, an… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 6 files, 13 KB |
+| `requirements-clarity` | Clarify ambiguous requirements through focused dialogue before implementation. Use when requirements are unclear, features are complex (>2 days), or involve cross-team coordination. Ask two… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 9 KB |
+| `scope` | Run /scope to turn a product idea into a living, coarse scope in docs/scope/ and keep it current: plan a new product, plan the next slice, enroll one named feature, or run with no argument… | standalone | codex | 13 files, 60 KB |
 | `site-architecture` | When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visu… | marketing-skills | claude-code | 5 files, 45 KB |
 | `sparc-methodology` | SPARC development workflow: Specification, Pseudocode, Architecture, Refinement, Completion. A structured approach for complex implementations that ensures thorough planning before coding.… *(marketplace only)* | .agents | claude-code | 3 files, 4 KB |
 | `sparc-methodology` | SPARC development workflow (Specification, Pseudocode, Architecture, Refinement, Completion). Use when: new features, complex implementations, architectural changes. Skip when: simple fixes… *(marketplace only)* | v3 | claude-code | 1 files, 1 KB |
 | `sparc-spec` | Run the SPARC Specification phase — gather requirements, define acceptance criteria, identify constraints, and store the spec in memory *(marketplace only)* | plugins | claude-code | 1 files, 4 KB |
-| `to-issues` | Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create im… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 3 KB |
-| `to-prd` | Turn the current conversation context into a PRD and publish it to the project issue tracker. Use when user wants to create a PRD from the current context. | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 3 KB |
+| `spec-driven-development` | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objective… | agent-skills | claude-code | 1 files, 12 KB |
+| `to-issues` | Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create im… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 3 KB |
+| `to-prd` | Turn the current conversation context into a PRD and publish it to the project issue tracker. Use when user wants to create a PRD from the current context. | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 3 KB |
 | `V3 DDD Architecture` | Domain-Driven Design architecture for claude-flow v3. Implements modular, bounded context architecture with clean separation of concerns and microkernel pattern. *(marketplace only)* | .agents | claude-code | 1 files, 12 KB |
 | `V3 DDD Architecture` | Domain-Driven Design architecture for claude-flow v3. Implements modular, bounded context architecture with clean separation of concerns and microkernel pattern. *(marketplace only)* | .claude | claude-code | 1 files, 12 KB |
-| `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 3 KB |
-| `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | superpowers | claude-code | 2 files, 9 KB |
+| `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 9 KB |
+| `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code | superpowers | claude-code | 1 files, 3 KB |
 
 ## Detail
 
@@ -731,6 +738,28 @@ Clean Architecture patterns for Android and Kotlin Multiplatform projects — mo
 | Category source | keywords |
 | Content hash | `2cf0707bd47d` |
 
+### `artifact-template-system-design`
+
+Create a document using the System Design template and its retained reference file. Use when the user selects or names System Design. Document system architecture, requirements, components, data flows, APIs, tradeoffs, and operational considerations.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design` |
+| Size | 5 files, 515 KB |
+| SKILL.md | 23 lines, ~362 tokens |
+| Description cost | ~63 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | keywords |
+| Content hash | `985bd36441fc` |
+| Bundled | `agents`, `assets` |
+
 ### `behavioral-product-design`
 
 Help users apply behavioral science to product design. Use when someone is designing for habit formation, reducing friction, applying psychology to UX, increasing retention through behavioral principles, or using nudges to influence user behavior.
@@ -740,8 +769,8 @@ Help users apply behavioral science to product design. Use when someone is desig
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/behavioral-product-design` |
 | Size | 2 files, 4 KB |
 | SKILL.md | 61 lines, ~767 tokens |
@@ -763,16 +792,17 @@ You MUST use this before any creative work - creating features, building compone
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/brainstorming` |
-| Size | 1 files, 2 KB |
-| SKILL.md | 55 lines, ~627 tokens |
+| Size | 8 files, 79 KB |
+| SKILL.md | 251 lines, ~3,864 tokens |
 | Description cost | ~50 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `ab9772edd8f4` |
+| Content hash | `817fae702e31` |
+| Bundled | `scripts` |
 
 ### `brainstorming`
 
@@ -781,20 +811,19 @@ You MUST use this before any creative work - creating features, building compone
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/brainstorming` |
-| Size | 8 files, 79 KB |
-| SKILL.md | 251 lines, ~3,864 tokens |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/brainstorming` |
+| Size | 1 files, 2 KB |
+| SKILL.md | 55 lines, ~627 tokens |
 | Description cost | ~50 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `817fae702e31` |
-| Bundled | `scripts` |
+| Content hash | `ab9772edd8f4` |
 
 ### `competitor-alternatives`
 
@@ -879,7 +908,7 @@ After you give a substantive answer or draft that the user may act on — advice
 | Description cost | ~248 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-18 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
 | Content hash | `f87f2cc36279` |
 
@@ -892,8 +921,8 @@ Generates creative domain name ideas for your project and checks availability ac
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/domain-name-brainstormer` |
 | Size | 1 files, 6 KB |
 | SKILL.md | 213 lines, ~1,477 tokens |
@@ -903,6 +932,27 @@ Generates creative domain name ideas for your project and checks availability ac
 | Last modified | 2026-02-11 |
 | Category source | keywords |
 | Content hash | `93dd1e753c9a` |
+
+### `doubt-driven-development`
+
+Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production auth, security-sensitive logic, a high-stakes migration, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/doubt-driven-development` |
+| Size | 1 files, 16 KB |
+| SKILL.md | 244 lines, ~4,162 tokens |
+| Description cost | ~122 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `033ccd335781` |
 
 ### `executing-plans`
 
@@ -914,16 +964,16 @@ Use when you have a written implementation plan to execute in a separate session
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/executing-plans` |
 | Size | 1 files, 2 KB |
-| SKILL.md | 85 lines, ~638 tokens |
+| SKILL.md | 65 lines, ~577 tokens |
 | Description cost | ~26 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `4af43cd365ec` |
+| Content hash | `9ac71371ec0d` |
 
 ### `executing-plans`
 
@@ -932,19 +982,19 @@ Use when you have a written implementation plan to execute in a separate session
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/executing-plans` |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/executing-plans` |
 | Size | 1 files, 2 KB |
-| SKILL.md | 65 lines, ~577 tokens |
+| SKILL.md | 85 lines, ~638 tokens |
 | Description cost | ~26 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `9ac71371ec0d` |
+| Content hash | `4af43cd365ec` |
 
 ### `goal-plan`
 
@@ -967,26 +1017,69 @@ Create and execute Goal-Oriented Action Plans (GOAP) with precondition analysis,
 | Category source | keywords |
 | Content hash | `70a8691da10f` |
 
+### `i-have-adhd`
+
+Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Invoke with /i-have-adhd; stays on until "stop adhd mode".
+
+| Field | Value |
+|---|---|
+| Pack | i-have-adhd |
+| Origin | plugin `i-have-adhd` from `i-have-adhd` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/i-have-adhd/i-have-adhd/0.3.0/.cursor/skills/i-have-adhd` |
+| Size | 1 files, 7 KB |
+| SKILL.md | 143 lines, ~1,838 tokens |
+| Description cost | ~61 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `52accd6319e1` |
+
 ### `improve-codebase-architecture`
 
-Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.
+Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/improve-codebase-architecture` |
-| Size | 4 files, 14 KB |
-| SKILL.md | 72 lines, ~1,303 tokens |
-| Description cost | ~73 tokens always in context |
+| Size | 3 files, 13 KB |
+| SKILL.md | 72 lines, ~1,516 tokens |
+| Description cost | ~32 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `f50e2c71533c` |
+| Content hash | `9cca20b5070e` |
+| Bundled | `agents` |
+
+### `interview-me`
+
+Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified ("build me X" without "for whom" or "why now"), when the user explicitly invokes ("interview me", "grill me", "are we sure?", "stress-test my thinking"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/interview-me` |
+| Size | 1 files, 14 KB |
+| SKILL.md | 226 lines, ~3,590 tokens |
+| Description cost | ~122 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `22a0935a1e4c` |
 
 ### `inventory-demand-planning`
 
@@ -1018,8 +1111,8 @@ Use when the user mentions Jira issues (e.g., "PROJ-123"), asks about tickets, w
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/jira` |
 | Size | 3 files, 23 KB |
 | SKILL.md | 196 lines, ~1,576 tokens |
@@ -1168,17 +1261,38 @@ Expert assistance for next-forge — a production-grade Turborepo template for N
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/next-forge/upstream` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/next-forge/upstream` |
 | Size | 5 files, 31 KB |
 | SKILL.md | 147 lines, ~1,366 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `590044011b21` |
 | Bundled | `references` |
+
+### `observability-and-instrumentation`
+
+Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/observability-and-instrumentation` |
+| Size | 1 files, 14 KB |
+| SKILL.md | 239 lines, ~3,487 tokens |
+| Description cost | ~77 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `035d71acc71b` |
 
 ### `pathfinder`
 
@@ -1200,6 +1314,27 @@ Map a codebase into feature-grouped flowcharts, identify duplicated concerns acr
 | Last modified | 2026-05-01 |
 | Category source | keywords |
 | Content hash | `fc198a3f143e` |
+
+### `planning-and-ta[REDACTED]`
+
+Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/planning-and-ta[REDACTED]` |
+| Size | 1 files, 10 KB |
+| SKILL.md | 258 lines, ~2,641 tokens |
+| Description cost | ~60 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `dc326460d22e` |
 
 ### `product-capability`
 
@@ -1338,8 +1473,8 @@ Clarify ambiguous requirements through focused dialogue before implementation. U
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/requirements-clarity` |
 | Size | 1 files, 9 KB |
 | SKILL.md | 325 lines, ~2,410 tokens |
@@ -1350,26 +1485,27 @@ Clarify ambiguous requirements through focused dialogue before implementation. U
 | Category source | keywords |
 | Content hash | `ae0934da10f2` |
 
-### `setup-matt-pocock-skills`
+### `scope`
 
-Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.
+Run /scope to turn a product idea into a living, coarse scope in docs/scope/ and keep it current: plan a new product, plan the next slice, enroll one named feature, or run with no argument to reconcile after shipping and queue what is next. Seeds WHAT to build; /architect designs, /develop builds.
 
 | Field | Value |
 |---|---|
-| Pack | agents-std-store |
+| Pack | standalone |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
-| Canonical path | `~/.agents/skills/setup-matt-pocock-skills` |
-| Size | 6 files, 13 KB |
-| SKILL.md | 122 lines, ~1,746 tokens |
-| Description cost | ~110 tokens always in context |
-| Allowed tools | — |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/scope` |
+| Size | 13 files, 60 KB |
+| SKILL.md | 97 lines, ~2,791 tokens |
+| Description cost | ~75 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `51a148cba6a2` |
+| Content hash | `16eb7aa73d8e` |
+| Bundled | `agents`, `approaches`, `modes` |
 
 ### `site-architecture`
 
@@ -1457,6 +1593,27 @@ Run the SPARC Specification phase — gather requirements, define acceptance cri
 | Category source | keywords |
 | Content hash | `ddb459541464` |
 
+### `spec-driven-development`
+
+Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/spec-driven-development` |
+| Size | 1 files, 12 KB |
+| SKILL.md | 252 lines, ~3,149 tokens |
+| Description cost | ~108 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `67a7659b68de` |
+
 ### `to-issues`
 
 Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues.
@@ -1466,8 +1623,8 @@ Break a plan, spec, or PRD into independently-grabbable issues on the project is
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store |
+| Installed copies | 7 (5 symlinked) |
 | Canonical path | `~/.agents/skills/to-issues` |
 | Size | 1 files, 3 KB |
 | SKILL.md | 82 lines, ~815 tokens |
@@ -1487,8 +1644,8 @@ Turn the current conversation context into a PRD and publish it to the project i
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store |
+| Installed copies | 7 (5 symlinked) |
 | Canonical path | `~/.agents/skills/to-prd` |
 | Size | 1 files, 3 KB |
 | SKILL.md | 75 lines, ~719 tokens |
@@ -1551,16 +1708,16 @@ Use when you have a spec or requirements for a multi-step task, before touching 
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/writing-plans` |
-| Size | 1 files, 3 KB |
-| SKILL.md | 117 lines, ~816 tokens |
+| Size | 2 files, 9 KB |
+| SKILL.md | 172 lines, ~1,764 tokens |
 | Description cost | ~21 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `1174716b24e0` |
+| Content hash | `b017e2cb5412` |
 
 ### `writing-plans`
 
@@ -1569,16 +1726,16 @@ Use when you have a spec or requirements for a multi-step task, before touching 
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/writing-plans` |
-| Size | 2 files, 9 KB |
-| SKILL.md | 172 lines, ~1,764 tokens |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/writing-plans` |
+| Size | 1 files, 3 KB |
+| SKILL.md | 117 lines, ~816 tokens |
 | Description cost | ~21 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `b017e2cb5412` |
+| Content hash | `1174716b24e0` |

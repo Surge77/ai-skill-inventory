@@ -1,12 +1,12 @@
 # AI & Agents
 
-208 skills — 76 installed, 132 available in a marketplace but not installed.
+212 skills — 80 installed, 132 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
 | Skill | What it does | Pack | Tools | Size |
 |---|---|---|---|---|
-| `advanced-evaluation` | This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", or mentions direct scoring, pairw… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 57 KB |
+| `advanced-evaluation` | This skill should be used for advanced LLM evaluation: LLM-as-judge systems, direct scoring, pairwise comparison, rubric calibration, evaluator bias mitigation, confidence scoring, and auto… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 61 KB |
 | `agency-agentic-identity-trust` | Agency agent wrapper for Agentic Identity & Trust Architect. Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments.… | agency-roles | codex | 1 files, 18 KB |
 | `agency-agents-orchestrator` | Agency agent wrapper for Agents Orchestrator. Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process. | agency-roles | codex | 1 files, 16 KB |
 | `agency-corporate-training-designer` | Agency agent wrapper for Corporate Training Designer. Expert in enterprise training system design and curriculum development â€” proficient in training needs analysis, instructional design… | agency-roles | codex | 1 files, 15 KB |
@@ -78,7 +78,7 @@
 | `agent-v3-integration-architect` | Agent skill for v3-integration-architect - invoke with $agent-v3-integration-architect *(marketplace only)* | agent-pack | claude-code | 1 files, 11 KB |
 | `agent-v3-queen-coordinator` | Agent skill for v3-queen-coordinator - invoke with $agent-v3-queen-coordinator *(marketplace only)* | agent-pack | claude-code | 1 files, 4 KB |
 | `agent-workflow` | Agent skill for workflow - invoke with $agent-workflow *(marketplace only)* | agent-pack | claude-code | 1 files, 4 KB |
-| `agentation` | Add Agentation visual feedback toolbar to a Next.js project | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 2 KB |
+| `agentation` | Add Agentation visual feedback toolbar to a Next.js project | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 2 KB |
 | `AgentDB Advanced Features` | Master advanced AgentDB features including QUIC synchronization, multi-database management, custom distance metrics, hybrid search, and distributed systems integration. Use when building di… *(marketplace only)* | .agents | claude-code | 1 files, 13 KB |
 | `AgentDB Advanced Features` | Master advanced AgentDB features including QUIC synchronization, multi-database management, custom distance metrics, hybrid search, and distributed systems integration. Use when building di… *(marketplace only)* | .claude | claude-code | 1 files, 13 KB |
 | `AgentDB Learning Plugins` | Create and train AI learning plugins with AgentDB's 9 reinforcement learning algorithms. Includes Decision Transformer, Q-Learning, SARSA, Actor-Critic, and more. Use when building self-lea… *(marketplace only)* | .agents | claude-code | 1 files, 12 KB |
@@ -89,16 +89,15 @@
 | `AgentDB Vector Search` | Implement semantic vector search with AgentDB for intelligent document retrieval, similarity matching, and context-aware querying. Use when building RAG systems, semantic search engines, or… *(marketplace only)* | .claude | claude-code | 1 files, 9 KB |
 | `agentdb-query` | Query AgentDB through the controller bridge -- semantic routing, hierarchical recall, causal graphs, context synthesis, pattern store/search *(marketplace only)* | plugins | claude-code | 1 files, 4 KB |
 | `agentic-engineering` | Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing. | ecc | claude-code | 1 files, 2 KB |
-| `agentic-engineering-workflow` | Use when building software with AI agents and you need a serious end-to-end workflow instead of vibe coding. Covers harness choice, context discipline, cleanup, review loops, launch pressur… | standalone | claude-code | 1 files, 5 KB |
+| `agentic-engineering-workflow` | Use when building software with AI agents and you need a serious end-to-end workflow instead of vibe coding. Covers harness choice, context discipline, cleanup, review loops, launch pressur… | agents-std-store | claude-code, shared-store | 1 files, 5 KB |
 | `agentic-jujutsu` | Quantum-resistant, self-learning version control for AI agents with ReasoningBank intelligence and multi-agent coordination *(marketplace only)* | .agents | claude-code | 1 files, 19 KB |
 | `agentic-jujutsu` | Quantum-resistant, self-learning version control for AI agents with ReasoningBank intelligence and multi-agent coordination *(marketplace only)* | .claude | claude-code | 1 files, 19 KB |
 | `agentic-os` | Build persistent multi-agent operating systems on Claude Code. Covers kernel architecture, specialist agents, slash commands, file-based memory, scheduled automation, and state management w… | ecc | claude-code | 1 files, 12 KB |
+| `agents-sdk` | Build, debug, or review Cloudflare Agents SDK applications using the agents package. | agents-std-store | claude-code, shared-store | 20 files, 47 KB |
 | `ai-sdk` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, rer… | vercel | claude-code | 11 files, 80 KB |
 | `ai-sdk` | Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2)… | vercel | claude-code | 5 files, 25 KB |
-| `ai-sdk` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, rer… | vercel | claude-code | 11 files, 80 KB |
 | `ai-sdk` | Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, rer… | vercel | codex | 7 files, 26 KB |
 | `autonomous-loops` | Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems. | ecc | claude-code | 1 files, 25 KB |
-| `benchmark-agents` | Advanced AI agent benchmark scenarios that push Vercel's cutting-edge platform features — Workflow DevKit, AI Gateway, MCP, Chat SDK, Queues, Flags, Sandbox, and multi-agent orchestration.… | vercel | claude-code | 2 files, 26 KB |
 | `benchmark-agents` | Advanced AI agent benchmark scenarios that push Vercel's cutting-edge platform features — Workflow SDK, AI Gateway, MCP, Chat SDK, Queues, Flags, Sandbox, and multi-agent orchestration. Des… | vercel | claude-code | 2 files, 26 KB |
 | `benchmark-sandbox` | Run vercel-plugin eval scenarios in Vercel Sandboxes instead of local WezTerm panels. Provisions ephemeral microVMs with Claude Code + plugin pre-installed, runs benchmark prompts, extracts… | vercel | claude-code | 9 files, 193 KB |
 | `blueprint` | Turn a one-line objective into a step-by-step construction plan for multi-session, multi-agent engineering projects. Each step has a self-contained context brief so a fresh agent can execut… | ecc | claude-code | 1 files, 5 KB |
@@ -113,10 +112,9 @@
 | `claude-md-improver` | Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix CLAUDE.md files. Scans for all CLAUDE.md files, evaluates quality against temp… *(marketplace only)* | plugins | claude-code | 4 files, 15 KB |
 | `claude-opus-4-5-migration` | Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model… *(marketplace only)* | plugins | claude-code | 3 files, 12 KB |
 | `claude-security` | The Claude Security menu — pick a job: scan the codebase (the whole repository or a scoped part of it), scan changes (this branch's or a pull request's diff, or one commit), or suggest patc… *(marketplace only)* | plugins | claude-code | 7 files, 106 KB |
-| `command-creator` | This skill should be used when creating a Claude Code slash command. Use when users ask to "create a command", "make a slash command", "add a command", or want to document a workflow as a r… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 46 KB |
+| `command-creator` | This skill should be used when creating a Claude Code slash command. Use when users ask to "create a command", "make a slash command", "add a command", or want to document a workflow as a r… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 46 KB |
 | `context-budget` | Audits Claude Code context window consumption across agents, skills, MCP servers, and rules. Identifies bloat, redundant components, and produces prioritized token-savings recommendations. | standalone | claude-code | 1 files, 6 KB |
-| `context-engineering-collection` | A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that r… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 223 files, 2.4 MB |
-| `context-fundamentals` | This skill should be used when the user asks to "understand context", "explain context windows", "design agent architecture", "debug context issues", "optimize context usage", or discusses… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 32 KB |
+| `context-engineering-collection` | A comprehensive collection of Agent Skills for context engineering, harness engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, evaluating,… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 506 files, 11.2 MB |
 | `context-mode-ops` | Manage context-mode GitHub issues, PRs, releases, and marketing with parallel subagent army. Orchestrates 10-20 dynamic agents per task. Use when triaging issues, reviewing PRs, releasing v… | context-mode | claude-code | 9 files, 89 KB |
 | `continuous-agent-loop` | Patterns for continuous autonomous agent loops with quality gates, evals, and recovery controls. | ecc | claude-code | 1 files, 1 KB |
 | `cost-aware-llm-pipeline` | Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching. | ecc | claude-code | 1 files, 6 KB |
@@ -131,15 +129,14 @@
 | `enterprise-agent-ops` | Operate long-lived agent workloads with observability, security boundaries, and lifecycle management. | ecc | claude-code | 1 files, 1 KB |
 | `eval-harness` | Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles | ecc | claude-code | 1 files, 7 KB |
 | `eval-harness` | Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles | agents-std-store | agents-std | 2 files, 6 KB |
-| `evaluation` | This skill should be used when the user asks to "evaluate agent performance", "build test framework", "measure agent quality", "create evaluation rubrics", or mentions LLM-as-judge, multi-d… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 37 KB |
-| `eve` | Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agen… | vercel | claude-code | 3 files, 13 KB |
-| `eve` | Build durable backend AI agents with the eve framework. Use when creating, editing, or debugging an eve project — agent instructions, skills, tools, connections, channels, sandboxes, subage… | vercel | claude-code | 1 files, 2 KB |
+| `evaluation` | This skill should be used when building agent evaluation systems: deterministic checks, regression suites, multi-dimensional rubrics, quality gates, production monitoring, baseline comparis… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 49 KB |
 | `eve` | eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging an eve project, when the user explicitly asks for eve, or when the buil… | vercel | claude-code | 3 files, 12 KB |
+| `eve` | Build durable backend AI agents with the eve framework. Use when creating, editing, or debugging an eve project — agent instructions, skills, tools, connections, channels, sandboxes, subage… | vercel | claude-code | 1 files, 2 KB |
 | `eve` | Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agen… | vercel | codex | 2 files, 5 KB |
 | `everything-claude-code` | Development conventions and patterns for everything-claude-code. JavaScript project with conventional commits. | agents-std-store | agents-std | 2 files, 12 KB |
 | `exa-search` | Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural… | ecc | claude-code | 1 files, 4 KB |
 | `exa-search` | Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural… | agents-std-store | agents-std | 2 files, 5 KB |
-| `filesystem-context` | This skill should be used when the user asks to "offload context to files", "implement dynamic context discovery", "use filesystem for agent memory", "reduce context window bloat", or menti… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 44 KB |
+| `filesystem-context` | This skill should be used when agent work needs file-backed context: durable scratchpads, tool-output offloading, just-in-time discovery, cross-agent handoff files, filesystem memory, or cl… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 49 KB |
 | `flow-nexus-neural` | Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus *(marketplace only)* | .agents | claude-code | 1 files, 17 KB |
 | `flow-nexus-neural` | Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus *(marketplace only)* | .claude | claude-code | 1 files, 16 KB |
 | `flow-nexus-platform` | Comprehensive Flow Nexus platform management - authentication, sandboxes, app deployment, payments, and challenges *(marketplace only)* | .agents | claude-code | 1 files, 26 KB |
@@ -155,25 +152,29 @@
 | `hive-mind-advanced` | Advanced Hive Mind collective intelligence system for queen-led multi-agent coordination with consensus mechanisms and persistent memory *(marketplace only)* | .claude | claude-code | 1 files, 17 KB |
 | `Hooks Automation` | Automated coordination, formatting, and learning from Claude Code operations using intelligent hooks with MCP integration. Includes pre$post task hooks, session management, Git integration,… *(marketplace only)* | .agents | claude-code | 1 files, 32 KB |
 | `Hooks Automation` | Automated coordination, formatting, and learning from Claude Code operations using intelligent hooks with MCP integration. Includes pre/post task hooks, session management, Git integration,… *(marketplace only)* | .claude | claude-code | 1 files, 32 KB |
-| `hosted-agents` | This skill should be used when the user asks to "build background agent", "create hosted coding agent", "set up sandboxed execution", "implement multiplayer agent", or mentions background a… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 48 KB |
+| `hosted-agents` | This skill should be used when designing hosted or background agent infrastructure: sandboxed execution, remote coding environments, warm pools, session persistence, multiplayer collaborati… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 57 KB |
 | `init-project` | Initialize a new Ruflo project with MCP tools, hooks, and agent configuration *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `investigation-mode` | Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung, broken, waiting) and systematically triages: runtime logs → workflow status → browser verify → deploy/env.… | vercel | codex | 2 files, 9 KB |
 | `knowledge-agent` | Build and query AI-powered knowledge bases from claude-mem observations. Use when users want to create focused "brains" from their observation history, ask questions about past work pattern… | claude-mem | claude-code | 1 files, 2 KB |
+| `latent-briefing` | This skill should be used when the user asks to \"share memory between agents\", \"KV cache compaction for multi-agent\", \"orchestrator worker context\", \"latent briefing\", \"reduce work… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 16 KB |
+| `learn` | Use this skill when the user wants intellectual understanding — learning how or why something works, not getting a task done or soliciting Claude's judgment. Trigger for: - Explicit learnin… | standalone | claude-code | 2 files, 24 KB |
 | `llm-config` | Configure RuVLLM local inference with model selection, MicroLoRA fine-tuning, and SONA adaptation *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `llm-trading-agent-security` | Security patterns for autonomous trading agents with wallet or transaction authority. Covers prompt injection, spend limits, pre-send simulation, circuit breakers, MEV protection, and key h… | ecc | claude-code | 1 files, 5 KB |
+| `long-horizon-prompting` | This skill should be used when writing, enhancing, or evaluating the launch prompt for a long-running autonomous agent or a parallel multi-agent orchestration attacking a hard problem: pseu… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 64 KB |
 | `managed-agent` | Run an Anthropic Claude Managed Agent — a cloud agent harness (container + filesystem + tools), the cloud counterpart of the local wasm-agent runtime *(marketplace only)* | plugins | claude-code | 1 files, 5 KB |
 | `MCP Integration` | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context Protocol", "connect external service", m… *(marketplace only)* | plugins | claude-code | 7 files, 46 KB |
 | `mcp-integration` | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context Protocol", "connect external service", m… *(marketplace only)* | plugins | claude-code | 7 files, 45 KB |
 | `memory-bridge` | Bridge Claude Code auto-memory into AgentDB with ONNX embeddings, deduplicate, and enable unified cross-project search *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `memory-management` | AgentDB memory system with HNSW vector search. Provides 150x-12,500x faster pattern retrieval, persistent storage, and semantic search capabilities for learning and knowledge management. Us… *(marketplace only)* | .agents | claude-code | 3 files, 4 KB |
 | `memory-management` | AgentDB memory system with HNSW vector search. Use when: need to store patterns, search for solutions, semantic lookup. Skip when: no learning needed, ephemeral tasks. *(marketplace only)* | v3 | claude-code | 1 files, 1 KB |
-| `memory-systems` | This skill should be used when the user asks to "implement agent memory", "persist state across sessions", "build knowledge graph", "track entities", or mentions memory architecture, tempor… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 42 KB |
-| `multi-agent-patterns` | This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-age… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 42 KB |
+| `memory-systems` | This skill should be used for persistent semantic memory in agent systems: cross-session knowledge retention, entity tracking, temporal validity, graph or vector retrieval, memory consolida… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 56 KB |
+| `multi-agent-patterns` | This skill should be used when designing multi-agent systems that need context isolation, supervisor or swarm coordination, explicit handoffs, parallel execution, or a decision on whether m… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 52 KB |
 | `neural-train` | Train SONA + MicroLoRA neural patterns from successful task completions; runs the DISTILL + CONSOLIDATE phases of the 4-step pipeline *(marketplace only)* | plugins | claude-code | 1 files, 4 KB |
 | `neural-training` | Neural pattern training with SONA (Self-Optimizing Neural Architecture), MoE (Mixture of Experts), and EWC++ for knowledge consolidation. Use when: pattern learning, model optimization, kno… *(marketplace only)* | .agents | claude-code | 1 files, 2 KB |
-| `openai-docs` | Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding… | standalone | codex | 17 files, 101 KB |
-| `project-development` | This skill should be used when the user asks to "start an LLM project", "design batch pipeline", "evaluate task-model fit", "structure agent project", or mentions pipeline architecture, age… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 67 KB |
-| `prompt-engineering-patterns` | Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing p… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 9 files, 82 KB |
+| `openai-docs` | Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding… | standalone | codex | 17 files, 91 KB |
+| `project-development` | This skill should be used for project-level decisions about LLM-powered systems: whether an LLM is the right primitive for the task at hand, the shape of a multi-stage batch or agent pipeli… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 75 KB |
+| `prompt-engineering-patterns` | This skill should be used when the user asks to "optimize a prompt", "improve prompt performance", "design a prompt template", "write better prompts", "debug prompt issues", "use chain-of-t… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 10 files, 83 KB |
+| `prompt-lookup` | Activates when the user asks about AI prompts, needs prompt templates, wants to search for prompts, or mentions prompts.chat. Use for discovering, retrieving, and improving prompts. | prompts-chat | claude-code | 1 files, 2 KB |
 | `prompt-optimizer` | Analyze raw prompts, identify intent and gaps, match ECC components (skills/commands/agents/hooks), and output a ready-to-paste optimized prompt. Advisory role only — never executes the tas… | ecc | claude-code | 1 files, 16 KB |
 | `ralphinho-rfc-pipeline` | RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration. | ecc | claude-code | 1 files, 2 KB |
 | `ReasoningBank Intelligence` | Implement adaptive learning with ReasoningBank for pattern recognition, strategy optimization, and continuous improvement. Use when building self-learning agents, optimizing workflows, or i… *(marketplace only)* | .agents | claude-code | 1 files, 5 KB |
@@ -182,13 +183,15 @@
 | `ReasoningBank with AgentDB` | Implement ReasoningBank adaptive learning with AgentDB's 150x faster vector database. Includes trajectory tracking, verdict judgment, memory distillation, and pattern recognition. Use when… *(marketplace only)* | .claude | claude-code | 1 files, 11 KB |
 | `regex-vs-llm-structured-text` | Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases. | ecc | claude-code | 1 files, 7 KB |
 | `review-agent` | Perform a read-only, defect-first review of a specified code change and return every actionable finding. Use when another agent delegates review of uncommitted changes, a base-branch diff,… | standalone | codex | 2 files, 3 KB |
+| `scikit-learn` | Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model eva… | standalone | codex | 11 files, 123 KB |
 | `session-report` | Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcripts. *(marketplace only)* | plugins | claude-code | 3 files, 56 KB |
+| `skill-lookup` | Search, retrieve, and install Agent Skills from the prompts.chat registry using MCP tools. Use when the user asks to find skills, browse skill catalogs, install a skill for Claude, or exten… | prompts-chat | claude-code | 1 files, 2 KB |
 | `skill-stocktake` | Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation. | ecc | claude-code | 4 files, 19 KB |
 | `sparc-methodology` | SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) comprehensive development methodology with multi-agent orchestration *(marketplace only)* | .claude | claude-code | 1 files, 25 KB |
 | `stream-chain` | Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows *(marketplace only)* | .agents | claude-code | 1 files, 13 KB |
 | `stream-chain` | Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows *(marketplace only)* | .claude | claude-code | 1 files, 13 KB |
-| `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 14 KB |
-| `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session | superpowers | claude-code | 7 files, 55 KB |
+| `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 55 KB |
+| `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session | superpowers | claude-code | 4 files, 14 KB |
 | `Swarm Orchestration` | Orchestrate multi-agent swarms with agentic-flow for parallel task execution, dynamic topology, and intelligent coordination. Use when scaling beyond single agents, implementing complex wor… *(marketplace only)* | .claude | claude-code | 1 files, 4 KB |
 | `swarm-advanced` | Advanced swarm orchestration patterns for research, development, testing, and complex distributed workflows *(marketplace only)* | .agents | claude-code | 1 files, 24 KB |
 | `swarm-advanced` | Advanced swarm orchestration patterns for research, development, testing, and complex distributed workflows *(marketplace only)* | .claude | claude-code | 1 files, 24 KB |
@@ -196,6 +199,7 @@
 | `swarm-orchestration` | Multi-agent swarm coordination for complex tasks. Uses hierarchical topology with specialized agents to break down and execute complex work across multiple files and modules. Use when: 3+ f… *(marketplace only)* | .agents | claude-code | 3 files, 4 KB |
 | `swarm-orchestration` | Multi-agent swarm coordination for complex tasks. Use when: 3+ files need changes, new features, refactoring. Skip when: single file edits, simple fixes, documentation. *(marketplace only)* | v3 | claude-code | 1 files, 1 KB |
 | `token-coach` | Context window coach. Proactive guidance for token-efficient Claude Code or Codex projects, multi-agent systems, and skill architecture. | token-optimizer | claude-code | 9 files, 43 KB |
+| `tool-design` | This skill should be used for the tool-interface layer of an agent system specifically: writing tool descriptions agents can route on, designing tool schemas and response formats, naming co… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 57 KB |
 | `trader-cloud-backtest` | Run a heavy neural-trader job (long walk-forward, big Monte-Carlo, parameter sweep, model training) on the Anthropic Managed Agent cloud runtime instead of locally *(marketplace only)* | plugins | claude-code | 1 files, 6 KB |
 | `V3 CLI Modernization` | CLI modernization and hooks system enhancement for claude-flow v3. Implements interactive prompts, command decomposition, enhanced hooks integration, and intelligent workflow automation. *(marketplace only)* | .agents | claude-code | 1 files, 26 KB |
 | `V3 CLI Modernization` | CLI modernization and hooks system enhancement for claude-flow v3. Implements interactive prompts, command decomposition, enhanced hooks integration, and intelligent workflow automation. *(marketplace only)* | .claude | claude-code | 1 files, 26 KB |
@@ -210,7 +214,7 @@
 | `Verification & Quality Assurance` | Comprehensive truth scoring, code quality verification, and automatic rollback system with 0.95 accuracy threshold for ensuring high-quality agent outputs and codebase reliability. *(marketplace only)* | .agents | claude-code | 1 files, 20 KB |
 | `Verification & Quality Assurance` | Comprehensive truth scoring, code quality verification, and automatic rollback system with 0.95 accuracy threshold for ensuring high-quality agent outputs and codebase reliability. *(marketplace only)* | .claude | claude-code | 1 files, 20 KB |
 | `wasm-agent` | Create and manage sandboxed WASM agents for isolated code execution *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
-| `workflow` | Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-s… | vercel | claude-code | 5 files, 70 KB |
+| `workflow` | Vercel Workflow SDK expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orche… | vercel | claude-code | 3 files, 89 KB |
 | `workflow` | Vercel Workflow SDK expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orche… | vercel | claude-code | 3 files, 89 KB |
 | `workflow` | Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-s… | vercel | codex | 3 files, 30 KB |
 | `workflow-automation` | Workflow creation, execution, and template management. Automates complex multi-step processes with agent coordination. Use when: automating processes, creating reusable workflows, orchestra… *(marketplace only)* | .agents | claude-code | 1 files, 2 KB |
@@ -219,24 +223,24 @@
 
 ### `advanced-evaluation`
 
-This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.
+This skill should be used for advanced LLM evaluation: LLM-as-judge systems, direct scoring, pairwise comparison, rubric calibration, evaluator bias mitigation, confidence scoring, and automated quality assessment.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/advanced-evaluation` |
-| Size | 5 files, 57 KB |
-| SKILL.md | 455 lines, ~4,510 tokens |
-| Description cost | ~69 tokens always in context |
+| Size | 6 files, 61 KB |
+| SKILL.md | 410 lines, ~4,350 tokens |
+| Description cost | ~54 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `1bfbcfa4fb56` |
+| Content hash | `be0239646f6f` |
 | Bundled | `references`, `scripts` |
 
 ### `agency-agentic-identity-trust`
@@ -508,7 +512,7 @@ This skill should be used when the user asks to "create an agent", "add an agent
 | Description cost | ~90 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `24c8e83f9ebf` |
 | Bundled | `examples`, `references`, `scripts` |
@@ -908,7 +912,7 @@ This skill should be used when the user asks to "create an agent", "add an agent
 | Description cost | ~90 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `e8998e53c678` |
 | Bundled | `examples`, `references`, `scripts` |
@@ -1741,17 +1745,17 @@ Add Agentation visual feedback toolbar to a Next.js project
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/agentation` |
 | Size | 1 files, 2 KB |
-| SKILL.md | 67 lines, ~567 tokens |
+| SKILL.md | 62 lines, ~589 tokens |
 | Description cost | ~15 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `e6257fafd068` |
+| Content hash | `0db0d750762e` |
 
 ### `AgentDB Advanced Features`
 
@@ -1969,12 +1973,12 @@ Use when building software with AI agents and you need a serious end-to-end work
 
 | Field | Value |
 |---|---|
-| Pack | standalone |
+| Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/skills/agentic-engineering-workflow` |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/agentic-engineering-workflow` |
 | Size | 1 files, 5 KB |
 | SKILL.md | 91 lines, ~1,189 tokens |
 | Description cost | ~53 tokens always in context |
@@ -2047,48 +2051,26 @@ Build persistent multi-agent operating systems on Claude Code. Covers kernel arc
 | Category source | keywords |
 | Content hash | `f3484b22724c` |
 
-### `ai-sdk`
+### `agents-sdk`
 
-Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/ai-sdk` |
-| Size | 11 files, 80 KB |
-| SKILL.md | 388 lines, ~5,052 tokens |
-| Description cost | ~63 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | keywords |
-| Content hash | `23ede9c1f081` |
-| Bundled | `references`, `upstream` |
-
-### `ai-sdk`
-
-Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2) Want to build AI agents, chatbots, RAG systems, or text generation features, (3) Have questions about AI providers (OpenAI, Anthropic, Google, etc.), streaming, tool calling, structured output, or embeddings, (4) Use React hooks like useChat or useCompletion. Triggers on: "AI SDK", "Vercel AI SDK", "generateText", "streamText", "add AI to my app", "build an agent", "tool calling", "structured output", "useChat".
+Build, debug, or review Cloudflare Agents SDK applications using the agents package.
 
 | Field | Value |
 |---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
+| Pack | agents-std-store |
+| Origin | standalone |
 | Status | installed |
-| Tools it reaches | claude-code |
+| Tools it reaches | claude-code, shared-store |
 | Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/ai-sdk/upstream` |
-| Size | 5 files, 25 KB |
-| SKILL.md | 79 lines, ~1,191 tokens |
-| Description cost | ~151 tokens always in context |
+| Canonical path | `~/.agents/skills/agents-sdk` |
+| Size | 20 files, 47 KB |
+| SKILL.md | 203 lines, ~2,997 tokens |
+| Description cost | ~21 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `f87221e0d601` |
+| Content hash | `f10814c0b0f8` |
 | Bundled | `references` |
 
 ### `ai-sdk`
@@ -2101,7 +2083,7 @@ Vercel AI SDK expert guidance. Use when building AI-powered features — chat in
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
+| Installed copies | 4 (0 symlinked) |
 | Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/ai-sdk` |
 | Size | 11 files, 80 KB |
 | SKILL.md | 388 lines, ~5,054 tokens |
@@ -2115,6 +2097,28 @@ Vercel AI SDK expert guidance. Use when building AI-powered features — chat in
 
 ### `ai-sdk`
 
+Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2) Want to build AI agents, chatbots, RAG systems, or text generation features, (3) Have questions about AI providers (OpenAI, Anthropic, Google, etc.), streaming, tool calling, structured output, or embeddings, (4) Use React hooks like useChat or useCompletion. Triggers on: "AI SDK", "Vercel AI SDK", "generateText", "streamText", "add AI to my app", "build an agent", "tool calling", "structured output", "useChat".
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/ai-sdk/upstream` |
+| Size | 5 files, 25 KB |
+| SKILL.md | 79 lines, ~1,191 tokens |
+| Description cost | ~151 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-02 |
+| Category source | keywords |
+| Content hash | `f87221e0d601` |
+| Bundled | `references` |
+
+### `ai-sdk`
+
 Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.
 
 | Field | Value |
@@ -2124,13 +2128,13 @@ Vercel AI SDK expert guidance. Use when building AI-powered features — chat in
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-sdk` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/ai-sdk` |
 | Size | 7 files, 26 KB |
 | SKILL.md | 150 lines, ~1,629 tokens |
 | Description cost | ~63 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `4a2e70a6fbfc` |
 | Bundled | `agents`, `references` |
@@ -2158,27 +2162,6 @@ Patterns and architectures for autonomous Claude Code loops — from simple sequ
 
 ### `benchmark-agents`
 
-Advanced AI agent benchmark scenarios that push Vercel's cutting-edge platform features — Workflow DevKit, AI Gateway, MCP, Chat SDK, Queues, Flags, Sandbox, and multi-agent orchestration. Designed to stress-test skill injection for complex, multi-system builds.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/.claude/skills/benchmark-agents` |
-| Size | 2 files, 26 KB |
-| SKILL.md | 311 lines, ~3,714 tokens |
-| Description cost | ~66 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | keywords |
-| Content hash | `f2b10a43f3be` |
-
-### `benchmark-agents`
-
 Advanced AI agent benchmark scenarios that push Vercel's cutting-edge platform features — Workflow SDK, AI Gateway, MCP, Chat SDK, Queues, Flags, Sandbox, and multi-agent orchestration. Designed to stress-test skill injection for complex, multi-system builds.
 
 | Field | Value |
@@ -2187,7 +2170,7 @@ Advanced AI agent benchmark scenarios that push Vercel's cutting-edge platform f
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
+| Installed copies | 4 (0 symlinked) |
 | Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/.claude/skills/benchmark-agents` |
 | Size | 2 files, 26 KB |
 | SKILL.md | 311 lines, ~3,719 tokens |
@@ -2208,14 +2191,14 @@ Run vercel-plugin eval scenarios in Vercel Sandboxes instead of local WezTerm pa
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/.claude/skills/benchmark-sandbox` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/.claude/skills/benchmark-sandbox` |
 | Size | 9 files, 193 KB |
 | SKILL.md | 388 lines, ~5,587 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `ed4cc8dbaad9` |
 | Bundled | `spike` |
@@ -2251,7 +2234,7 @@ Default guidance for building AI agents. Use for generic requests to build, crea
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
+| Installed copies | 4 (0 symlinked) |
 | Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/build-agents` |
 | Size | 1 files, 6 KB |
 | SKILL.md | 174 lines, ~1,484 tokens |
@@ -2279,7 +2262,7 @@ This skill should be used when the user wants to build an "MCP app", add "intera
 | Description cost | ~114 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `d66f9b04a223` |
 | Bundled | `references` |
@@ -2294,7 +2277,7 @@ Decision guide for delegating to caveman-style subagents. Tells the main thread 
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 21 (6 symlinked) |
+| Installed copies | 22 (6 symlinked) |
 | Canonical path | `~/.agents/skills/cavecrew` |
 | Size | 1 files, 4 KB |
 | SKILL.md | 83 lines, ~1,005 tokens |
@@ -2360,13 +2343,13 @@ Reference for the Claude API / Anthropic SDK — model ids, pricing, params, str
 | Installed copies | 1 (0 symlinked) |
 | Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api` |
 | Size | 70 files, 1.1 MB |
-| SKILL.md | 571 lines, ~21,568 tokens |
+| SKILL.md | 573 lines, ~21,693 tokens |
 | Description cost | ~270 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-02 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
-| Content hash | `2e4056eded47` |
+| Content hash | `8de05eebc8b2` |
 | Bundled | `csharp`, `curl`, `go`, `java`, `php`, `python`, `ruby`, `shared` |
 
 ### `claude-automation-recommender`
@@ -2386,7 +2369,7 @@ Analyze a codebase and recommend Claude Code automations (hooks, subagents, skil
 | Description cost | ~89 tokens always in context |
 | Allowed tools | Read, Glob, Grep, Bash |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `7e64b26465b5` |
 | Bundled | `references` |
@@ -2429,7 +2412,7 @@ Audit and improve CLAUDE.md files in repositories. Use when user asks to check, 
 | Description cost | ~85 tokens always in context |
 | Allowed tools | Read, Glob, Grep, Bash, Edit |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `159624e19a03` |
 | Bundled | `references` |
@@ -2451,7 +2434,7 @@ Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus
 | Description cost | ~75 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `ec58cf49eecf` |
 | Bundled | `references` |
@@ -2473,7 +2456,7 @@ The Claude Security menu — pick a job: scan the codebase (the whole repository
 | Description cost | ~77 tokens always in context |
 | Allowed tools | - Read - Write - Glob - Grep - AskUserQuestion - Workflow - Workflow(claude-security:scan) - Agent(claude-security:scan-inventory, claude-security:scan-researcher, claude-security:scan-verifier, claude-security:scan-loader, claude-security:patch-generator, claude-security:patch-verifier, claude-security:explore) - Bash(date *) - Bash(ls *) - Bash(wc *) - Bash(mkdir -p *) - Bash(git *) - Bash(GIT_CONFIG_GLOBAL=/dev/null GIT_TERMINAL_PROMPT=0 git *) - Bash(find . -maxdepth 1 -type d -name "CLAUDE-SECURITY-2*") - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/render_report.py" *) - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/save_result.py" *) - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/write_scan_meta.py" *) - Bash(bash "${CLAUDE_PLUGIN_ROOT}/scripts/keep-waiting.sh" *) - Bash(python3 "${CLAUDE_PLUGIN_ROOT}/scripts/patch_artifacts.py" *) - Bash(sleep *) - Bash(GIT_TERMINAL_PROMPT=0 git *) |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `c466f4b51a75` |
 | Bundled | `jobs`, `specs` |
@@ -2487,8 +2470,8 @@ This skill should be used when creating a Claude Code slash command. Use when us
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/command-creator` |
 | Size | 4 files, 46 KB |
 | SKILL.md | 211 lines, ~1,794 tokens |
@@ -2523,47 +2506,25 @@ Audits Claude Code context window consumption across agents, skills, MCP servers
 
 ### `context-engineering-collection`
 
-A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.
+A comprehensive collection of Agent Skills for context engineering, harness engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, evaluating, or debugging agent systems that require effective context management and reliable operating loops.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection` |
-| Size | 223 files, 2.4 MB |
-| SKILL.md | 105 lines, ~1,965 tokens |
-| Description cost | ~57 tokens always in context |
+| Size | 506 files, 11.2 MB |
+| SKILL.md | 129 lines, ~2,641 tokens |
+| Description cost | ~72 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `cfb397c270ca` |
-| Bundled | `.claude-plugin`, `docs`, `examples`, `researcher`, `skills`, `template`, `advanced-evaluation`, `bdi-mental-states` |
-
-### `context-fundamentals`
-
-This skill should be used when the user asks to "understand context", "explain context windows", "design agent architecture", "debug context issues", "optimize context usage", or discusses context components, attention mechanics, progressive disclosure, or context budgeting. Provides foundational understanding of context engineering for AI agent systems.
-
-| Field | Value |
-|---|---|
-| Pack | agents-std-store |
-| Origin | standalone |
-| Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
-| Canonical path | `~/.agents/skills/context-engineering-collection/skills/context-fundamentals` |
-| Size | 3 files, 32 KB |
-| SKILL.md | 186 lines, ~3,081 tokens |
-| Description cost | ~89 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-02-11 |
-| Category source | keywords |
-| Content hash | `4d5affa9e042` |
-| Bundled | `references`, `scripts` |
+| Content hash | `656957ed82a5` |
+| Bundled | `.claude-plugin`, `.github`, `.plugin`, `assets`, `docs`, `examples`, `governance`, `researcher` |
 
 ### `context-mode-ops`
 
@@ -2722,16 +2683,16 @@ Use when facing 2+ independent tasks that can be worked on without shared state 
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/dispatching-parallel-agents` |
 | Size | 1 files, 6 KB |
-| SKILL.md | 181 lines, ~1,526 tokens |
+| SKILL.md | 168 lines, ~1,520 tokens |
 | Description cost | ~27 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `1c557b0df9a3` |
+| Content hash | `1ef038885382` |
 
 ### `dispatching-parallel-agents`
 
@@ -2740,19 +2701,19 @@ Use when facing 2+ independent tasks that can be worked on without shared state 
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/dispatching-parallel-agents` |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/dispatching-parallel-agents` |
 | Size | 1 files, 6 KB |
-| SKILL.md | 168 lines, ~1,520 tokens |
+| SKILL.md | 181 lines, ~1,526 tokens |
 | Description cost | ~27 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `1ef038885382` |
+| Content hash | `1c557b0df9a3` |
 
 ### `dmux-workflows`
 
@@ -2863,68 +2824,25 @@ Formal evaluation framework for Claude Code sessions implementing eval-driven de
 
 ### `evaluation`
 
-This skill should be used when the user asks to "evaluate agent performance", "build test framework", "measure agent quality", "create evaluation rubrics", or mentions LLM-as-judge, multi-dimensional evaluation, agent testing, or quality gates for agent pipelines.
+This skill should be used when building agent evaluation systems: deterministic checks, regression suites, multi-dimensional rubrics, quality gates, production monitoring, baseline comparison, and outcome measurement for agent pipelines.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/evaluation` |
-| Size | 3 files, 37 KB |
-| SKILL.md | 232 lines, ~2,694 tokens |
-| Description cost | ~66 tokens always in context |
+| Size | 3 files, 49 KB |
+| SKILL.md | 285 lines, ~4,279 tokens |
+| Description cost | ~60 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `4778eba25c40` |
+| Content hash | `237e558c63c1` |
 | Bundled | `references`, `scripts` |
-
-### `eve`
-
-Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agent experience that could benefit from eve's filesystem-first runtime, durable sessions, tools, skills, connections, channels, sandboxes, subagents, schedules, evals, or frontend clients. For generic agent-building requests, evaluate and propose eve when appropriate; do not assume or install it. Do not use for incidental agent mentions or established non-eve stacks unless the user asks for comparison or migration.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/eve` |
-| Size | 3 files, 13 KB |
-| SKILL.md | 181 lines, ~1,619 tokens |
-| Description cost | ~151 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | keywords |
-| Content hash | `7b52cd193603` |
-| Bundled | `upstream` |
-
-### `eve`
-
-Build durable backend AI agents with the eve framework. Use when creating, editing, or debugging an eve project — agent instructions, skills, tools, connections, channels, sandboxes, subagents, schedules, or evals.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/eve/upstream` |
-| Size | 1 files, 2 KB |
-| SKILL.md | 58 lines, ~531 tokens |
-| Description cost | ~54 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | keywords |
-| Content hash | `67deda6e689a` |
 
 ### `eve`
 
@@ -2936,7 +2854,7 @@ eve framework guidance for durable AI agents and agent-powered applications. Use
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
+| Installed copies | 4 (0 symlinked) |
 | Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/eve` |
 | Size | 3 files, 12 KB |
 | SKILL.md | 170 lines, ~1,536 tokens |
@@ -2950,6 +2868,27 @@ eve framework guidance for durable AI agents and agent-powered applications. Use
 
 ### `eve`
 
+Build durable backend AI agents with the eve framework. Use when creating, editing, or debugging an eve project — agent instructions, skills, tools, connections, channels, sandboxes, subagents, schedules, or evals.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/eve/upstream` |
+| Size | 1 files, 2 KB |
+| SKILL.md | 58 lines, ~531 tokens |
+| Description cost | ~54 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-02 |
+| Category source | keywords |
+| Content hash | `67deda6e689a` |
+
+### `eve`
+
 Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging an eve project, or when choosing architecture for a new agent or agent experience that could benefit from eve's filesystem-first runtime, durable sessions, tools, skills, connections, channels, sandboxes, subagents, schedules, evals, or frontend clients. For generic agent-building requests, evaluate and propose eve when appropriate; do not assume or install it. Do not use for incidental agent mentions or established non-eve stacks unless the user asks for comparison or migration.
 
 | Field | Value |
@@ -2959,13 +2898,13 @@ Build durable AI agents and agent-powered applications with the eve framework. U
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/eve` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/eve` |
 | Size | 2 files, 5 KB |
 | SKILL.md | 139 lines, ~1,198 tokens |
 | Description cost | ~151 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `04fcc05f1b8c` |
 | Bundled | `agents` |
@@ -3037,24 +2976,24 @@ Neural search via Exa MCP for web, code, and company research. Use when the user
 
 ### `filesystem-context`
 
-This skill should be used when the user asks to "offload context to files", "implement dynamic context discovery", "use filesystem for agent memory", "reduce context window bloat", or mentions file-based context management, tool output persistence, agent scratch pads, or just-in-time context loading.
+This skill should be used when agent work needs file-backed context: durable scratchpads, tool-output offloading, just-in-time discovery, cross-agent handoff files, filesystem memory, or cleanup policies for context stored outside the prompt.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/filesystem-context` |
-| Size | 3 files, 44 KB |
-| SKILL.md | 322 lines, ~3,484 tokens |
-| Description cost | ~76 tokens always in context |
+| Size | 3 files, 49 KB |
+| SKILL.md | 297 lines, ~4,054 tokens |
+| Description cost | ~61 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `8bd5b81a3c4c` |
+| Content hash | `238be5f5729e` |
 | Bundled | `references`, `scripts` |
 
 ### `flow-nexus-neural`
@@ -3375,24 +3314,24 @@ Automated coordination, formatting, and learning from Claude Code operations usi
 
 ### `hosted-agents`
 
-This skill should be used when the user asks to "build background agent", "create hosted coding agent", "set up sandboxed execution", "implement multiplayer agent", or mentions background agents, sandboxed VMs, agent infrastructure, Modal sandboxes, self-spawning agents, or remote coding environments.
+This skill should be used when designing hosted or background agent infrastructure: sandboxed execution, remote coding environments, warm pools, session persistence, multiplayer collaboration, self-spawning agents, or Modal-style sandboxes.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/hosted-agents` |
-| Size | 3 files, 48 KB |
-| SKILL.md | 280 lines, ~3,013 tokens |
-| Description cost | ~76 tokens always in context |
+| Size | 3 files, 57 KB |
+| SKILL.md | 302 lines, ~4,505 tokens |
+| Description cost | ~60 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `a789420c5431` |
+| Content hash | `6a60fba859a9` |
 | Bundled | `references`, `scripts` |
 
 ### `init-project`
@@ -3427,13 +3366,13 @@ Orchestrated debugging coordinator. Triggers on frustration signals (stuck, hung
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/investigation-mode` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/investigation-mode` |
 | Size | 2 files, 9 KB |
 | SKILL.md | 277 lines, ~2,396 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `c6b121b0fe10` |
 | Bundled | `agents` |
@@ -3458,6 +3397,49 @@ Build and query AI-powered knowledge bases from claude-mem observations. Use whe
 | Last modified | 2026-05-01 |
 | Category source | keywords |
 | Content hash | `acc745b6c363` |
+
+### `latent-briefing`
+
+This skill should be used when the user asks to \"share memory between agents\", \"KV cache compaction for multi-agent\", \"orchestrator worker context\", \"latent briefing\", \"reduce worker tokens\", \"cross-agent memory without summarization\", or discusses Attention Matching compaction, recursive language models with workers, or token explosion in hierarchical agents.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/skills/latent-briefing` |
+| Size | 2 files, 16 KB |
+| SKILL.md | 168 lines, ~3,299 tokens |
+| Description cost | ~94 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `55b4cd3fff7d` |
+| Bundled | `references` |
+
+### `learn`
+
+Use this skill when the user wants intellectual understanding — learning how or why something works, not getting a task done or soliciting Claude's judgment. Trigger for: - Explicit learning requests: teach, explain, ELI5, walk me through, quiz me, flashcards, "I'm rusty on"; definitions ("what is X") - Terse concept names implying "help me understand this": "Galois theory," "transformers, from scratch" - Confusion signals: "won't stick," "keep mixing these up," "not getting it" - Learning-path questions: prerequisites, sequencing, what to study before X - Conceptual questions about mechanisms, causes, or dynamics Don't trigger for: - Tasks: coding, writing, calculation, translation, factual lookup, news updates - Personal troubleshooting; resource/textbook recommendations - Claude's evaluative verdict: opinion prompts ("do you think X", "settle this", "honest take", "is X dead / still taken seriously") and interpretive takes ("was X really as harsh as people say")
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/learn` |
+| Size | 2 files, 24 KB |
+| SKILL.md | 79 lines, ~3,362 tokens |
+| Description cost | ~246 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `3ed32b5355db` |
 
 ### `llm-config`
 
@@ -3501,6 +3483,28 @@ Security patterns for autonomous trading agents with wallet or transaction autho
 | Category source | keywords |
 | Content hash | `5859c49f1a78` |
 
+### `long-horizon-prompting`
+
+This skill should be used when writing, enhancing, or evaluating the launch prompt for a long-running autonomous agent or a parallel multi-agent orchestration attacking a hard problem: pseudo-formal task briefs that define terms and an exact success predicate linguistically, enumerate non-counting outcomes, set persistence rules with explicit stop and return conditions and effort floors, manage a diverse portfolio of parallel approaches with an approach registry and blocked-route bookkeeping, and gate the return on adversarial audit. Route agent topology and coordination protocols to multi-agent-patterns, runtime control surfaces and loop governance to harness-engineering, evaluator and quality-gate construction to evaluation, judge design to advanced-evaluation, and compaction or memory mechanics to context-compression and memory-systems.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/skills/long-horizon-prompting` |
+| Size | 5 files, 64 KB |
+| SKILL.md | 275 lines, ~6,485 tokens |
+| Description cost | ~213 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `ab08353b3c16` |
+| Bundled | `references` |
+
 ### `managed-agent`
 
 Run an Anthropic Claude Managed Agent — a cloud agent harness (container + filesystem + tools), the cloud counterpart of the local wasm-agent runtime
@@ -3539,7 +3543,7 @@ This skill should be used when the user asks to "add MCP server", "integrate MCP
 | Description cost | ~110 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `144d8525277c` |
 | Bundled | `examples`, `references` |
@@ -3561,7 +3565,7 @@ This skill should be used when the user asks to "add MCP server", "integrate MCP
 | Description cost | ~110 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `3a8c73fc7cad` |
 | Bundled | `examples`, `references` |
@@ -3632,46 +3636,46 @@ AgentDB memory system with HNSW vector search. Use when: need to store patterns,
 
 ### `memory-systems`
 
-This skill should be used when the user asks to "implement agent memory", "persist state across sessions", "build knowledge graph", "track entities", or mentions memory architecture, temporal knowledge graphs, vector stores, entity memory, or cross-session persistence.
+This skill should be used for persistent semantic memory in agent systems: cross-session knowledge retention, entity tracking, temporal validity, graph or vector retrieval, memory consolidation, and memory benchmark selection. Route file-backed scratchpads to filesystem-context, handoff summaries to context-compression, and token-efficiency tactics to context-optimization.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/memory-systems` |
-| Size | 3 files, 42 KB |
-| SKILL.md | 222 lines, ~3,274 tokens |
-| Description cost | ~68 tokens always in context |
+| Size | 3 files, 56 KB |
+| SKILL.md | 230 lines, ~4,196 tokens |
+| Description cost | ~94 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `eb6b30494020` |
+| Content hash | `eaded07b9577` |
 | Bundled | `references`, `scripts` |
 
 ### `multi-agent-patterns`
 
-This skill should be used when the user asks to "design multi-agent system", "implement supervisor pattern", "create swarm architecture", "coordinate multiple agents", or mentions multi-agent patterns, context isolation, agent handoffs, sub-agents, or parallel agent execution.
+This skill should be used when designing multi-agent systems that need context isolation, supervisor or swarm coordination, explicit handoffs, parallel execution, or a decision on whether multiple agents are justified.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/multi-agent-patterns` |
-| Size | 3 files, 42 KB |
-| SKILL.md | 256 lines, ~3,727 tokens |
-| Description cost | ~70 tokens always in context |
+| Size | 3 files, 52 KB |
+| SKILL.md | 268 lines, ~4,729 tokens |
+| Description cost | ~55 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `c52ad54c7fc0` |
+| Content hash | `5eadc9b04b7a` |
 | Bundled | `references`, `scripts` |
 
 ### `neural-train`
@@ -3728,59 +3732,80 @@ Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubles
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
 | Canonical path | `~/.codex/skills/.system/openai-docs` |
-| Size | 17 files, 101 KB |
-| SKILL.md | 39 lines, ~1,371 tokens |
+| Size | 17 files, 91 KB |
+| SKILL.md | 39 lines, ~1,369 tokens |
 | Description cost | ~116 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-06 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
-| Content hash | `50a4b64f4072` |
+| Content hash | `2a860a157e27` |
 | Bundled | `agents`, `assets`, `references`, `scripts` |
 
 ### `project-development`
 
-This skill should be used when the user asks to "start an LLM project", "design batch pipeline", "evaluate task-model fit", "structure agent project", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.
+This skill should be used for project-level decisions about LLM-powered systems: whether an LLM is the right primitive for the task at hand, the shape of a multi-stage batch or agent pipeline, token and cost estimation, choosing between single-agent and multi-agent at the project level, structured output design for downstream parsing, and structuring agent-assisted iteration. Use this when the unit of work is a whole project or a multi-stage pipeline. Route individual tool design to tool-design and individual skill-loading or context-budget tactics to context-optimization.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/project-development` |
-| Size | 4 files, 67 KB |
-| SKILL.md | 343 lines, ~3,796 tokens |
-| Description cost | ~71 tokens always in context |
+| Size | 4 files, 75 KB |
+| SKILL.md | 305 lines, ~4,816 tokens |
+| Description cost | ~145 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `7f54efd86b84` |
+| Content hash | `0b135194f201` |
 | Bundled | `references`, `scripts` |
 
 ### `prompt-engineering-patterns`
 
-Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates.
+This skill should be used when the user asks to "optimize a prompt", "improve prompt performance", "design a prompt template", "write better prompts", "debug prompt issues", "use chain-of-thought", "structured prompting", "few-shot prompting", or wants to apply advanced prompt engineering patterns for production LLM applications.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/prompt-engineering-patterns` |
-| Size | 9 files, 82 KB |
-| SKILL.md | 481 lines, ~3,729 tokens |
-| Description cost | ~54 tokens always in context |
+| Size | 10 files, 83 KB |
+| SKILL.md | 145 lines, ~1,340 tokens |
+| Description cost | ~83 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `0d0205625397` |
+| Content hash | `d87997deb5d3` |
 | Bundled | `assets`, `references`, `scripts` |
+
+### `prompt-lookup`
+
+Activates when the user asks about AI prompts, needs prompt templates, wants to search for prompts, or mentions prompts.chat. Use for discovering, retrieving, and improving prompts.
+
+| Field | Value |
+|---|---|
+| Pack | prompts-chat |
+| Origin | plugin `prompts-chat` from `prompts-chat` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/prompts-chat/prompts-chat/1.0.0/skills/prompt-lookup` |
+| Size | 1 files, 2 KB |
+| SKILL.md | 69 lines, ~545 tokens |
+| Description cost | ~46 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `547a83069425` |
 
 ### `prompt-optimizer`
 
@@ -3946,10 +3971,32 @@ Perform a read-only, defect-first review of a specified code change and return e
 | Description cost | ~58 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-06 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `f53558561e05` |
 | Bundled | `agents` |
+
+### `scikit-learn`
+
+Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/scikit-learn` |
+| Size | 11 files, 123 KB |
+| SKILL.md | 342 lines, ~2,896 tokens |
+| Description cost | ~96 tokens always in context |
+| Allowed tools | Read Write Edit Bash |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `a9aaa5d4077e` |
+| Bundled | `references`, `scripts` |
 
 ### `session-report`
 
@@ -3968,9 +4015,30 @@ Generate an explorable HTML report of Claude Code session usage (tokens, cache, 
 | Description cost | ~39 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `786892c24d60` |
+
+### `skill-lookup`
+
+Search, retrieve, and install Agent Skills from the prompts.chat registry using MCP tools. Use when the user asks to find skills, browse skill catalogs, install a skill for Claude, or extend Claude's capabilities with reusable AI agent components.
+
+| Field | Value |
+|---|---|
+| Pack | prompts-chat |
+| Origin | plugin `prompts-chat` from `prompts-chat` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/prompts-chat/prompts-chat/1.0.0/skills/skill-lookup` |
+| Size | 1 files, 2 KB |
+| SKILL.md | 77 lines, ~582 tokens |
+| Description cost | ~62 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `cb574472b125` |
 
 ### `skill-stocktake`
 
@@ -4067,16 +4135,17 @@ Use when executing implementation plans with independent tasks in the current se
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/subagent-driven-development` |
-| Size | 4 files, 14 KB |
-| SKILL.md | 243 lines, ~2,494 tokens |
+| Size | 7 files, 55 KB |
+| SKILL.md | 569 lines, ~8,085 tokens |
 | Description cost | ~22 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `9ea22db2f4f4` |
+| Content hash | `45f51f16259e` |
+| Bundled | `scripts` |
 
 ### `subagent-driven-development`
 
@@ -4085,20 +4154,19 @@ Use when executing implementation plans with independent tasks in the current se
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/subagent-driven-development` |
-| Size | 7 files, 55 KB |
-| SKILL.md | 569 lines, ~8,085 tokens |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/subagent-driven-development` |
+| Size | 4 files, 14 KB |
+| SKILL.md | 243 lines, ~2,494 tokens |
 | Description cost | ~22 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `45f51f16259e` |
-| Bundled | `scripts` |
+| Content hash | `9ea22db2f4f4` |
 
 ### `Swarm Orchestration`
 
@@ -4248,6 +4316,28 @@ Context window coach. Proactive guidance for token-efficient Claude Code or Code
 | Category source | keywords |
 | Content hash | `b8a05f6db073` |
 | Bundled | `assets`, `examples`, `references` |
+
+### `tool-design`
+
+This skill should be used for the tool-interface layer of an agent system specifically: writing tool descriptions agents can route on, designing tool schemas and response formats, naming conventions, actionable error recovery messages, MCP server design, tool-set consolidation, and deciding when to add or remove an individual tool. Use this when the unit of work is a single tool or a set of tools. Route project-shape, pipeline architecture, and task-model-fit decisions to project-development; route deciding whether to introduce sub-agents to multi-agent-patterns.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/skills/tool-design` |
+| Size | 4 files, 57 KB |
+| SKILL.md | 297 lines, ~5,097 tokens |
+| Description cost | ~143 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `b5f9733fc0e0` |
+| Bundled | `references`, `scripts` |
 
 ### `trader-cloud-backtest`
 
@@ -4545,28 +4635,6 @@ Create and manage sandboxed WASM agents for isolated code execution
 
 ### `workflow`
 
-Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/workflow` |
-| Size | 5 files, 70 KB |
-| SKILL.md | 979 lines, ~8,245 tokens |
-| Description cost | ~57 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | keywords |
-| Content hash | `35e569da3634` |
-| Bundled | `references`, `upstream` |
-
-### `workflow`
-
 Vercel Workflow SDK expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow.
 
 | Field | Value |
@@ -4589,6 +4657,28 @@ Vercel Workflow SDK expert guidance. Use when building durable workflows, long-r
 
 ### `workflow`
 
+Vercel Workflow SDK expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.0/skills/workflow` |
+| Size | 3 files, 89 KB |
+| SKILL.md | 1222 lines, ~11,300 tokens |
+| Description cost | ~55 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | keywords |
+| Content hash | `20d6fa5336ea` |
+| Bundled | `upstream` |
+
+### `workflow`
+
 Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that need pause/resume, retries, step-based execution, or crash-safe orchestration with Vercel Workflow.
 
 | Field | Value |
@@ -4598,13 +4688,13 @@ Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflow
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/workflow` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/workflow` |
 | Size | 3 files, 30 KB |
 | SKILL.md | 881 lines, ~7,099 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `917ced0afa7f` |
 | Bundled | `agents`, `references` |

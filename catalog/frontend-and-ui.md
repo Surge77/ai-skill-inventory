@@ -1,12 +1,12 @@
 # Frontend & UI
 
-110 skills — 105 installed, 5 available in a marketplace but not installed.
+127 skills — 126 installed, 1 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
 | Skill | What it does | Pack | Tools | Size |
 |---|---|---|---|---|
-| `accessibility` | Audit and improve web accessibility following WCAG 2.1 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation"… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 20 KB |
+| `accessibility` | Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation"… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 30 KB |
 | `agency-best-frontend` | Preferred daily-use frontend specialist from the Agency set. Use for implementing or reviewing UI, responsive layouts, accessibility, component structure, visual polish, and frontend perfor… | agency-roles | codex | 1 files, 1 KB |
 | `agency-best-ui-designer` | Preferred daily-use UI design specialist from the Agency set. Use for layout direction, component hierarchy, spacing, typography, and visual cleanup when a product needs to look intentional… | agency-roles | codex | 1 files, 1 KB |
 | `agency-best-ux-research` | Preferred daily-use UX research specialist from the Agency set. Use for clarifying user workflows, identifying friction, shaping onboarding, validating assumptions, and turning qualitative… | agency-roles | codex | 1 files, 1 KB |
@@ -18,12 +18,15 @@
 | `agency-testing-accessibility-auditor` | Agency agent wrapper for Accessibility Auditor. Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design… | agency-roles | codex | 1 files, 15 KB |
 | `agent-spec-mobile-react-native` | Agent skill for spec-mobile-react-native - invoke with $agent-spec-mobile-react-native *(marketplace only)* | agent-pack | claude-code | 1 files, 6 KB |
 | `ai-elements` | AI Elements component library guidance — pre-built React components for AI interfaces built on shadcn/ui. Use when building chat UIs, message displays, tool call rendering, streaming respon… | vercel | codex | 2 files, 22 KB |
+| `algorithmic-art` | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow… | standalone | claude-code | 4 files, 60 KB |
 | `angular-developer` | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), f… | ecc | claude-code | 36 files, 132 KB |
 | `animate` | Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve… | standalone | claude-code | 2 files, 20 KB |
 | `animate-expo` | Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring o… | standalone | claude-code | 2 files, 34 KB |
 | `animation-vocabulary` | Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term ("the bouncy thing when a popover opens" → Pop in; "the iOS rubber-band scroll… | standalone | claude-code | 1 files, 13 KB |
 | `apple-design` | Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions,… | standalone | claude-code | 1 files, 22 KB |
-| `apple-hig-designer` | Design iOS apps following Apple's Human Interface Guidelines. Generate native components, validate designs, and ensure accessibility compliance for iPhone, iPad, and Apple Watch. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 9 files, 61 KB |
+| `apple-hig-designer` | Design iOS apps following Apple's Human Interface Guidelines. Generate native components, validate designs, and ensure accessibility compliance for iPhone, iPad, and Apple Watch. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 9 files, 61 KB |
+| `architect` | Run /architect when choosing between approaches, designing a feature or page, picking a tech stack, or when /develop says a decision is owed, anytime a load bearing technical decision is un… | standalone | codex | 11 files, 138 KB |
+| `artifact-template-simple-dark-mode` | Create a presentation using the Simple Dark Mode template and its retained reference file. Use when the user selects or names Simple Dark Mode. Create clean dark-mode presentations with bol… | openai-templates | codex | 5 files, 3.2 MB |
 | `ask-sonner` | Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, the… | standalone | claude-code | 2 files, 11 KB |
 | `babysit` | Keep a PR merge-ready by triaging comments, resolving clear conflicts, and fixing CI in a loop. | standalone | cursor | 1 files, 1 KB |
 | `better-accessibility` | Helps your project comply with accessibility standards and best practices. | standalone | claude-code | 8 files, 37 KB |
@@ -32,113 +35,127 @@
 | `better-layout` | Helps with grouping, alignment, reading order, progressive disclosure and other details that make a good layout. | standalone | claude-code | 4 files, 18 KB |
 | `better-typography` | Focuses on type scale, spacing, sizing, variable fonts, OpenType features, wrapping, truncation and other details that make typography feel great across your product. | standalone | claude-code | 8 files, 34 KB |
 | `better-ui` | Polishes and improves the UI in your project. Covers concentric border radius, optical alignment, surface depth, contextual icons, hit areas and more. | standalone | claude-code | 8 files, 36 KB |
-| `brand-guidelines` | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual… *(marketplace only)* | skills | claude-code | 2 files, 14 KB |
-| `brandkit` | Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, edit… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 16 KB |
+| `brand-guidelines` | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual… | standalone | claude-code | 2 files, 13 KB |
+| `brandkit` | Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, edit… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 16 KB |
 | `break` | Renders a component you choose in every state and scenario on a temporary page and stress tests it. | standalone | claude-code | 3 files, 11 KB |
 | `canvas` | A Cursor Canvas is a live React app that the user can open beside the chat. You MUST use a canvas when the agent produces a standalone analytical artifact — quantitative analyses, billing i… | standalone | cursor | 12 files, 68 KB |
-| `canvas-design` | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece.… *(marketplace only)* | skills | claude-code | 83 files, 5.3 MB |
-| `code-structure-cleanup` | Use after an AI-built feature works but the code has duplicated mechanics, repeated API calls, or messy structure. Guides a cleanup pass that extracts reusable service-layer modules without… | standalone | claude-code | 1 files, 3 KB |
+| `canvas-design` | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece.… | standalone | claude-code | 83 files, 5.3 MB |
+| `check` | Confirm a change before merge. `/check verify` drives the real app to prove behavior against the spec (every acceptance criterion met, every surface built). `/check review` runs a senior co… | standalone | codex | 6 files, 45 KB |
 | `collabboard-phase-delivery` | Proven end-to-end workflow for delivering a feature phase in the CollabBoard project (Next.js 16 + React 19 + Prisma 6 + Auth.js v5 + Liveblocks + tldraw + Vercel AI SDK). Use when implemen… | standalone | claude-code | 1 files, 7 KB |
 | `create-rule` | Create Cursor rules for persistent AI guidance. Use when you want to create a rule, add coding standards, set up project conventions, configure file-specific patterns, create RULE.md files,… | standalone | cursor | 1 files, 4 KB |
 | `dare` | First-principles reasoning chain for decisions that have no oracle — architecture forks, build-or-skip calls, "is this framing even right" questions. Four human-gated phases (Decompose, Aud… | standalone | claude-code | 1 files, 8 KB |
 | `dashboard-style-test` | A polished dark-mode house style for HTML dashboards, briefings, reports, and visual pages. Ships with a warm dark default palette (dark brown background, cream cards, orange accent, serif… | standalone | claude-code | 2 files, 14 KB |
 | `design-dna` | Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll eff… | standalone | claude-code | 10 files, 65 KB |
-| `design-system-patterns` | Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building compon… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 49 KB |
-| `design-system-starter` | Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates. Ensures consistent, scalable, and accessible UI across pr… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 66 KB |
-| `design-taste-frontend` | Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 21 KB |
-| `draw-io` | draw.io diagram creation, editing, and review. Use for .drawio XML editing, PNG conversion, layout adjustment, and AWS icon usage. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 41 KB |
+| `design-system-patterns` | Build scalable design systems with design tokens, theming infrastructure, and component architecture patterns. Use when creating design tokens, implementing theme switching, building compon… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 49 KB |
+| `design-system-starter` | Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates. Ensures consistent, scalable, and accessible UI across pr… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 66 KB |
+| `design-taste-frontend` | Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real de… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 86 KB |
+| `develop` | Run /develop to build a feature, UI or backend, from an approved design, a page, component, API, service, or data slice. If something load bearing is undecided and no spec records it, it st… | standalone | codex | 12 files, 96 KB |
+| `draw-io` | draw.io diagram creation, editing, and review. Use for .drawio XML editing, PNG conversion, layout adjustment, and AWS icon usage. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 41 KB |
 | `emil-design-eng` | This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great. | standalone | claude-code | 1 files, 27 KB |
 | `end-of-day-summary-test` | Automated end-of-day review with a visual HTML report. Use when the user says "end of day summary", "wrap up my day", "daily wrapup", "what did I do today", or any variation of wanting thei… | standalone | claude-code | 1 files, 5 KB |
 | `find-animation-opportunities` | Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when t… | standalone | claude-code | 1 files, 9 KB |
-| `frontend-design` | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as temp… | frontend-design | claude-code | 2 files, 19 KB |
-| `frontend-design` | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as temp… | frontend-design | claude-code | 2 files, 18 KB |
-| `frontend-design` | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, pol… | frontend-design | claude-code | 1 files, 4 KB |
+| `flags-sdk` | Guide for feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when: declaring flags with `flag()`, using `vercelAdapter` or `vercel flags` CLI (add, l… | vercel | claude-code | 5 files, 68 KB |
+| `flags-sdk` | Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installing or configuring the SDK, adding a new or existing flag, wiring `verc… | vercel | claude-code | 11 files, 162 KB |
+| `flags-sdk` | Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installing or configuring the SDK, adding a new or existing flag, wiring `verc… | vercel | claude-code | 5 files, 78 KB |
+| `frontend-design` | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (exa… | standalone | claude-code | 2 files, 14 KB |
+| `frontend-design` | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as temp… | frontend-design | claude-code, codex | 2 files, 19 KB |
 | `frontend-design-direction` | Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites, dashboards, applications, components, landing pages, visual tools, or any web… | ecc | claude-code | 1 files, 4 KB |
 | `frontend-patterns` | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. | ecc | claude-code | 1 files, 15 KB |
 | `frontend-patterns` | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. | agents-std-store | agents-std | 2 files, 16 KB |
-| `frontend-to-backend-requirements` | Document frontend data needs for backend developers. Use when frontend needs to communicate API requirements to backend, or user says 'backend requirements', 'what data do I need', 'API req… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
+| `frontend-to-backend-requirements` | Document frontend data needs for backend developers. Use when frontend needs to communicate API requirements to backend, or user says 'backend requirements', 'what data do I need', 'API req… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
+| `frontend-ui-engineering` | Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility… | agent-skills | claude-code | 1 files, 10 KB |
 | `geist` | Expert guidance for Geist, Vercel's default typography system and font family for precise Next.js interfaces. Use when configuring Geist Sans, Geist Mono, or Geist Pixel, setting up font im… | vercel | codex | 2 files, 7 KB |
-| `gpt-taste` | Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gaples… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `gpt-taste` | Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gaples… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
 | `graphify-windows` | any input (code, docs, papers, images) → knowledge graph → clustered communities → HTML + JSON + audit report | standalone | claude-code | 2 files, 50 KB |
-| `high-end-visual-design` | Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common default… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 10 KB |
-| `huashu-design` | 花叔Design（Huashu-Design）——用HTML做高保真原型、交互Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML是工具不是媒介，根据任务embody不同专家（UX设计师/动画师/幻灯片设计师/原型师），避免web design tropes。触发词：做原型、设计Demo、交互原型、HTML演示、动画Demo、设计变体、hi-… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 155 files, 31.1 MB |
+| `grilling` | Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases. | standalone | claude-code, codex | 2 files, 2 KB |
+| `high-end-visual-design` | Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common default… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 10 KB |
 | `imagegen` | Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when C… | standalone | codex | 12 files, 127 KB |
-| `imagegen-frontend-mobile` | Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarch… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 41 KB |
-| `imagegen-frontend-web` | Elite frontend image-direction skill for generating premium, artistic, implementation-friendly website design references. Uses combinatorial variation to avoid repetitive AI aesthetics, enf… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 19 KB |
-| `impeccable` | Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 52 files, 730 KB |
-| `implement-design` | Translates Figma designs into production-ready code with 1:1 visual fidelity. Use when implementing UI from Figma files, when user mentions "implement design", "generate code", "implement c… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 11 KB |
+| `imagegen-frontend-mobile` | Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarch… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 41 KB |
+| `imagegen-frontend-web` | Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A l… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 37 KB |
+| `impeccable` | Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 57 files, 2.1 MB |
+| `implement-design` | Translates Figma designs into production-ready code with 1:1 visual fidelity. Use when implementing UI from Figma files, when user mentions "implement design", "generate code", "implement c… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 11 KB |
+| `import-memory` | Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data. | standalone | claude-code | 1 files, 10 KB |
 | `improve-animations` | Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to ex… | standalone | claude-code | 3 files, 18 KB |
-| `industrial-brutalist-ui` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
-| `interface-review` | Reviews your work across multiple categories like UI, typography, layout, color, writing and accessibility and gives you a detailed analysis of the findings. | standalone | claude-code | 4 files, 22 KB |
+| `industrial-brutalist-ui` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `interface-design` | Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when designing, building, reviewing, auditing, or… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 30 KB |
+| `interface-review` | Reviews your work across multiple categories like UI, typography, layout, color, writing and accessibility and gives you a detailed analysis of the findings. | agents-std-store | claude-code, shared-store | 4 files, 22 KB |
+| `internal-comms` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of i… | standalone | claude-code | 6 files, 22 KB |
+| `lark-doc` | 飞书云文档（Docx / Wiki）内容操作：读取、创建、编辑文档，插入或下载图片附件，以及操作思维笔记。用户提供文档 URL/token（包括 doubao.com 的 /docx/、/wiki/）时使用；按 URL 路径/token 而非域名路由。文档内嵌资源按读取参考中的统一规则分流。独立评论操作走 lark-drive；随正文读取评论使用 docs +fetch。表格… | standalone | claude-code, codex | 44 files, 176 KB |
+| `lark-shared` | Use for lark-cli setup/auth tasks: auth login/status/logout, user vs bot identity, business-domain permissions (--domain, including all/docs/drive), missing scopes, revoking authorization,… | standalone | codex | 7 files, 17 KB |
 | `make-interfaces-feel-better` | Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving UI spacing, typography, borders, shadows, motion, hit areas, icons, text wrappi… | ecc | claude-code | 1 files, 5 KB |
-| `material-design-3` | Material Design 3 (Material You) design system knowledge for modern web and Angular applications. Use when implementing Material Design 3 theming, components, typography, color systems, dyn… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 9 KB |
+| `material-design-3` | Material Design 3 (Material You) design system knowledge for modern web and Angular applications. Use when implementing Material Design 3 theming, components, typography, color systems, dyn… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 9 KB |
 | `microfrontends` | Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfrontends, multi-zones, splitting an app across teams, independent deploy… | vercel | claude-code | 7 files, 44 KB |
 | `microfrontends` | Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfrontends, multi-zones, splitting an app across teams, independent deploy… | vercel | codex | 8 files, 44 KB |
-| `minimalist-ui` | Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
-| `modern-ui-designer` | Expert guidance for creating stunning, professional 2025 UI designs using Tailwind CSS and shadcn/ui. Ensures clean minimal aesthetics, 8px grid consistency, mobile-first responsive pattern… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 40 KB |
+| `minimalist-ui` | Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `modern-ui-designer` | Expert guidance for creating stunning, professional 2025 UI designs using Tailwind CSS and shadcn/ui. Ensures clean minimal aesthetics, 8px grid consistency, mobile-first responsive pattern… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 40 KB |
+| `morning` | Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if… | standalone | claude-code | 3 files, 40 KB |
 | `motion-ui` | Production-ready UI motion system for React/Next.js. Use when implementing animations, transitions, or motion patterns. | ecc | claude-code | 1 files, 14 KB |
-| `mui` | Material-UI v7 component library patterns including sx prop styling, theme integration, responsive design, and MUI-specific hooks. Use when working with MUI components, styling with sx prop… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 40 KB |
+| `mui` | Material-UI v7 component library patterns including sx prop styling, theme integration, responsive design, and MUI-specific hooks. Use when working with MUI components, styling with sx prop… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 40 KB |
 | `next-cache-components` | Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from unstable_cache. Use when implementing partial prerendering, caching strat… | vercel | claude-code | 3 files, 24 KB |
 | `next-cache-components` | Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, updateTag | vercel | claude-code | 1 files, 10 KB |
 | `next-cache-components` | Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from unstable_cache. Use when implementing partial prerendering, caching strat… | vercel | codex | 2 files, 11 KB |
 | `nextjs` | Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/pr… | vercel | claude-code | 43 files, 197 KB |
 | `nextjs` | Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/pr… | vercel | codex | 22 files, 86 KB |
+| `nextjs-supabase-auth` | Expert integration of Supabase Auth with Next.js App Router | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
 | `nextjs-turbopack` | Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack. | agents-std-store | agents-std | 2 files, 2 KB |
 | `pick-ui-library` | Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and mo… | standalone | claude-code | 1 files, 4 KB |
-| `product-designer` | Expert product design covering UI/UX design, design systems, prototyping, user research, and design thinking. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 13 KB |
-| `prototype` | Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs whe… | standalone | claude-code | 2 files, 15 KB |
+| `product-designer` | Product design across UI/UX, design systems, prototyping, and user research. Use when creating user journey maps, building wireframes, defining design tokens and component systems, planning… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 56 KB |
 | `react-best-practices` | React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality checklist covering component structure, hooks usage, accessibility, pe… | vercel | claude-code | 137 files, 408 KB |
 | `react-best-practices` | React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality checklist covering component structure, hooks usage, accessibility, pe… | vercel | codex | 69 files, 203 KB |
-| `react-dev` | This skill should be used when building React components with TypeScript, typing hooks, handling events, or when React TypeScript, React 19, Server Components are mentioned. Covers type-saf… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 8 files, 110 KB |
-| `react-useeffect` | React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 15 KB |
-| `responsive-design` | Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid la… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 45 KB |
+| `react-dev` | This skill should be used when building React components with TypeScript, typing hooks, handling events, or when React TypeScript, React 19, Server Components are mentioned. Covers type-saf… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 8 files, 110 KB |
+| `react-useeffect` | React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 15 KB |
+| `responsive-design` | Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid la… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 45 KB |
 | `review-animations` | Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned. | standalone | claude-code | 2 files, 18 KB |
 | `satori` | Expert guidance for Satori — Vercel's library that converts HTML and CSS to SVG, commonly used to generate dynamic OG images for Next.js and other frameworks. | vercel | codex | 2 files, 8 KB |
 | `scroll-craft` | Build a premium, scroll-driven interactive landing page for any business: a service company, a physical product, a food brand, a drink brand. Scroll becomes the timeline. Video scrubs frame… | nateherk-design | claude-code | 22 files, 359 KB |
 | `shadcn` | shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing… | vercel | claude-code | 1 files, 20 KB |
 | `shadcn` | shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS integration, and high-quality interface design. Use when initializing… | vercel | codex | 2 files, 20 KB |
-| `shadcn-ui` | Provides complete shadcn/ui component library patterns including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing co… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 154 KB |
+| `shadcn-ui` | Provides complete shadcn/ui component library patterns including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing co… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 12 files, 170 KB |
 | `shell` | Runs the rest of a /shell request as a literal shell command. Use only when the user explicitly invokes /shell and wants the following text executed directly in the terminal. | standalone | cursor | 1 files, 1 KB |
-| `source-code-context` | Use when an AI coding agent is guessing API names or framework behavior from incomplete docs. Shows how to provide local source-code references so the agent searches the real implementation… | standalone | claude-code | 1 files, 3 KB |
 | `split-to-prs` | Split current work into small reviewable PRs. Use when the user asks to split a chat, set of changes, branch, or PR. | standalone | cursor | 1 files, 2 KB |
 | `statusline` | Configure a custom status line in the CLI. Use when the user mentions status line, statusline, statusLine, CLI status bar, prompt footer customization, or wants to add session context above… | standalone | cursor | 1 files, 7 KB |
-| `stitch-design-taste` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric la… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 24 KB |
-| `stripe-ui-skills` | Stripe's UI design system. Use when building interfaces inspired by Stripe's aesthetic - light mode, Inter font, 4px grid. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
+| `stitch-design-taste` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric la… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 24 KB |
+| `stripe-ui-skills` | Stripe's UI design system. Use when building interfaces inspired by Stripe's aesthetic - light mode, Inter font, 4px grid. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
 | `swr` | SWR data-fetching expert guidance. Use when building React apps with client-side data fetching, caching, revalidation, mutations, optimistic UI, pagination, or infinite loading using the SW… | vercel | codex | 2 files, 6 KB |
-| `tailwind-design-system` | Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or stand… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 23 KB |
-| `tailwind-patterns` | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 7 KB |
-| `theme-factory` | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any… *(marketplace only)* | skills | claude-code | 13 files, 141 KB |
+| `sync` | Run /sync as the last step after a change is complete, around merge, to keep durable knowledge current. Updates root and nested AGENTS.md, reconciles the scope from repo evidence, and flags… | standalone | codex | 3 files, 32 KB |
+| `tailwind-design-system` | Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or stand… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 24 KB |
+| `tailwind-patterns` | Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 7 KB |
+| `teach` | Teach the user a new skill or concept, within this workspace. | standalone | claude-code, codex | 6 files, 18 KB |
+| `theme-factory` | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any… | standalone | claude-code | 13 files, 141 KB |
 | `ui-demo` | Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen recording, or tutorial video of a web application. Produces WebM videos with vi… | ecc | claude-code | 1 files, 15 KB |
 | `ui-to-vue` | Use when the user has UI screenshots or design exports that need batch conversion into Vue 3 components, especially with Vant, Element Plus, or Ant Design Vue. | ecc | claude-code | 1 files, 5 KB |
-| `ui-ux-pro-max` | UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, b… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 15 KB |
+| `ui-ux-pro-max` | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, acc… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 73 files, 3.5 MB |
 | `v0-dev` | v0 by Vercel expert guidance. Use when discussing AI code generation, generating UI components from prompts, v0 CLI usage, v0 SDK/API integration, or integrating v0 into development workflo… | vercel | codex | 2 files, 15 KB |
 | `variant` | Builds multiple variants of a component you're working on and helps you iterate and pick one. | standalone | claude-code | 3 files, 9 KB |
-| `vercel-react-best-practices` | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal perform… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 59 files, 171 KB |
+| `vercel-react-best-practices` | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal perform… | agents-std-store | claude-code, cline, codex, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 76 files, 225 KB |
+| `vercel-react-best-practices` | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal perform… | standalone | claude-code | 63 files, 171 KB |
 | `vercel-react-best-practices` | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal perform… | vercel | claude-code | 68 files, 203 KB |
-| `web-artifacts-builder` | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring… *(marketplace only)* | skills | claude-code | 5 files, 45 KB |
+| `web-artifacts-builder` | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring… | standalone | claude-code | 5 files, 45 KB |
+| `web-design-guidelines` | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". | standalone | claude-code, codex | 1 files, 1 KB |
+| `xlsx` | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .t… | standalone | claude-code | 53 files, 1.1 MB |
 
 ## Detail
 
 ### `accessibility`
 
-Audit and improve web accessibility following WCAG 2.1 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation", or "make accessible".
+Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation", or "make accessible".
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/accessibility` |
-| Size | 2 files, 20 KB |
-| SKILL.md | 523 lines, ~3,228 tokens |
+| Size | 3 files, 30 KB |
+| SKILL.md | 465 lines, ~3,706 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `910711c999f0` |
+| Content hash | `91d0d76d2597` |
 | Bundled | `references` |
 
 ### `agency-best-frontend`
@@ -362,16 +379,38 @@ AI Elements component library guidance — pre-built React components for AI int
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-elements` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/ai-elements` |
 | Size | 2 files, 22 KB |
 | SKILL.md | 483 lines, ~5,499 tokens |
 | Description cost | ~65 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `95e907f05924` |
 | Bundled | `agents` |
+
+### `algorithmic-art`
+
+Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/algorithmic-art` |
+| Size | 4 files, 60 KB |
+| SKILL.md | 405 lines, ~5,044 tokens |
+| Description cost | ~81 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | family-inference |
+| Content hash | `9f352483172d` |
+| Bundled | `templates` |
 
 ### `angular-developer`
 
@@ -488,8 +527,8 @@ Design iOS apps following Apple's Human Interface Guidelines. Generate native co
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/apple-hig-designer` |
 | Size | 9 files, 61 KB |
 | SKILL.md | 947 lines, ~5,308 tokens |
@@ -500,6 +539,50 @@ Design iOS apps following Apple's Human Interface Guidelines. Generate native co
 | Category source | keywords |
 | Content hash | `5d368452669e` |
 | Bundled | `references`, `scripts` |
+
+### `architect`
+
+Run /architect when choosing between approaches, designing a feature or page, picking a tech stack, or when /develop says a decision is owed, anytime a load bearing technical decision is unmade. Asks deep questions, recommends an answer, and writes a build spec to docs/specs/. Owns all spec files.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/architect` |
+| Size | 11 files, 138 KB |
+| SKILL.md | 207 lines, ~7,029 tokens |
+| Description cost | ~75 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | family-inference |
+| Content hash | `5ba78219d935` |
+| Bundled | `agent-modes`, `agents`, `internal` |
+
+### `artifact-template-simple-dark-mode`
+
+Create a presentation using the Simple Dark Mode template and its retained reference file. Use when the user selects or names Simple Dark Mode. Create clean dark-mode presentations with bold typography, simple sections, charts, and imagery.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode` |
+| Size | 5 files, 3.2 MB |
+| SKILL.md | 23 lines, ~370 tokens |
+| Description cost | ~60 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | keywords |
+| Content hash | `d7d13ed0697a` |
+| Bundled | `agents`, `assets` |
 
 ### `ask-sonner`
 
@@ -681,18 +764,18 @@ Applies Anthropic's official brand colors and typography to any sort of artifact
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/brand-guidelines` |
-| Size | 2 files, 14 KB |
-| SKILL.md | 74 lines, ~577 tokens |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/brand-guidelines` |
+| Size | 2 files, 13 KB |
+| SKILL.md | 74 lines, ~559 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `f7f3c8d35f22` |
 
@@ -705,8 +788,8 @@ Premium brand-kit image generation skill for creating high-end brand-guidelines 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/brandkit` |
 | Size | 1 files, 16 KB |
 | SKILL.md | 799 lines, ~4,198 tokens |
@@ -767,42 +850,43 @@ Create beautiful visual art in .png and .pdf documents using design philosophy. 
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/canvas-design` |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/canvas-design` |
 | Size | 83 files, 5.3 MB |
 | SKILL.md | 130 lines, ~3,017 tokens |
 | Description cost | ~73 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `9bb167de0893` |
 | Bundled | `canvas-fonts` |
 
-### `code-structure-cleanup`
+### `check`
 
-Use after an AI-built feature works but the code has duplicated mechanics, repeated API calls, or messy structure. Guides a cleanup pass that extracts reusable service-layer modules without changing behavior.
+Confirm a change before merge. `/check verify` drives the real app to prove behavior against the spec (every acceptance criterion met, every surface built). `/check review` runs a senior code review on a fresh model, one that did not write the code. Verify after /develop, review before a PR. Writes to docs/reviews/, never edits code.
 
 | Field | Value |
 |---|---|
 | Pack | standalone |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | claude-code |
+| Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/skills/code-structure-cleanup` |
-| Size | 1 files, 3 KB |
-| SKILL.md | 84 lines, ~776 tokens |
-| Description cost | ~52 tokens always in context |
-| Allowed tools | — |
+| Canonical path | `~/.codex/skills/check` |
+| Size | 6 files, 45 KB |
+| SKILL.md | 53 lines, ~1,066 tokens |
+| Description cost | ~84 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Agent |
 | Model | — |
-| Last modified | 2026-05-22 |
+| Last modified | 2026-09-16 |
 | Category source | family-inference |
-| Content hash | `fe25ca4f243a` |
+| Content hash | `cf44891a7166` |
+| Bundled | `agents`, `modes` |
 
 ### `collabboard-phase-delivery`
 
@@ -919,17 +1003,17 @@ Build scalable design systems with design tokens, theming infrastructure, and co
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/design-system-patterns` |
-| Size | 4 files, 49 KB |
-| SKILL.md | 338 lines, ~2,502 tokens |
+| Size | 5 files, 49 KB |
+| SKILL.md | 116 lines, ~1,030 tokens |
 | Description cost | ~62 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `2985456b90c9` |
+| Content hash | `3bdd27534894` |
 | Bundled | `references` |
 
 ### `design-system-starter`
@@ -941,8 +1025,8 @@ Create and evolve design systems with design tokens, component architecture, acc
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/design-system-starter` |
 | Size | 5 files, 66 KB |
 | SKILL.md | 604 lines, ~3,881 tokens |
@@ -956,24 +1040,46 @@ Create and evolve design systems with design tokens, component architecture, acc
 
 ### `design-taste-frontend`
 
-Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.
+Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/design-taste-frontend` |
-| Size | 1 files, 21 KB |
-| SKILL.md | 227 lines, ~5,342 tokens |
-| Description cost | ~51 tokens always in context |
+| Size | 1 files, 86 KB |
+| SKILL.md | 1207 lines, ~22,115 tokens |
+| Description cost | ~68 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `52be4cc4bb3b` |
+| Content hash | `1e9d5cbba92b` |
+
+### `develop`
+
+Run /develop to build a feature, UI or backend, from an approved design, a page, component, API, service, or data slice. If something load bearing is undecided and no spec records it, it stops and routes you to /architect; otherwise it reads the spec plus AGENTS.md, builds, and advances the scope.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/develop` |
+| Size | 12 files, 96 KB |
+| SKILL.md | 145 lines, ~3,773 tokens |
+| Description cost | ~75 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `e8ae0bc76f9c` |
+| Bundled | `agents`, `flow`, `ui` |
 
 ### `draw-io`
 
@@ -984,8 +1090,8 @@ draw.io diagram creation, editing, and review. Use for .drawio XML editing, PNG 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/draw-io` |
 | Size | 5 files, 41 KB |
 | SKILL.md | 279 lines, ~1,972 tokens |
@@ -1060,6 +1166,93 @@ Search a codebase or UI for places that don't animate but should, and reject eve
 | Category source | keywords |
 | Content hash | `b44f63c6516c` |
 
+### `flags-sdk`
+
+Guide for feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when: declaring flags with `flag()`, using `vercelAdapter` or `vercel flags` CLI (add, list, enable, disable, inspect, archive, rm, sdk-keys), setting up providers/adapters (Vercel, Statsig, LaunchDarkly, PostHog, GrowthBook, Hypertune, Global Config, OpenFeature, Split, Flagsmith, Reflag, Optimizely, or custom adapters), implementing precompute patterns for static pages, setting up `identify`/`dedupe`, integrating Flags Explorer/Toolbar, working with flags in Next.js (App Router, Pages Router, Middleware) or SvelteKit, writing custom adapters, or encrypting/decrypting flag values. Triggers: feature flags, A/B testing, experimentation, flags SDK, flag adapters, precompute, Flags Explorer, feature gates, flag overrides, Vercel Flags, vercel flags CLI, vercel flags add, vercel flags list, vercel flags enable, vercel flags disable, `flags/next`, `flags/sveltekit`, `flags/react`, `@flags-sdk/*`.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.0/skills/flags-sdk/upstream` |
+| Size | 5 files, 68 KB |
+| SKILL.md | 370 lines, ~4,336 tokens |
+| Description cost | ~252 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | keywords |
+| Content hash | `e69f723ccd55` |
+| Bundled | `references` |
+
+### `flags-sdk`
+
+Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installing or configuring the SDK, adding a new or existing flag, wiring `vercelAdapter` (OIDC or SDK keys), declaring flags with `flag()`, using the `vercel flags` CLI (create, inspect, list, enable, disable, set, update, split, rollout, rules, segments, use-targeting, evaluations, versions, open, archive, unarchive, rm, sdk-keys, override, prepare), setting up providers/adapters (Vercel, Statsig, LaunchDarkly, PostHog, GrowthBook, Global Config, OpenFeature, Split, Flagsmith, Reflag, Optimizely, or custom), precompute, `identify`/`dedupe`, Flags Explorer/Toolbar, Next.js or SvelteKit, or encrypting flag values. Triggers: feature flags, feature gates, A/B testing, experimentation, gradual rollout, traffic split, targeting rules, flag overrides, precompute, Flags Explorer, Vercel Flags, vercel flags CLI, `flags/next`, `flags/sveltekit`, `flags/react`, `@flags-sdk/*`.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.1/skills/flags-sdk` |
+| Size | 11 files, 162 KB |
+| SKILL.md | 529 lines, ~6,552 tokens |
+| Description cost | ~248 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-14 |
+| Category source | keywords |
+| Content hash | `a2ba1d963204` |
+| Bundled | `references`, `upstream` |
+
+### `flags-sdk`
+
+Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installing or configuring the SDK, adding a new or existing flag, wiring `vercelAdapter` (OIDC or SDK keys), declaring flags with `flag()`, using the `vercel flags` CLI (create, inspect, list, enable, disable, set, update, split, rollout, rules, segments, use-targeting, evaluations, versions, open, archive, unarchive, rm, sdk-keys, override, prepare), setting up providers/adapters (Vercel, Statsig, LaunchDarkly, PostHog, GrowthBook, Global Config, OpenFeature, Split, Flagsmith, Reflag, Optimizely, or custom), precompute, `identify`/`dedupe`, Flags Explorer/Toolbar, Next.js or SvelteKit, or encrypting flag values. Triggers: feature flags, feature gates, A/B testing, experimentation, gradual rollout, traffic split, targeting rules, flag overrides, precompute, Flags Explorer, Vercel Flags, vercel flags CLI, `flags/next`, `flags/sveltekit`, `flags/react`, `@flags-sdk/*`.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.1/skills/flags-sdk/upstream` |
+| Size | 5 files, 78 KB |
+| SKILL.md | 428 lines, ~5,765 tokens |
+| Description cost | ~248 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-14 |
+| Category source | keywords |
+| Content hash | `45046cd94ef2` |
+| Bundled | `references` |
+
+### `frontend-design`
+
+Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/frontend-design` |
+| Size | 2 files, 14 KB |
+| SKILL.md | 43 lines, ~1,110 tokens |
+| Description cost | ~100 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `9b70d9a4f39a` |
+
 ### `frontend-design`
 
 Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
@@ -1069,59 +1262,17 @@ Guidance for distinctive, intentional visual design when building new UI or resh
 | Pack | frontend-design |
 | Origin | plugin `frontend-design` from `claude-plugins-official` |
 | Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 7 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/frontend-design/0120fb83da5d/skills/frontend-design` |
+| Tools it reaches | claude-code, codex |
+| Installed copies | 19 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/frontend-design/022b3c274938/skills/frontend-design` |
 | Size | 2 files, 19 KB |
 | SKILL.md | 72 lines, ~2,348 tokens |
 | Description cost | ~51 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-02 |
+| Last modified | 2026-09-14 |
 | Category source | keywords |
 | Content hash | `0104e02516f7` |
-
-### `frontend-design`
-
-Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
-
-| Field | Value |
-|---|---|
-| Pack | frontend-design |
-| Origin | plugin `frontend-design` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 3 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/frontend-design/0620a687ddd5/skills/frontend-design` |
-| Size | 2 files, 18 KB |
-| SKILL.md | 56 lines, ~2,065 tokens |
-| Description cost | ~51 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-08-28 |
-| Category source | keywords |
-| Content hash | `e4971c4ff27b` |
-
-### `frontend-design`
-
-Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.
-
-| Field | Value |
-|---|---|
-| Pack | frontend-design |
-| Origin | plugin `frontend-design` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown/skills/frontend-design` |
-| Size | 1 files, 4 KB |
-| SKILL.md | 42 lines, ~1,069 tokens |
-| Description cost | ~59 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-04-05 |
-| Category source | keywords |
-| Content hash | `bb9cd6e564c2` |
 
 ### `frontend-design-direction`
 
@@ -1196,8 +1347,8 @@ Document frontend data needs for backend developers. Use when frontend needs to 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/frontend-to-backend-requirements` |
 | Size | 1 files, 6 KB |
 | SKILL.md | 194 lines, ~1,464 tokens |
@@ -1207,6 +1358,27 @@ Document frontend data needs for backend developers. Use when frontend needs to 
 | Last modified | 2026-02-11 |
 | Category source | keywords |
 | Content hash | `789ccaf12f0b` |
+
+### `frontend-ui-engineering`
+
+Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/frontend-ui-engineering` |
+| Size | 1 files, 10 KB |
+| SKILL.md | 329 lines, ~2,678 tokens |
+| Description cost | ~77 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `c72c515a8691` |
 
 ### `geist`
 
@@ -1219,13 +1391,13 @@ Expert guidance for Geist, Vercel's default typography system and font family fo
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/geist` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/geist` |
 | Size | 2 files, 7 KB |
 | SKILL.md | 227 lines, ~1,781 tokens |
 | Description cost | ~63 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `71f225b26822` |
 | Bundled | `agents` |
@@ -1239,8 +1411,8 @@ Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomi
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/gpt-taste` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 75 lines, ~1,983 tokens |
@@ -1272,6 +1444,28 @@ any input (code, docs, papers, images) → knowledge graph → clustered communi
 | Category source | family-inference |
 | Content hash | `b3236b29d14e` |
 
+### `grilling`
+
+Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, codex |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/grilling` |
+| Size | 2 files, 2 KB |
+| SKILL.md | 29 lines, ~504 tokens |
+| Description cost | ~38 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | family-inference |
+| Content hash | `752a9a3896f0` |
+| Bundled | `agents` |
+
 ### `high-end-visual-design`
 
 Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.
@@ -1281,8 +1475,8 @@ Teaches the AI to design like a high-end agency. Defines the exact fonts, spacin
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/high-end-visual-design` |
 | Size | 1 files, 10 KB |
 | SKILL.md | 99 lines, ~2,665 tokens |
@@ -1292,28 +1486,6 @@ Teaches the AI to design like a high-end agency. Defines the exact fonts, spacin
 | Last modified | 2026-05-01 |
 | Category source | keywords |
 | Content hash | `7e45487fb52b` |
-
-### `huashu-design`
-
-花叔Design（Huashu-Design）——用HTML做高保真原型、交互Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML是工具不是媒介，根据任务embody不同专家（UX设计师/动画师/幻灯片设计师/原型师），避免web design tropes。触发词：做原型、设计Demo、交互原型、HTML演示、动画Demo、设计变体、hi-fi设计、UI mockup、prototype、设计探索、做个HTML页面、做个可视化、app原型、iOS原型、移动应用mockup、导出MP4、导出GIF、60fps视频、设计风格、设计方向、设计哲学、配色方案、视觉风格、推荐风格、选个风格、做个好看的、评审、好不好看、review this design。**主干能力**：Junior Designer工作流（先给假设+reasoning+placeholder再迭代）、反AI slop清单、React+Babel最佳实践、Tweaks变体切换、Speaker Notes演示、Starter Components（幻灯片外壳/变体画布/动画引擎/设备边框）、App原型专属守则（默认从Wikimedia/Met/Unsplash取真图、每台iPhone包AppPhone状态管理器可交互、交付前跑Playwright点击测试）、Playwright验证、HTML动画→MP4/GIF视频导出（25fps基础 + 60fps插帧 + palette优化GIF + 6首场景化BGM + 自动fade）。**需求模糊时的Fallback**：设计方向顾问模式——从5流派×20种设计哲学（Pentagram信息建筑/Field.io运动诗学/Kenya Hara东方极简/Sagmeister实验先锋等）推荐3个差异化方向，展示24个预制showcase（8场景×3风格），并行生成3个视觉Demo让用户选。**交付后可选**：专家级5维度评审（哲学一致性/视觉层级/细节执行/功能性/创新性各打10分+修复清单）。
-
-| Field | Value |
-|---|---|
-| Pack | agents-std-store |
-| Origin | standalone |
-| Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
-| Canonical path | `~/.agents/skills/huashu-design` |
-| Size | 155 files, 31.1 MB |
-| SKILL.md | 802 lines, ~14,565 tokens |
-| Description cost | ~439 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-05-01 |
-| Category source | keywords |
-| Content hash | `9a5777a3a2ea` |
-| Bundled | `assets`, `demos`, `references`, `scripts`, `sfx`, `showcases`, `cover`, `infographic` |
 
 ### `imagegen`
 
@@ -1332,7 +1504,7 @@ Generate or edit raster images when the task benefits from AI-created bitmap vis
 | Description cost | ~143 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-06 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `f549d16f276a` |
 | Bundled | `agents`, `assets`, `references`, `scripts` |
@@ -1346,8 +1518,8 @@ Elite mobile app image-generation skill for creating premium, app-native screen 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/imagegen-frontend-mobile` |
 | Size | 1 files, 41 KB |
 | SKILL.md | 1466 lines, ~10,448 tokens |
@@ -1360,24 +1532,24 @@ Elite mobile app image-generation skill for creating premium, app-native screen 
 
 ### `imagegen-frontend-web`
 
-Elite frontend image-direction skill for generating premium, artistic, implementation-friendly website design references. Uses combinatorial variation to avoid repetitive AI aesthetics, enforces cinematic hero minimalism, strong hierarchy, generous spacing, image-led composition, and anti-slop visual discipline. Optimized for hero sections, landing pages, and multi-section site comps that developers or coding models can accurately recreate.
+Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/imagegen-frontend-web` |
-| Size | 1 files, 19 KB |
-| SKILL.md | 687 lines, ~4,834 tokens |
-| Description cost | ~111 tokens always in context |
+| Size | 1 files, 37 KB |
+| SKILL.md | 988 lines, ~9,461 tokens |
+| Description cost | ~166 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `4006fe59a11f` |
+| Content hash | `0adffb5195bc` |
 
 ### `impeccable`
 
@@ -1388,18 +1560,18 @@ Use when the user wants to design, redesign, shape, critique, audit, polish, cla
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/impeccable` |
-| Size | 52 files, 730 KB |
-| SKILL.md | 176 lines, ~3,493 tokens |
+| Size | 57 files, 2.1 MB |
+| SKILL.md | 85 lines, ~2,988 tokens |
 | Description cost | ~224 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `bfe0c53ac6ca` |
-| Bundled | `agents`, `reference`, `scripts` |
+| Content hash | `f256b3a28f31` |
+| Bundled | `agents`, `reference`, `scripts`, `data`, `degraded` |
 
 ### `implement-design`
 
@@ -1410,8 +1582,8 @@ Translates Figma designs into production-ready code with 1:1 visual fidelity. Us
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/implement-design` |
 | Size | 1 files, 11 KB |
 | SKILL.md | 253 lines, ~2,805 tokens |
@@ -1421,6 +1593,27 @@ Translates Figma designs into production-ready code with 1:1 visual fidelity. Us
 | Last modified | 2026-02-10 |
 | Category source | keywords |
 | Content hash | `c3d47c3e8bed` |
+
+### `import-memory`
+
+Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/import-memory` |
+| Size | 1 files, 10 KB |
+| SKILL.md | 90 lines, ~2,673 tokens |
+| Description cost | ~36 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | family-inference |
+| Content hash | `b158007fcb5a` |
 
 ### `improve-animations`
 
@@ -1452,8 +1645,8 @@ Raw mechanical interfaces fusing Swiss typographic print with military terminal 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/industrial-brutalist-ui` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 93 lines, ~2,137 tokens |
@@ -1464,18 +1657,40 @@ Raw mechanical interfaces fusing Swiss typographic print with military terminal 
 | Category source | keywords |
 | Content hash | `07a17b920f9a` |
 
+### `interface-design`
+
+Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data interfaces, and interactive products. Use when designing, building, reviewing, auditing, or refining product UI where visual craft, layout hierarchy, tokens, states, visual direction, or design-system consistency matter. Not for marketing pages, landing pages, campaigns, or brand-only work.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
+| Canonical path | `~/.agents/skills/interface-design` |
+| Size | 2 files, 30 KB |
+| SKILL.md | 321 lines, ~7,484 tokens |
+| Description cost | ~98 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `470e111c6a39` |
+| Bundled | `agents` |
+
 ### `interface-review`
 
 Reviews your work across multiple categories like UI, typography, layout, color, writing and accessibility and gives you a detailed analysis of the findings.
 
 | Field | Value |
 |---|---|
-| Pack | standalone |
+| Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/skills/interface-review` |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/interface-review` |
 | Size | 4 files, 22 KB |
 | SKILL.md | 155 lines, ~2,711 tokens |
 | Description cost | ~40 tokens always in context |
@@ -1485,6 +1700,72 @@ Reviews your work across multiple categories like UI, typography, layout, color,
 | Category source | keywords |
 | Content hash | `2c3902e91970` |
 | Bundled | `agents` |
+
+### `internal-comms`
+
+A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/internal-comms` |
+| Size | 6 files, 22 KB |
+| SKILL.md | 33 lines, ~378 tokens |
+| Description cost | ~83 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | family-inference |
+| Content hash | `10f738e1dfd5` |
+| Bundled | `examples` |
+
+### `lark-doc`
+
+飞书云文档（Docx / Wiki）内容操作：读取、创建、编辑文档，插入或下载图片附件，以及操作思维笔记。用户提供文档 URL/token（包括 doubao.com 的 /docx/、/wiki/）时使用；按 URL 路径/token 而非域名路由。文档内嵌资源按读取参考中的统一规则分流。独立评论操作走 lark-drive；随正文读取评论使用 docs +fetch。表格或 Base 内部数据操作不在本 skill。
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, codex |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/lark-doc` |
+| Size | 44 files, 176 KB |
+| SKILL.md | 50 lines, ~1,048 tokens |
+| Description cost | ~113 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | family-inference |
+| Content hash | `8294cb77c695` |
+| Bundled | `references`, `genres` |
+
+### `lark-shared`
+
+Use for lark-cli setup/auth tasks: auth login/status/logout, user vs bot identity, business-domain permissions (--domain, including all/docs/drive), missing scopes, revoking authorization, or handling _notice JSON.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/lark-shared` |
+| Size | 7 files, 17 KB |
+| SKILL.md | 49 lines, ~1,071 tokens |
+| Description cost | ~54 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | family-inference |
+| Content hash | `213f7cc17c27` |
+| Bundled | `references` |
 
 ### `make-interfaces-feel-better`
 
@@ -1516,8 +1797,8 @@ Material Design 3 (Material You) design system knowledge for modern web and Angu
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/material-design-3` |
 | Size | 1 files, 9 KB |
 | SKILL.md | 314 lines, ~2,270 tokens |
@@ -1538,14 +1819,14 @@ Guide for building, configuring, and deploying microfrontends on Vercel. Use thi
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/microfrontends` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/microfrontends` |
 | Size | 7 files, 44 KB |
 | SKILL.md | 81 lines, ~1,285 tokens |
 | Description cost | ~146 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `6ee2f50bf425` |
 | Bundled | `references` |
@@ -1561,13 +1842,13 @@ Guide for building, configuring, and deploying microfrontends on Vercel. Use thi
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/microfrontends` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/microfrontends` |
 | Size | 8 files, 44 KB |
 | SKILL.md | 54 lines, ~1,090 tokens |
 | Description cost | ~146 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `1a0334cb40dd` |
 | Bundled | `agents`, `references` |
@@ -1581,8 +1862,8 @@ Clean editorial-style interfaces. Warm monochrome palette, typographic contrast,
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/minimalist-ui` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 86 lines, ~1,997 tokens |
@@ -1602,8 +1883,8 @@ Expert guidance for creating stunning, professional 2025 UI designs using Tailwi
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/modern-ui-designer` |
 | Size | 2 files, 40 KB |
 | SKILL.md | 1342 lines, ~8,493 tokens |
@@ -1613,6 +1894,28 @@ Expert guidance for creating stunning, professional 2025 UI designs using Tailwi
 | Last modified | 2026-02-10 |
 | Category source | keywords |
 | Content hash | `86c407a43bf3` |
+
+### `morning`
+
+Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if they invoke /morning by name. A question about their day, schedule, or calendar is not by itself a request for the brief; answer it directly instead.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/morning` |
+| Size | 3 files, 40 KB |
+| SKILL.md | 153 lines, ~4,541 tokens |
+| Description cost | ~85 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | family-inference |
+| Content hash | `b8bbaa39e8d8` |
+| Bundled | `assets`, `fonts` |
 
 ### `motion-ui`
 
@@ -1644,8 +1947,8 @@ Material-UI v7 component library patterns including sx prop styling, theme integ
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/mui` |
 | Size | 5 files, 40 KB |
 | SKILL.md | 505 lines, ~2,569 tokens |
@@ -1667,14 +1970,14 @@ Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, ca
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/next-cache-components` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/next-cache-components` |
 | Size | 3 files, 24 KB |
 | SKILL.md | 488 lines, ~3,052 tokens |
 | Description cost | ~62 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `75bdf870c3e3` |
 | Bundled | `upstream` |
@@ -1689,14 +1992,14 @@ Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, upd
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/next-cache-components/upstream` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/next-cache-components/upstream` |
 | Size | 1 files, 10 KB |
 | SKILL.md | 412 lines, ~2,444 tokens |
 | Description cost | ~22 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `8121fba66979` |
 
@@ -1711,13 +2014,13 @@ Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, ca
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/next-cache-components` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/next-cache-components` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 448 lines, ~2,693 tokens |
 | Description cost | ~62 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `93644c0f26e1` |
 | Bundled | `agents` |
@@ -1732,14 +2035,14 @@ Next.js App Router expert guidance. Use when building, debugging, or architectin
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/nextjs` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/nextjs` |
 | Size | 43 files, 197 KB |
 | SKILL.md | 435 lines, ~4,605 tokens |
 | Description cost | ~65 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `c4a65ed98a01` |
 | Bundled | `references`, `upstream` |
@@ -1755,16 +2058,37 @@ Next.js App Router expert guidance. Use when building, debugging, or architectin
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/nextjs` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/nextjs` |
 | Size | 22 files, 86 KB |
 | SKILL.md | 198 lines, ~1,382 tokens |
 | Description cost | ~65 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `8f0f2033b174` |
 | Bundled | `agents`, `references` |
+
+### `nextjs-supabase-auth`
+
+Expert integration of Supabase Auth with Next.js App Router
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
+| Canonical path | `~/.agents/skills/nextjs-supabase-auth` |
+| Size | 1 files, 8 KB |
+| SKILL.md | 314 lines, ~2,079 tokens |
+| Description cost | ~15 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `db94f571c714` |
 
 ### `nextjs-turbopack`
 
@@ -1811,45 +2135,25 @@ Pick the right library for a given frontend task from a curated, opinionated lis
 
 ### `product-designer`
 
-Expert product design covering UI/UX design, design systems, prototyping, user research, and design thinking.
+Product design across UI/UX, design systems, prototyping, and user research. Use when creating user journey maps, building wireframes, defining design tokens and component systems, planning usability tests, or establishing design principles.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/product-designer` |
-| Size | 1 files, 13 KB |
-| SKILL.md | 423 lines, ~3,287 tokens |
-| Description cost | ~28 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-02-10 |
-| Category source | keywords |
-| Content hash | `fcf852ebd763` |
-
-### `prototype`
-
-Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.
-
-| Field | Value |
-|---|---|
-| Pack | standalone |
-| Origin | standalone |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/skills/prototype` |
-| Size | 2 files, 15 KB |
-| SKILL.md | 91 lines, ~1,895 tokens |
+| Size | 4 files, 56 KB |
+| SKILL.md | 329 lines, ~3,338 tokens |
 | Description cost | ~61 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-07 |
-| Category source | family-inference |
-| Content hash | `66d018b591bb` |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `1e4014be60ca` |
+| Bundled | `scripts` |
 
 ### `react-best-practices`
 
@@ -1861,14 +2165,14 @@ React best-practices reviewer for TSX files. Triggers after editing multiple TSX
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/react-best-practices` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/react-best-practices` |
 | Size | 137 files, 408 KB |
 | SKILL.md | 189 lines, ~2,057 tokens |
 | Description cost | ~56 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `0ea8db4f97e5` |
 | Bundled | `rules`, `upstream` |
@@ -1884,13 +2188,13 @@ React best-practices reviewer for TSX files. Triggers after editing multiple TSX
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/react-best-practices` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/react-best-practices` |
 | Size | 69 files, 203 KB |
 | SKILL.md | 158 lines, ~1,777 tokens |
 | Description cost | ~56 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `b5410c9d22cf` |
 | Bundled | `agents`, `rules` |
@@ -1904,8 +2208,8 @@ This skill should be used when building React components with TypeScript, typing
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/react-dev` |
 | Size | 8 files, 110 KB |
 | SKILL.md | 392 lines, ~2,670 tokens |
@@ -1926,8 +2230,8 @@ React useEffect best practices from official docs. Use when writing/reviewing us
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/react-useeffect` |
 | Size | 3 files, 15 KB |
 | SKILL.md | 54 lines, ~601 tokens |
@@ -1947,17 +2251,17 @@ Implement modern responsive layouts using container queries, fluid typography, C
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/responsive-design` |
-| Size | 4 files, 45 KB |
-| SKILL.md | 525 lines, ~3,322 tokens |
+| Size | 5 files, 45 KB |
+| SKILL.md | 45 lines, ~509 tokens |
 | Description cost | ~61 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `677bb8ce9a2f` |
+| Content hash | `95dad265a2f8` |
 | Bundled | `references` |
 
 ### `review-animations`
@@ -1992,13 +2296,13 @@ Expert guidance for Satori — Vercel's library that converts HTML and CSS to SV
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/satori` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/satori` |
 | Size | 2 files, 8 KB |
 | SKILL.md | 256 lines, ~1,894 tokens |
 | Description cost | ~40 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `4feac41ad03f` |
 | Bundled | `agents` |
@@ -2035,14 +2339,14 @@ shadcn/ui expert guidance — CLI, component installation, composition patterns,
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/shadcn` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/shadcn` |
 | Size | 1 files, 20 KB |
 | SKILL.md | 597 lines, ~5,179 tokens |
 | Description cost | ~82 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `34b5a4950db8` |
 
@@ -2057,13 +2361,13 @@ shadcn/ui expert guidance — CLI, component installation, composition patterns,
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/shadcn` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/shadcn` |
 | Size | 2 files, 20 KB |
 | SKILL.md | 574 lines, ~5,027 tokens |
 | Description cost | ~82 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `07935e3b9cbf` |
 | Bundled | `agents` |
@@ -2077,17 +2381,17 @@ Provides complete shadcn/ui component library patterns including installation, c
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/shadcn-ui` |
-| Size | 5 files, 154 KB |
-| SKILL.md | 1678 lines, ~10,682 tokens |
+| Size | 12 files, 170 KB |
+| SKILL.md | 312 lines, ~2,965 tokens |
 | Description cost | ~95 tokens always in context |
 | Allowed tools | Read, Write, Bash, Edit, Glob |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `729efb6db65d` |
+| Content hash | `a49827fdae1c` |
 | Bundled | `references` |
 
 ### `shell`
@@ -2110,27 +2414,6 @@ Runs the rest of a /shell request as a literal shell command. Use only when the 
 | Last modified | 2026-04-14 |
 | Category source | family-inference |
 | Content hash | `f03e925566d6` |
-
-### `source-code-context`
-
-Use when an AI coding agent is guessing API names or framework behavior from incomplete docs. Shows how to provide local source-code references so the agent searches the real implementation before coding.
-
-| Field | Value |
-|---|---|
-| Pack | standalone |
-| Origin | standalone |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/skills/source-code-context` |
-| Size | 1 files, 3 KB |
-| SKILL.md | 80 lines, ~820 tokens |
-| Description cost | ~51 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-05-22 |
-| Category source | family-inference |
-| Content hash | `9b58dc321a31` |
 
 ### `split-to-prs`
 
@@ -2183,17 +2466,17 @@ Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/stitch-design-taste` |
 | Size | 2 files, 24 KB |
-| SKILL.md | 185 lines, ~3,011 tokens |
+| SKILL.md | 185 lines, ~3,009 tokens |
 | Description cost | ~65 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `a3ca7aa74f78` |
+| Content hash | `f23a81668693` |
 
 ### `stripe-ui-skills`
 
@@ -2204,8 +2487,8 @@ Stripe's UI design system. Use when building interfaces inspired by Stripe's aes
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/stripe-ui-skills` |
 | Size | 1 files, 6 KB |
 | SKILL.md | 169 lines, ~1,461 tokens |
@@ -2227,15 +2510,37 @@ SWR data-fetching expert guidance. Use when building React apps with client-side
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/swr` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/swr` |
 | Size | 2 files, 6 KB |
 | SKILL.md | 215 lines, ~1,497 tokens |
 | Description cost | ~50 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `fce9799ed445` |
+| Bundled | `agents` |
+
+### `sync`
+
+Run /sync as the last step after a change is complete, around merge, to keep durable knowledge current. Updates root and nested AGENTS.md, reconciles the scope from repo evidence, and flags specs the change made stale. Surgical edits only: it adds lines, and rewrites single lines it owns. Never a whole section, never curated prose.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/sync` |
+| Size | 3 files, 32 KB |
+| SKILL.md | 147 lines, ~3,771 tokens |
+| Description cost | ~84 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | family-inference |
+| Content hash | `34d34803333b` |
 | Bundled | `agents` |
 
 ### `tailwind-design-system`
@@ -2247,17 +2552,18 @@ Build scalable design systems with Tailwind CSS v4, design tokens, component lib
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/tailwind-design-system` |
-| Size | 1 files, 23 KB |
-| SKILL.md | 875 lines, ~5,866 tokens |
+| Size | 3 files, 24 KB |
+| SKILL.md | 187 lines, ~1,369 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `8a05537ba556` |
+| Content hash | `b6d2f70d0e3e` |
+| Bundled | `references` |
 
 ### `tailwind-patterns`
 
@@ -2268,17 +2574,39 @@ Tailwind CSS v4 principles. CSS-first configuration, container queries, modern p
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/tailwind-patterns` |
 | Size | 1 files, 7 KB |
-| SKILL.md | 270 lines, ~1,757 tokens |
+| SKILL.md | 280 lines, ~1,883 tokens |
 | Description cost | ~29 tokens always in context |
-| Allowed tools | Read, Write, Edit, Glob, Grep |
+| Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `b01f81130ad4` |
+| Content hash | `01412fccbc53` |
+
+### `teach`
+
+Teach the user a new skill or concept, within this workspace.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, codex |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/teach` |
+| Size | 6 files, 18 KB |
+| SKILL.md | 141 lines, ~2,412 tokens |
+| Description cost | ~16 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | family-inference |
+| Content hash | `2181b182ece1` |
+| Bundled | `agents` |
 
 ### `theme-factory`
 
@@ -2286,18 +2614,18 @@ Toolkit for styling artifacts with a theme. These artifacts can be slides, docs,
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/theme-factory` |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/theme-factory` |
 | Size | 13 files, 141 KB |
-| SKILL.md | 60 lines, ~796 tokens |
+| SKILL.md | 60 lines, ~781 tokens |
 | Description cost | ~66 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `8e70c603a335` |
 | Bundled | `themes` |
@@ -2346,24 +2674,25 @@ Use when the user has UI screenshots or design exports that need batch conversio
 
 ### `ui-ux-pro-max`
 
-UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.
+UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Searchable local data: 79 searchable styles (50 active), 192 product palettes and reasoning profiles, 74 font pairings, 119 UX guidelines, 105 icons, 17 GSAP presets, 25 chart types, and 22 stacks.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/ui-ux-pro-max` |
-| Size | 3 files, 15 KB |
-| SKILL.md | 387 lines, ~3,696 tokens |
-| Description cost | ~202 tokens always in context |
+| Size | 73 files, 3.5 MB |
+| SKILL.md | 215 lines, ~4,046 tokens |
+| Description cost | ~124 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `49524e380b3f` |
+| Content hash | `31bf8bfbaaf6` |
+| Bundled | `data`, `references`, `scripts`, `tests`, `fixtures`, `catalogs`, `stacks` |
 
 ### `v0-dev`
 
@@ -2376,13 +2705,13 @@ v0 by Vercel expert guidance. Use when discussing AI code generation, generating
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/v0-dev` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/v0-dev` |
 | Size | 2 files, 15 KB |
 | SKILL.md | 496 lines, ~3,775 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `7e28f328fbec` |
 | Bundled | `agents` |
@@ -2418,15 +2747,37 @@ React and Next.js performance optimization guidelines from Vercel Engineering. T
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, codex, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/vercel-react-best-practices` |
-| Size | 59 files, 171 KB |
-| SKILL.md | 137 lines, ~1,576 tokens |
+| Size | 76 files, 225 KB |
+| SKILL.md | 150 lines, ~1,813 tokens |
 | Description cost | ~83 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `848870574f33` |
+| Bundled | `rules` |
+
+### `vercel-react-best-practices`
+
+React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/vercel-react-best-practices` |
+| Size | 63 files, 171 KB |
+| SKILL.md | 137 lines, ~1,542 tokens |
+| Description cost | ~83 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `d000dc79b8e4` |
 | Bundled | `rules` |
@@ -2441,14 +2792,14 @@ React and Next.js performance optimization guidelines from Vercel Engineering. T
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/react-best-practices/upstream` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/react-best-practices/upstream` |
 | Size | 68 files, 203 KB |
 | SKILL.md | 144 lines, ~1,709 tokens |
 | Description cost | ~83 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `103f1c1d10f9` |
 | Bundled | `rules` |
@@ -2459,18 +2810,61 @@ Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts 
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/web-artifacts-builder` |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/web-artifacts-builder` |
 | Size | 5 files, 45 KB |
-| SKILL.md | 74 lines, ~790 tokens |
+| SKILL.md | 74 lines, ~772 tokens |
 | Description cost | ~72 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `fc5d078b8b85` |
 | Bundled | `scripts` |
+
+### `web-design-guidelines`
+
+Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, codex |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/web-design-guidelines` |
+| Size | 1 files, 1 KB |
+| SKILL.md | 40 lines, ~318 tokens |
+| Description cost | ~46 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `9d66ad3d7390` |
+
+### `xlsx`
+
+Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/xlsx` |
+| Size | 53 files, 1.1 MB |
+| SKILL.md | 100 lines, ~2,150 tokens |
+| Description cost | ~239 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | family-inference |
+| Content hash | `54069c5dd7f8` |
+| Bundled | `scripts`, `office`, `helpers`, `schemas`, `validators`, `ecma`, `iso-iec29500-4_2016`, `mce` |
