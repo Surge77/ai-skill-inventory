@@ -9,7 +9,7 @@ ConardLi's open-source Skills collection, featuring web design, knowledge retrie
 | Repo | https://github.com/ConardLi/garden-skills |
 | Skills published | 5 |
 | Installed here | 0 |
-| Stars / forks | 12,227 / 1,478 |
+| Stars / forks | 12,514 / 1,511 |
 | License | MIT |
 | Last push | 2026-07-12 |
 | Scanned at commit | `aaf9a82f5efd` |

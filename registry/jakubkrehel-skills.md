@@ -2,14 +2,14 @@
 
 [← back to the registry](README.md) · [← back to the atlas](../README.md)
 
-A collection of agent skills that help you build a great interface.
+A collection of agent skills that help you build great interfaces.
 
 | | |
 |---|---|
 | Repo | https://github.com/jakubkrehel/skills |
 | Skills published | 11 |
 | Installed here | 11 |
-| Stars / forks | 5,938 / 203 |
+| Stars / forks | 6,903 / 247 |
 | License | MIT |
 | Last push | 2026-08-29 |
 | Scanned at commit | `267330e1adfc` |

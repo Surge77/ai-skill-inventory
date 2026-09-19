@@ -9,10 +9,10 @@ A Claude Code skill that grounds AI-generated UI in real reference images and a 
 | Repo | https://github.com/codeswithroh/tastemaker |
 | Skills published | 2 |
 | Installed here | 0 |
-| Stars / forks | 334 / 20 |
+| Stars / forks | 392 / 28 |
 | License | MIT |
-| Last push | 2026-09-01 |
-| Scanned at commit | `a8136a09cf3b` |
+| Last push | 2026-09-10 |
+| Scanned at commit | `20c438e1bdb3` |
 | Status | **Not installed** |
 | Starred | 2026-09-07 |
 
@@ -28,7 +28,7 @@ A Claude Code skill that grounds AI-generated UI in real reference images and a 
 
 | Skill | On disk | Trigger | Size | Desc tokens | Description |
 |---|:---:|:---:|---:|---:|---|
-| `tastemaker` | — | auto | 58 KB | 218 | Generate genuinely beautiful, on-brand UI instead of generic "AI slop" — use whenever the user asks to build, design, style, or improve a UI, landing… |
+| `tastemaker` | — | auto | 67 KB | 218 | Generate genuinely beautiful, on-brand UI instead of generic "AI slop" — use whenever the user asks to build, design, style, or improve a UI, landing… |
 
 ### `skills/tastemaker`
 
