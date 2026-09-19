@@ -8,9 +8,9 @@ A skill's **description** is loaded into every session so the model can decide w
 
 | | |
 |---|---:|
-| Skills reachable from Claude Code | 419 |
-| Their descriptions, summed | **~29,613 tokens** |
-| Average description | ~71 tokens |
+| Skills reachable from Claude Code | 631 |
+| Their descriptions, summed | **~45,946 tokens** |
+| Average description | ~73 tokens |
 
 That is what the library costs before a single question is asked.
 
@@ -21,8 +21,21 @@ Trimming these is the cheapest context win available.
 | Skill | Description tokens | Pack |
 |---|---:|---|
 | `scroll-craft` | 294 | nateherk-design |
+| `docx` | 254 | standalone |
+| `flags-sdk` | 252 | vercel |
+| `flags-sdk` | 248 | vercel |
+| `flags-sdk` | 248 | vercel |
+| `docs` | 247 | standalone |
+| `learn` | 246 | standalone |
+| `pptx` | 241 | standalone |
+| `xlsx` | 239 | standalone |
 | `context-mode` | 237 | context-mode |
+| `agent-browser` | 232 | agent-pack |
+| `impeccable` | 224 | agents-std-store |
+| `constraint-driven-development` | 222 | agent-skills |
+| `long-horizon-prompting` | 213 | agents-std-store |
 | `design-dna` | 211 | standalone |
+| `supabase-postgres-best-practices` | 209 | agents-std-store |
 | `customer-research` | 204 | marketing-skills |
 | `directory-submissions` | 204 | marketing-skills |
 | `token-budget-advisor` | 204 | ecc |
@@ -30,21 +43,8 @@ Trimming these is the cheapest context win available.
 | `chat-sdk` | 194 | vercel |
 | `prompt-optimizer` | 193 | ecc |
 | `image` | 185 | marketing-skills |
+| `self-improvement-loops` | 185 | agents-std-store |
 | `social` | 184 | marketing-skills |
-| `ai-seo` | 173 | marketing-skills |
-| `paywalls` | 172 | marketing-skills |
-| `seo-audit` | 171 | marketing-skills |
-| `copywriting` | 168 | marketing-skills |
-| `site-architecture` | 168 | marketing-skills |
-| `cold-email` | 165 | marketing-skills |
-| `content-strategy` | 165 | marketing-skills |
-| `lead-magnets` | 165 | marketing-skills |
-| `cro` | 164 | marketing-skills |
-| `revops` | 164 | marketing-skills |
-| `sales-enablement` | 163 | marketing-skills |
-| `ad-creative` | 162 | marketing-skills |
-| `churn-prevention` | 159 | marketing-skills |
-| `community-marketing` | 158 | marketing-skills |
 
 ## The 25 heaviest bodies
 
@@ -52,20 +52,24 @@ Cost paid only when the skill is actually invoked.
 
 | Skill | SKILL.md tokens | Lines |
 |---|---:|---:|
-| `claude-api` | 21,568 | 571 |
-| `huashu-design` | 14,565 | 802 |
+| `design-taste-frontend` | 22,115 | 1,207 |
+| `claude-api` | 21,693 | 573 |
+| `huashu-design` | 16,461 | 583 |
 | `graphify-windows` | 12,865 | 1,247 |
+| `vercel-functions` | 12,369 | 961 |
 | `workflow` | 11,301 | 1,222 |
-| `shadcn-ui` | 10,682 | 1,678 |
+| `workflow` | 11,300 | 1,222 |
 | `write-swift` | 10,644 | 389 |
+| `gepeto` | 10,561 | 566 |
 | `imagegen-frontend-mobile` | 10,448 | 1,466 |
 | `documents` | 9,954 | 456 |
+| `imagegen-frontend-web` | 9,461 | 988 |
 | `image-to-code` | 9,418 | 1,229 |
 | `agency-healthcare-marketing-compliance` | 8,914 | 399 |
 | `modern-ui-designer` | 8,493 | 1,342 |
 | `skill-creator` | 8,414 | 486 |
+| `skill-creator` | 8,338 | 486 |
 | `agency-supply-chain-strategist` | 8,327 | 586 |
-| `workflow` | 8,245 | 979 |
 | `Hooks Automation` | 8,137 | 1,202 |
 | `Hooks Automation` | 8,137 | 1,202 |
 | `subagent-driven-development` | 8,085 | 569 |
@@ -73,10 +77,6 @@ Cost paid only when the skill is actually invoked.
 | `windows-desktop-e2e` | 7,861 | 888 |
 | `workflow` | 7,832 | 795 |
 | `agency-marketing-short-video-editing-coach` | 7,744 | 416 |
-| `github-project-management` | 7,708 | 1,264 |
-| `github-release-management` | 7,681 | 1,082 |
-| `quality-nonconformance` | 7,662 | 261 |
-| `agency-recruitment-specialist` | 7,585 | 513 |
 
 ## The 25 largest on disk
 
@@ -84,28 +84,28 @@ Bundled scripts, references and assets. Disk, not context.
 
 | Skill | Size | Files |
 |---|---:|---:|
-| `huashu-design` | 31.1 MB | 155 |
+| `huashu-design` | 31.7 MB | 191 |
+| `context-engineering-collection` | 11.2 MB | 506 |
+| `artifact-template-team-alignment` | 7.1 MB | 5 |
 | `canvas-design` | 5.3 MB | 83 |
 | `token-optimizer` | 5.1 MB | 67 |
 | `Presentations` | 4.5 MB | 113 |
-| `context-engineering-collection` | 2.4 MB | 223 |
+| `ui-ux-pro-max` | 3.5 MB | 73 |
+| `artifact-template-simple-dark-mode` | 3.2 MB | 5 |
+| `artifact-template-design-report` | 3.0 MB | 5 |
+| `artifact-template-strategy-memorandum` | 2.6 MB | 5 |
+| `impeccable` | 2.1 MB | 57 |
+| `artifact-template-project-kickoff` | 2.0 MB | 5 |
+| `artifact-template-business-review` | 2.0 MB | 5 |
+| `artifact-template-market-trends-report` | 1.9 MB | 5 |
+| `artifact-template-simple-light-mode` | 1.5 MB | 5 |
 | `claude-api` | 1.1 MB | 70 |
 | `pptx` | 1.1 MB | 56 |
 | `docx` | 1.1 MB | 61 |
+| `pptx` | 1.1 MB | 56 |
+| `docx` | 1.1 MB | 61 |
 | `xlsx` | 1.1 MB | 53 |
-| `impeccable` | 730 KB | 52 |
-| `book-sft-pipeline` | 659 KB | 11 |
-| `reasoning-trace-optimizer` | 574 KB | 60 |
-| `documents` | 419 KB | 78 |
-| `react-best-practices` | 408 KB | 137 |
-| `scroll-craft` | 359 KB | 22 |
-| `skill-creator` | 225 KB | 18 |
-| `openclaw` | 222 KB | 17 |
-| `react-best-practices` | 203 KB | 69 |
-| `vercel-react-best-practices` | 203 KB | 68 |
-| `nextjs` | 197 KB | 43 |
-| `benchmark-sandbox` | 193 KB | 9 |
-| `continuous-learning-v2` | 172 KB | 12 |
-| `vercel-react-best-practices` | 171 KB | 59 |
-| `writing-clearly-and-concisely` | 170 KB | 7 |
-| `shadcn-ui` | 154 KB | 5 |
+| `cloudflare` | 938 KB | 289 |
+| `book-sft-pipeline` | 668 KB | 13 |
+| `artifact-template-legal-memorandum` | 644 KB | 5 |
+| `reasoning-trace-optimizer` | 596 KB | 63 |

@@ -1,6 +1,6 @@
 # Media & Content
 
-19 skills — 18 installed, 1 available in a marketplace but not installed.
+20 skills — 19 installed, 1 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -9,14 +9,15 @@
 | `agency-design-image-prompt-engineer` | Agency agent wrapper for Image Prompt Engineer. Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation. Masters the art of translati… | agency-roles | codex | 1 files, 11 KB |
 | `agency-marketing-podcast-strategist` | Agency agent wrapper for Podcast Strategist. Content strategy and operations expert for the Chinese podcast market, with deep expertise in Xiaoyuzhou, Ximalaya, and other major audio platfo… | agency-roles | codex | 1 files, 18 KB |
 | `agency-marketing-short-video-editing-coach` | Agency agent wrapper for Short-Video Editing Coach. Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve,… | agency-roles | codex | 1 files, 30 KB |
+| `book-translation` | Translate "The Interactive Book of Prompting" chapters and UI strings to a new language *(marketplace only)* | .windsurf | claude-code | 1 files, 7 KB |
 | `fal-ai-media` | Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-au… | ecc | claude-code | 1 files, 7 KB |
 | `fal-ai-media` | Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-au… | agents-std-store | agents-std | 2 files, 7 KB |
 | `image` | When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use… | marketing-skills | claude-code | 3 files, 30 KB |
-| `image-to-code` | Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match th… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 37 KB |
+| `image-to-code` | Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match th… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 37 KB |
 | `json-render` | AI chat response rendering guidance — handling UIMessage parts, tool call displays, streaming states, and structured data presentation. Use when building custom chat UIs, rendering tool res… | vercel | codex | 2 files, 11 KB |
 | `manim-video` | Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user wants a cl… | ecc | claude-code | 2 files, 6 KB |
-| `meme-factory` | Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 52 KB |
-| `pdf` | Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs… *(marketplace only)* | skills | claude-code | 12 files, 59 KB |
+| `meme-factory` | Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 52 KB |
+| `pdf` | Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs… | standalone | claude-code | 12 files, 57 KB |
 | `pdf` | Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab… | standalone | codex | 4 files, 15 KB |
 | `pdf` | Read, create, inspect, render, and verify PDF files where visual layout matters, including fillable AcroForms. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pyp… | pdf | codex | 3 files, 8 KB |
 | `remotion-video-creation` | Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. | ecc | claude-code | 32 files, 79 KB |
@@ -90,6 +91,27 @@ Agency agent wrapper for Short-Video Editing Coach. Hands-on short-video editing
 | Last modified | 2026-03-13 |
 | Category source | keywords |
 | Content hash | `4f3b0ee8eb30` |
+
+### `book-translation`
+
+Translate "The Interactive Book of Prompting" chapters and UI strings to a new language
+
+| Field | Value |
+|---|---|
+| Pack | .windsurf |
+| Origin | marketplace `prompts.chat` |
+| Status | available, not installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/marketplaces/prompts.chat/.windsurf/skills/book-translation` |
+| Size | 1 files, 7 KB |
+| SKILL.md | 214 lines, ~1,905 tokens |
+| Description cost | ~22 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `d8859ce92770` |
 
 ### `fal-ai-media`
 
@@ -165,8 +187,8 @@ Elite website image-to-code skill for Codex. For visually important web tasks, i
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/image-to-code` |
 | Size | 1 files, 37 KB |
 | SKILL.md | 1229 lines, ~9,418 tokens |
@@ -188,13 +210,13 @@ AI chat response rendering guidance — handling UIMessage parts, tool call disp
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/json-render` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/json-render` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 335 lines, ~2,678 tokens |
 | Description cost | ~61 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `b7cc3fb4cbec` |
 | Bundled | `agents` |
@@ -230,8 +252,8 @@ Generate memes using the memegen.link API. Use when users request memes, want to
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/meme-factory` |
 | Size | 4 files, 52 KB |
 | SKILL.md | 332 lines, ~2,039 tokens |
@@ -249,18 +271,18 @@ Use this skill whenever the user wants to do anything with PDF files. This inclu
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/pdf` |
-| Size | 12 files, 59 KB |
-| SKILL.md | 315 lines, ~2,097 tokens |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/pdf` |
+| Size | 12 files, 57 KB |
+| SKILL.md | 315 lines, ~2,018 tokens |
 | Description cost | ~110 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `7489d5b400fe` |
 | Bundled | `scripts` |

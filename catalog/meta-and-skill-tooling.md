@@ -1,6 +1,6 @@
 # Meta & Skill Tooling
 
-65 skills — 38 installed, 27 available in a marketplace but not installed.
+74 skills — 46 installed, 28 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -33,11 +33,14 @@
 | `discover-plugins` | Discover and recommend ruflo plugins based on your workflow, installed MCP tools, and current task *(marketplace only)* | plugins | claude-code | 1 files, 8 KB |
 | `example-skill` | This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill template", or discusses skill development patterns. Provides a reference template… *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `find-skills` | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabiliti… | agents-std-store | cline, codex, continue, cursor, factory, gemini, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 5 KB |
+| `find-skills` | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabiliti… | standalone | claude-code | 1 files, 5 KB |
+| `harness-engineering` | This skill should be used when designing autonomous agent harnesses: research loops, evaluation scaffolds, locked and editable surfaces, durable logs, novelty gates, pruning, rollback, PR p… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 11 KB |
 | `Hook Development` | This skill should be used when the user asks to "create a hook", "add a PreToolUse/PostToolUse/Stop hook", "validate tool use", "implement prompt-based hooks", "use ${CLAUDE_PLUGIN_ROOT}",… *(marketplace only)* | plugins | claude-code | 11 files, 63 KB |
 | `hook-development` | This skill should be used when the user asks to "create a hook", "add a PreToolUse/PostToolUse/Stop hook", "validate tool use", "implement prompt-based hooks", "use ${CLAUDE_PLUGIN_ROOT}",… *(marketplace only)* | plugins | claude-code | 11 files, 63 KB |
 | `hookify-rules` | This skill should be used when the user asks to create a hookify rule, write a hook rule, configure hookify, add a hookify rule, or needs guidance on hookify rule syntax and patterns. | ecc | claude-code | 1 files, 4 KB |
 | `install-mfw` | Install the mfw (Semgrep Malware Firewall) CLI via the curl\|sh installer and walk the user through setup — trust store, PATH shims, shell integration, and the background daemon — asking qu… | semgrep | claude-code | 3 files, 18 KB |
 | `laravel-plugin-discovery` | Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility. | ecc | claude-code | 1 files, 6 KB |
+| `marketplace` | Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel integration` CLI. Use when building any app that needs an external capabi… | vercel | claude-code | 1 files, 7 KB |
 | `marketplace` | Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel integration` CLI. Use when building any app that needs an external capabi… | vercel | claude-code | 1 files, 7 KB |
 | `marketplace` | Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel integration` CLI. Use when building any app that needs an external capabi… | vercel | codex | 2 files, 7 KB |
 | `migrate-to-skills` | Convert 'Applied intelligently' Cursor rules (.cursor/rules/*.mdc) and slash commands (.cursor/commands/*.md) to Agent Skills format (.cursor/skills/). Use when you want to migrate rules or… | standalone | cursor | 1 files, 6 KB |
@@ -45,32 +48,38 @@
 | `Plugin Structure` | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understand plugin structure", "organize plugin components", "set up plugin.json", "use ${CLAUDE_PLUG… *(marketplace only)* | plugins | claude-code | 7 files, 73 KB |
 | `plugin-audit` | Audit vercel-plugin performance on real-world projects. Extracts tool calls from Claude Code conversation logs, tests hook matching against actual inputs, identifies pattern coverage gaps,… | vercel | claude-code | 3 files, 11 KB |
 | `plugin-creator` | Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, valid manifest defaults, and personal-marketplace entries by def… | standalone | codex | 11 files, 69 KB |
-| `plugin-forge` | Create and manage Claude Code plugins with proper structure, manifests, and marketplace integration. Use when creating plugins for a marketplace, adding plugin components (commands, agents,… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 23 KB |
+| `plugin-forge` | Create and manage Claude Code plugins with proper structure, manifests, and marketplace integration. Use when creating plugins for a marketplace, adding plugin components (commands, agents,… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 23 KB |
 | `plugin-management` | Discover and suggest relevant plugins, inspect app permissions and dependencies, and manage plugin connections or removal. Use when the user asks about plugins or when a task would material… | plugin-management | codex | 1 files, 3 KB |
 | `plugin-settings` | This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurable plugin", ".local.md files", "plugin state files", "read YAML frontmatt… *(marketplace only)* | plugins | claude-code | 8 files, 43 KB |
 | `plugin-structure` | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understand plugin structure", "organize plugin components", "set up plugin.json", "use ${CLAUDE_PLUG… *(marketplace only)* | plugins | claude-code | 7 files, 73 KB |
 | `project-artifact` | Generate and publish a project status artifact — an opinionated, tabbed status page for a project too big for one update (overview & success criteria, the workstream sequence, next steps, p… *(marketplace only)* | plugins | claude-code | 3 files, 46 KB |
+| `self-improvement-loops` | This skill should be used when the harness, scaffold, workflow, or optimizer itself is the optimization target: recursive self-improvement (RSI) loops, meta-harnesses, self-improving harnes… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 35 KB |
+| `setup-matt-pocock-skills` | Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills. | agents-std-store | claude-code, codex, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 19 KB |
 | `Skill Builder` | Create new Claude Code Skills with proper YAML frontmatter, progressive disclosure structure, and complete directory organization. Use when you need to build custom skills for specific work… *(marketplace only)* | .agents | claude-code | 1 files, 22 KB |
 | `Skill Builder` | Create new Claude Code Skills with proper YAML frontmatter, progressive disclosure structure, and complete directory organization. Use when you need to build custom skills for specific work… *(marketplace only)* | .claude | claude-code | 1 files, 22 KB |
 | `Skill Development` | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organize skill content", or needs guidance on… *(marketplace only)* | plugins | claude-code | 2 files, 34 KB |
+| `skill-creator` | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to t… | standalone | claude-code | 18 files, 222 KB |
 | `skill-creator` | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to t… *(marketplace only)* | skills | claude-code | 18 files, 225 KB |
 | `skill-creator` | Create or update a Codex skill with appropriately scoped instructions and any needed supporting resources. | standalone | codex | 9 files, 53 KB |
 | `skill-development` | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organize skill content", or needs guidance on… *(marketplace only)* | plugins | claude-code | 2 files, 34 KB |
+| `skill-inspector` | Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic review. Use when asked whether a skill or downloaded skill folder is safe, trustworthy, instal… | standalone | claude-code | 1 files, 7 KB |
 | `skill-installer` | Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from ano… | standalone | codex | 8 files, 32 KB |
-| `skill-judge` | Evaluate Agent Skill design quality against official specifications and best practices. Use when reviewing, auditing, or improving SKILL.md files and skill packages. Provides multi-dimensio… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 31 KB |
+| `skill-judge` | Evaluate Agent Skill design quality against official specifications and best practices. Use when reviewing, auditing, or improving SKILL.md files and skill packages. Provides multi-dimensio… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 31 KB |
 | `skill-scout` | Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the user wants to create, build, fork, or find a skill for a workflow. | ecc | claude-code | 1 files, 5 KB |
-| `skill-template` | Template for creating new Agent Skills for context engineering. Use this template when adding new skills to the collection. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
+| `skill-template` | Template for creating new Agent Skills for context engineering. Use this template when adding new skills to the collection. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 6 KB |
 | `template-skill` | Replace with description of the skill and when Claude should use it. *(marketplace only)* | template | claude-code | 1 files, 1 KB |
 | `update-cli-config` | View and modify Cursor CLI configuration settings in ~/.cursor/cli-config.json. Use when the user wants to change CLI settings, configure permissions, switch approval mode, enable vim mode,… | standalone | cursor | 1 files, 4 KB |
 | `update-cursor-settings` | Modify Cursor/VSCode user settings in settings.json. Use when you want to change editor settings, preferences, configuration, themes, font size, tab size, format on save, auto save, keybind… | standalone | cursor | 1 files, 4 KB |
+| `using-agent-skills` | Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs… | agent-skills | claude-code | 1 files, 10 KB |
 | `validate-plugin` | Validate a Claude Code plugin structure, frontmatter, and MCP tool references *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `vercel-plugin-eval` | Run live eval sessions against the vercel-plugin to verify hook behavior, skill injection, dedup correctness, and coverage. Launches real Claude Code sessions via WezTerm, monitors debug lo… | vercel | claude-code | 1 files, 5 KB |
+| `widget-generator` | Generate customizable widget plugins for the prompts.chat feed system *(marketplace only)* | .windsurf | claude-code | 1 files, 10 KB |
 | `workspace-surface-audit` | Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup, then recommend the highest-value ECC-native skills, hooks, agents, and operator workflows. Use when… | ecc | claude-code | 1 files, 5 KB |
-| `write-a-skill` | Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill. | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 3 KB |
+| `write-a-skill` | Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill. | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 3 KB |
 | `Writing Hookify Rules` | This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule syntax and pattern… *(marketplace only)* | plugins | claude-code | 1 files, 8 KB |
 | `writing-hookify-rules` | This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule syntax and pattern… | hookify | claude-code | 1 files, 8 KB |
-| `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 101 KB |
-| `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment | superpowers | claude-code | 7 files, 105 KB |
+| `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 105 KB |
+| `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment | superpowers | claude-code | 7 files, 101 KB |
 
 ## Detail
 
@@ -91,7 +100,7 @@ Manage Discord channel access — approve pairings, edit allowlists, set DM/grou
 | Description cost | ~51 tokens always in context |
 | Allowed tools | - Read - Write - Bash(ls *) - Bash(mkdir *) |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | family-inference |
 | Content hash | `aec806211989` |
 
@@ -112,7 +121,7 @@ Manage iMessage channel access — approve pairings, edit allowlists, set DM/gro
 | Description cost | ~51 tokens always in context |
 | Allowed tools | - Read - Write - Bash(ls *) - Bash(mkdir *) |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | family-inference |
 | Content hash | `9f2079190270` |
 
@@ -133,7 +142,7 @@ Manage Telegram channel access — approve pairings, edit allowlists, set DM/gro
 | Description cost | ~51 tokens always in context |
 | Allowed tools | - Read - Write - Bash(ls *) - Bash(mkdir *) - Bash(echo *) |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | family-inference |
 | Content hash | `86e970af14d7` |
 
@@ -274,14 +283,14 @@ Create and launch benchmark test projects to exercise vercel-plugin skill inject
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/.claude/skills/benchmark-testing` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/.claude/skills/benchmark-testing` |
 | Size | 1 files, 4 KB |
 | SKILL.md | 73 lines, ~965 tokens |
 | Description cost | ~58 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `9a0cc08b4a9e` |
 
@@ -302,7 +311,7 @@ This skill should be used when the user asks to "create a slash command", "add a
 | Description cost | ~122 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `daa4512e8a19` |
 | Bundled | `examples`, `references` |
@@ -324,7 +333,7 @@ This skill should be used when the user asks to "create a slash command", "add a
 | Description cost | ~122 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `bfa93e255594` |
 | Bundled | `examples`, `references` |
@@ -346,7 +355,7 @@ Set up the Discord channel — save the bot token and review access policy. Use 
 | Description cost | ~59 tokens always in context |
 | Allowed tools | - Read - Write - Bash(ls *) - Bash(mkdir *) |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `b401122bd480` |
 
@@ -367,7 +376,7 @@ Check iMessage channel setup and review access policy. Use when the user asks to
 | Description cost | ~53 tokens always in context |
 | Allowed tools | - Read - Bash(ls *) |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `e28cde7ebcde` |
 
@@ -388,7 +397,7 @@ Set up the Telegram channel — save the bot token and review access policy. Use
 | Description cost | ~59 tokens always in context |
 | Allowed tools | - Read - Write - Bash(ls *) - Bash(mkdir *) - Bash(echo *) - Bash(chmod *) |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `064c61a4fa57` |
 
@@ -620,7 +629,7 @@ This skill should be used when the user asks to "demonstrate skills", "show skil
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `afea9f68bd8e` |
 
@@ -645,6 +654,48 @@ Helps users discover and install agent skills when they ask questions like "how 
 | Category source | keywords |
 | Content hash | `b2a7a2077fa6` |
 
+### `find-skills`
+
+Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/find-skills` |
+| Size | 1 files, 5 KB |
+| SKILL.md | 142 lines, ~1,368 tokens |
+| Description cost | ~76 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `4ddfb84a66e1` |
+
+### `harness-engineering`
+
+This skill should be used when designing autonomous agent harnesses: research loops, evaluation scaffolds, locked and editable surfaces, durable logs, novelty gates, pruning, rollback, PR preparation, and human approval boundaries.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/skills/harness-engineering` |
+| Size | 1 files, 11 KB |
+| SKILL.md | 235 lines, ~2,912 tokens |
+| Description cost | ~58 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `f89e6f29db59` |
+
 ### `Hook Development`
 
 This skill should be used when the user asks to "create a hook", "add a PreToolUse/PostToolUse/Stop hook", "validate tool use", "implement prompt-based hooks", "use ${CLAUDE_PLUGIN_ROOT}", "set up event-driven automation", "block dangerous commands", or mentions hook events (PreToolUse, PostToolUse, Stop, SubagentStop, SessionStart, SessionEnd, UserPromptSubmit, PreCompact, Notification). Provides comprehensive guidance for creating and implementing Claude Code plugin hooks with focus on advanced prompt-based hooks API.
@@ -662,7 +713,7 @@ This skill should be used when the user asks to "create a hook", "add a PreToolU
 | Description cost | ~132 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `ceb5948fc4c0` |
 | Bundled | `examples`, `references`, `scripts` |
@@ -684,7 +735,7 @@ This skill should be used when the user asks to "create a hook", "add a PreToolU
 | Description cost | ~132 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `834effaaa8ae` |
 | Bundled | `examples`, `references`, `scripts` |
@@ -720,14 +771,14 @@ Install the mfw (Semgrep Malware Firewall) CLI via the curl\|sh installer and wa
 | Origin | plugin `semgrep` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/semgrep/2.1.4/skills/install-mfw` |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/semgrep/2.1.5/skills/install-mfw` |
 | Size | 3 files, 18 KB |
 | SKILL.md | 226 lines, ~3,005 tokens |
 | Description cost | ~130 tokens always in context |
 | Allowed tools | - AskUserQuestion - Read - Edit - Write - Bash(uname:*) - Bash(command -v *) - Bash(sh ${CLAUDE_SKILL_DIR}/scripts/*) - Bash(${CLAUDE_SKILL_DIR}/scripts/*) - Bash(curl -fsSL https://*/dist/mfw/install.sh \| sh) - Bash(mfw *) - Bash(~/.local/bin/mfw *) - Bash(sudo mfw *) - Bash(readlink *) - Bash(realpath *) - Bash(ls -l *) - Bash(stat *) - Bash(grep *) - Bash(head *) - Bash(home-manager *) - Bash(darwin-rebuild *) - Bash(nixos-rebuild *) - Bash(chezmoi *) |
 | Model | — |
-| Last modified | 2026-07-23 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `5d871dae4c5c` |
 | Bundled | `scripts` |
@@ -763,16 +814,37 @@ Vercel Marketplace expert guidance — discovering, installing, and managing thi
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/marketplace` |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/marketplace` |
 | Size | 1 files, 7 KB |
 | SKILL.md | 111 lines, ~1,879 tokens |
 | Description cost | ~111 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `26f39ea10e1d` |
+
+### `marketplace`
+
+Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel integration` CLI. Use when building any app that needs an external capability without a dedicated skill — commerce (stores, storefronts, selling products), payments (checkout, subscriptions, billing), observability/monitoring, messaging/email, search, or CMS — or when discovering, installing, or managing integrations.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.0/skills/marketplace` |
+| Size | 1 files, 7 KB |
+| SKILL.md | 111 lines, ~1,878 tokens |
+| Description cost | ~111 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | keywords |
+| Content hash | `3888f991752d` |
 
 ### `marketplace`
 
@@ -785,13 +857,13 @@ Vercel Marketplace expert guidance — discovering, installing, and managing thi
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/marketplace` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/marketplace` |
 | Size | 2 files, 7 KB |
 | SKILL.md | 89 lines, ~1,676 tokens |
 | Description cost | ~111 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `97421e8f6ac8` |
 | Bundled | `agents` |
@@ -834,7 +906,7 @@ This skill should be used when the user asks about "plugin settings", "store plu
 | Description cost | ~102 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `e83d861322aa` |
 | Bundled | `examples`, `references`, `scripts` |
@@ -856,7 +928,7 @@ This skill should be used when the user asks to "create a plugin", "scaffold a p
 | Description cost | ~109 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `c269e921160e` |
 | Bundled | `examples`, `references` |
@@ -871,14 +943,14 @@ Audit vercel-plugin performance on real-world projects. Extracts tool calls from
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/.claude/skills/plugin-audit` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/.claude/skills/plugin-audit` |
 | Size | 3 files, 11 KB |
 | SKILL.md | 74 lines, ~758 tokens |
 | Description cost | ~78 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `3580601b6b7c` |
 | Bundled | `references`, `scripts` |
@@ -900,7 +972,7 @@ Create and scaffold plugin directories for Codex with a required `.codex-plugin/
 | Description cost | ~118 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-06 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `e1f7df45e45d` |
 | Bundled | `agents`, `assets`, `references`, `scripts` |
@@ -914,8 +986,8 @@ Create and manage Claude Code plugins with proper structure, manifests, and mark
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/plugin-forge` |
 | Size | 6 files, 23 KB |
 | SKILL.md | 225 lines, ~1,366 tokens |
@@ -965,7 +1037,7 @@ This skill should be used when the user asks about "plugin settings", "store plu
 | Description cost | ~102 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `2fda9b9bc46d` |
 | Bundled | `examples`, `references`, `scripts` |
@@ -987,7 +1059,7 @@ This skill should be used when the user asks to "create a plugin", "scaffold a p
 | Description cost | ~109 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `85d3dd9e2419` |
 | Bundled | `examples`, `references` |
@@ -1009,9 +1081,53 @@ Generate and publish a project status artifact — an opinionated, tabbed status
 | Description cost | ~228 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `28a2f02a8bce` |
+
+### `self-improvement-loops`
+
+This skill should be used when the harness, scaffold, workflow, or optimizer itself is the optimization target: recursive self-improvement (RSI) loops, meta-harnesses, self-improving harnesses that mine their own failures and propose bounded edits, evolutionary or population-based search over agent scaffolds, acceptance gates for self-modifying systems, and agentic context evolution where the mechanism that produces context is versioned and evolved. Route governance of a single autonomous loop (locked surfaces, durable logs, rollback, novelty gates, approval boundaries) to harness-engineering, measurement and quality-gate design to evaluation, judge design to advanced-evaluation, and remote sandbox infrastructure to hosted-agents.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/skills/self-improvement-loops` |
+| Size | 2 files, 35 KB |
+| SKILL.md | 255 lines, ~5,625 tokens |
+| Description cost | ~185 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `b5a91751d83f` |
+| Bundled | `references` |
+
+### `setup-matt-pocock-skills`
+
+Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, codex, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 9 (7 symlinked) |
+| Canonical path | `~/.agents/skills/setup-matt-pocock-skills` |
+| Size | 7 files, 19 KB |
+| SKILL.md | 117 lines, ~1,740 tokens |
+| Description cost | ~45 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `284420a1f6d4` |
+| Bundled | `agents` |
 
 ### `Skill Builder`
 
@@ -1072,10 +1188,32 @@ This skill should be used when the user wants to "create a skill", "add a skill 
 | Description cost | ~73 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `4c74111b8049` |
 | Bundled | `references` |
+
+### `skill-creator`
+
+Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/skill-creator` |
+| Size | 18 files, 222 KB |
+| SKILL.md | 486 lines, ~8,338 tokens |
+| Description cost | ~80 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `6693efb6e390` |
+| Bundled | `agents`, `assets`, `eval-viewer`, `references`, `scripts` |
 
 ### `skill-creator`
 
@@ -1094,7 +1232,7 @@ Create new skills, modify and improve existing skills, and measure skill perform
 | Description cost | ~80 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
 | Content hash | `17e4755b3928` |
 | Bundled | `agents`, `assets`, `eval-viewer`, `references`, `scripts` |
@@ -1116,7 +1254,7 @@ Create or update a Codex skill with appropriately scoped instructions and any ne
 | Description cost | ~27 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-06 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `26851dd4ef55` |
 | Bundled | `agents`, `assets`, `references`, `scripts` |
@@ -1138,10 +1276,31 @@ This skill should be used when the user wants to "create a skill", "add a skill 
 | Description cost | ~73 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `0cb907253476` |
 | Bundled | `references` |
+
+### `skill-inspector`
+
+Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic review. Use when asked whether a skill or downloaded skill folder is safe, trustworthy, installable, over-permissioned, or malicious.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/skill-inspector` |
+| Size | 1 files, 7 KB |
+| SKILL.md | 171 lines, ~1,804 tokens |
+| Description cost | ~57 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-15 |
+| Category source | keywords |
+| Content hash | `9c4e4a944e8e` |
 
 ### `skill-installer`
 
@@ -1160,7 +1319,7 @@ Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub rep
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-06 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `4224e29f4718` |
 | Bundled | `agents`, `assets`, `scripts` |
@@ -1174,8 +1333,8 @@ Evaluate Agent Skill design quality against official specifications and best pra
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/skill-judge` |
 | Size | 1 files, 31 KB |
 | SKILL.md | 753 lines, ~7,946 tokens |
@@ -1216,17 +1375,18 @@ Template for creating new Agent Skills for context engineering. Use this templat
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/template` |
-| Size | 1 files, 4 KB |
-| SKILL.md | 99 lines, ~938 tokens |
+| Size | 3 files, 6 KB |
+| SKILL.md | 119 lines, ~1,321 tokens |
 | Description cost | ~31 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `2b64e70bca58` |
+| Content hash | `13d49c2bf64d` |
+| Bundled | `references` |
 
 ### `template-skill`
 
@@ -1245,7 +1405,7 @@ Replace with description of the skill and when Claude should use it.
 | Description cost | ~17 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
 | Content hash | `aadb3ed4e18a` |
 
@@ -1291,6 +1451,27 @@ Modify Cursor/VSCode user settings in settings.json. Use when you want to change
 | Category source | keywords |
 | Content hash | `0e4a8342ffcf` |
 
+### `using-agent-skills`
+
+Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/using-agent-skills` |
+| Size | 1 files, 10 KB |
+| SKILL.md | 193 lines, ~2,612 tokens |
+| Description cost | ~60 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `093a89ac32f4` |
+
 ### `validate-plugin`
 
 Validate a Claude Code plugin structure, frontmatter, and MCP tool references
@@ -1322,16 +1503,37 @@ Run live eval sessions against the vercel-plugin to verify hook behavior, skill 
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/.claude/skills/vercel-plugin-eval` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/.claude/skills/vercel-plugin-eval` |
 | Size | 1 files, 5 KB |
 | SKILL.md | 137 lines, ~1,279 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `41b5365bc70e` |
+
+### `widget-generator`
+
+Generate customizable widget plugins for the prompts.chat feed system
+
+| Field | Value |
+|---|---|
+| Pack | .windsurf |
+| Origin | marketplace `prompts.chat` |
+| Status | available, not installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/marketplaces/prompts.chat/.windsurf/skills/widget-generator` |
+| Size | 1 files, 10 KB |
+| SKILL.md | 393 lines, ~2,455 tokens |
+| Description cost | ~18 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `7459926462ab` |
 
 ### `workspace-surface-audit`
 
@@ -1363,8 +1565,8 @@ Create new agent skills with proper structure, progressive disclosure, and bundl
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store |
+| Installed copies | 7 (5 symlinked) |
 | Canonical path | `~/.agents/skills/write-a-skill` |
 | Size | 1 files, 3 KB |
 | SKILL.md | 118 lines, ~794 tokens |
@@ -1392,7 +1594,7 @@ This skill should be used when the user asks to "create a hookify rule", "write 
 | Description cost | ~48 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-16 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `258babaec7f8` |
 
@@ -1406,14 +1608,14 @@ This skill should be used when the user asks to "create a hookify rule", "write 
 | Origin | plugin `hookify` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 9 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/hookify/0120fb83da5d/skills/writing-rules` |
+| Installed copies | 16 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/hookify/022b3c274938/skills/writing-rules` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 375 lines, ~2,106 tokens |
 | Description cost | ~48 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-02 |
+| Last modified | 2026-09-14 |
 | Category source | keywords |
 | Content hash | `c859d0387e43` |
 
@@ -1427,16 +1629,16 @@ Use when creating new skills, editing existing skills, or verifying skills work 
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/writing-skills` |
-| Size | 7 files, 101 KB |
-| SKILL.md | 656 lines, ~5,617 tokens |
+| Size | 7 files, 105 KB |
+| SKILL.md | 680 lines, ~6,590 tokens |
 | Description cost | ~25 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `cf0cd727deb0` |
+| Content hash | `b1040ac9bb7a` |
 | Bundled | `examples` |
 
 ### `writing-skills`
@@ -1446,17 +1648,17 @@ Use when creating new skills, editing existing skills, or verifying skills work 
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/writing-skills` |
-| Size | 7 files, 105 KB |
-| SKILL.md | 680 lines, ~6,590 tokens |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/writing-skills` |
+| Size | 7 files, 101 KB |
+| SKILL.md | 656 lines, ~5,617 tokens |
 | Description cost | ~25 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `b1040ac9bb7a` |
+| Content hash | `cf0cd727deb0` |
 | Bundled | `examples` |

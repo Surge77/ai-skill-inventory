@@ -1,6 +1,6 @@
 # Docs & Writing
 
-34 skills — 30 installed, 4 available in a marketplace but not installed.
+40 skills — 37 installed, 3 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -10,36 +10,42 @@
 | `agency-best-technical-writer` | Preferred daily-use technical writing specialist from the Agency set. Use for README work, architecture notes, API docs, handoff docs, release notes, and user-facing technical explanations. | agency-roles | codex | 1 files, 1 KB |
 | `agency-engineering-technical-writer` | Agency agent wrapper for Technical Writer. Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering conce… | agency-roles | codex | 1 files, 14 KB |
 | `agency-specialized-document-generator` | Agency agent wrapper for Document Generator. Expert document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formattin… | agency-roles | codex | 1 files, 3 KB |
+| `article-extractor` | Extract clean article content from URLs (blog posts, articles, tutorials) and save as readable text. Use when user wants to download, extract, or save an article/blog post from a URL withou… | standalone | claude-code | 1 files, 9 KB |
 | `article-writing` | Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user want… | ecc | claude-code | 1 files, 3 KB |
 | `article-writing` | Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user want… | agents-std-store | agents-std | 2 files, 3 KB |
 | `better-writing` | Focuses on improving product copy in your project. | standalone | claude-code | 2 files, 6 KB |
 | `brand-voice` | Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the… | ecc | claude-code | 2 files, 5 KB |
 | `brand-voice` | Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the… | agents-std-store | agents-std | 3 files, 5 KB |
-| `c4-architecture` | Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 di… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 56 KB |
+| `c4-architecture` | Generate architecture documentation using C4 model Mermaid diagrams. Use when asked to create architecture diagrams, document system architecture, visualize software structure, create C4 di… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 56 KB |
 | `content-strategy` | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write a… | marketing-skills | claude-code | 1 files, 12 KB |
-| `crafting-effective-readmes` | Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 13 files, 54 KB |
-| `doc-coauthoring` | Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured conten… *(marketplace only)* | skills | claude-code | 1 files, 16 KB |
+| `crafting-effective-readmes` | Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 13 files, 54 KB |
+| `doc-coauthoring` | Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured conten… | standalone | claude-code | 1 files, 15 KB |
+| `docs` | docs (living docs people share, comment on and edit; use only when the user asks for one: names a doc, document, page, memo, spec, PRD, runbook or write-up, asks for somewhere to share or k… | standalone | claude-code | 1 files, 1 KB |
+| `document` | Run /document `pr` \| `changelog` \| `release-note` \| `postmortem` (or let it ask) to write the human facing prose about a change. Drafts from the real commits and diff, writing to the rig… | standalone | codex | 7 files, 21 KB |
+| `documentation-and-adrs` | Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or w… | agent-skills | claude-code | 1 files, 10 KB |
 | `documentation-lookup` | Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. R… | agents-std-store | agents-std | 2 files, 5 KB |
 | `documents` | Create, edit, redline, and comment on `.docx`, Word, and Google Docs-targeted document artifacts inside the container, with a strict render-and-verify workflow. Use `render_docx.py` to gene… | documents | codex | 78 files, 419 KB |
 | `docx` | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word… *(marketplace only)* | skills | claude-code | 61 files, 1.1 MB |
-| `excalidraw` | Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents t… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `excalidraw` | Use when working with *.excalidraw or *.excalidraw.json files, user mentions diagrams/flowcharts, or requests architecture visualization - delegates all Excalidraw operations to subagents t… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
 | `explain-interface` | Helps you figure out how something was built on the web. | standalone | claude-code | 6 files, 30 KB |
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slid… | ecc | claude-code | 7 files, 52 KB |
 | `frontend-slides` | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slid… | agents-std-store | agents-std | 3 files, 16 KB |
 | `google-workspace-ops` | Operate across Google Drive, Docs, Sheets, and Slides as one workflow surface for plans, trackers, decks, and shared documents. Use when the user needs to find, summarize, edit, migrate, or… | ecc | claude-code | 1 files, 3 KB |
-| `grill-with-docs` | Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when us… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 3 files, 9 KB |
-| `humanizer` | Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive "Signs of AI writing"… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 18 KB |
-| `marp-slide` | Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, business). Use when users request slide creation, presentations, or M… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 22 files, 83 KB |
-| `mermaid-diagrams` | Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain mod… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 8 files, 78 KB |
+| `grill-with-docs` | A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 1 KB |
+| `humanizer` | Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive "Signs of AI writing"… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 18 KB |
+| `marp-slide` | Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, business). Use when users request slide creation, presentations, or M… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 22 files, 83 KB |
+| `mermaid-diagrams` | Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain mod… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 8 files, 78 KB |
 | `nutrient-document-processing` | Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images. | ecc | claude-code | 1 files, 6 KB |
+| `pptx` | Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) fi… | standalone | claude-code | 56 files, 1.1 MB |
 | `pptx` | Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or ex… *(marketplace only)* | skills | claude-code | 56 files, 1.1 MB |
 | `Presentations` | Read, create or edit PowerPoint or Google Slides decks. Use for presentation, slide deck, PowerPoint, PPT, PPTX, or Google Slides requests. | presentations | codex | 113 files, 4.5 MB |
 | `sales-enablement` | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' '… | marketing-skills | claude-code | 6 files, 60 KB |
-| `ship-learn-next` | Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, less… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 10 KB |
+| `ship-learn-next` | Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, less… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 10 KB |
+| `source-driven-development` | Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, so… | agent-skills | claude-code | 1 files, 10 KB |
 | `template-creator` | Create or update a reusable personal Codex artifact-template skill. Use when the user invokes $template-creator or asks in natural language to create a reusable template from a reference do… | template-creator | codex | 3 files, 32 KB |
 | `visual-explainer-test` | Generate a beautiful self-contained HTML page that visually explains a concept, system, architecture, workflow, or strategy. Use when the user says "explain this visually", "visual explaine… | standalone | claude-code | 1 files, 4 KB |
 | `wowerpoint` | Turn one document into a kawaii NotebookLM slide-deck PDF. Use for "wowerpoint this", "make a deck about <file>", "turn this report into slides", or any request to render a single document… | claude-mem | claude-code | 1 files, 9 KB |
-| `writing-clearly-and-concisely` | Use when writing prose humans will read—documentation, commit messages, error messages, explanations, reports, or UI text. Applies Strunk's timeless rules for clearer, stronger, more profes… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 170 KB |
+| `writing-clearly-and-concisely` | Use when writing prose humans will read—documentation, commit messages, error messages, explanations, reports, or UI text. Applies Strunk's timeless rules for clearer, stronger, more profes… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 7 files, 170 KB |
 
 ## Detail
 
@@ -60,7 +66,7 @@ Stop and check this skill before finishing any reply to a question about how to 
 | Description cost | ~250 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-19 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
 | Content hash | `8be26e1f64b2` |
 
@@ -126,6 +132,27 @@ Agency agent wrapper for Document Generator. Expert document creation specialist
 | Last modified | 2026-03-13 |
 | Category source | keywords |
 | Content hash | `f9327c469447` |
+
+### `article-extractor`
+
+Extract clean article content from URLs (blog posts, articles, tutorials) and save as readable text. Use when user wants to download, extract, or save an article/blog post from a URL without ads, navigation, or clutter.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/article-extractor` |
+| Size | 1 files, 9 KB |
+| SKILL.md | 370 lines, ~2,411 tokens |
+| Description cost | ~55 tokens always in context |
+| Allowed tools | Bash,Write |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `953a8969c644` |
 
 ### `article-writing`
 
@@ -245,8 +272,8 @@ Generate architecture documentation using C4 model Mermaid diagrams. Use when as
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/c4-architecture` |
 | Size | 4 files, 56 KB |
 | SKILL.md | 296 lines, ~2,718 tokens |
@@ -288,8 +315,8 @@ Use when writing or improving README files. Not all READMEs are the same — pro
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/crafting-effective-readmes` |
 | Size | 13 files, 54 KB |
 | SKILL.md | 79 lines, ~689 tokens |
@@ -307,20 +334,84 @@ Guide users through a structured workflow for co-authoring documentation. Use wh
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/doc-coauthoring` |
-| Size | 1 files, 16 KB |
-| SKILL.md | 376 lines, ~4,048 tokens |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/doc-coauthoring` |
+| Size | 1 files, 15 KB |
+| SKILL.md | 376 lines, ~3,954 tokens |
 | Description cost | ~107 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
 | Content hash | `647d7873c1d6` |
+
+### `docs`
+
+docs (living docs people share, comment on and edit; use only when the user asks for one: names a doc, document, page, memo, spec, PRD, runbook or write-up, asks for somewhere to share or keep editing something, or says yes to your doc offer; a plan, comparison, summary or notes asked in chat stays in chat (at most a one-line doc offer); a report, status update, recap or "something I can send them" with no form named → ask first: reply, doc or file?; tabs hold tables and live charts too; a pasted claude.ai/code/artifact/… link may be a doc: check with docs tools first; not HTML pages, apps or plain chat answers; a .docx/.pptx/.xlsx/PDF asked for by name → that format''s skill): asked for one → no docs-connector instructions in context? call the docs connector''s `guide` with topic.instructions first, then create the doc (headings only, no body) before any search, file read or plan, even with files attached. Documenting code means docstrings or repo docs, not a doc.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/docs` |
+| Size | 1 files, 1 KB |
+| SKILL.md | 7 lines, ~307 tokens |
+| Description cost | ~247 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `11f386e027d3` |
+
+### `document`
+
+Run /document `pr` \| `changelog` \| `release-note` \| `postmortem` (or let it ask) to write the human facing prose about a change. Drafts from the real commits and diff, writing to the right place. Does not write code, tests, or specs.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/document` |
+| Size | 7 files, 21 KB |
+| SKILL.md | 122 lines, ~2,397 tokens |
+| Description cost | ~59 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `67e78396d48b` |
+| Bundled | `agents`, `templates` |
+
+### `documentation-and-adrs`
+
+Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/documentation-and-adrs` |
+| Size | 1 files, 10 KB |
+| SKILL.md | 289 lines, ~2,462 tokens |
+| Description cost | ~73 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `0995b9996d49` |
 
 ### `documentation-lookup`
 
@@ -383,7 +474,7 @@ Use this skill whenever the user wants to create, read, edit, or manipulate Word
 | Description cost | ~209 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-17 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
 | Content hash | `04e8e2d94e78` |
 | Bundled | `scripts`, `office`, `templates`, `helpers`, `schemas`, `validators`, `ecma`, `iso-iec29500-4_2016` |
@@ -397,8 +488,8 @@ Use when working with *.excalidraw or *.excalidraw.json files, user mentions dia
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/excalidraw` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 222 lines, ~2,073 tokens |
@@ -498,24 +589,25 @@ Operate across Google Drive, Docs, Sheets, and Slides as one workflow surface fo
 
 ### `grill-with-docs`
 
-Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.
+A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/grill-with-docs` |
-| Size | 3 files, 9 KB |
-| SKILL.md | 89 lines, ~910 tokens |
-| Description cost | ~70 tokens always in context |
+| Size | 2 files, 1 KB |
+| SKILL.md | 8 lines, ~64 tokens |
+| Description cost | ~27 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `6eac7d68244e` |
+| Content hash | `9aad5d190aa8` |
+| Bundled | `agents` |
 
 ### `humanizer`
 
@@ -526,8 +618,8 @@ Remove signs of AI-generated writing from text. Use when editing or reviewing te
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/humanizer` |
 | Size | 1 files, 18 KB |
 | SKILL.md | 440 lines, ~4,575 tokens |
@@ -547,8 +639,8 @@ Create professional Marp presentation slides with 7 beautiful themes (default, m
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/marp-slide` |
 | Size | 22 files, 83 KB |
 | SKILL.md | 238 lines, ~2,253 tokens |
@@ -569,8 +661,8 @@ Comprehensive guide for creating software diagrams using Mermaid syntax. Use whe
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/mermaid-diagrams` |
 | Size | 8 files, 78 KB |
 | SKILL.md | 218 lines, ~1,924 tokens |
@@ -605,6 +697,28 @@ Process, convert, OCR, extract, redact, sign, and fill documents using the Nutri
 
 ### `pptx`
 
+Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) files; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email, summary, or creating a different type of slide deck); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user asks for a PowerPoint or .pptx file, or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. However, when the user asks for a deck, slides, a slide deck, or a presentation without naming a file format, default to using a dedicated slide-deck artifact type or a separate slides skill if this session offers one; otherwise, use this skill.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/pptx` |
+| Size | 56 files, 1.1 MB |
+| SKILL.md | 242 lines, ~5,394 tokens |
+| Description cost | ~241 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `d214082385bf` |
+| Bundled | `scripts`, `office`, `helpers`, `schemas`, `validators`, `ecma`, `iso-iec29500-4_2016`, `mce` |
+
+### `pptx`
+
 Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.
 
 | Field | Value |
@@ -620,7 +734,7 @@ Use this skill any time a .pptx or .potx file is involved in any way — as inpu
 | Description cost | ~185 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-17 |
+| Last modified | 2026-09-11 |
 | Category source | keywords |
 | Content hash | `7d70b450dac0` |
 | Bundled | `scripts`, `office`, `helpers`, `schemas`, `validators`, `ecma`, `iso-iec29500-4_2016`, `mce` |
@@ -678,8 +792,8 @@ Transform learning content (like YouTube transcripts, articles, tutorials) into 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/ship-learn-next` |
 | Size | 1 files, 10 KB |
 | SKILL.md | 329 lines, ~2,437 tokens |
@@ -689,6 +803,27 @@ Transform learning content (like YouTube transcripts, articles, tutorials) into 
 | Last modified | 2026-02-11 |
 | Category source | keywords |
 | Content hash | `850b41718261` |
+
+### `source-driven-development`
+
+Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/source-driven-development` |
+| Size | 1 files, 10 KB |
+| SKILL.md | 217 lines, ~2,510 tokens |
+| Description cost | ~77 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `28efd1b4219d` |
 
 ### `template-creator`
 
@@ -763,8 +898,8 @@ Use when writing prose humans will read—documentation, commit messages, error 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/writing-clearly-and-concisely` |
 | Size | 7 files, 170 KB |
 | SKILL.md | 94 lines, ~966 tokens |

@@ -9,17 +9,17 @@
 | `agent-benchmark-suite` | Agent skill for benchmark-suite - invoke with $agent-benchmark-suite *(marketplace only)* | agent-pack | claude-code | 1 files, 20 KB |
 | `agent-researcher` | Agent skill for researcher - invoke with $agent-researcher *(marketplace only)* | agent-pack | claude-code | 1 files, 6 KB |
 | `benchmark-e2e` | End-to-end benchmark suite for vercel-plugin. Runs realistic projects through skill injection, launches dev servers, verifies everything works, analyzes conversation logs, and produces an i… | vercel | claude-code | 1 files, 5 KB |
-| `comprehensive-research-agent` | Ensure thorough validation, error recovery, and transparent reasoning in research tasks with multiple tool calls | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 22 KB |
+| `comprehensive-research-agent` | Ensure thorough validation, error recovery, and transparent reasoning in research tasks with multiple tool calls | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 22 KB |
 | `cost-benchmark` | Run the corpus benchmark — booster locally, optional Gemini/Sonnet/Opus baselines — and persist a verifiable measured-vs-claimed table *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `customer-research` | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "custom… | marketing-skills | claude-code | 3 files, 39 KB |
 | `deep-research` | Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough researc… | ecc | claude-code | 1 files, 5 KB |
 | `deep-research` | Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough researc… | agents-std-store | agents-std | 2 files, 5 KB |
 | `deep-research` | Orchestrate multi-phase deep research with web search, memory retrieval, pattern matching, and synthesis into structured findings *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
-| `deep-research` | Conduct thorough research using authoritative sources and produce evidence-backed findings with citations. Use this skill only when the user asks specifically for Deep research, uses $deep-… | deep-research-work | codex | 2 files, 12 KB |
+| `lead-research-assistant` | Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, busines… | standalone | claude-code | 1 files, 6 KB |
 | `literature-review` | Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence loggi… | ecc | claude-code | 1 files, 5 KB |
 | `market-research` | Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizi… | ecc | claude-code | 1 files, 2 KB |
 | `market-research` | Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizi… | agents-std-store | agents-std | 2 files, 2 KB |
-| `perplexity` | Web search and research using Perplexity AI. Use when user says "search", "find", "look up", "ask", "research", or "what's the latest" for generic queries. NOT for library/framework docs (u… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
+| `perplexity` | Web search and research using Perplexity AI. Use when user says "search", "find", "look up", "ask", "research", or "what's the latest" for generic queries. NOT for library/framework docs (u… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
 | `pubmed-database` | Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring. | ecc | claude-code | 1 files, 5 KB |
 | `research-ops` | Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied… | ecc | claude-code | 1 files, 4 KB |
 | `research-synthesize` | Synthesize research findings from memory into structured reports with evidence grading, contradiction resolution, and actionable recommendations *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
@@ -79,14 +79,14 @@ End-to-end benchmark suite for vercel-plugin. Runs realistic projects through sk
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/.claude/skills/benchmark-e2e` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/.claude/skills/benchmark-e2e` |
 | Size | 1 files, 5 KB |
 | SKILL.md | 143 lines, ~1,381 tokens |
 | Description cost | ~61 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `727d87a213bd` |
 
@@ -99,17 +99,17 @@ Ensure thorough validation, error recovery, and transparent reasoning in researc
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
-| Canonical path | `~/.agents/skills/context-engineering-collection/examples/interleaved_thinking/generated_skills/comprehensive-research-agent` |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/examples/interleaved-thinking/generated_skills/comprehensive-research-agent` |
 | Size | 4 files, 22 KB |
-| SKILL.md | 91 lines, ~2,152 tokens |
+| SKILL.md | 91 lines, ~2,156 tokens |
 | Description cost | ~28 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `9d7de65512b3` |
+| Content hash | `b66c0e017e9e` |
 | Bundled | `references` |
 
 ### `cost-benchmark`
@@ -219,27 +219,26 @@ Orchestrate multi-phase deep research with web search, memory retrieval, pattern
 | Category source | keywords |
 | Content hash | `d96d7e3ae4d3` |
 
-### `deep-research`
+### `lead-research-assistant`
 
-Conduct thorough research using authoritative sources and produce evidence-backed findings with citations. Use this skill only when the user asks specifically for Deep research, uses $deep-research, or selects Deep research in Work mode. Do not use it for ordinary research requests.
+Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals.
 
 | Field | Value |
 |---|---|
-| Pack | deep-research-work |
-| Origin | plugin `deep-research-work` from `openai-curated-remote` |
+| Pack | standalone |
+| Origin | standalone |
 | Status | installed |
-| Tools it reaches | codex |
+| Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/deep-research-work/0.1.14/skills/deep-research` |
-| Size | 2 files, 12 KB |
-| SKILL.md | 184 lines, ~3,086 tokens |
-| Description cost | ~71 tokens always in context |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/lead-research-assistant` |
+| Size | 1 files, 6 KB |
+| SKILL.md | 200 lines, ~1,647 tokens |
+| Description cost | ~58 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 1970-01-01 |
+| Last modified | 2026-09-17 |
 | Category source | keywords |
-| Content hash | `5e4424b13aa7` |
-| Bundled | `agents` |
+| Content hash | `d673aae91a82` |
 
 ### `literature-review`
 
@@ -314,8 +313,8 @@ Web search and research using Perplexity AI. Use when user says "search", "find"
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/perplexity` |
 | Size | 1 files, 4 KB |
 | SKILL.md | 129 lines, ~1,007 tokens |

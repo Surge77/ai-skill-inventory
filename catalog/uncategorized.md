@@ -1,6 +1,6 @@
 # Uncategorized
 
-169 skills — 106 installed, 63 available in a marketplace but not installed.
+171 skills — 111 installed, 60 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -19,37 +19,41 @@
 | `agency-paid-media-programmatic-buyer` | Agency agent wrapper for Programmatic & Display Buyer. Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk pl… | agency-roles | codex | 1 files, 5 KB |
 | `agency-zk-steward` | Agency agent wrapper for ZK Steward. Knowledge-base steward in the spirit of Niklas Luhmann''s Zettelkasten. Default perspective: Luhmann; switches to domain experts (Feynman, Munger, Ogilv… | agency-roles | codex | 1 files, 11 KB |
 | `ai-first-engineering` | Engineering operating model for teams where AI agents generate a large share of implementation output. | ecc | claude-code | 1 files, 1 KB |
-| `ai-gateway` | Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API. | vercel | claude-code | 1 files, 24 KB |
-| `ai-gateway` | Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API. | vercel | codex | 2 files, 19 KB |
-| `ai-generation-persistence` | AI generation persistence patterns — unique IDs, addressable URLs, database storage, and cost tracking for every LLM generation | vercel | codex | 2 files, 8 KB |
-| `algorithmic-art` | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow… *(marketplace only)* | skills | claude-code | 4 files, 60 KB |
+| `artifact-template-design-report` | Create a document using the Design Report template and its retained reference file. Use when the user selects or names Design Report. Produce design reports with an executive summary, key f… | openai-templates | codex | 5 files, 3.0 MB |
+| `artifact-template-experiment-analysis` | Create a document using the Experiment Analysis template and its retained reference file. Use when the user selects or names Experiment Analysis. Analyze experiments with hypotheses, method… | openai-templates | codex | 5 files, 216 KB |
+| `artifact-template-market-trends-report` | Create a presentation using the Market Trends Report template and its retained reference file. Use when the user selects or names Market Trends Report. Communicate market or industry trends… | openai-templates | codex | 5 files, 1.9 MB |
+| `artifact-template-minimal-letterhead` | Create a document using the Minimal Letterhead template and its retained reference file. Use when the user selects or names Minimal Letterhead. Write professional business letters with send… | openai-templates | codex | 5 files, 70 KB |
+| `artifact-template-project-kickoff` | Create a presentation using the Project Kickoff template and its retained reference file. Use when the user selects or names Project Kickoff. Align teams on project goals, scope, roles, mil… | openai-templates | codex | 5 files, 2.0 MB |
+| `artifact-template-project-tracker` | Create a spreadsheet using the Project Tracker template and its retained reference file. Use when the user selects or names Project Tracker. Manage workstreams, tasks, owners, status, prior… | openai-templates | codex | 5 files, 56 KB |
+| `artifact-template-simple-light-mode` | Create a presentation using the Simple Light Mode template and its retained reference file. Use when the user selects or names Simple Light Mode. Create clean light-mode presentations with… | openai-templates | codex | 5 files, 1.5 MB |
+| `artifact-template-strategy-memorandum` | Create a document using the Strategy Memorandum template and its retained reference file. Use when the user selects or names Strategy Memorandum. Present strategic context, choices, rationa… | openai-templates | codex | 5 files, 2.6 MB |
+| `artifact-template-team-alignment` | Create a presentation using the Team Alignment template and its retained reference file. Use when the user selects or names Team Alignment. Facilitate team offsites and planning with contex… | openai-templates | codex | 5 files, 7.1 MB |
+| `artifact-template-three-statement-forecast` | Create a spreadsheet using the Three-Statement Forecast template and its retained reference file. Use when the user selects or names Three-Statement Forecast. Build an integrated income sta… | openai-templates | codex | 5 files, 188 KB |
 | `autopilot-loop` | Run an autonomous /loop iteration -- check progress, work on next task, schedule next wake *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `autopilot-predict` | Use learned patterns and current state to predict the optimal next action *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
-| `bdi-mental-states` | This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognit… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 58 KB |
-| `bootstrap` | Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, en… | vercel | claude-code | 1 files, 8 KB |
-| `bootstrap` | Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, en… | vercel | codex | 2 files, 7 KB |
+| `bdi-mental-states` | This skill should be used when modeling agent mental states with BDI concepts: beliefs, desires, intentions, RDF-to-belief transformations, rational agency traces, cognitive agents, BDI ont… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 66 KB |
 | `cardputer-buddy` | Iterate on the Cardputer-Adv MicroPython app bundle (Claude Buddy, Snake, Hello) after the device is already provisioned via m5-onboard. Use when the user wants to add a new app, push a sin… *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `carrier-relationship-management` | Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships. Informed by… | ecc | claude-code | 1 files, 23 KB |
 | `caveman` | Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lit… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
 | `caveman-compress` | Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed ver… | caveman | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 10 files, 35 KB |
 | `caveman-compress` | Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed ver… | caveman | claude-code | 8 files, 28 KB |
-| `caveman-help` | Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, "caveman help", "what caveman commands", "how do I use cav… | caveman | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 2 KB |
+| `caveman-help` | Quick-reference card for caveman modes, skills and commands. Trigger: /caveman-help or "caveman help". | caveman | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 3 KB |
 | `caveman-help` | Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, "caveman help", "what caveman commands", "how do I use cav… | caveman | claude-code | 2 files, 3 KB |
+| `caveman-help` | Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, "caveman help", "what caveman commands", "how do I use cav… | caveman | claude-code | 1 files, 2 KB |
 | `caveman-stats` | Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log — no AI estimation. Triggers on /caveman-stats. Output is injected by th… | caveman | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 1 KB |
-| `cdn-caching` | Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs. | vercel | claude-code | 1 files, 19 KB |
-| `cdn-caching` | Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason) and PPR state (ppr_state), and costs. | vercel | claude-code | 1 files, 21 KB |
-| `cdn-caching` | Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs. | vercel | codex | 2 files, 19 KB |
 | `cisco-ios-patterns` | Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. | ecc | claude-code | 1 files, 5 KB |
-| `cms` | Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io. Covers studio setup, content modeling, preview mode, revalidation web… | vercel | codex | 2 files, 11 KB |
+| `code-structure-cleanup` | Use after an AI-built feature works but the code has duplicated mechanics, repeated API calls, or messy structure. Guides a cleanup pass that extracts reusable service-layer modules without… | agents-std-store | claude-code, shared-store | 1 files, 3 KB |
 | `code-tour` | Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. Use for onboarding tours, architecture walkthroughs, PR tours, RCA tours, and st… | ecc | claude-code | 1 files, 7 KB |
-| `codex` | Use when the user asks to run Codex CLI (codex exec, codex resume) or references OpenAI Codex for code analysis, refactoring, or automated editing. Uses GPT-5.2 by default for state-of-the-… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 5 KB |
+| `codex` | Use when the user asks to run Codex CLI (codex exec, codex resume) or references OpenAI Codex for code analysis, refactoring, or automated editing. Uses GPT-5.2 by default for state-of-the-… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 5 KB |
 | `codex-cli-runtime` | Internal helper contract for calling the codex-companion runtime from Claude Code | codex | claude-code | 1 files, 3 KB |
 | `codex-result-handling` | Internal guidance for presenting Codex helper output back to the user | codex | claude-code | 1 files, 2 KB |
 | `cognitive-pattern` | Define and manage cognitive patterns for agent reasoning and decision-making *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `compose-multiplatform-patterns` | Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI. | ecc | claude-code | 1 files, 8 KB |
 | `compress` | Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed ver… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 8 files, 28 KB |
 | `content-hash-cache-pattern` | Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation. | ecc | claude-code | 1 files, 6 KB |
-| `context-compression` | This skill should be used when the user asks to "compress context", "summarize conversation history", "implement compaction", "reduce token usage", or mentions context compression, structur… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 43 KB |
+| `context-compression` | This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or durable handoff summaries that pre… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 59 KB |
+| `context-degradation` | This skill should be used for diagnosing and mitigating context degradation: lost-in-middle failures, context poisoning, context clash, context confusion, attention-pattern issues, and agen… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 52 KB |
+| `context-engineering` | Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a… | agent-skills | claude-code | 1 files, 15 KB |
 | `cost-booster-route` | Route tasks through hooks_route, partition by Agent Booster availability, and report Tier 1 bypass utilization with $0 cost *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `cost-compact-context` | Wrap getTokenOptimizer().getCompactContext() to retrieve compacted ReasoningBank context for cost-analysis queries; report bridge-reported tokensSaved *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `cost-federation` | Consumer-side wiring for ADR-097 Phase 3 federation_spend events — per-peer rolling windows + suspension-threshold check *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
@@ -59,7 +63,6 @@
 | `cost-tracking` | Track and report Claude Code token usage, spending, and budgets from a local cost-tracking database. Use when the user asks about costs, spending, usage, tokens, budgets, or cost breakdowns… | ecc | claude-code | 1 files, 5 KB |
 | `cost-trend` | Read every docs/benchmarks/runs/*.json and surface drift in win rate, latency, escalation rate, and LLM-baseline cost over time *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `council` | Convene a four-voice council for ambiguous decisions, tradeoffs, and go/no-go calls. Use when multiple valid paths exist and you need structured disagreement before choosing. | ecc | claude-code | 1 files, 6 KB |
-| `cron-jobs` | Vercel Cron Jobs configuration and best practices. Use when adding, editing, or debugging scheduled tasks in vercel.json. | vercel | codex | 2 files, 2 KB |
 | `cron-schedule` | Schedule persistent background workers via CronCreate *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `crosspost` | Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use wh… | ecc | claude-code | 1 files, 3 KB |
 | `crosspost` | Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use wh… | agents-std-store | agents-std | 2 files, 4 KB |
@@ -72,33 +75,35 @@
 | `ddd-context` | Create and manage a DDD bounded context with standard directory structure *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `ddd-validate` | Validate domain boundaries -- detect cross-context import violations and aggregate invariant issues *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `dependency-check` | Scan project dependencies for known vulnerabilities and CVEs *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
-| `dependency-updater` | Smart dependency management for any language. Auto-detects project type, applies safe updates automatically, prompts for major versions, diagnoses and fixes dependency issues. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 13 KB |
+| `dependency-updater` | Smart dependency management for any language. Auto-detects project type, applies safe updates automatically, prompts for major versions, diagnoses and fixes dependency issues. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 13 KB |
 | `diff-analyze` | Analyze git diffs for risk scoring, reviewer recommendations, and change classification *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
-| `digital-brain` | This skill should be used when the user asks to "write a post", "check my voice", "look up contact", "prepare for meeting", "weekly review", "track goals", or mentions personal brand, conte… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 44 files, 120 KB |
+| `digital-brain` | This skill should be used for personal operating-system workflows: content creation, voice consistency, relationship lookup, meeting preparation, weekly review, goal tracking, personal bran… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 47 files, 131 KB |
 | `do` | Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan. | claude-mem | claude-code | 1 files, 2 KB |
 | `do` | — *(marketplace only)* | openclaw | claude-code | 1 files, 1 KB |
 | `doc-gen` | Generate and maintain documentation with drift detection *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `dossier-collect` | Build a graph-structured dossier on a seed entity via parallel fan-out + recursive expansion across web, memory, knowledge-graph, codebase, ADR index, and git intel *(marketplace only)* | plugins | claude-code | 1 files, 4 KB |
+| `durable-objects` | Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination. | agents-std-store | claude-code, shared-store | 4 files, 18 KB |
 | `email-ops` | Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail sur… | ecc | claude-code | 1 files, 3 KB |
-| `env-vars` | Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration. | vercel | claude-code | 1 files, 10 KB |
-| `env-vars` | Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration. | vercel | codex | 2 files, 9 KB |
 | `evm-token-decimals` | Prevent silent decimal mismatch bugs across EVM chains. Covers runtime decimal lookup, chain-aware caching, bridged-token precision drift, and safe normalization for bots, dashboards, and D… | ecc | claude-code | 1 files, 4 KB |
 | `example-command` | An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.md layout *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `excel-live-control` | Control an open or active Microsoft Excel workbook through the ChatGPT add-in or connected session. Use when the user tags the Microsoft Excel app in Codex or follows up on an established l… | spreadsheets | codex | 10 files, 79 KB |
 | `federation-init` | Initialize federation on this node — generate keypair and configure peers *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `federation-status` | Show federation health — peers, sessions, trust levels, and message metrics *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `foundation-models-on-device` | Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+. | ecc | claude-code | 1 files, 8 KB |
-| `full-output-enforcement` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unab… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 3 KB |
-| `game-changing-features` | Find 10x product opportunities and high-leverage improvements. Use when user wants strategic product thinking, mentions '10x', wants to find high-impact features, or says 'what would make t… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
-| `gemini` | Use when the user asks to run Gemini CLI for code review, plan review, or big context (>200k) processing. Ideal for comprehensive analysis requiring large context windows. Uses Gemini 3 Pro… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 10 KB |
-| `gepetto` | Creates detailed, sectionized implementation plans through research, stakeholder interviews, and multi-LLM review. Use when planning features that need thorough pre-implementation analysis. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 32 KB |
+| `full-output-enforcement` | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unab… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 3 KB |
+| `game-changing-features` | Find 10x product opportunities and high-leverage improvements. Use when user wants strategic product thinking, mentions '10x', wants to find high-impact features, or says 'what would make t… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `gemini` | Use when the user asks to run Gemini CLI for code review, plan review, or big context (>200k) processing. Ideal for comprehensive analysis requiring large context windows. Uses Gemini 3 Pro… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 10 KB |
+| `gepeto` | Guide for building 1-click launchers and building apps with launchers built-in using Pinokio | agents-std-store | claude-code, shared-store | 2 files, 41 KB |
+| `gepetto` | Creates detailed, sectionized implementation plans through research, stakeholder interviews, and multi-LLM review. Use when planning features that need thorough pre-implementation analysis. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 32 KB |
 | `gget` | gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs. | ecc | claude-code | 1 files, 5 KB |
-| `grill-me` | Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grille… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 1 KB |
+| `grill-me` | A relentless interview to sharpen a plan or design. | agents-std-store | claude-code, codex, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 1 KB |
 | `horizon-track` | Track long-horizon objectives across multiple sessions with milestone checkpoints, progress persistence, and drift detection *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `how-it-works` | Explain how claude-mem captures observations, when memory injection kicks in, and where data lives. Use when the user asks "how does claude-mem work?" or "what is this thing doing?". | claude-mem | claude-code | 2 files, 2 KB |
+| `huashu-design` | 花叔Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不适用。 | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 191 files, 31.7 MB |
+| `idea-refine` | Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before comm… | agent-skills | claude-code | 5 files, 39 KB |
+| `incremental-implementation` | Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use whe… | agent-skills | claude-code | 1 files, 9 KB |
 | `intelligence-route` | Route tasks via the 3-tier model selector and learned patterns; emits a routing rationale via hooks_explain *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `intelligence-transfer` | Publish or fetch learned patterns across projects via IPFS (Pinata) -- the cross-project pattern transfer that hooks_transfer enables *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
-| `internal-comms` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of i… *(marketplace only)* | skills | claude-code | 6 files, 22 KB |
 | `investor-materials` | Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projecti… | ecc | claude-code | 1 files, 3 KB |
 | `investor-materials` | Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projecti… | agents-std-store | agents-std | 2 files, 3 KB |
 | `iot-anomalies` | Detect and classify telemetry anomalies on Cognitum Seed devices *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
@@ -111,11 +116,8 @@
 | `kg-extract` | Extract entities and relations from source files to build a knowledge graph *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `kg-traverse` | Pathfinder traversal of the knowledge graph starting from a seed entity *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `knowledge-ops` | Knowledge base management, ingestion, sync, and retrieval across multiple storage layers (local files, MCP memory, vector stores, Git repos). Use when the user wants to save, organize, sync… | ecc | claude-code | 1 files, 7 KB |
-| `knowledge-update` | Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start. | vercel | claude-code | 1 files, 7 KB |
-| `knowledge-update` | Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start. | vercel | claude-code | 1 files, 7 KB |
-| `knowledge-update` | Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start. | vercel | codex | 2 files, 7 KB |
 | `learn-codebase` | Prime a codebase by reading every source file in full. Use when starting work on a new or unfamiliar project, or when the user asks to "learn the codebase", "read the codebase", "prime", or… | claude-mem | claude-code | 1 files, 1 KB |
-| `lesson-learned` | Analyze recent code changes via git history and extract software engineering lessons. Use when the user asks 'what is the lesson here?', 'what can I learn from this?', 'engineering takeaway… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 13 KB |
+| `lesson-learned` | Analyze recent code changes via git history and extract software engineering lessons. Use when the user asks 'what is the lesson here?', 'what can I learn from this?', 'engineering takeaway… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 13 KB |
 | `liquid-glass-design` | iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit. | ecc | claude-code | 1 files, 9 KB |
 | `m5-onboard` | End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, Cardputer-Adv, Core, CoreS3, Stick) — detect on USB, flash UIFlow 2.0 firmware, and install the Claude Buddy… *(marketplace only)* | plugins | claude-code | 1 files, 23 KB |
 | `market-ingest` | Ingest and normalize market data into OHLCV vectors with HNSW indexing *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
@@ -129,23 +131,25 @@
 | `monitor-stream` | Stream live swarm events using the Monitor tool for real-time observability *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `mysql-patterns` | MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends. | ecc | claude-code | 1 files, 12 KB |
 | `nanoclaw-repl` | Operate and extend NanoClaw v2, ECC's zero-dependency session-aware REPL built on claude -p. | ecc | claude-code | 1 files, 1 KB |
-| `ncc` | Expert guidance for @vercel/ncc — a simple CLI for compiling Node.js modules into a single file with all dependencies included. Use when bundling serverless functions, CLI tools, or any Nod… | vercel | codex | 2 files, 5 KB |
 | `netmiko-ssh-automation` | Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling. | ecc | claude-code | 1 files, 6 KB |
-| `next-forge` | next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/*… | vercel | claude-code | 11 files, 70 KB |
-| `next-forge` | next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/*… | vercel | codex | 6 files, 33 KB |
-| `next-upgrade` | Upgrade Next.js to the latest version following official migration guides and codemods | vercel | claude-code | 1 files, 2 KB |
 | `observe-metrics` | Aggregate and display system metrics with anomaly detection for a time period *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `openclaw` | — *(marketplace only)* | openclaw | claude-code | 17 files, 222 KB |
 | `pii-detect` | Detect and flag personally identifiable information (PII) in text, code, and configurations *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
+| `pinokio` | Discover, launch, and use apps and tools for the current task. | agents-std-store | claude-code, shared-store | 2 files, 21 KB |
 | `playground` | Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when… *(marketplace only)* | plugins | claude-code | 7 files, 29 KB |
+| `prototype` | Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs whe… | agents-std-store | claude-code, shared-store | 2 files, 15 KB |
 | `quality-nonconformance` | Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. Informed by qualit… | ecc | claude-code | 1 files, 30 KB |
-| `redesign-existing-projects` | Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works wi… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 15 KB |
-| `reducing-entropy` | Manual-only skill for minimizing total codebase size. Only activate when explicitly requested by user. Measures success by final code amount, not effort. Bias toward deletion. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 14 KB |
+| `redesign-existing-projects` | Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works wi… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 15 KB |
+| `reducing-entropy` | Manual-only skill for minimizing total codebase size. Only activate when explicitly requested by user. Measures success by final code amount, not effort. Bias toward deletion. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 14 KB |
 | `ruflo-doctor` | Run health checks on the Ruflo installation and fix common issues *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `rvf-manage` | Manage RVF (Ruflo Vector Format) files for portable agent memory and cross-platform transfer *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `safety-scan` | Scan inputs for prompt injection, unsafe content, and adversarial attacks using AIDefence *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
+| `sandbox-migrate-to-next` | Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-next for apps already on the preview. | agents-std-store | claude-code, shared-store | 1 files, 8 KB |
+| `sandbox-next` | Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next when porting a stable app. | agents-std-store | claude-code, shared-store | 3 files, 10 KB |
+| `sandbox-stable` | Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps and sandbox-migrate-to-next for stable-to-preview migrations. | agents-std-store | claude-code, shared-store | 1 files, 9 KB |
 | `search-first` | Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent. | ecc | claude-code | 1 files, 8 KB |
 | `smart-explore` | Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase eff… | claude-mem | claude-code | 1 files, 8 KB |
+| `source-code-context` | Use when an AI coding agent is guessing API names or framework behavior from incomplete docs. Shows how to provide local source-code references so the agent searches the real implementation… | agents-std-store | claude-code, shared-store | 1 files, 3 KB |
 | `sparc-implement` | Run the SPARC Architecture and Implementation phases — design module boundaries, write pseudocode, implement code, and run tests *(marketplace only)* | plugins | claude-code | 1 files, 5 KB |
 | `Spreadsheets` | Create, edit, analyze, and verify standalone spreadsheet files or Google Sheets-ready workbooks, including .xlsx, .xls, .csv, and .tsv. Do not use for live controlling Microsoft Excel app o… | spreadsheets | codex | 12 files, 100 KB |
 | `strategic-compact` | Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. | ecc | claude-code | 2 files, 7 KB |
@@ -160,21 +164,19 @@
 | `trader-risk` | Assess portfolio risk using npx neural-trader — VaR, CVaR, Sharpe, position sizing, circuit breaker status *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `trader-signal` | Generate trading signals using npx neural-trader anomaly detection engine with Z-score scoring and neural prediction *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `trader-train` | Train neural models (LSTM, Transformer, N-BEATS) on market data using npx neural-trader with confidence intervals *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
-| `turborepo` | Turborepo expert guidance. Use when setting up or optimizing monorepo builds, configuring task caching, remote caching, parallel execution, or the --affected flag for incremental CI. | vercel | codex | 2 files, 17 KB |
-| `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
-| `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions | superpowers | claude-code | 6 files, 17 KB |
+| `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 17 KB |
+| `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions | superpowers | claude-code | 1 files, 4 KB |
 | `verification-before-completion` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claim… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
 | `verification-before-completion` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claim… | superpowers | claude-code | 1 files, 4 KB |
 | `verification-loop` | A comprehensive verification system for Claude Code sessions. | ecc | claude-code | 1 files, 3 KB |
 | `verification-loop` | A comprehensive verification system for Claude Code sessions. | agents-std-store | agents-std | 2 files, 3 KB |
 | `visualize` | Create visualizations and interactive tools directly in conversation. Use when asked to show how something works, make simulators or labs, maps, plots, charts or graphs, comparisons, UI moc… | visualize | codex | 5 files, 60 KB |
 | `wasm-gallery` | Browse, publish, and install WASM agents from the community gallery *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
-| `web-to-markdown` | Use ONLY when the user explicitly says: 'use the skill web-to-markdown ...' (or 'use a skill web-to-markdown ...'). Converts webpage URLs to clean Markdown by calling the local web2md CLI (… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
+| `web-to-markdown` | Use ONLY when the user explicitly says: 'use the skill web-to-markdown ...' (or 'use a skill web-to-markdown ...'). Converts webpage URLs to clean Markdown by calling the local web2md CLI (… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 4 KB |
 | `witness` | Sign, verify, and track fix-marker regressions over time using a deterministic Ed25519 witness manifest. Works in any project — clone the toolkit, run init, register fixes, regen on each re… *(marketplace only)* | plugins | claude-code | 1 files, 4 KB |
 | `workflow-create` | Create reusable workflow templates with steps, conditions, and parallel execution *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `workflow-run` | Execute, pause, resume, and cancel running workflows *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
-| `xlsx` | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .t… *(marketplace only)* | skills | claude-code | 53 files, 1.1 MB |
-| `zoom-out` | Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger pictur… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 1 KB |
+| `zoom-out` | Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger pictur… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store | 1 files, 1 KB |
 
 ## Detail
 
@@ -451,92 +453,225 @@ Engineering operating model for teams where AI agents generate a large share of 
 | Category source | none |
 | Content hash | `c4c548f4f023` |
 
-### `ai-gateway`
+### `artifact-template-design-report`
 
-Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/ai-gateway` |
-| Size | 1 files, 24 KB |
-| SKILL.md | 666 lines, ~6,110 tokens |
-| Description cost | ~41 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | none |
-| Content hash | `a292907921b5` |
-
-### `ai-gateway`
-
-Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing multiple AI providers through a unified API.
+Create a document using the Design Report template and its retained reference file. Use when the user selects or names Design Report. Produce design reports with an executive summary, key findings, implications, recommendations, and appendix.
 
 | Field | Value |
 |---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-gateway` |
-| Size | 2 files, 19 KB |
-| SKILL.md | 563 lines, ~4,924 tokens |
-| Description cost | ~41 tokens always in context |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report` |
+| Size | 5 files, 3.0 MB |
+| SKILL.md | 23 lines, ~360 tokens |
+| Description cost | ~61 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 1970-01-01 |
 | Category source | none |
-| Content hash | `ac2df5b05e49` |
-| Bundled | `agents` |
+| Content hash | `f862e221e859` |
+| Bundled | `agents`, `assets` |
 
-### `ai-generation-persistence`
+### `artifact-template-experiment-analysis`
 
-AI generation persistence patterns — unique IDs, addressable URLs, database storage, and cost tracking for every LLM generation
+Create a document using the Experiment Analysis template and its retained reference file. Use when the user selects or names Experiment Analysis. Analyze experiments with hypotheses, methodology, results, interpretation, limitations, and next steps.
 
 | Field | Value |
 |---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ai-generation-persistence` |
-| Size | 2 files, 8 KB |
-| SKILL.md | 242 lines, ~1,998 tokens |
-| Description cost | ~33 tokens always in context |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis` |
+| Size | 5 files, 216 KB |
+| SKILL.md | 23 lines, ~364 tokens |
+| Description cost | ~63 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 1970-01-01 |
 | Category source | none |
-| Content hash | `a368e84cee29` |
-| Bundled | `agents` |
+| Content hash | `8b7911cb653f` |
+| Bundled | `agents`, `assets` |
 
-### `algorithmic-art`
+### `artifact-template-market-trends-report`
 
-Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
+Create a presentation using the Market Trends Report template and its retained reference file. Use when the user selects or names Market Trends Report. Communicate market or industry trends, supporting evidence, implications, and recommended responses.
 
 | Field | Value |
 |---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
-| Tools it reaches | claude-code |
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/algorithmic-art` |
-| Size | 4 files, 60 KB |
-| SKILL.md | 405 lines, ~5,044 tokens |
-| Description cost | ~81 tokens always in context |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report` |
+| Size | 5 files, 1.9 MB |
+| SKILL.md | 23 lines, ~375 tokens |
+| Description cost | ~63 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-06-27 |
+| Last modified | 1970-01-01 |
 | Category source | none |
-| Content hash | `9f352483172d` |
-| Bundled | `templates` |
+| Content hash | `545153b3cba5` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-minimal-letterhead`
+
+Create a document using the Minimal Letterhead template and its retained reference file. Use when the user selects or names Minimal Letterhead. Write professional business letters with sender, recipient, message, and signature fields in a minimal letterhead layout.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead` |
+| Size | 5 files, 70 KB |
+| SKILL.md | 23 lines, ~368 tokens |
+| Description cost | ~67 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | none |
+| Content hash | `f0d8f95ed244` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-project-kickoff`
+
+Create a presentation using the Project Kickoff template and its retained reference file. Use when the user selects or names Project Kickoff. Align teams on project goals, scope, roles, milestones, risks, and the working model.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff` |
+| Size | 5 files, 2.0 MB |
+| SKILL.md | 23 lines, ~366 tokens |
+| Description cost | ~57 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | none |
+| Content hash | `7b2e57938eda` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-project-tracker`
+
+Create a spreadsheet using the Project Tracker template and its retained reference file. Use when the user selects or names Project Tracker. Manage workstreams, tasks, owners, status, priority, dates, launch pulse, and a Gantt schedule.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker` |
+| Size | 5 files, 56 KB |
+| SKILL.md | 23 lines, ~371 tokens |
+| Description cost | ~59 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | none |
+| Content hash | `600e56d194ab` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-simple-light-mode`
+
+Create a presentation using the Simple Light Mode template and its retained reference file. Use when the user selects or names Simple Light Mode. Create clean light-mode presentations with spacious typography, simple sections, charts, and imagery.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode` |
+| Size | 5 files, 1.5 MB |
+| SKILL.md | 23 lines, ~372 tokens |
+| Description cost | ~62 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | none |
+| Content hash | `625707c5dd14` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-strategy-memorandum`
+
+Create a document using the Strategy Memorandum template and its retained reference file. Use when the user selects or names Strategy Memorandum. Present strategic context, choices, rationale, risks, milestones, and a clear recommendation.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum` |
+| Size | 5 files, 2.6 MB |
+| SKILL.md | 23 lines, ~362 tokens |
+| Description cost | ~60 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | none |
+| Content hash | `024f5e19e679` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-team-alignment`
+
+Create a presentation using the Team Alignment template and its retained reference file. Use when the user selects or names Team Alignment. Facilitate team offsites and planning with context, goals, priorities, decisions, and action items.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment` |
+| Size | 5 files, 7.1 MB |
+| SKILL.md | 23 lines, ~369 tokens |
+| Description cost | ~60 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | none |
+| Content hash | `0ebabb9cf8b5` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-three-statement-forecast`
+
+Create a spreadsheet using the Three-Statement Forecast template and its retained reference file. Use when the user selects or names Three-Statement Forecast. Build an integrated income statement, balance sheet, and cash flow forecast with assumptions, checks, and an executive summary.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast` |
+| Size | 5 files, 188 KB |
+| SKILL.md | 23 lines, ~388 tokens |
+| Description cost | ~72 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | none |
+| Content hash | `4a1a53cf2d38` |
+| Bundled | `agents`, `assets` |
 
 ### `autopilot-loop`
 
@@ -582,68 +717,25 @@ Use learned patterns and current state to predict the optimal next action
 
 ### `bdi-mental-states`
 
-This skill should be used when the user asks to "model agent mental states", "implement BDI architecture", "create belief-desire-intention models", "transform RDF to beliefs", "build cognitive agent", or mentions BDI ontology, mental state modeling, rational agency, or neuro-symbolic AI integration.
+This skill should be used when modeling agent mental states with BDI concepts: beliefs, desires, intentions, RDF-to-belief transformations, rational agency traces, cognitive agents, BDI ontologies, and neuro-symbolic AI integration.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/bdi-mental-states` |
-| Size | 5 files, 58 KB |
-| SKILL.md | 296 lines, ~2,597 tokens |
-| Description cost | ~75 tokens always in context |
+| Size | 5 files, 66 KB |
+| SKILL.md | 374 lines, ~4,528 tokens |
+| Description cost | ~58 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | none |
-| Content hash | `87edf078878e` |
+| Content hash | `f98198582707` |
 | Bundled | `references` |
-
-### `bootstrap`
-
-Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pulls, and first-run db/dev commands happen in the correct safe order.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/bootstrap` |
-| Size | 1 files, 8 KB |
-| SKILL.md | 234 lines, ~2,064 tokens |
-| Description cost | ~72 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | none |
-| Content hash | `9da6d9bf93ae` |
-
-### `bootstrap`
-
-Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integrations). Use when setting up or repairing a repository so linking, environment provisioning, env pulls, and first-run db/dev commands happen in the correct safe order.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/bootstrap` |
-| Size | 2 files, 7 KB |
-| SKILL.md | 203 lines, ~1,798 tokens |
-| Description cost | ~72 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `46569fd1b3f8` |
-| Bundled | `agents` |
 
 ### `cardputer-buddy`
 
@@ -662,7 +754,7 @@ Iterate on the Cardputer-Adv MicroPython app bundle (Claude Buddy, Snake, Hello)
 | Description cost | ~103 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | none |
 | Content hash | `a85c4653c0bd` |
 
@@ -697,7 +789,7 @@ Ultra-compressed communication mode. Cuts token usage ~75% by speaking like cave
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 16 (6 symlinked) |
+| Installed copies | 17 (6 symlinked) |
 | Canonical path | `~/.agents/skills/caveman` |
 | Size | 1 files, 4 KB |
 | SKILL.md | 74 lines, ~998 tokens |
@@ -718,7 +810,7 @@ Compress natural language memory files (CLAUDE.md, todos, preferences) into cave
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 8 (6 symlinked) |
+| Installed copies | 9 (6 symlinked) |
 | Canonical path | `~/.agents/skills/caveman-compress` |
 | Size | 10 files, 35 KB |
 | SKILL.md | 112 lines, ~1,159 tokens |
@@ -754,7 +846,7 @@ Compress natural language memory files (CLAUDE.md, todos, preferences) into cave
 
 ### `caveman-help`
 
-Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, "caveman help", "what caveman commands", "how do I use caveman".
+Quick-reference card for caveman modes, skills and commands. Trigger: /caveman-help or "caveman help".
 
 | Field | Value |
 |---|---|
@@ -762,16 +854,16 @@ Quick-reference card for all caveman modes, skills, and commands. One-shot displ
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 8 (6 symlinked) |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/caveman-help` |
-| Size | 1 files, 2 KB |
-| SKILL.md | 60 lines, ~526 tokens |
-| Description cost | ~49 tokens always in context |
+| Size | 2 files, 3 KB |
+| SKILL.md | 63 lines, ~567 tokens |
+| Description cost | ~26 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | none |
-| Content hash | `d473960ec6a6` |
+| Content hash | `6b7dcfff75a1` |
 
 ### `caveman-help`
 
@@ -794,6 +886,27 @@ Quick-reference card for all caveman modes, skills, and commands. One-shot displ
 | Category source | none |
 | Content hash | `5b5d0abae1a9` |
 
+### `caveman-help`
+
+Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, "caveman help", "what caveman commands", "how do I use caveman".
+
+| Field | Value |
+|---|---|
+| Pack | caveman |
+| Origin | plugin `caveman` from `caveman` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/caveman/caveman/ef6050c5e184/skills/caveman-help` |
+| Size | 1 files, 2 KB |
+| SKILL.md | 60 lines, ~526 tokens |
+| Description cost | ~49 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-05-01 |
+| Category source | none |
+| Content hash | `d473960ec6a6` |
+
 ### `caveman-stats`
 
 Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log — no AI estimation. Triggers on /caveman-stats. Output is injected by the mode-tracker hook; the model itself does not compute the numbers.
@@ -804,7 +917,7 @@ Show real token usage and estimated savings for the current session. Reads direc
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 13 (6 symlinked) |
+| Installed copies | 14 (6 symlinked) |
 | Canonical path | `~/.agents/skills/caveman-stats` |
 | Size | 1 files, 1 KB |
 | SKILL.md | 11 lines, ~155 tokens |
@@ -814,70 +927,6 @@ Show real token usage and estimated savings for the current session. Reads direc
 | Last modified | 2026-05-01 |
 | Category source | none |
 | Content hash | `0b818890fad1` |
-
-### `cdn-caching`
-
-Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/cdn-caching` |
-| Size | 1 files, 19 KB |
-| SKILL.md | 281 lines, ~4,930 tokens |
-| Description cost | ~37 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | none |
-| Content hash | `05cdcc88e50d` |
-
-### `cdn-caching`
-
-Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason) and PPR state (ppr_state), and costs.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/cdn-caching` |
-| Size | 1 files, 21 KB |
-| SKILL.md | 296 lines, ~5,279 tokens |
-| Description cost | ~43 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-02 |
-| Category source | none |
-| Content hash | `3e47a6ecc523` |
-
-### `cdn-caching`
-
-Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (cacheReason), and costs.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/cdn-caching` |
-| Size | 2 files, 19 KB |
-| SKILL.md | 259 lines, ~4,791 tokens |
-| Description cost | ~37 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `320b951c5096` |
-| Bundled | `agents` |
 
 ### `cisco-ios-patterns`
 
@@ -900,27 +949,26 @@ Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildca
 | Category source | none |
 | Content hash | `bf03cafeabcd` |
 
-### `cms`
+### `code-structure-cleanup`
 
-Headless CMS integration guidance — Sanity (native Vercel Marketplace), Contentful, DatoCMS, Storyblok, and Builder.io. Covers studio setup, content modeling, preview mode, revalidation webhooks, and Visual Editing. Use when building content-driven sites with a headless CMS on Vercel.
+Use after an AI-built feature works but the code has duplicated mechanics, repeated API calls, or messy structure. Guides a cleanup pass that extracts reusable service-layer modules without changing behavior.
 
 | Field | Value |
 |---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
+| Pack | agents-std-store |
+| Origin | standalone |
 | Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/cms` |
-| Size | 2 files, 11 KB |
-| SKILL.md | 337 lines, ~2,717 tokens |
-| Description cost | ~72 tokens always in context |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/code-structure-cleanup` |
+| Size | 1 files, 3 KB |
+| SKILL.md | 84 lines, ~776 tokens |
+| Description cost | ~52 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-05-22 |
 | Category source | none |
-| Content hash | `50cb50684860` |
-| Bundled | `agents` |
+| Content hash | `fe25ca4f243a` |
 
 ### `code-tour`
 
@@ -952,8 +1000,8 @@ Use when the user asks to run Codex CLI (codex exec, codex resume) or references
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/codex` |
 | Size | 1 files, 5 KB |
 | SKILL.md | 67 lines, ~1,313 tokens |
@@ -1058,7 +1106,7 @@ Compress natural language memory files (CLAUDE.md, todos, preferences) into cave
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (6 symlinked) |
+| Installed copies | 10 (6 symlinked) |
 | Canonical path | `~/.agents/skills/compress` |
 | Size | 8 files, 28 KB |
 | SKILL.md | 112 lines, ~1,138 tokens |
@@ -1093,25 +1141,68 @@ Cache expensive file processing results using SHA-256 content hashes — path-in
 
 ### `context-compression`
 
-This skill should be used when the user asks to "compress context", "summarize conversation history", "implement compaction", "reduce token usage", or mentions context compression, structured summarization, tokens-per-task optimization, or long-running agent sessions exceeding context limits.
+This skill should be used when long-running agent sessions need context compression, structured summarization, compaction, token-per-task optimization, or durable handoff summaries that preserve decisions, files, risks, and next actions.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/context-compression` |
-| Size | 3 files, 43 KB |
-| SKILL.md | 266 lines, ~3,153 tokens |
-| Description cost | ~74 tokens always in context |
+| Size | 4 files, 59 KB |
+| SKILL.md | 280 lines, ~4,624 tokens |
+| Description cost | ~60 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | none |
-| Content hash | `14bb0a9a45d6` |
+| Content hash | `1c5acfc47f5d` |
+| Bundled | `references`, `scripts`, `tests` |
+
+### `context-degradation`
+
+This skill should be used for diagnosing and mitigating context degradation: lost-in-middle failures, context poisoning, context clash, context confusion, attention-pattern issues, and agent performance degradation caused by accumulated or conflicting context.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/skills/context-degradation` |
+| Size | 3 files, 52 KB |
+| SKILL.md | 237 lines, ~4,854 tokens |
+| Description cost | ~65 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | none |
+| Content hash | `239664d387c1` |
 | Bundled | `references`, `scripts` |
+
+### `context-engineering`
+
+Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/context-engineering` |
+| Size | 1 files, 15 KB |
+| SKILL.md | 354 lines, ~3,872 tokens |
+| Description cost | ~50 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | none |
+| Content hash | `e6ebab96be48` |
 
 ### `cost-booster-route`
 
@@ -1301,28 +1392,6 @@ Convene a four-voice council for ambiguous decisions, tradeoffs, and go/no-go ca
 | Last modified | 2026-05-17 |
 | Category source | none |
 | Content hash | `1d9414c9bd03` |
-
-### `cron-jobs`
-
-Vercel Cron Jobs configuration and best practices. Use when adding, editing, or debugging scheduled tasks in vercel.json.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/cron-jobs` |
-| Size | 2 files, 2 KB |
-| SKILL.md | 72 lines, ~541 tokens |
-| Description cost | ~31 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `b4abb9fa813c` |
-| Bundled | `agents` |
 
 ### `cron-schedule`
 
@@ -1586,8 +1655,8 @@ Smart dependency management for any language. Auto-detects project type, applies
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/dependency-updater` |
 | Size | 3 files, 13 KB |
 | SKILL.md | 492 lines, ~3,048 tokens |
@@ -1622,24 +1691,24 @@ Analyze git diffs for risk scoring, reviewer recommendations, and change classif
 
 ### `digital-brain`
 
-This skill should be used when the user asks to "write a post", "check my voice", "look up contact", "prepare for meeting", "weekly review", "track goals", or mentions personal brand, content creation, network management, or voice consistency.
+This skill should be used for personal operating-system workflows: content creation, voice consistency, relationship lookup, meeting preparation, weekly review, goal tracking, personal brand management, and network management.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/examples/digital-brain-skill` |
-| Size | 44 files, 120 KB |
-| SKILL.md | 204 lines, ~1,812 tokens |
-| Description cost | ~61 tokens always in context |
+| Size | 47 files, 131 KB |
+| SKILL.md | 204 lines, ~1,808 tokens |
+| Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | none |
-| Content hash | `9d16d2d41c9a` |
+| Content hash | `8f58cb0590c7` |
 | Bundled | `agents`, `content`, `examples`, `identity`, `knowledge`, `network`, `operations`, `references` |
 
 ### `do`
@@ -1726,6 +1795,28 @@ Build a graph-structured dossier on a seed entity via parallel fan-out + recursi
 | Category source | none |
 | Content hash | `79a65a4ac7f1` |
 
+### `durable-objects`
+
+Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/durable-objects` |
+| Size | 4 files, 18 KB |
+| SKILL.md | 176 lines, ~1,421 tokens |
+| Description cost | ~24 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | none |
+| Content hash | `2571b532fd78` |
+| Bundled | `references` |
+
 ### `email-ops`
 
 Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail surface, or prove what landed in Sent.
@@ -1746,49 +1837,6 @@ Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe f
 | Last modified | 2026-05-17 |
 | Category source | none |
 | Content hash | `5948a9e8ae12` |
-
-### `env-vars`
-
-Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/env-vars` |
-| Size | 1 files, 10 KB |
-| SKILL.md | 281 lines, ~2,489 tokens |
-| Description cost | ~40 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | none |
-| Content hash | `7cd7f98c2dcd` |
-
-### `env-vars`
-
-Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or managing environment-specific configuration.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/env-vars` |
-| Size | 2 files, 9 KB |
-| SKILL.md | 259 lines, ~2,355 tokens |
-| Description cost | ~40 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `6751d40cf2f2` |
-| Bundled | `agents` |
 
 ### `evm-token-decimals`
 
@@ -1828,7 +1876,7 @@ An example user-invoked skill that demonstrates frontmatter options and the skil
 | Description cost | ~27 tokens always in context |
 | Allowed tools | [Read, Glob, Grep, Bash] |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | none |
 | Content hash | `c644e984feb3` |
 
@@ -1926,8 +1974,8 @@ Overrides default LLM truncation behavior. Enforces complete code generation, ba
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/full-output-enforcement` |
 | Size | 1 files, 3 KB |
 | SKILL.md | 50 lines, ~661 tokens |
@@ -1947,8 +1995,8 @@ Find 10x product opportunities and high-leverage improvements. Use when user wan
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/game-changing-features` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 265 lines, ~2,043 tokens |
@@ -1968,8 +2016,8 @@ Use when the user asks to run Gemini CLI for code review, plan review, or big co
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/gemini` |
 | Size | 1 files, 10 KB |
 | SKILL.md | 224 lines, ~2,517 tokens |
@@ -1980,6 +2028,27 @@ Use when the user asks to run Gemini CLI for code review, plan review, or big co
 | Category source | none |
 | Content hash | `445c8fcfa35d` |
 
+### `gepeto`
+
+Guide for building 1-click launchers and building apps with launchers built-in using Pinokio
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/gepeto` |
+| Size | 2 files, 41 KB |
+| SKILL.md | 566 lines, ~10,561 tokens |
+| Description cost | ~23 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | none |
+| Content hash | `22e6464980ce` |
+
 ### `gepetto`
 
 Creates detailed, sectionized implementation plans through research, stakeholder interviews, and multi-LLM review. Use when planning features that need thorough pre-implementation analysis.
@@ -1989,8 +2058,8 @@ Creates detailed, sectionized implementation plans through research, stakeholder
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/gepetto` |
 | Size | 6 files, 32 KB |
 | SKILL.md | 346 lines, ~3,124 tokens |
@@ -2025,24 +2094,25 @@ gget CLI and Python workflow for quick genomic database queries, sequence lookup
 
 ### `grill-me`
 
-Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".
+A relentless interview to sharpen a plan or design.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, codex, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 9 (7 symlinked) |
 | Canonical path | `~/.agents/skills/grill-me` |
-| Size | 1 files, 1 KB |
-| SKILL.md | 11 lines, ~162 tokens |
-| Description cost | ~58 tokens always in context |
+| Size | 2 files, 1 KB |
+| SKILL.md | 8 lines, ~41 tokens |
+| Description cost | ~13 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-09-16 |
 | Category source | none |
-| Content hash | `75441dec856b` |
+| Content hash | `ffae54adff84` |
+| Bundled | `agents` |
 
 ### `horizon-track`
 
@@ -2086,6 +2156,71 @@ Explain how claude-mem captures observations, when memory injection kicks in, an
 | Category source | none |
 | Content hash | `f20622101323` |
 
+### `huashu-design`
+
+花叔Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不适用。
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (7 symlinked) |
+| Canonical path | `~/.agents/skills/huashu-design` |
+| Size | 191 files, 31.7 MB |
+| SKILL.md | 583 lines, ~16,461 tokens |
+| Description cost | ~100 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | none |
+| Content hash | `1d5dcf51325c` |
+| Bundled | `assets`, `demos`, `references`, `scripts`, `cloud`, `md-html-narration`, `voiceover-demo`, `director-notes-samples` |
+
+### `idea-refine`
+
+Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on "ideate", "refine this idea", or "stress-test my plan".
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/idea-refine` |
+| Size | 5 files, 39 KB |
+| SKILL.md | 179 lines, ~2,028 tokens |
+| Description cost | ~84 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | none |
+| Content hash | `1e970fd804c1` |
+| Bundled | `scripts` |
+
+### `incremental-implementation`
+
+Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a change out behind a feature flag, when you're about to write a large amount of code at once, or when a task feels too big to land in one step.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/incremental-implementation` |
+| Size | 1 files, 9 KB |
+| SKILL.md | 250 lines, ~2,408 tokens |
+| Description cost | ~86 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | none |
+| Content hash | `7d6c324bff24` |
+
 ### `intelligence-route`
 
 Route tasks via the 3-tier model selector and learned patterns; emits a routing rationale via hooks_explain
@@ -2127,28 +2262,6 @@ Publish or fetch learned patterns across projects via IPFS (Pinata) -- the cross
 | Last modified | 2026-05-16 |
 | Category source | none |
 | Content hash | `49a704be6c32` |
-
-### `internal-comms`
-
-A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
-
-| Field | Value |
-|---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/internal-comms` |
-| Size | 6 files, 22 KB |
-| SKILL.md | 33 lines, ~386 tokens |
-| Description cost | ~83 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-06-27 |
-| Category source | none |
-| Content hash | `10f738e1dfd5` |
-| Bundled | `examples` |
 
 ### `investor-materials`
 
@@ -2403,70 +2516,6 @@ Knowledge base management, ingestion, sync, and retrieval across multiple storag
 | Category source | none |
 | Content hash | `47ab73ed4b93` |
 
-### `knowledge-update`
-
-Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/knowledge-update` |
-| Size | 1 files, 7 KB |
-| SKILL.md | 86 lines, ~1,808 tokens |
-| Description cost | ~29 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | none |
-| Content hash | `2a2db3476268` |
-
-### `knowledge-update`
-
-Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/knowledge-update` |
-| Size | 1 files, 7 KB |
-| SKILL.md | 86 lines, ~1,808 tokens |
-| Description cost | ~29 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-02 |
-| Category source | none |
-| Content hash | `4fb4901d5ff6` |
-
-### `knowledge-update`
-
-Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/knowledge-update` |
-| Size | 2 files, 7 KB |
-| SKILL.md | 85 lines, ~1,803 tokens |
-| Description cost | ~29 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `f538af59cbf1` |
-| Bundled | `agents` |
-
 ### `learn-codebase`
 
 Prime a codebase by reading every source file in full. Use when starting work on a new or unfamiliar project, or when the user asks to "learn the codebase", "read the codebase", "prime", or "get up to speed".
@@ -2497,8 +2546,8 @@ Analyze recent code changes via git history and extract software engineering les
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/lesson-learned` |
 | Size | 3 files, 13 KB |
 | SKILL.md | 106 lines, ~1,214 tokens |
@@ -2548,7 +2597,7 @@ End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, 
 | Description cost | ~83 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | none |
 | Content hash | `8d784d26e79d` |
 
@@ -2611,7 +2660,7 @@ Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial veri
 | Description cost | ~177 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | none |
 | Content hash | `3194b4eb541a` |
 | Bundled | `evals`, `references`, `scripts` |
@@ -2784,28 +2833,6 @@ Operate and extend NanoClaw v2, ECC's zero-dependency session-aware REPL built o
 | Category source | none |
 | Content hash | `c8ff7bc402af` |
 
-### `ncc`
-
-Expert guidance for @vercel/ncc — a simple CLI for compiling Node.js modules into a single file with all dependencies included. Use when bundling serverless functions, CLI tools, or any Node.js project into a self-contained file.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/ncc` |
-| Size | 2 files, 5 KB |
-| SKILL.md | 158 lines, ~1,168 tokens |
-| Description cost | ~58 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `13ea4e0e90dc` |
-| Bundled | `agents` |
-
 ### `netmiko-ssh-automation`
 
 Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling.
@@ -2826,71 +2853,6 @@ Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFS
 | Last modified | 2026-05-17 |
 | Category source | none |
 | Content hash | `be69e2750f82` |
-
-### `next-forge`
-
-next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/next-forge` |
-| Size | 11 files, 70 KB |
-| SKILL.md | 285 lines, ~2,374 tokens |
-| Description cost | ~53 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | none |
-| Content hash | `62fb12cbe9f2` |
-| Bundled | `references`, `upstream` |
-
-### `next-forge`
-
-next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-forge project, scaffolding with `npx next-forge init`, or editing @repo/* workspace packages.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/next-forge` |
-| Size | 6 files, 33 KB |
-| SKILL.md | 238 lines, ~1,938 tokens |
-| Description cost | ~53 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `6a59b5faf052` |
-| Bundled | `agents`, `references` |
-
-### `next-upgrade`
-
-Upgrade Next.js to the latest version following official migration guides and codemods
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/next-upgrade/upstream` |
-| Size | 1 files, 2 KB |
-| SKILL.md | 51 lines, ~515 tokens |
-| Description cost | ~22 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | none |
-| Content hash | `d35cf389165e` |
 
 ### `observe-metrics`
 
@@ -2956,6 +2918,27 @@ Detect and flag personally identifiable information (PII) in text, code, and con
 | Category source | none |
 | Content hash | `bcee5f07725e` |
 
+### `pinokio`
+
+Discover, launch, and use apps and tools for the current task.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/pinokio` |
+| Size | 2 files, 21 KB |
+| SKILL.md | 357 lines, ~5,227 tokens |
+| Description cost | ~16 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | none |
+| Content hash | `074e083f31ea` |
+
 ### `playground`
 
 Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make a playground, explorer, or interactive tool for a topic.
@@ -2973,10 +2956,31 @@ Creates interactive HTML playgrounds — self-contained single-file explorers th
 | Description cost | ~68 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | none |
 | Content hash | `d2917333c61e` |
 | Bundled | `templates` |
+
+### `prototype`
+
+Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/prototype` |
+| Size | 2 files, 15 KB |
+| SKILL.md | 91 lines, ~1,895 tokens |
+| Description cost | ~61 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-07 |
+| Category source | none |
+| Content hash | `66d018b591bb` |
 
 ### `quality-nonconformance`
 
@@ -3008,8 +3012,8 @@ Upgrades existing websites and apps to premium quality. Audits current design, i
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 7 (6 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 8 (6 symlinked) |
 | Canonical path | `~/.agents/skills/redesign-existing-projects` |
 | Size | 1 files, 15 KB |
 | SKILL.md | 179 lines, ~3,810 tokens |
@@ -3029,8 +3033,8 @@ Manual-only skill for minimizing total codebase size. Only activate when explici
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/reducing-entropy` |
 | Size | 6 files, 14 KB |
 | SKILL.md | 82 lines, ~660 tokens |
@@ -3105,6 +3109,70 @@ Scan inputs for prompt injection, unsafe content, and adversarial attacks using 
 | Category source | none |
 | Content hash | `137e667bfd2c` |
 
+### `sandbox-migrate-to-next`
+
+Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-next for apps already on the preview.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/sandbox-migrate-to-next` |
+| Size | 1 files, 8 KB |
+| SKILL.md | 186 lines, ~2,049 tokens |
+| Description cost | ~40 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | none |
+| Content hash | `87e2fa5aaf8c` |
+
+### `sandbox-next`
+
+Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next when porting a stable app.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/sandbox-next` |
+| Size | 3 files, 10 KB |
+| SKILL.md | 93 lines, ~1,727 tokens |
+| Description cost | ~36 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | none |
+| Content hash | `2f697d0b6e44` |
+| Bundled | `references` |
+
+### `sandbox-stable`
+
+Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps and sandbox-migrate-to-next for stable-to-preview migrations.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/sandbox-stable` |
+| Size | 1 files, 9 KB |
+| SKILL.md | 111 lines, ~2,237 tokens |
+| Description cost | ~45 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | none |
+| Content hash | `4d771cc51f9c` |
+
 ### `search-first`
 
 Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.
@@ -3146,6 +3214,27 @@ Token-optimized structural code search using tree-sitter AST parsing. Use instea
 | Last modified | 2026-05-01 |
 | Category source | none |
 | Content hash | `6e8097a4f1f3` |
+
+### `source-code-context`
+
+Use when an AI coding agent is guessing API names or framework behavior from incomplete docs. Shows how to provide local source-code references so the agent searches the real implementation before coding.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/source-code-context` |
+| Size | 1 files, 3 KB |
+| SKILL.md | 80 lines, ~820 tokens |
+| Description cost | ~51 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-05-22 |
+| Category source | none |
+| Content hash | `9b58dc321a31` |
 
 ### `sparc-implement`
 
@@ -3443,31 +3532,9 @@ Train neural models (LSTM, Transformer, N-BEATS) on market data using npx neural
 | Category source | none |
 | Content hash | `ff52bbcbbcf1` |
 
-### `turborepo`
-
-Turborepo expert guidance. Use when setting up or optimizing monorepo builds, configuring task caching, remote caching, parallel execution, or the --affected flag for incremental CI.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `openai-curated` |
-| Status | installed |
-| Tools it reaches | codex |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/turborepo` |
-| Size | 2 files, 17 KB |
-| SKILL.md | 612 lines, ~4,370 tokens |
-| Description cost | ~46 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-09-05 |
-| Category source | none |
-| Content hash | `0b2f6a5fb246` |
-| Bundled | `agents` |
-
 ### `using-superpowers`
 
-Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions
+Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
 
 | Field | Value |
 |---|---|
@@ -3475,8 +3542,30 @@ Use when starting any conversation - establishes how to find and use skills, req
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/using-superpowers` |
+| Size | 6 files, 17 KB |
+| SKILL.md | 64 lines, ~777 tokens |
+| Description cost | ~39 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | none |
+| Content hash | `867aaf4971a0` |
+| Bundled | `references` |
+
+### `using-superpowers`
+
+Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions
+
+| Field | Value |
+|---|---|
+| Pack | superpowers |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/using-superpowers` |
 | Size | 1 files, 4 KB |
 | SKILL.md | 88 lines, ~950 tokens |
 | Description cost | ~40 tokens always in context |
@@ -3486,28 +3575,6 @@ Use when starting any conversation - establishes how to find and use skills, req
 | Category source | none |
 | Content hash | `5b3772e33744` |
 
-### `using-superpowers`
-
-Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
-
-| Field | Value |
-|---|---|
-| Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/using-superpowers` |
-| Size | 6 files, 17 KB |
-| SKILL.md | 64 lines, ~777 tokens |
-| Description cost | ~39 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-08-13 |
-| Category source | none |
-| Content hash | `867aaf4971a0` |
-| Bundled | `references` |
-
 ### `verification-before-completion`
 
 Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always
@@ -3518,16 +3585,16 @@ Use when about to claim work is complete, fixed, or passing, before committing o
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/verification-before-completion` |
 | Size | 1 files, 4 KB |
-| SKILL.md | 140 lines, ~1,051 tokens |
+| SKILL.md | 121 lines, ~912 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | none |
-| Content hash | `4521d2476a17` |
+| Content hash | `ca0166b0a675` |
 
 ### `verification-before-completion`
 
@@ -3536,19 +3603,19 @@ Use when about to claim work is complete, fixed, or passing, before committing o
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/verification-before-completion` |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/verification-before-completion` |
 | Size | 1 files, 4 KB |
-| SKILL.md | 121 lines, ~912 tokens |
+| SKILL.md | 140 lines, ~1,051 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | none |
-| Content hash | `ca0166b0a675` |
+| Content hash | `4521d2476a17` |
 
 ### `verification-loop`
 
@@ -3645,8 +3712,8 @@ Use ONLY when the user explicitly says: 'use the skill web-to-markdown ...' (or 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/web-to-markdown` |
 | Size | 1 files, 4 KB |
 | SKILL.md | 78 lines, ~898 tokens |
@@ -3720,28 +3787,6 @@ Execute, pause, resume, and cancel running workflows
 | Category source | none |
 | Content hash | `08e386a20222` |
 
-### `xlsx`
-
-Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.
-
-| Field | Value |
-|---|---|
-| Pack | skills |
-| Origin | marketplace `anthropic-agent-skills` |
-| Status | available, not installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/marketplaces/anthropic-agent-skills/skills/xlsx` |
-| Size | 53 files, 1.1 MB |
-| SKILL.md | 100 lines, ~2,175 tokens |
-| Description cost | ~239 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-17 |
-| Category source | none |
-| Content hash | `54069c5dd7f8` |
-| Bundled | `scripts`, `office`, `helpers`, `schemas`, `validators`, `ecma`, `iso-iec29500-4_2016`, `mce` |
-
 ### `zoom-out`
 
 Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger picture.
@@ -3751,8 +3796,8 @@ Tell the agent to zoom out and give broader context or a higher-level perspectiv
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store |
+| Installed copies | 7 (5 symlinked) |
 | Canonical path | `~/.agents/skills/zoom-out` |
 | Size | 1 files, 1 KB |
 | SKILL.md | 8 lines, ~110 tokens |

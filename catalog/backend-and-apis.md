@@ -1,6 +1,6 @@
 # Backend & APIs
 
-55 skills — 41 installed, 14 available in a marketplace but not installed.
+59 skills — 45 installed, 14 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -15,18 +15,20 @@
 | `agent-dev-backend-api` | Agent skill for dev-backend-api - invoke with $agent-dev-backend-api *(marketplace only)* | agent-pack | claude-code | 1 files, 10 KB |
 | `agent-docs-api-openapi` | Agent skill for docs-api-openapi - invoke with $agent-docs-api-openapi *(marketplace only)* | agent-pack | claude-code | 1 files, 5 KB |
 | `agent-worker-specialist` | Agent skill for worker-specialist - invoke with $agent-worker-specialist *(marketplace only)* | agent-pack | claude-code | 1 files, 6 KB |
+| `api-and-interface-design` | Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between mod… | agent-skills | claude-code | 1 files, 15 KB |
 | `api-connector-builder` | Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture. | ecc | claude-code | 1 files, 3 KB |
 | `api-design` | REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs. | ecc | claude-code | 1 files, 13 KB |
 | `api-design` | REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs. | agents-std-store | agents-std | 2 files, 14 KB |
-| `api-design-principles` | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or esta… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 40 KB |
+| `api-design-principles` | Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or esta… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 6 files, 40 KB |
 | `api-docs` | Generate API documentation from source code with JSDoc and OpenAPI support *(marketplace only)* | plugins | claude-code | 1 files, 1 KB |
 | `auth` | Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications. Covers middleware auth patterns, sign-in/sign-up flows, and Marke… | vercel | claude-code | 1 files, 12 KB |
 | `auth` | Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applications. Covers middleware auth patterns, sign-in/sign-up flows, and Marke… | vercel | codex | 2 files, 10 KB |
 | `backend-patterns` | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. | ecc | claude-code | 1 files, 13 KB |
 | `backend-patterns` | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. | agents-std-store | agents-std | 2 files, 14 KB |
-| `backend-to-frontend-handoff-docs` | Create API handoff documentation for frontend developers. Use when backend work is complete and needs to be documented for frontend integration, or user says 'create handoff', 'document API… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 5 KB |
+| `backend-to-frontend-handoff-docs` | Create API handoff documentation for frontend developers. Use when backend work is complete and needs to be documented for frontend integration, or user says 'create handoff', 'document API… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 5 KB |
 | `browser-auth-flow` | Probe a site's authentication flow for redirect leaks, missing CSRF, weak session cookies, and OAuth misconfiguration; produces an auth findings.md *(marketplace only)* | plugins | claude-code | 1 files, 3 KB |
 | `build-mcp-server` | This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integration", "wrap an API for Claude", "expose tools to Claude", "make an MCP app", or… *(marketplace only)* | plugins | claude-code | 9 files, 49 KB |
+| `create-a-backend` | Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions, Services, containers, Workflow, Queues, and Marketplace databases; or… | vercel | claude-code | 2 files, 6 KB |
 | `django-patterns` | Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps. | ecc | claude-code | 1 files, 21 KB |
 | `fastapi-patterns` | FastAPI patterns for async APIs, dependency injection, Pydantic request and response models, OpenAPI docs, tests, security, and production readiness. | ecc | claude-code | 1 files, 9 KB |
 | `laravel-patterns` | Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps. | ecc | claude-code | 1 files, 11 KB |
@@ -34,30 +36,32 @@
 | `mcp-server-patterns` | Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API. | ecc | claude-code | 1 files, 4 KB |
 | `mcp-server-patterns` | Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API. | agents-std-store | agents-std | 2 files, 4 KB |
 | `micro` | Expert guidance for micro — asynchronous HTTP microservices framework by Vercel. Use when building lightweight HTTP servers, API endpoints, or microservices using the micro library. | vercel | codex | 2 files, 4 KB |
-| `nextjs-supabase-auth` | Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 1 KB |
-| `openapi-to-typescript` | Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This skill should be used when the user asks to generate types from OpenAPI, convert schema to TS, create API interf… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `openapi-to-typescript` | Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This skill should be used when the user asks to generate types from OpenAPI, convert schema to TS, create API interf… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
 | `payments` | Stripe payments integration guidance — native Vercel Marketplace setup, checkout sessions, webhook handling, subscription billing, and the Stripe SDK. Use when implementing payments, subscr… | vercel | codex | 2 files, 11 KB |
 | `quarkus-patterns` | Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access with Panache, and async processing. Use for Java Quarkus backend work with even… | ecc | claude-code | 1 files, 22 KB |
 | `receipts` | Generate a personal Claude Code usage & impact report ("receipts") from this machine's local session transcripts — for justifying Claude Code usage/spend to a manager, self-review, or "what… *(marketplace only)* | plugins | claude-code | 2 files, 80 KB |
+| `routing-middleware` | Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when in… | vercel | claude-code | 1 files, 11 KB |
 | `routing-middleware` | Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when in… | vercel | claude-code | 1 files, 11 KB |
 | `routing-middleware` | Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when in… | vercel | codex | 2 files, 10 KB |
 | `runtime-cache` | Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds. Use when implementing caching… | vercel | claude-code | 1 files, 9 KB |
 | `runtime-cache` | Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Functions, Routing Middleware, and Builds. Use when implementing caching… | vercel | codex | 2 files, 8 KB |
 | `sdk` | Guide users building apps, scripts, CI pipelines, or automations on top of the Cursor TypeScript SDK (`@cursor/sdk`). Use when the user mentions integrating, installing, or writing code aga… | standalone | cursor | 1 files, 13 KB |
-| `session-handoff` | Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (1) user requests handoff/memory/context save, (2) context window approaches capacity, (3) m… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 11 files, 76 KB |
+| `session-handoff` | Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (1) user requests handoff/memory/context save, (2) context window approaches capacity, (3) m… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 11 files, 76 KB |
 | `session-persist` | Persist and restore agent sessions across conversations with state snapshots *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
+| `turnstile-spin` | Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify. | agents-std-store | claude-code, shared-store | 13 files, 90 KB |
 | `vercel-api` | Vercel app and REST API expert guidance. Use when the agent needs live access to Vercel projects, deployments, environment variables, domains, logs, or documentation through the connected V… | vercel | codex | 2 files, 10 KB |
 | `vercel-connect` | Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use… | vercel | claude-code | 1 files, 19 KB |
 | `vercel-connect` | Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use… | vercel | claude-code | 1 files, 19 KB |
 | `vercel-connect` | Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use… | vercel | codex | 2 files, 18 KB |
 | `vercel-queues` | Vercel Queues guidance (public beta) — durable event streaming with topics, consumer groups, retries, and delayed delivery. $0.60/1M ops. Powers Workflow DevKit. Use when building async pro… | vercel | codex | 2 files, 9 KB |
 | `verification` | Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this wor… | vercel | claude-code | 1 files, 8 KB |
+| `verification` | Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this wor… | vercel | claude-code | 1 files, 8 KB |
 | `verification` | Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this wor… | vercel | codex | 2 files, 8 KB |
 | `worker-benchmarks` | Run comprehensive worker system benchmarks and performance analysis *(marketplace only)* | .agents | claude-code | 1 files, 4 KB |
 | `worker-benchmarks` | Run comprehensive worker system benchmarks and performance analysis *(marketplace only)* | .claude | claude-code | 1 files, 4 KB |
 | `worker-integration` | Worker-Agent integration for intelligent task dispatch and performance tracking *(marketplace only)* | .agents | claude-code | 1 files, 4 KB |
 | `worker-integration` | Worker-Agent integration for intelligent task dispatch and performance tracking *(marketplace only)* | .claude | claude-code | 1 files, 4 KB |
-| `workflow` | Creates durable, resumable workflows using Vercel's Workflow DevKit. Use when building workflows that need to survive restarts, pause for external events, retry on failure, or coordinate mu… | vercel | claude-code | 2 files, 21 KB |
+| `workers-best-practices` | Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers. | agents-std-store | claude-code, shared-store | 4 files, 29 KB |
 | `workflow` | Creates durable, resumable workflows using Vercel's Workflow SDK. Use when building workflows that need to survive restarts, pause for external events, retry on failure, or coordinate multi… | vercel | claude-code | 1 files, 31 KB |
 | `x-api` | X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the u… | ecc | claude-code | 1 files, 7 KB |
 | `x-api` | X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the u… | agents-std-store | agents-std | 2 files, 7 KB |
@@ -253,6 +257,27 @@ Agent skill for worker-specialist - invoke with $agent-worker-specialist
 | Category source | keywords |
 | Content hash | `30d77536b923` |
 
+### `api-and-interface-design`
+
+Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/api-and-interface-design` |
+| Size | 1 files, 15 KB |
+| SKILL.md | 368 lines, ~3,721 tokens |
+| Description cost | ~63 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `ef7ed3142c57` |
+
 ### `api-connector-builder`
 
 Build a new API connector or provider by matching the target repo's existing integration pattern exactly. Use when adding one more integration without inventing a second architecture.
@@ -326,17 +351,17 @@ Master REST and GraphQL API design principles to build intuitive, scalable, and 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/api-design-principles` |
-| Size | 5 files, 40 KB |
-| SKILL.md | 529 lines, ~3,563 tokens |
+| Size | 6 files, 40 KB |
+| SKILL.md | 111 lines, ~929 tokens |
 | Description cost | ~55 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `80c5aac3bee8` |
+| Content hash | `5949ecf547d5` |
 | Bundled | `assets`, `references` |
 
 ### `api-docs`
@@ -370,14 +395,14 @@ Authentication integration guidance — Clerk (native Vercel Marketplace), Desco
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/auth` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/auth` |
 | Size | 1 files, 12 KB |
 | SKILL.md | 408 lines, ~2,951 tokens |
 | Description cost | ~64 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `d9575915a095` |
 
@@ -392,13 +417,13 @@ Authentication integration guidance — Clerk (native Vercel Marketplace), Desco
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/auth` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/auth` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 356 lines, ~2,436 tokens |
 | Description cost | ~64 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `52a826ee9eb0` |
 | Bundled | `agents` |
@@ -455,8 +480,8 @@ Create API handoff documentation for frontend developers. Use when backend work 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/backend-to-frontend-handoff-docs` |
 | Size | 1 files, 5 KB |
 | SKILL.md | 123 lines, ~1,344 tokens |
@@ -505,10 +530,32 @@ This skill should be used when the user asks to "build an MCP server", "create a
 | Description cost | ~122 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `45791cdfb5c0` |
 | Bundled | `references` |
+
+### `create-a-backend`
+
+Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions, Services, containers, Workflow, Queues, and Marketplace databases; or selecting a supported backend framework or runtime.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.0/skills/create-a-backend` |
+| Size | 2 files, 6 KB |
+| SKILL.md | 115 lines, ~1,493 tokens |
+| Description cost | ~61 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | keywords |
+| Content hash | `124e86e1c070` |
+| Bundled | `agents` |
 
 ### `django-patterns`
 
@@ -648,37 +695,16 @@ Expert guidance for micro — asynchronous HTTP microservices framework by Verce
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/micro` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/micro` |
 | Size | 2 files, 4 KB |
 | SKILL.md | 180 lines, ~1,045 tokens |
 | Description cost | ~46 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `49dad35398ae` |
 | Bundled | `agents` |
-
-### `nextjs-supabase-auth`
-
-Expert integration of Supabase Auth with Next.js App Router Use when: supabase auth next, authentication next.js, login supabase, auth middleware, protected route.
-
-| Field | Value |
-|---|---|
-| Pack | agents-std-store |
-| Origin | standalone |
-| Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
-| Canonical path | `~/.agents/skills/nextjs-supabase-auth` |
-| Size | 1 files, 1 KB |
-| SKILL.md | 57 lines, ~362 tokens |
-| Description cost | ~41 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-02-10 |
-| Category source | keywords |
-| Content hash | `2d188ef6caa2` |
 
 ### `openapi-to-typescript`
 
@@ -689,8 +715,8 @@ Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This sk
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/openapi-to-typescript` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 345 lines, ~2,087 tokens |
@@ -712,13 +738,13 @@ Stripe payments integration guidance — native Vercel Marketplace setup, checko
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/payments` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/payments` |
 | Size | 2 files, 11 KB |
 | SKILL.md | 352 lines, ~2,735 tokens |
 | Description cost | ~57 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `29c511006b6d` |
 | Bundled | `agents` |
@@ -761,7 +787,7 @@ Generate a personal Claude Code usage & impact report ("receipts") from this mac
 | Description cost | ~152 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-19 |
 | Category source | keywords |
 | Content hash | `988fed05487c` |
 | Bundled | `scripts` |
@@ -776,16 +802,37 @@ Vercel Routing Middleware guidance — request interception before cache, rewrit
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/routing-middleware` |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/routing-middleware` |
 | Size | 1 files, 11 KB |
 | SKILL.md | 292 lines, ~2,867 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `281966b31099` |
+
+### `routing-middleware`
+
+Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works with any framework. Supports Edge, Node.js, and Bun runtimes. Use when intercepting requests at the platform level.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.0/skills/routing-middleware` |
+| Size | 1 files, 11 KB |
+| SKILL.md | 292 lines, ~2,868 tokens |
+| Description cost | ~59 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | keywords |
+| Content hash | `a307a498fa21` |
 
 ### `routing-middleware`
 
@@ -798,13 +845,13 @@ Vercel Routing Middleware guidance — request interception before cache, rewrit
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/routing-middleware` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/routing-middleware` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 251 lines, ~2,438 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `0cb22ad8e7d5` |
 | Bundled | `agents` |
@@ -819,14 +866,14 @@ Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with 
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/runtime-cache` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/runtime-cache` |
 | Size | 1 files, 9 KB |
 | SKILL.md | 283 lines, ~2,373 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `d8f7a78fa225` |
 
@@ -841,13 +888,13 @@ Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/runtime-cache` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/runtime-cache` |
 | Size | 2 files, 8 KB |
 | SKILL.md | 249 lines, ~2,053 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `c150415a3923` |
 | Bundled | `agents` |
@@ -882,8 +929,8 @@ Creates comprehensive handoff documents for seamless AI agent session transfers.
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/session-handoff` |
 | Size | 11 files, 76 KB |
 | SKILL.md | 190 lines, ~1,624 tokens |
@@ -916,6 +963,28 @@ Persist and restore agent sessions across conversations with state snapshots
 | Category source | keywords |
 | Content hash | `7c326cf4fd90` |
 
+### `turnstile-spin`
+
+Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/turnstile-spin` |
+| Size | 13 files, 90 KB |
+| SKILL.md | 337 lines, ~7,251 tokens |
+| Description cost | ~35 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `2cf5d9e39e65` |
+| Bundled | `references`, `scripts`, `tests` |
+
 ### `vercel-api`
 
 Vercel app and REST API expert guidance. Use when the agent needs live access to Vercel projects, deployments, environment variables, domains, logs, or documentation through the connected Vercel app or REST API.
@@ -927,37 +996,16 @@ Vercel app and REST API expert guidance. Use when the agent needs live access to
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-api` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/vercel-api` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 275 lines, ~2,523 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `02ba1584c696` |
 | Bundled | `agents` |
-
-### `vercel-connect`
-
-Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use when wiring up third-party API access, connecting to MCP servers, sending Slack messages, accessing GitHub APIs, receiving webhook events from Slack/Linear/GitHub and forwarding them to your agents and apps, or building Eve agent connections.
-
-| Field | Value |
-|---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
-| Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/vercel-connect` |
-| Size | 1 files, 19 KB |
-| SKILL.md | 412 lines, ~4,883 tokens |
-| Description cost | ~109 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-07-24 |
-| Category source | keywords |
-| Content hash | `fd8946a216ec` |
 
 ### `vercel-connect`
 
@@ -982,6 +1030,27 @@ Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third
 
 ### `vercel-connect`
 
+Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use when wiring up third-party API access, connecting to MCP servers, sending Slack messages, accessing GitHub APIs, receiving webhook events from Slack/Linear/GitHub and forwarding them to your agents and apps, or building eve agent connections.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.0/skills/vercel-connect` |
+| Size | 1 files, 19 KB |
+| SKILL.md | 411 lines, ~4,873 tokens |
+| Description cost | ~109 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | keywords |
+| Content hash | `7bba01a66f48` |
+
+### `vercel-connect`
+
 Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP servers, OAuth, Snowflake) on behalf of apps or users via Vercel OIDC. Use when wiring up third-party API access, connecting to MCP servers, sending Slack messages, accessing GitHub APIs, receiving webhook events from Slack/Linear/GitHub and forwarding them to your agents and apps, or building Eve agent connections.
 
 | Field | Value |
@@ -991,13 +1060,13 @@ Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-connect` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/vercel-connect` |
 | Size | 2 files, 18 KB |
 | SKILL.md | 367 lines, ~4,480 tokens |
 | Description cost | ~109 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `1888c7d7a075` |
 | Bundled | `agents` |
@@ -1013,13 +1082,13 @@ Vercel Queues guidance (public beta) — durable event streaming with topics, co
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/vercel-queues` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/vercel-queues` |
 | Size | 2 files, 9 KB |
 | SKILL.md | 230 lines, ~2,147 tokens |
 | Description cost | ~62 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `924ad3587fb0` |
 | Bundled | `agents` |
@@ -1034,16 +1103,37 @@ Full-story verification — infers what the user is building, then verifies the 
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/verification` |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/verification` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 197 lines, ~2,032 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `47de174a2f2f` |
+
+### `verification`
+
+Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API → data → response. Triggers on dev server start and 'why isn't this working' signals.
+
+| Field | Value |
+|---|---|
+| Pack | vercel |
+| Origin | plugin `vercel` from `claude-plugins-official` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.49.0/skills/verification` |
+| Size | 1 files, 8 KB |
+| SKILL.md | 197 lines, ~2,031 tokens |
+| Description cost | ~53 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-12 |
+| Category source | keywords |
+| Content hash | `4584d7a1e271` |
 
 ### `verification`
 
@@ -1056,13 +1146,13 @@ Full-story verification — infers what the user is building, then verifies the 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/verification` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/verification` |
 | Size | 2 files, 8 KB |
 | SKILL.md | 168 lines, ~1,921 tokens |
 | Description cost | ~53 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `96515f4a040d` |
 | Bundled | `agents` |
@@ -1151,26 +1241,26 @@ Worker-Agent integration for intelligent task dispatch and performance tracking
 | Category source | keywords |
 | Content hash | `dfb46a263abb` |
 
-### `workflow`
+### `workers-best-practices`
 
-Creates durable, resumable workflows using Vercel's Workflow DevKit. Use when building workflows that need to survive restarts, pause for external events, retry on failure, or coordinate multi-step operations over time. Triggers on mentions of "workflow", "durable functions", "resumable", "workflow devkit", "queue", "event", "push", "subscribe", or step-based orchestration.
+Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers.
 
 | Field | Value |
 |---|---|
-| Pack | vercel |
-| Origin | plugin `vercel` from `claude-plugins-official` |
+| Pack | agents-std-store |
+| Origin | standalone |
 | Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/workflow/upstream` |
-| Size | 2 files, 21 KB |
-| SKILL.md | 556 lines, ~4,822 tokens |
-| Description cost | ~94 tokens always in context |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/workers-best-practices` |
+| Size | 4 files, 29 KB |
+| SKILL.md | 61 lines, ~1,392 tokens |
+| Description cost | ~29 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `9f265ffd447d` |
+| Content hash | `7855acd9ff9b` |
 | Bundled | `references` |
 
 ### `workflow`
@@ -1183,7 +1273,7 @@ Creates durable, resumable workflows using Vercel's Workflow SDK. Use when build
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
+| Installed copies | 4 (0 symlinked) |
 | Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/workflow/upstream` |
 | Size | 1 files, 31 KB |
 | SKILL.md | 795 lines, ~7,832 tokens |

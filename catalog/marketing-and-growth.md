@@ -57,7 +57,6 @@
 | `form-cro` | When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout form… | marketing-skills | claude-code | 1 files, 11 KB |
 | `free-tool-strategy` | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions "engineering as marketin… | marketing-skills | claude-code | 2 files, 10 KB |
 | `free-tools` | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions "engineering as marketin… | marketing-skills | claude-code | 3 files, 16 KB |
-| `interface-design` | This skill is for interface design — dashboards, admin panels, apps, tools, and interactive products. NOT for marketing design (landing pages, marketing sites, campaigns). | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 5 files, 39 KB |
 | `investor-outreach` | Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accele… | ecc | claude-code | 1 files, 3 KB |
 | `investor-outreach` | Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accele… | agents-std-store | agents-std | 2 files, 3 KB |
 | `landing-page-copywriter` | Write high-converting landing page copy using proven frameworks like PAS (Problem-Agitate-Solution), AIDA, and StoryBrand. Creates headlines, value propositions, CTAs, and full page section… | standalone | claude-code | 1 files, 7 KB |
@@ -84,6 +83,7 @@
 | `referrals` | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,'… | marketing-skills | claude-code | 4 files, 22 KB |
 | `revops` | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead s… | marketing-skills | claude-code | 6 files, 54 KB |
 | `seo` | Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibil… | ecc | claude-code | 1 files, 4 KB |
+| `shipping-and-launch` | Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up… | agent-skills | claude-code | 1 files, 11 KB |
 | `signup` | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup for… | marketing-skills | claude-code | 2 files, 17 KB |
 | `signup-flow-cro` | When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup for… | marketing-skills | claude-code | 1 files, 10 KB |
 | `social` | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions '… | marketing-skills | claude-code | 7 files, 44 KB |
@@ -1187,28 +1187,6 @@ When the user wants to plan, evaluate, or build a free tool for marketing purpos
 | Content hash | `5793bcd53aa0` |
 | Bundled | `evals`, `references` |
 
-### `interface-design`
-
-This skill is for interface design — dashboards, admin panels, apps, tools, and interactive products. NOT for marketing design (landing pages, marketing sites, campaigns).
-
-| Field | Value |
-|---|---|
-| Pack | agents-std-store |
-| Origin | standalone |
-| Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
-| Canonical path | `~/.agents/skills/interface-design` |
-| Size | 5 files, 39 KB |
-| SKILL.md | 392 lines, ~5,109 tokens |
-| Description cost | ~44 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-02-10 |
-| Category source | keywords |
-| Content hash | `087ded13140d` |
-| Bundled | `references` |
-
 ### `investor-outreach`
 
 Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.
@@ -1774,6 +1752,27 @@ Audit, plan, and implement SEO improvements across technical SEO, on-page optimi
 | Last modified | 2026-05-17 |
 | Category source | keywords |
 | Content hash | `95621cd4d001` |
+
+### `shipping-and-launch`
+
+Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/shipping-and-launch` |
+| Size | 1 files, 11 KB |
+| SKILL.md | 331 lines, ~2,851 tokens |
+| Description cost | ~68 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `919ad68170a8` |
 
 ### `signup`
 

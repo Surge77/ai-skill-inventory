@@ -1,6 +1,6 @@
 # Debugging & Performance
 
-37 skills — 21 installed, 16 available in a marketplace but not installed.
+44 skills — 28 installed, 16 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -21,21 +21,27 @@
 | `agent-v3-performance-engineer` | Agent skill for v3-performance-engineer - invoke with $agent-v3-performance-engineer *(marketplace only)* | agent-pack | claude-code | 1 files, 14 KB |
 | `AgentDB Performance Optimization` | Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving searc… *(marketplace only)* | .agents | claude-code | 1 files, 12 KB |
 | `AgentDB Performance Optimization` | Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW indexing (150x faster search), caching, and batch operations. Use when optimizing memory usage, improving searc… *(marketplace only)* | .claude | claude-code | 1 files, 12 KB |
+| `browser-testing-with-devtools` | Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network… | agent-skills | claude-code | 1 files, 14 KB |
 | `competitor-profiling` | When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profil… | marketing-skills | claude-code | 4 files, 33 KB |
-| `context-degradation` | This skill should be used when the user asks to "diagnose context problems", "fix lost-in-middle issues", "debug agent failures", "understand context poisoning", or mentions context degrada… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 40 KB |
-| `context-optimization` | This skill should be used when the user asks to "optimize context", "reduce token costs", "improve context efficiency", "implement KV-cache optimization", "partition context", or mentions c… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 30 KB |
+| `context-fundamentals` | This skill should be used to explain or reason about the foundational concepts of context engineering: what context is, the anatomy of a context window, how attention mechanics work, the U-… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 43 KB |
+| `context-optimization` | This skill should be used for improving context efficiency: context budgeting, observation masking, prefix or KV-cache strategy, partitioning, token-cost reduction, retrieval scoping, and e… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 45 KB |
 | `cost-optimize` | Analyze token usage patterns and recommend cost optimizations with estimated savings *(marketplace only)* | plugins | claude-code | 1 files, 4 KB |
-| `diagnose` | Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → fix → regression-test. Use when user says "diagnose this" / "debug th… | agents-std-store | continue, factory, kilocode, qwen-code, roo-code, shared-store | 2 files, 8 KB |
+| `debug` | Run /debug to find and fix a bug's root cause: a test failing for an unclear reason, /check verify finding a failure, or behavior being wrong. Runs a reproduce, localize, hypothesize, test,… | standalone | codex | 2 files, 7 KB |
+| `debugging-and-error-recovery` | Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error.… | agent-skills | claude-code | 1 files, 11 KB |
+| `diagnose` | Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → fix → regression-test. Use when user says "diagnose this" / "debug th… | agents-std-store | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store | 2 files, 8 KB |
 | `error-handling` | Patterns for robust error handling across TypeScript, Python, and Go. Covers typed errors, error boundaries, retries, circuit breakers, and user-facing error messages. | ecc | claude-code | 1 files, 11 KB |
-| `error-handling-patterns` | Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 17 KB |
+| `error-handling-patterns` | Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 17 KB |
+| `golang-error-handling` | Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging wit… | standalone | codex | 5 files, 36 KB |
+| `golang-performance` | Golang performance optimization patterns and methodology - if X bottleneck, then apply Y. Covers allocation reduction, CPU efficiency, memory layout, GC tuning, pooling, caching, and hot-pa… | standalone | codex | 9 files, 170 KB |
 | `next-best-practices` | Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling | vercel | claude-code | 21 files, 85 KB |
 | `observe-trace` | Trace agent execution by collecting spans and building a trace tree for a task *(marketplace only)* | plugins | claude-code | 1 files, 2 KB |
 | `Pair Programming` | AI-assisted pair programming with multiple modes (driver$navigator$switch), real-time verification, quality monitoring, and comprehensive testing. Supports TDD, debugging, refactoring, and… *(marketplace only)* | .agents | claude-code | 1 files, 25 KB |
 | `Pair Programming` | AI-assisted pair programming with multiple modes (driver/navigator/switch), real-time verification, quality monitoring, and comprehensive testing. Supports TDD, debugging, refactoring, and… *(marketplace only)* | .claude | claude-code | 1 files, 25 KB |
-| `performance` | Optimize web performance for faster loading and better user experience. Use when asked to "speed up my site", "optimize performance", "reduce load time", "fix slow loading", "improve page s… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 9 KB |
+| `performance` | Optimize web performance for faster loading and better user experience. Use when asked to "speed up my site", "optimize performance", "reduce load time", "fix slow loading", "improve page s… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 3 files, 24 KB |
 | `performance-analysis` | Comprehensive performance analysis, bottleneck detection, and optimization recommendations for Claude Flow swarms *(marketplace only)* | .agents | claude-code | 1 files, 15 KB |
 | `performance-analysis` | Comprehensive performance analysis, bottleneck detection, and optimization recommendations for Claude Flow swarms *(marketplace only)* | .claude | claude-code | 1 files, 15 KB |
-| `reasoning-trace-optimizer` | Debug and optimize AI agents by analyzing reasoning traces. Activates on 'debug agent', 'optimize prompt', 'analyze reasoning', 'why did the agent fail', 'improve agent performance', or whe… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 60 files, 574 KB |
+| `performance-optimization` | Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals o… | agent-skills | claude-code | 1 files, 21 KB |
+| `reasoning-trace-optimizer` | Debug and optimize AI agents by analyzing reasoning traces, context degradation, tool confusion, instruction drift, repeated task failures, and performance regressions. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 63 files, 596 KB |
 | `systematic-debugging` | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 11 files, 40 KB |
 | `systematic-debugging` | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | superpowers | claude-code | 11 files, 40 KB |
 | `token-optimizer` | Audit your OpenClaw setup for token waste, context bloat, and cost optimization opportunities | token-optimizer | claude-code | 1 files, 2 KB |
@@ -43,6 +49,7 @@
 | `turbopack` | Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or understanding the Turbopack vs Webpack differences. | vercel | claude-code | 1 files, 11 KB |
 | `turbopack` | Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or understanding the Turbopack vs Webpack differences. | vercel | codex | 2 files, 10 KB |
 | `V3 Performance Optimization` | Achieve aggressive v3 performance targets: 2.49x-7.47x Flash Attention speedup, 150x-12,500x search improvements, 50-75% memory reduction. Comprehensive benchmarking and optimization suite. *(marketplace only)* | .agents | claude-code | 1 files, 12 KB |
+| `web-perf` | Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores. | agents-std-store | claude-code, shared-store | 1 files, 8 KB |
 
 ## Detail
 
@@ -362,6 +369,27 @@ Optimize AgentDB performance with quantization (4-32x memory reduction), HNSW in
 | Category source | keywords |
 | Content hash | `ffbed186b865` |
 
+### `browser-testing-with-devtools`
+
+Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/browser-testing-with-devtools` |
+| Size | 1 files, 14 KB |
+| SKILL.md | 318 lines, ~3,635 tokens |
+| Description cost | ~82 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `e2e4b18f7038` |
+
 ### `competitor-profiling`
 
 When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement.
@@ -384,48 +412,48 @@ When the user wants to research, profile, or analyze competitors from their URLs
 | Content hash | `e04645365e61` |
 | Bundled | `evals`, `references` |
 
-### `context-degradation`
+### `context-fundamentals`
 
-This skill should be used when the user asks to "diagnose context problems", "fix lost-in-middle issues", "debug agent failures", "understand context poisoning", or mentions context degradation, attention patterns, context clash, context confusion, or agent performance degradation. Provides patterns for recognizing and mitigating context failures.
+This skill should be used to explain or reason about the foundational concepts of context engineering: what context is, the anatomy of a context window, how attention mechanics work, the U-shaped attention curve, why context quality matters more than quantity, and the mental models needed to interpret every other context-engineering decision. Use this for conceptual explanation, onboarding, and background reading. Route operational work to the specialized skills: debugging attention failures goes to context-degradation, token-efficiency work goes to context-optimization, conversation summarization goes to context-compression, and project-shape decisions go to project-development.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
-| Canonical path | `~/.agents/skills/context-engineering-collection/skills/context-degradation` |
-| Size | 3 files, 40 KB |
-| SKILL.md | 232 lines, ~3,954 tokens |
-| Description cost | ~88 tokens always in context |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/skills/context-fundamentals` |
+| Size | 3 files, 43 KB |
+| SKILL.md | 211 lines, ~4,306 tokens |
+| Description cost | ~172 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `92d95b5af0c6` |
+| Content hash | `110eeb2902a5` |
 | Bundled | `references`, `scripts` |
 
 ### `context-optimization`
 
-This skill should be used when the user asks to "optimize context", "reduce token costs", "improve context efficiency", "implement KV-cache optimization", "partition context", or mentions context limits, observation masking, context budgeting, or extending effective context capacity.
+This skill should be used for improving context efficiency: context budgeting, observation masking, prefix or KV-cache strategy, partitioning, token-cost reduction, retrieval scoping, and extending effective context capacity without lowering answer quality.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
 | Canonical path | `~/.agents/skills/context-engineering-collection/skills/context-optimization` |
-| Size | 3 files, 30 KB |
-| SKILL.md | 180 lines, ~2,160 tokens |
-| Description cost | ~71 tokens always in context |
+| Size | 3 files, 45 KB |
+| SKILL.md | 220 lines, ~3,972 tokens |
+| Description cost | ~65 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `56f049ba0728` |
+| Content hash | `f5425cb7d89b` |
 | Bundled | `references`, `scripts` |
 
 ### `cost-optimize`
@@ -449,6 +477,49 @@ Analyze token usage patterns and recommend cost optimizations with estimated sav
 | Category source | keywords |
 | Content hash | `d267bb633591` |
 
+### `debug`
+
+Run /debug to find and fix a bug's root cause: a test failing for an unclear reason, /check verify finding a failure, or behavior being wrong. Runs a reproduce, localize, hypothesize, test, fix, verify loop, makes the minimal fix, and hands a regression test to /test. No features, no extra refactors.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/debug` |
+| Size | 2 files, 7 KB |
+| SKILL.md | 101 lines, ~1,782 tokens |
+| Description cost | ~76 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `c70acef0bdd2` |
+| Bundled | `agents` |
+
+### `debugging-and-error-recovery`
+
+Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/debugging-and-error-recovery` |
+| Size | 1 files, 11 KB |
+| SKILL.md | 301 lines, ~2,729 tokens |
+| Description cost | ~82 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `f4fd9430e9aa` |
+
 ### `diagnose`
 
 Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → fix → regression-test. Use when user says "diagnose this" / "debug this", reports a bug, says something is broken/throwing/failing, or describes a performance regression.
@@ -458,8 +529,8 @@ Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce 
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | continue, factory, kilocode, qwen-code, roo-code, shared-store |
-| Installed copies | 6 (5 symlinked) |
+| Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store |
+| Installed copies | 7 (5 symlinked) |
 | Canonical path | `~/.agents/skills/diagnose` |
 | Size | 2 files, 8 KB |
 | SKILL.md | 118 lines, ~1,820 tokens |
@@ -501,17 +572,62 @@ Master error handling patterns across languages including exceptions, Result typ
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/error-handling-patterns` |
-| Size | 1 files, 17 KB |
-| SKILL.md | 642 lines, ~4,369 tokens |
+| Size | 2 files, 17 KB |
+| SKILL.md | 122 lines, ~1,053 tokens |
 | Description cost | ~63 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `d4724e18a4f3` |
+| Content hash | `99525622b9d6` |
+| Bundled | `references` |
+
+### `golang-error-handling`
+
+Idiomatic Golang error handling — creation, wrapping with %w, errors.Is/As, errors.Join, custom error types, sentinel errors, panic/recover, the single handling rule, structured logging with slog, HTTP request logging middleware, and samber/oops for production errors. Built to make logs usable at scale with log aggregation 3rd-party tools. Apply when creating, wrapping, inspecting, or logging errors in Go code. For samber/oops specifics → See `samber/cc-skills-golang@golang-samber-oops` skill; for slog handler ecosystem → See `samber/cc-skills-golang@golang-samber-slog` skill.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/golang-error-handling` |
+| Size | 5 files, 36 KB |
+| SKILL.md | 92 lines, ~1,841 tokens |
+| Description cost | ~148 tokens always in context |
+| Allowed tools | Read Edit Write Glob Grep Bash(go:*) Bash(golangci-lint:*) Bash(git:*) Agent |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `95abce9fe508` |
+| Bundled | `evals`, `references` |
+
+### `golang-performance`
+
+Golang performance optimization patterns and methodology - if X bottleneck, then apply Y. Covers allocation reduction, CPU efficiency, memory layout, GC tuning, pooling, caching, and hot-path optimization. Use when profiling or benchmarks have identified a bottleneck and you need the right optimization pattern to fix it. Also use when performing performance code review to suggest improvements or benchmarks that could help identify quick performance gains. Not for measurement methodology (→ See `samber/cc-skills-golang@golang-benchmark` skill) or debugging workflow (→ See `samber/cc-skills-golang@golang-troubleshooting` skill).
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/golang-performance` |
+| Size | 9 files, 170 KB |
+| SKILL.md | 122 lines, ~2,382 tokens |
+| Description cost | ~160 tokens always in context |
+| Allowed tools | Read Edit Write Glob Grep Bash(go:*) Bash(golangci-lint:*) Bash(git:*) Agent WebFetch Bash(benchstat:*) Bash(fieldalignment:*) Bash(staticcheck:*) Bash(curl:*) Bash(fgprof:*) Bash(perf:*) WebSearch AskUserQuestion EnterWorktree ExitWorktree |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `c2ffb1b5ff66` |
+| Bundled | `assets`, `evals`, `references` |
 
 ### `next-best-practices`
 
@@ -523,14 +639,14 @@ Next.js best practices - file conventions, RSC boundaries, data patterns, async 
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/nextjs/upstream` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/nextjs/upstream` |
 | Size | 21 files, 85 KB |
 | SKILL.md | 154 lines, ~1,040 tokens |
 | Description cost | ~41 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `218844b772a2` |
 | Bundled | `references` |
@@ -607,17 +723,18 @@ Optimize web performance for faster loading and better user experience. Use when
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (9 symlinked) |
 | Canonical path | `~/.agents/skills/performance` |
-| Size | 1 files, 9 KB |
-| SKILL.md | 362 lines, ~2,398 tokens |
+| Size | 3 files, 24 KB |
+| SKILL.md | 400 lines, ~3,553 tokens |
 | Description cost | ~55 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-10 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `6d372849377f` |
+| Content hash | `64dc96d1e8f6` |
+| Bundled | `references` |
 
 ### `performance-analysis`
 
@@ -661,26 +778,47 @@ Comprehensive performance analysis, bottleneck detection, and optimization recom
 | Category source | keywords |
 | Content hash | `c5817621a8f1` |
 
+### `performance-optimization`
+
+Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/performance-optimization` |
+| Size | 1 files, 21 KB |
+| SKILL.md | 497 lines, ~5,430 tokens |
+| Description cost | ~74 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `a699f873366b` |
+
 ### `reasoning-trace-optimizer`
 
-Debug and optimize AI agents by analyzing reasoning traces. Activates on 'debug agent', 'optimize prompt', 'analyze reasoning', 'why did the agent fail', 'improve agent performance', or when diagnosing agent failures and context degradation.
+Debug and optimize AI agents by analyzing reasoning traces, context degradation, tool confusion, instruction drift, repeated task failures, and performance regressions.
 
 | Field | Value |
 |---|---|
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
-| Canonical path | `~/.agents/skills/context-engineering-collection/examples/interleaved_thinking` |
-| Size | 60 files, 574 KB |
-| SKILL.md | 222 lines, ~1,663 tokens |
-| Description cost | ~61 tokens always in context |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (0 symlinked) |
+| Canonical path | `~/.agents/skills/context-engineering-collection/examples/interleaved-thinking` |
+| Size | 63 files, 596 KB |
+| SKILL.md | 222 lines, ~1,645 tokens |
+| Description cost | ~42 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `464198509d89` |
+| Content hash | `ed9afd5e7069` |
 | Bundled | `docs`, `examples`, `generated_skills`, `optimization_artifacts`, `reasoning_trace_optimizer`, `tests`, `iteration_1`, `iteration_10` |
 
 ### `systematic-debugging`
@@ -693,16 +831,16 @@ Use when encountering any bug, test failure, or unexpected behavior, before prop
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/systematic-debugging` |
 | Size | 11 files, 40 KB |
-| SKILL.md | 297 lines, ~2,471 tokens |
+| SKILL.md | 284 lines, ~2,367 tokens |
 | Description cost | ~23 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `d5e4c5757396` |
+| Content hash | `5f6d1e172658` |
 
 ### `systematic-debugging`
 
@@ -711,19 +849,19 @@ Use when encountering any bug, test failure, or unexpected behavior, before prop
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/systematic-debugging` |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/systematic-debugging` |
 | Size | 11 files, 40 KB |
-| SKILL.md | 284 lines, ~2,367 tokens |
+| SKILL.md | 297 lines, ~2,471 tokens |
 | Description cost | ~23 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `5f6d1e172658` |
+| Content hash | `d5e4c5757396` |
 
 ### `token-optimizer`
 
@@ -778,14 +916,14 @@ Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing 
 | Origin | plugin `vercel` from `claude-plugins-official` |
 | Status | installed |
 | Tools it reaches | claude-code |
-| Installed copies | 2 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.45.1/skills/turbopack` |
+| Installed copies | 4 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/vercel/0.48.0/skills/turbopack` |
 | Size | 1 files, 11 KB |
 | SKILL.md | 344 lines, ~2,760 tokens |
 | Description cost | ~41 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-07-24 |
+| Last modified | 2026-09-02 |
 | Category source | keywords |
 | Content hash | `3cd37f50386c` |
 
@@ -800,13 +938,13 @@ Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing 
 | Status | installed |
 | Tools it reaches | codex |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1e285826/skills/turbopack` |
+| Canonical path | `~/.codex/plugins/cache/openai-curated/vercel/1dc19589/skills/turbopack` |
 | Size | 2 files, 10 KB |
 | SKILL.md | 318 lines, ~2,563 tokens |
 | Description cost | ~41 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-09-05 |
+| Last modified | 2026-09-12 |
 | Category source | keywords |
 | Content hash | `316ea0b117dc` |
 | Bundled | `agents` |
@@ -831,3 +969,24 @@ Achieve aggressive v3 performance targets: 2.49x-7.47x Flash Attention speedup, 
 | Last modified | 2026-05-16 |
 | Category source | keywords |
 | Content hash | `5ec2c4f13106` |
+
+### `web-perf`
+
+Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/web-perf` |
+| Size | 1 files, 8 KB |
+| SKILL.md | 202 lines, ~2,115 tokens |
+| Description cost | ~32 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `1d5b6a1e8a22` |

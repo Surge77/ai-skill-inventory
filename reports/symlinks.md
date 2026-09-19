@@ -2,7 +2,7 @@
 
 [← back](../README.md)
 
-869 of the 2,350 skill directories on disk are symlinks. The pattern is one shared store with every tool linking into it, which is the right shape: install once, reach every tool.
+923 of the 2,835 skill directories on disk are symlinks. The pattern is one shared store with every tool linking into it, which is the right shape: install once, reach every tool.
 
 ```
 ~/.agents/skills/<skill>/          <- the actual content
@@ -23,9 +23,10 @@
 | `.qwen` | 118 |
 | `.kilocode` | 118 |
 | `.roo` | 118 |
-| `.trae` | 107 |
+| `.trae` | 113 |
 | `.cursor` | 85 |
 | `.cline` | 85 |
+| `.claude` | 48 |
 | `.codex` | 1 |
 | `.gemini` | 1 |
 
@@ -34,32 +35,32 @@
 | Target | Incoming links |
 |---|---:|
 | `~/.agents/skills/find-skills` | 10 |
-| `~/.agents/skills/accessibility` | 8 |
-| `~/.agents/skills/agent-md-refactor` | 8 |
-| `~/.agents/skills/agentation` | 8 |
-| `~/.agents/skills/api-design-principles` | 8 |
-| `~/.agents/skills/apple-hig-designer` | 8 |
-| `~/.agents/skills/backend-to-frontend-handoff-docs` | 8 |
-| `~/.agents/skills/behavioral-product-design` | 8 |
-| `~/.agents/skills/brainstorming` | 8 |
-| `~/.agents/skills/c4-architecture` | 8 |
-| `~/.agents/skills/changelog-generator` | 8 |
-| `~/.agents/skills/codex` | 8 |
-| `~/.agents/skills/command-creator` | 8 |
-| `~/.agents/skills/commit-work` | 8 |
-| `~/.agents/skills/context-engineering-collection` | 8 |
-| `~/.agents/skills/crafting-effective-readmes` | 8 |
-| `~/.agents/skills/daily-meeting-update` | 8 |
-| `~/.agents/skills/database-schema-designer` | 8 |
-| `~/.agents/skills/datadog-cli` | 8 |
-| `~/.agents/skills/dependency-updater` | 8 |
-| `~/.agents/skills/design-system-patterns` | 8 |
-| `~/.agents/skills/design-system-starter` | 8 |
-| `~/.agents/skills/difficult-workplace-conversations` | 8 |
-| `~/.agents/skills/dispatching-parallel-agents` | 8 |
-| `~/.agents/skills/domain-name-brainstormer` | 8 |
-| `~/.agents/skills/draw-io` | 8 |
-| `~/.agents/skills/error-handling-patterns` | 8 |
-| `~/.agents/skills/excalidraw` | 8 |
-| `~/.agents/skills/executing-plans` | 8 |
-| `~/.agents/skills/feedback-mastery` | 8 |
+| `~/.agents/skills/accessibility` | 9 |
+| `~/.agents/skills/agentation` | 9 |
+| `~/.agents/skills/api-design-principles` | 9 |
+| `~/.agents/skills/brainstorming` | 9 |
+| `~/.agents/skills/context-engineering-collection` | 9 |
+| `~/.agents/skills/design-system-patterns` | 9 |
+| `~/.agents/skills/dispatching-parallel-agents` | 9 |
+| `~/.agents/skills/error-handling-patterns` | 9 |
+| `~/.agents/skills/executing-plans` | 9 |
+| `~/.agents/skills/finishing-a-development-branch` | 9 |
+| `~/.agents/skills/interface-design` | 9 |
+| `~/.agents/skills/nextjs-supabase-auth` | 9 |
+| `~/.agents/skills/performance` | 9 |
+| `~/.agents/skills/postgresql-table-design` | 9 |
+| `~/.agents/skills/product-designer` | 9 |
+| `~/.agents/skills/prompt-engineering-patterns` | 9 |
+| `~/.agents/skills/receiving-code-review` | 9 |
+| `~/.agents/skills/requesting-code-review` | 9 |
+| `~/.agents/skills/responsive-design` | 9 |
+| `~/.agents/skills/shadcn-ui` | 9 |
+| `~/.agents/skills/subagent-driven-development` | 9 |
+| `~/.agents/skills/supabase-postgres-best-practices` | 9 |
+| `~/.agents/skills/systematic-debugging` | 9 |
+| `~/.agents/skills/tailwind-design-system` | 9 |
+| `~/.agents/skills/tailwind-patterns` | 9 |
+| `~/.agents/skills/test-driven-development` | 9 |
+| `~/.agents/skills/typescript-expert` | 9 |
+| `~/.agents/skills/ui-ux-pro-max` | 9 |
+| `~/.agents/skills/using-git-worktrees` | 9 |

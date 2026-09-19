@@ -1,6 +1,6 @@
 # Security
 
-32 skills — 24 installed, 8 available in a marketplace but not installed.
+35 skills — 27 installed, 8 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -13,6 +13,7 @@
 | `agency-paid-media-auditor` | Agency agent wrapper for Paid Media Auditor. Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning acco… | agency-roles | codex | 1 files, 6 KB |
 | `agent-security-manager` | Agent skill for security-manager - invoke with $agent-security-manager *(marketplace only)* | agent-pack | claude-code | 1 files, 20 KB |
 | `agent-v3-security-architect` | Agent skill for v3-security-architect - invoke with $agent-v3-security-architect *(marketplace only)* | agent-pack | claude-code | 1 files, 6 KB |
+| `audit` | Run /audit on a greenfield project, an existing codebase with missing docs, or one area (/audit src/auth) to bootstrap the project's AI context, the AGENTS.md files every later skill reads.… | standalone | codex | 12 files, 54 KB |
 | `automation-audit-ops` | Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant,… | ecc | claude-code | 1 files, 4 KB |
 | `customs-trade-compliance` | Codified expertise for customs documentation, tariff classification, duty optimization, restricted party screening, and regulatory compliance across multiple jurisdictions. Informed by trad… | ecc | claude-code | 1 files, 29 KB |
 | `defi-amm-security` | Security checklist for Solidity AMM contracts, liquidity pools, and swap flows. Covers reentrancy, CEI ordering, donation or inflation attacks, oracle manipulation, slippage, admin controls… | ecc | claude-code | 1 files, 5 KB |
@@ -26,6 +27,8 @@
 | `perl-security` | Comprehensive Perl security covering taint mode, input validation, safe process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and perlcritic security policies. | ecc | claude-code | 1 files, 14 KB |
 | `production-audit` | Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and "what breaks in prod?" questions without sending repo data to an external audit servic… | ecc | claude-code | 1 files, 8 KB |
 | `quarkus-security` | Quarkus Security best practices for authentication, authorization, JWT/OIDC, RBAC, input validation, CSRF, secrets management, and dependency security. | ecc | claude-code | 1 files, 12 KB |
+| `redis-security` | Redis security guidance covering authentication (requirepass and ACL users), TLS, ACL-based least-privilege access control, restricting network exposure via bind and protected-mode, firewal… | standalone | codex | 4 files, 7 KB |
+| `security-and-hardening` | Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when check… | agent-skills | claude-code | 1 files, 27 KB |
 | `security-audit` | Comprehensive security scanning and vulnerability detection. Includes input validation, path traversal prevention, CVE detection, and secure coding pattern enforcement. Use when: authentica… *(marketplace only)* | .agents | claude-code | 3 files, 4 KB |
 | `security-audit` | Security scanning and vulnerability detection. Use when: authentication, authorization, payment processing, user data. Skip when: read-only operations, internal tooling. *(marketplace only)* | v3 | claude-code | 1 files, 1 KB |
 | `security-bounty-hunter` | Hunt for exploitable, bounty-worthy security issues in repositories. Focuses on remotely reachable vulnerabilities that qualify for real reports instead of noisy local-only findings. | ecc | claude-code | 1 files, 4 KB |
@@ -187,6 +190,28 @@ Agent skill for v3-security-architect - invoke with $agent-v3-security-architect
 | Last modified | 2026-05-16 |
 | Category source | keywords |
 | Content hash | `67afd0813f24` |
+
+### `audit`
+
+Run /audit on a greenfield project, an existing codebase with missing docs, or one area (/audit src/auth) to bootstrap the project's AI context, the AGENTS.md files every later skill reads. Writes tool agnostic AGENTS.md plus thin CLAUDE.md pointers, adding only what is missing; never overwrites curated content.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/audit` |
+| Size | 12 files, 54 KB |
+| SKILL.md | 109 lines, ~3,242 tokens |
+| Description cost | ~79 tokens always in context |
+| Allowed tools | Bash, Read, Grep, Glob, Write, Edit, Agent, AskUserQuestion |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `5327a2355a97` |
+| Bundled | `agents`, `modes`, `patterns` |
 
 ### `automation-audit-ops`
 
@@ -461,6 +486,49 @@ Quarkus Security best practices for authentication, authorization, JWT/OIDC, RBA
 | Last modified | 2026-05-17 |
 | Category source | keywords |
 | Content hash | `21d710feb1c8` |
+
+### `redis-security`
+
+Redis security guidance covering authentication (requirepass and ACL users), TLS, ACL-based least-privilege access control, restricting network exposure via bind and protected-mode, firewall rules, and disabling dangerous commands. Use when deploying Redis to production, defining ACL users for an application, configuring TLS connections, locking down a Redis instance behind a firewall, or auditing a Redis deployment for security hardening.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/skills/redis-security` |
+| Size | 4 files, 7 KB |
+| SKILL.md | 107 lines, ~921 tokens |
+| Description cost | ~111 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `269d176c9a7e` |
+| Bundled | `references` |
+
+### `security-and-hardening`
+
+Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services. Use when auditing dependencies for known vulnerabilities, triaging package-manager audit findings, or assessing supply-chain risk in a new package. Use when personal data or privacy compliance (GDPR, CCPA) is involved.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/security-and-hardening` |
+| Size | 1 files, 27 KB |
+| SKILL.md | 525 lines, ~6,999 tokens |
+| Description cost | ~146 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `4c3f7e063f87` |
 
 ### `security-audit`
 

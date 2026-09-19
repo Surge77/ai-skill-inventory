@@ -1,6 +1,6 @@
 # Code Quality & Review
 
-26 skills — 18 installed, 8 available in a marketplace but not installed.
+32 skills — 24 installed, 8 available in a marketplace but not installed.
 
 [← back to the atlas](../README.md)
 
@@ -11,27 +11,33 @@
 | `agency-engineering-code-reviewer` | Agency agent wrapper for Code Reviewer. Expert code reviewer who provides constructive, actionable feedback focused on correctness, maintainability, security, and performance â€” not style… | agency-roles | codex | 1 files, 3 KB |
 | `agent-analyze-code-quality` | Agent skill for analyze-code-quality - invoke with $agent-analyze-code-quality *(marketplace only)* | agent-pack | claude-code | 1 files, 5 KB |
 | `agent-code-analyzer` | Agent skill for code-analyzer - invoke with $agent-code-analyzer *(marketplace only)* | agent-pack | claude-code | 1 files, 6 KB |
-| `agent-md-refactor` | Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to follow progressive disclosure principles. Splits monolithic files into organized, linked documentation. | agent-pack | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
+| `agent-md-refactor` | Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to follow progressive disclosure principles. Splits monolithic files into organized, linked documentation. | agent-pack | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 8 KB |
 | `agent-pagerank-analyzer` | Agent skill for pagerank-analyzer - invoke with $agent-pagerank-analyzer *(marketplace only)* | agent-pack | claude-code | 1 files, 11 KB |
 | `agent-performance-analyzer` | Agent skill for performance-analyzer - invoke with $agent-performance-analyzer *(marketplace only)* | agent-pack | claude-code | 1 files, 5 KB |
 | `agent-reviewer` | Agent skill for reviewer - invoke with $agent-reviewer *(marketplace only)* | agent-pack | claude-code | 1 files, 8 KB |
+| `artifact-template-business-review` | Create a presentation using the Business Review template and its retained reference file. Use when the user selects or names Business Review. Review business performance, KPIs, segment resu… | openai-templates | codex | 5 files, 2.0 MB |
+| `artifact-template-operating-review` | Create a presentation using the Operating Review template and its retained reference file. Use when the user selects or names Operating Review. Run weekly operating reviews with scorecards,… | openai-templates | codex | 5 files, 338 KB |
 | `babysit` | Watch a pull request or review cycle until it is ready to merge. Use when asked to babysit, monitor, or keep checking PR comments, reviews, and CI until all actionable issues are resolved. | claude-mem | claude-code | 1 files, 4 KB |
-| `caveman-review` | Ultra-compressed code review comments. Cuts noise from PR feedback while preserving the actionable signal. Each comment is one line: location, problem, fix. Use when user says "review this… | caveman | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 3 KB |
+| `caveman-review` | Compressed code review - one line per finding with location, problem and fix. Use for /caveman-review, "review this PR", or "review the diff". | caveman | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 4 KB |
+| `caveman-review` | Ultra-compressed code review comments. Cuts noise from PR feedback while preserving the actionable signal. Each comment is one line: location, problem, fix. Use when user says "review this… | caveman | claude-code | 2 files, 4 KB |
+| `code-review-and-quality` | Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multi… | agent-skills | claude-code | 1 files, 20 KB |
+| `code-simplification` | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when revi… | agent-skills | claude-code | 1 files, 13 KB |
 | `coding-standards` | Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. | ecc | claude-code | 1 files, 13 KB |
 | `coding-standards` | Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. | agents-std-store | agents-std | 2 files, 13 KB |
+| `docx` | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of 'Word doc', 'word document', '… | standalone | claude-code | 61 files, 1.1 MB |
 | `dotnet-patterns` | Idiomatic C# and .NET patterns, conventions, dependency injection, async/await, and best practices for building robust, maintainable .NET applications. | ecc | claude-code | 1 files, 9 KB |
 | `github-code-review` | Comprehensive GitHub code review with AI-powered swarm coordination *(marketplace only)* | .agents | claude-code | 1 files, 27 KB |
 | `github-code-review` | Comprehensive GitHub code review with AI-powered swarm coordination *(marketplace only)* | .claude | claude-code | 1 files, 26 KB |
 | `golang-patterns` | Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications. | ecc | claude-code | 1 files, 14 KB |
-| `grep-loop-review-workflow` | Use when you have a small PR or feature and want an agent to repeatedly fix review feedback until tests pass and the PR is merge-ready. Works with AI reviewers, Greptile-style review, or hu… | standalone | claude-code | 1 files, 3 KB |
-| `naming-analyzer` | Suggest better variable, function, and class names based on context and conventions. | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 9 KB |
+| `grep-loop-review-workflow` | Use when you have a small PR or feature and want an agent to repeatedly fix review feedback until tests pass and the PR is merge-ready. Works with AI reviewers, Greptile-style review, or hu… | agents-std-store | claude-code, shared-store | 1 files, 3 KB |
+| `humanize-code` | Behavior-preserving cleanup pass that strips AI-generated bloat out of code — over-abstraction, defensive noise, clever one-liners, obvious comments, needless helpers and patterns — and lea… | agents-std-store | claude-code, shared-store | 2 files, 19 KB |
+| `naming-analyzer` | Suggest better variable, function, and class names based on context and conventions. | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 9 KB |
 | `perl-patterns` | Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications. | ecc | claude-code | 1 files, 12 KB |
 | `plankton-code-quality` | Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks. | ecc | claude-code | 1 files, 8 KB |
 | `receiving-code-review` | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not p… | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 1 files, 6 KB |
 | `receiving-code-review` | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not p… | superpowers | claude-code | 1 files, 6 KB |
-| `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 6 KB |
-| `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | superpowers | claude-code | 2 files, 8 KB |
-| `tool-design` | This skill should be used when the user asks to "design agent tools", "create tool descriptions", "reduce tool complexity", "implement MCP tools", or mentions tool consolidation, architectu… | agents-std-store | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 4 files, 41 KB |
+| `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | agents-std-store | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae | 2 files, 8 KB |
+| `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | superpowers | claude-code | 2 files, 6 KB |
 
 ## Detail
 
@@ -149,8 +155,8 @@ Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to fol
 | Pack | agent-pack |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/agent-md-refactor` |
 | Size | 1 files, 8 KB |
 | SKILL.md | 288 lines, ~1,940 tokens |
@@ -224,6 +230,50 @@ Agent skill for reviewer - invoke with $agent-reviewer
 | Category source | keywords |
 | Content hash | `296ab6824cc7` |
 
+### `artifact-template-business-review`
+
+Create a presentation using the Business Review template and its retained reference file. Use when the user selects or names Business Review. Review business performance, KPIs, segment results, strategic priorities, decisions, and outlook.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review` |
+| Size | 5 files, 2.0 MB |
+| SKILL.md | 23 lines, ~369 tokens |
+| Description cost | ~60 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | keywords |
+| Content hash | `ea84e9503bf3` |
+| Bundled | `agents`, `assets` |
+
+### `artifact-template-operating-review`
+
+Create a presentation using the Operating Review template and its retained reference file. Use when the user selects or names Operating Review. Run weekly operating reviews with scorecards, functional updates, risks, decisions, and action items.
+
+| Field | Value |
+|---|---|
+| Pack | openai-templates |
+| Origin | plugin `openai-templates` from `openai-curated-remote` |
+| Status | installed |
+| Tools it reaches | codex |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review` |
+| Size | 5 files, 338 KB |
+| SKILL.md | 23 lines, ~371 tokens |
+| Description cost | ~62 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 1970-01-01 |
+| Category source | keywords |
+| Content hash | `60af5bc0fe7c` |
+| Bundled | `agents`, `assets` |
+
 ### `babysit`
 
 Watch a pull request or review cycle until it is ready to merge. Use when asked to babysit, monitor, or keep checking PR comments, reviews, and CI until all actionable issues are resolved.
@@ -247,7 +297,7 @@ Watch a pull request or review cycle until it is ready to merge. Use when asked 
 
 ### `caveman-review`
 
-Ultra-compressed code review comments. Cuts noise from PR feedback while preserving the actionable signal. Each comment is one line: location, problem, fix. Use when user says "review this PR", "code review", "review the diff", "/review", or invokes /caveman-review. Auto-triggers when reviewing pull requests.
+Compressed code review - one line per finding with location, problem and fix. Use for /caveman-review, "review this PR", or "review the diff".
 
 | Field | Value |
 |---|---|
@@ -255,16 +305,79 @@ Ultra-compressed code review comments. Cuts noise from PR feedback while preserv
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, continue, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (6 symlinked) |
+| Installed copies | 8 (7 symlinked) |
 | Canonical path | `~/.agents/skills/caveman-review` |
-| Size | 1 files, 3 KB |
+| Size | 2 files, 4 KB |
+| SKILL.md | 53 lines, ~642 tokens |
+| Description cost | ~36 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-16 |
+| Category source | keywords |
+| Content hash | `e8ff36493e61` |
+
+### `caveman-review`
+
+Ultra-compressed code review comments. Cuts noise from PR feedback while preserving the actionable signal. Each comment is one line: location, problem, fix. Use when user says "review this PR", "code review", "review the diff", "/review", or invokes /caveman-review. Auto-triggers when reviewing pull requests.
+
+| Field | Value |
+|---|---|
+| Pack | caveman |
+| Origin | plugin `caveman` from `caveman` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 3 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/caveman/caveman/63a91ecadbf4/skills/caveman-review` |
+| Size | 2 files, 4 KB |
 | SKILL.md | 55 lines, ~699 tokens |
 | Description cost | ~78 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-05-01 |
+| Last modified | 2026-05-16 |
 | Category source | keywords |
 | Content hash | `5b3bc4d4b84b` |
+
+### `code-review-and-quality`
+
+Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/code-review-and-quality` |
+| Size | 1 files, 20 KB |
+| SKILL.md | 397 lines, ~5,139 tokens |
+| Description cost | ~60 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `98cf7ffc76e8` |
+
+### `code-simplification`
+
+Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.
+
+| Field | Value |
+|---|---|
+| Pack | agent-skills |
+| Origin | plugin `agent-skills` from `addy-agent-skills` |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.claude/plugins/cache/addy-agent-skills/agent-skills/0.6.10/skills/code-simplification` |
+| Size | 1 files, 13 KB |
+| SKILL.md | 332 lines, ~3,387 tokens |
+| Description cost | ~61 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-19 |
+| Category source | keywords |
+| Content hash | `967a7227962b` |
 
 ### `coding-standards`
 
@@ -308,6 +421,28 @@ Baseline cross-project coding conventions for naming, readability, immutability,
 | Category source | keywords |
 | Content hash | `f0bb3176668a` |
 | Bundled | `agents` |
+
+### `docx`
+
+Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.
+
+| Field | Value |
+|---|---|
+| Pack | standalone |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code |
+| Installed copies | 1 (0 symlinked) |
+| Canonical path | `~/.claude/skills/synced/b350f25a-7498-43f0-a5af-ab6ca9c46c27_6b2a8e80-8682-48d0-b2ac-3af75a486e22/docx` |
+| Size | 61 files, 1.1 MB |
+| SKILL.md | 92 lines, ~1,773 tokens |
+| Description cost | ~254 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-17 |
+| Category source | keywords |
+| Content hash | `a8b3e3289604` |
+| Bundled | `scripts`, `office`, `templates`, `helpers`, `schemas`, `validators`, `ecma`, `iso-iec29500-4_2016` |
 
 ### `dotnet-patterns`
 
@@ -399,12 +534,12 @@ Use when you have a small PR or feature and want an agent to repeatedly fix revi
 
 | Field | Value |
 |---|---|
-| Pack | standalone |
+| Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | claude-code |
-| Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/skills/grep-loop-review-workflow` |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/grep-loop-review-workflow` |
 | Size | 1 files, 3 KB |
 | SKILL.md | 88 lines, ~724 tokens |
 | Description cost | ~51 tokens always in context |
@@ -413,6 +548,28 @@ Use when you have a small PR or feature and want an agent to repeatedly fix revi
 | Last modified | 2026-05-22 |
 | Category source | keywords |
 | Content hash | `5348752b2198` |
+
+### `humanize-code`
+
+Behavior-preserving cleanup pass that strips AI-generated bloat out of code — over-abstraction, defensive noise, clever one-liners, obvious comments, needless helpers and patterns — and leaves code a strong human engineer would have written. Use after Claude or any AI writes or edits code, before review or commit. Never changes behavior, public APIs, or algorithmic complexity.
+
+| Field | Value |
+|---|---|
+| Pack | agents-std-store |
+| Origin | standalone |
+| Status | installed |
+| Tools it reaches | claude-code, shared-store |
+| Installed copies | 2 (0 symlinked) |
+| Canonical path | `~/.agents/skills/humanize-code` |
+| Size | 2 files, 19 KB |
+| SKILL.md | 210 lines, ~2,473 tokens |
+| Description cost | ~96 tokens always in context |
+| Allowed tools | — |
+| Model | — |
+| Last modified | 2026-09-08 |
+| Category source | keywords |
+| Content hash | `53cc20974e28` |
+| Bundled | `references` |
 
 ### `naming-analyzer`
 
@@ -423,8 +580,8 @@ Suggest better variable, function, and class names based on context and conventi
 | Pack | agents-std-store |
 | Origin | standalone |
 | Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (8 symlinked) |
+| Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
+| Installed copies | 10 (8 symlinked) |
 | Canonical path | `~/.agents/skills/naming-analyzer` |
 | Size | 1 files, 9 KB |
 | SKILL.md | 352 lines, ~2,402 tokens |
@@ -487,16 +644,16 @@ Use when receiving code review feedback, before implementing suggestions, especi
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/receiving-code-review` |
 | Size | 1 files, 6 KB |
-| SKILL.md | 214 lines, ~1,579 tokens |
+| SKILL.md | 206 lines, ~1,551 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `1ab3e001b39f` |
+| Content hash | `f9c95ed02550` |
 
 ### `receiving-code-review`
 
@@ -505,19 +662,19 @@ Use when receiving code review feedback, before implementing suggestions, especi
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/receiving-code-review` |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/receiving-code-review` |
 | Size | 1 files, 6 KB |
-| SKILL.md | 206 lines, ~1,551 tokens |
+| SKILL.md | 214 lines, ~1,579 tokens |
 | Description cost | ~59 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-08-13 |
+| Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `f9c95ed02550` |
+| Content hash | `1ab3e001b39f` |
 
 ### `requesting-code-review`
 
@@ -529,16 +686,16 @@ Use when completing tasks, implementing major features, or before merging to ver
 | Origin | standalone |
 | Status | installed |
 | Tools it reaches | claude-code, cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 10 (8 symlinked) |
+| Installed copies | 11 (9 symlinked) |
 | Canonical path | `~/.agents/skills/requesting-code-review` |
-| Size | 2 files, 6 KB |
-| SKILL.md | 106 lines, ~675 tokens |
+| Size | 2 files, 8 KB |
+| SKILL.md | 96 lines, ~739 tokens |
 | Description cost | ~27 tokens always in context |
 | Allowed tools | — |
 | Model | — |
-| Last modified | 2026-02-11 |
+| Last modified | 2026-09-16 |
 | Category source | keywords |
-| Content hash | `98f7b66963f0` |
+| Content hash | `3319538d8ec5` |
 
 ### `requesting-code-review`
 
@@ -547,38 +704,16 @@ Use when completing tasks, implementing major features, or before merging to ver
 | Field | Value |
 |---|---|
 | Pack | superpowers |
-| Origin | plugin `superpowers` from `claude-plugins-official` |
+| Origin | plugin `superpowers` from `superpowers-marketplace` |
 | Status | installed |
 | Tools it reaches | claude-code |
 | Installed copies | 1 (0 symlinked) |
-| Canonical path | `~/.claude/plugins/cache/claude-plugins-official/superpowers/6.3.0/skills/requesting-code-review` |
-| Size | 2 files, 8 KB |
-| SKILL.md | 96 lines, ~739 tokens |
+| Canonical path | `~/.claude/plugins/cache/superpowers-marketplace/superpowers/4.2.0/skills/requesting-code-review` |
+| Size | 2 files, 6 KB |
+| SKILL.md | 106 lines, ~675 tokens |
 | Description cost | ~27 tokens always in context |
-| Allowed tools | — |
-| Model | — |
-| Last modified | 2026-08-13 |
-| Category source | keywords |
-| Content hash | `3319538d8ec5` |
-
-### `tool-design`
-
-This skill should be used when the user asks to "design agent tools", "create tool descriptions", "reduce tool complexity", "implement MCP tools", or mentions tool consolidation, architectural reduction, tool naming conventions, or agent-tool interfaces.
-
-| Field | Value |
-|---|---|
-| Pack | agents-std-store |
-| Origin | standalone |
-| Status | installed |
-| Tools it reaches | cline, continue, cursor, factory, kilocode, qwen-code, roo-code, shared-store, trae |
-| Installed copies | 9 (0 symlinked) |
-| Canonical path | `~/.agents/skills/context-engineering-collection/skills/tool-design` |
-| Size | 4 files, 41 KB |
-| SKILL.md | 312 lines, ~3,952 tokens |
-| Description cost | ~64 tokens always in context |
 | Allowed tools | — |
 | Model | — |
 | Last modified | 2026-02-11 |
 | Category source | keywords |
-| Content hash | `1ef2f9152f0c` |
-| Bundled | `references`, `scripts` |
+| Content hash | `98f7b66963f0` |
