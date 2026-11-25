@@ -1,8 +1,8 @@
 {
   "generated": "2026-09-07",
   "totals": {
-    "repos": 7,
-    "skills": 274
+    "repos": 8,
+    "skills": 329
   },
   "repos": [
     {
@@ -109,6 +109,21 @@
       "skills": 111,
       "bytes": 312977,
       "descTokens": 6221
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "starred": "2026-11-25",
+      "note": "tracked for fable-goal, not installed — goal-prompt writer, overlaps prompt-optimizer",
+      "branch": "main",
+      "description": "Free Claude Code Club skills for builders",
+      "forks": 21,
+      "license": null,
+      "pushedAt": "2026-10-14T17:26:20Z",
+      "stars": 92,
+      "commit": "18e71cf80fa86053b3fa8fed4d874a265f2986d2",
+      "skills": 55,
+      "bytes": 507398,
+      "descTokens": 7786
     }
   ],
   "skills": [
@@ -4701,6 +4716,942 @@
       "hash": "412acc135dbf",
       "descTokens": 51,
       "skillTokens": 915
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "bio-writer",
+      "dirName": "bio-writer",
+      "group": "",
+      "repoPath": "bio-writer",
+      "description": "Get your profile bio written for every platform at the right length — Instagram (150 characters), LinkedIn headline plus About section, X (160 characters), and a one-liner for your link-in-bio or email signature. Says what you do, who it's for, and one real proof point, with no \"passionate about\" anything. Use when the user says \"write my bio\", \"fix my Instagram bio\", \"LinkedIn headline\", \"what should my bio say\", \"my profile is bad\", \"write my About section\", \"bio for my profile\", \"how do I describe myself\", or \"/bio-writer\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7945,
+      "bytes": 9185,
+      "hash": "57c5b7d9f9ee",
+      "descTokens": 134,
+      "skillTokens": 1987
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "brief-builder",
+      "dirName": "brief-builder",
+      "group": "",
+      "repoPath": "brief-builder",
+      "description": "Turns a vague ask into a surgical 5-Part Brief you can paste straight into Claude and get the right thing back on the first try. Fills in CONTEXT, GOAL, CONSTRAINTS, FORMAT, and DONE-WHEN, then gives you a one-sentence compressed version for quick asks. Use when the user says \"write me a prompt\", \"how do I ask for this\", \"turn this into a prompt\", \"make my prompt better\", \"I don't know how to describe what I want\", \"help me explain this to Claude\", \"brief for\", \"what should I type\", or \"/brief-builder\". Also use before any real build, so they ask properly the first time.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 6913,
+      "bytes": 8229,
+      "hash": "237557de6259",
+      "descTokens": 145,
+      "skillTokens": 1729
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "caption-writer",
+      "dirName": "caption-writer",
+      "group": "",
+      "repoPath": "caption-writer",
+      "description": "Get a ready-to-post caption about something you built, made, or learned — written in your voice, in the right length for Instagram, LinkedIn, X, or TikTok. Picks one of four post shapes that actually work and writes a first line that stops the scroll. Use when the user says \"write a caption\", \"caption for this post\", \"I built something, what do I say\", \"how do I post about this\", \"write the copy for my Instagram post\", \"I don't know how to talk about what I made\", \"help me post this without sounding salesy\", or \"/caption-writer\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7672,
+      "bytes": 8982,
+      "hash": "06d298dc4f98",
+      "descTokens": 135,
+      "skillTokens": 1918
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "carousel-writer",
+      "dirName": "carousel-writer",
+      "group": "",
+      "repoPath": "carousel-writer",
+      "description": "Get the exact words for every slide of a carousel post, plus a short note on what goes on each slide visually, so you can build it in Canva or have Claude build it as a web page. Slide 1 works as a standalone hook, one idea per slide, 7 to 10 slides, last slide is the ask. Use when the user says \"write a carousel\", \"carousel post about\", \"turn this into slides\", \"swipe post\", \"I need the text for my carousel\", \"make this a 10 slide post\", \"what do I put on each slide\", or \"/carousel-writer\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8753,
+      "bytes": 10030,
+      "hash": "9f04ae654239",
+      "descTokens": 124,
+      "skillTokens": 2189
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "case-study",
+      "dirName": "case-study",
+      "group": "",
+      "repoPath": "case-study",
+      "description": "Turn one win into a short case study you can send to a prospect or post publicly — where they started, what you built, what changed, and one honest line about the hard part. Works for a paid client, a free build, or your own project. Never invents numbers. Use when the user says \"write a case study\", \"turn this into a case study\", \"I finished a client project, now what\", \"how do I show this work\", \"write up this result\", \"proof for my portfolio\", \"something I can send to a prospect\", or \"/case-study\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8668,
+      "bytes": 9859,
+      "hash": "d313a3e62af7",
+      "descTokens": 127,
+      "skillTokens": 2167
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "claude-md-builder",
+      "dirName": "claude-md-builder",
+      "group": "",
+      "repoPath": "claude-md-builder",
+      "description": "Build the CLAUDE.md memory file for a project so Claude stops forgetting your rules every time you open a new session. Interviews you about what the project is, the rules to always follow, what to never do, where files live, and how you want to be talked to — then writes a short CLAUDE.md into the project folder. Use when the user says \"make a CLAUDE.md\", \"claude md builder\", \"set up project memory\", \"Claude keeps forgetting things\", \"how do I stop repeating myself to Claude\", \"Claude forgets what my project is\", \"give Claude rules for this project\", \"claude.md file\", \"quad md\", or types /claude-md-builder.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7244,
+      "bytes": 8450,
+      "hash": "b7001761bde2",
+      "descTokens": 154,
+      "skillTokens": 1811
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "claude-orientation",
+      "dirName": "claude-orientation",
+      "group": "",
+      "repoPath": "claude-orientation",
+      "description": "Tells you exactly what to build first with Claude Code, and gives you tonight's one next move instead of a pile of ideas. Figures out where you are on the 9-stage beginner arc, picks ONE build, and saves a 30-day roadmap you can reopen every night. Use when the user says \"I just installed Claude Code\", \"now what\", \"what should I build first\", \"where do I start\", \"I don't know what to do with this\", \"I have too many ideas\", \"what's my first project\", \"help me get started\", \"/claude-orientation\", or when someone is clearly bouncing between projects and finishing none.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8367,
+      "bytes": 9706,
+      "hash": "3d4e95f8077c",
+      "descTokens": 143,
+      "skillTokens": 2092
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "content-prompt",
+      "dirName": "content-prompt",
+      "group": "",
+      "repoPath": "content-prompt",
+      "description": "Generate a single thought-provoking question for the user to answer on camera as short-form content (TikTok, Reels, YouTube Shorts, or any off-the-cuff video), plus 5 hook options and text overlays. Use whenever the user asks for \"content ideas\", \"what should I talk about\", \"give me a question to answer\", \"prompt me\", \"short-form ideas\", \"what's trending I can speak to\", \"I need content inspiration\", or says /content-prompt. Always trigger when the user wants something to riff on for a quick video — even a casual \"give me something to talk about\" or \"what should my next video be about\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8515,
+      "bytes": 9742,
+      "hash": "07b897036c73",
+      "descTokens": 149,
+      "skillTokens": 2129
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "daily-post-ideas",
+      "dirName": "daily-post-ideas",
+      "group": "",
+      "repoPath": "daily-post-ideas",
+      "description": "Generate 5 personalized LinkedIn post ideas for the user, one per content category, each with a ready-to-paste hook line and a one-line angle. Use whenever the user asks for LinkedIn post ideas, says \"what should I post today\", \"give me content ideas for LinkedIn\", \"5 post ideas\", or invokes /daily-post-ideas. Always trigger for LinkedIn content ideation — even casual asks like \"I need to post something today\" or \"what's a good LinkedIn topic for me\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 4232,
+      "bytes": 5310,
+      "hash": "67801a4a0825",
+      "descTokens": 115,
+      "skillTokens": 1058
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "decision-helper",
+      "dirName": "decision-helper",
+      "group": "",
+      "repoPath": "decision-helper",
+      "description": "You're stuck between options and going round in circles. This forces a decision, not another summary — it gets the real options on the table, names what you're actually optimizing for, drags out the constraint you haven't said out loud, and gives you one clear recommendation with the reason in a single line, plus the first move to make today. Use when the user says \"help me decide\", \"I'm stuck between\", \"I can't choose\", \"should I do X or Y\", \"I keep going back and forth\", \"what would you do\", \"I've been thinking about this for weeks\", \"talk me through this decision\", \"pros and cons\", or /decision-helper.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8226,
+      "bytes": 9493,
+      "hash": "2c77d42b549a",
+      "descTokens": 154,
+      "skillTokens": 2057
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "deploy-it",
+      "dirName": "deploy-it",
+      "group": "",
+      "repoPath": "deploy-it",
+      "description": "Put whatever you just built on a real public web address for free, one click at a time, and save the link so you build a list of things you've shipped. Covers the GitHub step in plain English and fixes the three things that actually break for beginners. Use when the user says \"/deploy-it\", \"put this online\", \"how do I get this on the internet\", \"deploy my site\", \"publish my page\", \"I need a link I can send someone\", \"make this live\", \"host my website free\", \"get this off my computer\", \"how do I share what I built\", or \"my site is live but the page is blank\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8289,
+      "bytes": 9680,
+      "hash": "a7bac6ec25ec",
+      "descTokens": 141,
+      "skillTokens": 2073
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "design-taste",
+      "dirName": "design-taste",
+      "group": "",
+      "repoPath": "design-taste",
+      "description": "Turn \"I don't have taste\" into a written design system you own. You name or screenshot 1-3 sites you love, and this reverse-engineers the exact colors, font pairing, spacing rhythm, and rules underneath them, then saves a design file every future build reads so your stuff stops looking like a default template. Use when the user says \"I don't have taste\", \"my site looks generic\", \"why does everything I build look the same\", \"make me a design system\", \"pick my colors and fonts\", \"my stuff looks like AI made it\", \"help me choose a font\", \"set my brand colors\", or types /design-taste.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 10044,
+      "bytes": 11250,
+      "hash": "1a7d48fb63ed",
+      "descTokens": 147,
+      "skillTokens": 2511
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "dissect",
+      "dirName": "dissect",
+      "group": "",
+      "repoPath": "dissect",
+      "description": "Deconstruct any piece of content that's performing (a viral LinkedIn post, a Reel caption, a YouTube hook, a Reddit thread) into its underlying mechanism — hook type, structure, format, and engagement driver — and hand back a ready-to-use recreation brief. Use when the user pastes a post/caption/hook and says \"why is this working\", \"break this down\", \"dissect this\", \"reverse-engineer this post\", or just drops content with no instruction. Push to run it whenever someone wants to understand what makes a piece of content work so they can recreate the mechanism for their own audience.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 5395,
+      "bytes": 6449,
+      "hash": "55b1d511a3a6",
+      "descTokens": 148,
+      "skillTokens": 1349
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "dm-writer",
+      "dirName": "dm-writer",
+      "group": "",
+      "repoPath": "dm-writer",
+      "description": "Write one short, human DM or message to a specific person for a specific goal (start a conversation, share your offer, or follow up) — in your voice, so it opens a dialogue instead of pitch-slapping them. Trigger whenever the user says \"write a DM\", \"help me message this person\", \"what do I say to\", \"reach out to [name]\", \"draft a message\", \"follow up with\", \"how do I bring up my offer to\", or \"I don't know how to word this\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 5479,
+      "bytes": 6732,
+      "hash": "948911fd3f4d",
+      "descTokens": 108,
+      "skillTokens": 1370
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "doc-digest",
+      "dirName": "doc-digest",
+      "group": "",
+      "repoPath": "doc-digest",
+      "description": "Point it at a long document — a contract, a report, a paper, a huge email thread, a wall of text — and get back what actually matters: the decisions inside it, what it wants from you, the numbers, the dates, anything that looks like a trap, and the questions to ask before you sign or reply. Splits \"what it says\" from \"what you should do about it\" so you never confuse the two. Use when the user says \"read this for me\", \"summarize this document\", \"what does this contract say\", \"I don't have time to read this\", \"what am I agreeing to\", \"is there anything dodgy in here\", \"explain this report\", \"TLDR this\", \"what does this mean\", or /doc-digest.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8160,
+      "bytes": 9404,
+      "hash": "270f391ec477",
+      "descTokens": 163,
+      "skillTokens": 2040
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "email-writer",
+      "dirName": "email-writer",
+      "group": "",
+      "repoPath": "email-writer",
+      "description": "Writes the email you've been putting off — chasing an unpaid invoice, saying no, apologizing for a mistake, asking for a raise or a rate rise, the third follow-up, or delivering bad news. Asks three quick questions (who they are to you, what you want to happen, how blunt you can be) and hands back a short email with one clear ask near the top, in your voice. Use when the user says \"write an email\", \"help me write this email\", \"I need to email someone\", \"how do I say no to this\", \"chase an invoice\", \"they haven't paid me\", \"follow up email\", \"I need to apologize\", \"ask for a raise\", \"email I've been avoiding\", \"I don't know how to word this\", or /email-writer.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7635,
+      "bytes": 8773,
+      "hash": "21f57150f1e6",
+      "descTokens": 168,
+      "skillTokens": 1909
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "error-decoder",
+      "dirName": "error-decoder",
+      "group": "",
+      "repoPath": "error-decoder",
+      "description": "Paste any error, red text, or scary message and get back what broke in plain English, whether you can ignore it, and the exact sentence to paste to Claude to fix it. You never touch code. Use when the user says \"I got an error\", \"what does this mean\", \"red text\", \"it says something failed\", \"I think I broke it\", \"help I'm stuck\", \"this looks bad\", \"is this serious\", \"can I ignore this\", \"it won't run\", \"something went wrong\", or \"/error-decoder\". Also fire when someone pastes a wall of technical text with no question attached.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7228,
+      "bytes": 8515,
+      "hash": "73e1773899fd",
+      "descTokens": 133,
+      "skillTokens": 1807
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "explain-this",
+      "dirName": "explain-this",
+      "group": "",
+      "repoPath": "explain-this",
+      "description": "Paste any file, folder listing, snippet, config, or line you don't understand and get a plain-English explanation at total-beginner level — what it is, what it does, why it exists, and what would happen if it vanished. Ends with the one thing worth understanding and the one thing safe to ignore. Use when the user says \"what is this file\", \"explain this\", \"what does this do\", \"what am I looking at\", \"I don't understand my project\", \"what's package.json\", \"why are there so many files\", \"is this important\", \"can I delete this\", \"walk me through my folder\", or \"/explain-this\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7107,
+      "bytes": 8394,
+      "hash": "7b9ab715869b",
+      "descTokens": 146,
+      "skillTokens": 1777
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "fable-goal",
+      "dirName": "fable-goal",
+      "group": "",
+      "repoPath": "fable-goal",
+      "description": "Convert a rambling description of a desired outcome into a polished, autonomous /goal prompt for Fable. Use whenever the user says /fable-goal, \"turn this into a goal prompt\", \"write me a fable prompt\", \"I want fable to build X, write the prompt\", or rambles about something they want made and asks for the prompt that makes it. The output is a single copy-paste prompt, not the build itself. Do NOT use when the user wants the thing built right now in this session; only when they want the PROMPT that will make it happen in a fresh session.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 9738,
+      "bytes": 10862,
+      "hash": "24817ae9f121",
+      "descTokens": 136,
+      "skillTokens": 2435
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "first-customer-closer",
+      "dirName": "first-customer-closer",
+      "group": "",
+      "repoPath": "first-customer-closer",
+      "description": "Turn \"someone's interested but I don't know how to actually sell\" into a calm, honest conversation script using the CLOSER framework — built for people who hate selling. Produces a personalized call-or-DM script, the exact questions to ask, how to invite the sale without being pushy, and how to handle \"let me think about it\". Trigger whenever the user says \"someone's interested and I don't know what to say\", \"I have a sales call\", \"how do I close\", \"help me sell without being salesy\", \"write me a sales script\", \"someone replied yes\", \"I got on a call and froze\", or \"how do I actually ask for the sale\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7206,
+      "bytes": 8575,
+      "hash": "331a4f75662d",
+      "descTokens": 153,
+      "skillTokens": 1802
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "first-product",
+      "dirName": "first-product",
+      "group": "",
+      "repoPath": "first-product",
+      "description": "Turn what you already know into one finished digital guide you can sell, in a single sitting. Interviews you about your angle and your lessons, writes the whole guide as a clean file you can turn into a PDF, then writes the storefront listing copy (title, pitch, price, three bullets) and the short checklist of things you still have to do by hand. Use when the user says \"help me make a digital product\", \"turn my knowledge into an ebook\", \"build a guide I can sell\", \"make me something to put on Gumroad\", \"I want to sell a PDF\", \"what can I sell\", or \"/first-product\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 10238,
+      "bytes": 11649,
+      "hash": "4e6ed9b974c0",
+      "descTokens": 143,
+      "skillTokens": 2560
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "first-website",
+      "dirName": "first-website",
+      "group": "",
+      "repoPath": "first-website",
+      "description": "Build your first real website by describing what you want in plain English — no code, no setup, one file you can open and see. Walks you through the Build Loop (describe, preview, react, repeat) for 5-10 rounds until the page looks right, then hands it off to be put online. Use when the user says \"build me a website\", \"I want to make a website\", \"/first-website\", \"make me a site\", \"I need a page for my thing\", \"can you build a website for me\", \"I've never built a website\", \"I don't know how to code but I want a site\", \"make a homepage\", or \"build my first website\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8746,
+      "bytes": 10008,
+      "hash": "d51026ea6267",
+      "descTokens": 144,
+      "skillTokens": 2187
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "hooks",
+      "dirName": "hooks",
+      "group": "",
+      "repoPath": "hooks",
+      "description": "Generate YouTube video hooks using the Kallaway desire-based framework. Produces Three Hook Alignment (visual + spoken + text), applies the Four Commandments, maps to core desires, and scores each hook. Trigger on phrases like 'write a hook for', 'hook ideas for my video', 'help me with the intro', 'generate hooks', 'write the opening for', or any request for YouTube video hooks, intros, or opening lines.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7615,
+      "bytes": 8810,
+      "hash": "37d04f05f6b6",
+      "descTokens": 102,
+      "skillTokens": 1904
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "landing-page",
+      "dirName": "landing-page",
+      "group": "",
+      "repoPath": "landing-page",
+      "description": "Build a one-page site with a single job — collecting an email or a booking — with a headline, three proof points, one form, one button, and an FAQ that kills the biggest objection. Includes a working free form setup so the emails actually reach you. Use when the user says \"build me a landing page\", \"/landing-page\", \"I need a page to collect emails\", \"opt-in page\", \"a page for my free guide\", \"waitlist page\", \"lead magnet page\", \"signup page\", \"I want people to give me their email\", \"a page for my newsletter\", or \"somewhere to send people from Instagram\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8461,
+      "bytes": 9759,
+      "hash": "63bda17fca15",
+      "descTokens": 141,
+      "skillTokens": 2116
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "launch-plan",
+      "dirName": "launch-plan",
+      "group": "",
+      "repoPath": "launch-plan",
+      "description": "Plan a simple launch that creates a burst of sales for something you built, sized to the audience you actually have right now. Picks the launch type that fits your stage, sets a real date and a real number to aim at, and writes a day-by-day timeline plus a checklist of what you need to make. Use when the user says \"I'm launching X\", \"plan my launch\", \"how do I launch this\", \"I built something and want to sell it\", \"waitlist strategy\", \"should I do a lifetime deal\", \"I want a burst of sales\", or \"/launch-plan\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8537,
+      "bytes": 9893,
+      "hash": "0fa16d710179",
+      "descTokens": 129,
+      "skillTokens": 2135
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "learn-anything",
+      "dirName": "learn-anything",
+      "group": "",
+      "repoPath": "learn-anything",
+      "description": "Teaches you a topic at your real level, with practice instead of a lecture. It finds out what you already know, shows you the shape of the thing before the details, gives you the five ideas that carry most of it, then a ladder of three exercises — 15 minutes, an hour, one evening — and ends with the misconception beginners in this topic almost always carry. Use when the user says \"teach me\", \"explain X\", \"I want to learn\", \"help me understand\", \"I don't get how X works\", \"explain like I'm five\", \"where do I start with\", \"I need to learn this by Monday\", \"give me a crash course\", or /learn-anything.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8328,
+      "bytes": 9529,
+      "hash": "d0587654b381",
+      "descTokens": 153,
+      "skillTokens": 2082
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "link-in-bio",
+      "dirName": "link-in-bio",
+      "group": "",
+      "repoPath": "link-in-bio",
+      "description": "Build your own branded link-in-bio page in an evening — your photo, your name, your one-line pitch, and 4-6 buttons in the order that actually makes you money. Looks like you instead of like everyone else's Linktree, and it's built phone-first because that's where it gets opened. Use when the user says \"/link-in-bio\", \"build me a link in bio\", \"I need a Linktree\", \"replace my Linktree\", \"a page for my Instagram bio\", \"one link with all my links\", \"link tree page\", \"bio link\", \"somewhere to put all my links\", or \"what do I put in my Instagram bio link\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7869,
+      "bytes": 9190,
+      "hash": "5e6e338a4b99",
+      "descTokens": 140,
+      "skillTokens": 1968
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "make-it-designed",
+      "dirName": "make-it-designed",
+      "group": "",
+      "repoPath": "make-it-designed",
+      "description": "Take a page you already built and make it look designed instead of default, without rebuilding it. Runs a fixed polish checklist — one display font and one body font with confident size jumps, a real spacing scale, a restrained palette, hierarchy that survives a squint test — then adds exactly one signature touch so the page has a point of view. Use when the user says \"make this look better\", \"it works but it looks bad\", \"make it look designed\", \"polish this page\", \"why does my site look cheap\", \"it looks like a template\", \"clean this up visually\", \"make it look expensive\", or types /make-it-designed.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 10379,
+      "bytes": 11628,
+      "hash": "8a2b72aa28ad",
+      "descTokens": 153,
+      "skillTokens": 2595
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "meeting-notes",
+      "dirName": "meeting-notes",
+      "group": "",
+      "repoPath": "meeting-notes",
+      "description": "Process meeting transcripts into structured markdown summaries. Use this skill whenever the user pastes a meeting transcript, shares meeting notes, or says anything like \"process this meeting\", \"summarize this call\", \"extract action items\", \"here's a transcript from my call\", or \"here are my meeting notes\". Works with transcripts from any tool (Fireflies, Otter, Granola, Zoom, etc.). Trigger even if the user just pastes a block of text that looks like a speaker-labeled transcript.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 3577,
+      "bytes": 4748,
+      "hash": "c91d9f6722b4",
+      "descTokens": 122,
+      "skillTokens": 895
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "mobile-check",
+      "dirName": "mobile-check",
+      "group": "",
+      "repoPath": "mobile-check",
+      "description": "Check a page you built the way a real person on a phone would actually see it, and get back a numbered fix list ordered by how much each problem costs you. Catches tiny text, buttons too small to tap, things that slide sideways off the screen, images that blow out the layout, and a main button nobody can reach with a thumb. Each fix comes with the exact sentence to paste back to Claude. Use when the user says \"check this on mobile\", \"does my site work on a phone\", \"it looks broken on my phone\", \"why is my page sideways\", \"mobile version is messed up\", \"test my page on mobile\", \"my text is tiny on my phone\", or types /mobile-check.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 10230,
+      "bytes": 11512,
+      "hash": "f0be22c2c0d5",
+      "descTokens": 160,
+      "skillTokens": 2558
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "more-from-buyers",
+      "dirName": "more-from-buyers",
+      "group": "",
+      "repoPath": "more-from-buyers",
+      "description": "Find 3 to 5 concrete ways to make more money from the customers you already have, without more traffic, more followers, or a bigger audience. Looks at the one thing you sell now and ranks the moves by effort, easiest money first. Use when the user says \"how do I make more money from what I have\", \"audit my offer\", \"I'm leaving money on the table\", \"should I raise my price\", \"add an upsell\", \"how do I add recurring revenue\", \"my offer only makes money once\", or \"/more-from-buyers\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 9346,
+      "bytes": 11037,
+      "hash": "083bac0fd932",
+      "descTokens": 122,
+      "skillTokens": 2337
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "objection-handler",
+      "dirName": "objection-handler",
+      "group": "",
+      "repoPath": "objection-handler",
+      "description": "Turn the objections you actually hear (\"too expensive\", \"no time\", \"let me think about it\", \"does this work for someone like me?\") into calm, honest responses you can deliver without freezing or getting pushy — tailored to YOUR offer. Produces a saved objection-response cheat sheet using acknowledge → reframe → evidence → invite. Trigger whenever the user says \"how do I respond when they say\", \"handle objections\", \"they said it's too expensive\", \"what do I say to no time\", \"people keep telling me\", \"I never know what to say back\", or \"help me answer pushback\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 6486,
+      "bytes": 7841,
+      "hash": "cce1ea8d0127",
+      "descTokens": 144,
+      "skillTokens": 1622
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "offer-builder",
+      "dirName": "offer-builder",
+      "group": "",
+      "repoPath": "offer-builder",
+      "description": "Build a Hormozi-style \"Grand Slam Offer\" so good people feel stupid saying no — engineered around the Value Equation (bigger dream outcome, higher belief it'll work, less time, less effort). Use this when the user says \"build my offer\", \"make my offer irresistible\", \"help me package what I sell\", \"I don't know how to price/pitch this\", \"grand slam offer\", \"I built a product but nobody's buying\", or when they have a thing to sell but no compelling way to present it. Push to run this before they try to sell anything.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 6827,
+      "bytes": 8034,
+      "hash": "a4203f617b5d",
+      "descTokens": 131,
+      "skillTokens": 1707
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "personalize",
+      "dirName": "personalize",
+      "group": "",
+      "repoPath": "personalize",
+      "description": "Set up (or update) your brand profile so every other skill in this pack writes in YOUR voice, for YOUR offer and audience. Run this ONCE before using the content, YouTube, or money skills. Trigger whenever the user says \"personalize\", \"set up my brand\", \"set up my profile\", \"make these skills mine\", \"update my brand info\", or when another skill reports that the brand profile is missing or incomplete.",
+      "modelInvocable": true,
+      "files": [
+        "README.md",
+        "references/"
+      ],
+      "entryBytes": 3103,
+      "bytes": 4291,
+      "hash": "a9404b1e1040",
+      "descTokens": 101,
+      "skillTokens": 776
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "plan-first",
+      "dirName": "plan-first",
+      "group": "",
+      "repoPath": "plan-first",
+      "description": "Turn a big fuzzy idea into a small written plan you approve before Claude touches a single file, so you ship a v1 instead of stalling on version five. Forces a hard scope cut, a \"not in v1\" list, the order of moves, and a plain-English definition of done — saved as a plan file you can reopen any night. Use when the user says \"I want to build X\", \"help me plan this\", \"I have an idea\", \"plan this out first\", \"scope this down\", \"this is getting too big\", \"how do I break this up\", \"plan first\", or types /plan-first. If they haven't picked a project at all yet, that's **claude-orientation**, not this skill.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7767,
+      "bytes": 8962,
+      "hash": "b5bff68ac0bc",
+      "descTokens": 153,
+      "skillTokens": 1942
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "positioning-filter",
+      "dirName": "positioning-filter",
+      "group": "",
+      "repoPath": "positioning-filter",
+      "description": "Find and lock the ONE angle that makes your offer and content stand out, so you stop sounding like everyone else in your niche. Runs a 3-question filter (what's my unique angle, why would my audience care, how does it ladder to my offer) plus a \"what to cut\" test, and saves a reusable positioning statement + a one-line differentiator. Use when the user says \"help me stand out\", \"what's my angle\", \"why would anyone pick me\", \"I sound like everyone else\", \"find my positioning\", \"sharpen my message\", or when their content or offer feels generic. Push to run this before writing content or a sales page.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 5750,
+      "bytes": 6960,
+      "hash": "ea19f19ab345",
+      "descTokens": 152,
+      "skillTokens": 1438
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "pricing-calculator",
+      "dirName": "pricing-calculator",
+      "group": "",
+      "repoPath": "pricing-calculator",
+      "description": "Set a value-based price for your product or service — priced on the outcome it creates for the buyer, not on your costs or hours. Quantifies the dollar value to the buyer, anchors 3 tiers (good/better/best), prices at a fraction of value delivered, pressure-tests against objections, and picks a payment structure. Use when the user says \"how much should I charge\", \"what should I price this at\", \"am I charging too little\", \"price my offer\", \"set my rates\", \"should this be a subscription\", or when they're about to undercharge. Push to run this whenever a price needs to be decided.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 6177,
+      "bytes": 7398,
+      "hash": "f5bf50847a75",
+      "descTokens": 147,
+      "skillTokens": 1545
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "prompt-fixer",
+      "dirName": "prompt-fixer",
+      "group": "",
+      "repoPath": "prompt-fixer",
+      "description": "Paste the prompt that gave you bad output and get back the reason it failed plus the rewritten prompt to run instead. Checks the seven usual causes — too vague, three asks in one, no constraints, no format, no done-when, missing context, asking for code instead of an outcome — and hands you a fixed version. Use when the user says \"this isn't what I wanted\", \"Claude gave me garbage\", \"my prompt didn't work\", \"fix my prompt\", \"why did it do that\", \"it ignored what I asked\", \"it keeps giving me the wrong thing\", \"rewrite this prompt\", or \"/prompt-fixer\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7658,
+      "bytes": 8928,
+      "hash": "3cb86f02f754",
+      "descTokens": 141,
+      "skillTokens": 1915
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "proposal-writer",
+      "dirName": "proposal-writer",
+      "group": "",
+      "repoPath": "proposal-writer",
+      "description": "Turn messy notes from a call with a potential customer into a clean, ready-to-send proposal document. This is the written thing you send after you've set your price and had the conversation. Restates their problem in their own words, shows the outcome, lists exactly what they get, then puts the price where it already feels justified. Saved as a markdown file you can copy straight into an email. Use when the user says \"write a proposal\", \"I had a call, now what do I send\", \"turn these notes into a proposal\", \"send them a quote\", \"they asked me to put it in writing\", \"how do I write this up\", or types /proposal-writer.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 9263,
+      "bytes": 10701,
+      "hash": "0380da137101",
+      "descTokens": 156,
+      "skillTokens": 2316
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "quote-calculator",
+      "dirName": "quote-calculator",
+      "group": "",
+      "repoPath": "quote-calculator",
+      "description": "Build a small instant-quote widget for a service business — the buyer picks a few options and sees a price range right away, then leaves their contact details. Works for movers, cleaners, lawn care, painters, junk removal, detailers, handymen. One self-contained HTML file, no backend, nothing to pay for, and it's one of the easiest things a beginner can build for a local business and charge for. Use when the user says \"build a quote calculator\", \"instant quote tool\", \"price estimator for my website\", \"let customers see a price\", \"pricing calculator\", \"estimate tool for my cleaning business\", \"something I can sell to local businesses\", or types /quote-calculator.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 11586,
+      "bytes": 12920,
+      "hash": "297f020be5d5",
+      "descTokens": 168,
+      "skillTokens": 2897
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "repeatable-offer",
+      "dirName": "repeatable-offer",
+      "group": "",
+      "repoPath": "repeatable-offer",
+      "description": "Offer-builder makes an offer irresistible. This one makes your service repeatable, so you stop quoting from scratch every time someone asks what it costs. Finds the part of your work that's the same on every job, then wraps it in a fixed name, a fixed scope, a fixed price, a fixed timeline, and a delivery checklist you run the same way every order. Use when the user says \"make this repeatable\", \"I keep doing this custom for everyone\", \"package what I do\", \"turn my service into a product\", \"I'm quoting every job from scratch\", \"productize my service\", \"I'm stuck trading time for money\", or \"/repeatable-offer\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8098,
+      "bytes": 9472,
+      "hash": "eb74b342eeb6",
+      "descTokens": 154,
+      "skillTokens": 2025
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "research-brief",
+      "dirName": "research-brief",
+      "group": "",
+      "repoPath": "research-brief",
+      "description": "Turns \"I need to understand X before Monday\" into a one-page brief you can actually use. The answer up front in three lines, then what's true, what's contested, what nobody agrees on, the numbers with dates attached, and what to read if you want more. Everything is sourced, and anything that couldn't be checked is marked unverified instead of guessed. Use when the user says \"research this for me\", \"what do I need to know about\", \"brief me on\", \"I have a meeting about X\", \"catch me up on\", \"is X any good\", \"what's the deal with\", \"look into this\", \"I need to sound like I know this by Monday\", or /research-brief.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8207,
+      "bytes": 9432,
+      "hash": "88979a2885f1",
+      "descTokens": 155,
+      "skillTokens": 2052
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "rewrite-plain",
+      "dirName": "rewrite-plain",
+      "group": "",
+      "repoPath": "rewrite-plain",
+      "description": "Rewrites anything into plain, direct language a busy person understands on the first read. Kills jargon, hedging, passive voice, throat-clearing openers, and the corporate words that mean nothing — while keeping your meaning and every fact exactly as they were. Shows a short before/after so you start spotting the pattern yourself. Works on emails, posts, bios, sales pages, docs, anything. Use when the user says \"make this simpler\", \"this sounds corporate\", \"rewrite this\", \"plain English\", \"clean this up\", \"make this clearer\", \"does this make sense\", \"too wordy\", \"dumb this down\", \"tighten this\", or /rewrite-plain.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8211,
+      "bytes": 9500,
+      "hash": "11511ce969ee",
+      "descTokens": 156,
+      "skillTokens": 2053
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "safety-net",
+      "dirName": "safety-net",
+      "group": "",
+      "repoPath": "safety-net",
+      "description": "Sets up your two undo systems so you can experiment without worrying you'll wreck your project — /rewind for instant undo and Git checkpoints for permanent saves. Walks you through making your first checkpoint on the project you have open, then saves a one-page cheat sheet with the exact recovery moves for \"I broke it\", \"go back one step\", and \"go back to this morning\". Use when the user says \"I'm scared I'll break something\", \"how do I undo\", \"can I go back\", \"I broke my project\", \"how do I save my work\", \"what's a checkpoint\", \"how does rewind work\", \"is there an undo\", \"I want to try something risky\", or \"/safety-net\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7986,
+      "bytes": 9416,
+      "hash": "20f24d268209",
+      "descTokens": 158,
+      "skillTokens": 1997
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "sales-page",
+      "dirName": "sales-page",
+      "group": "",
+      "repoPath": "sales-page",
+      "description": "Build a page that looks like a real product and actually sells it — problem, after-state, what it is, what's included, proof, price said once, guarantee, FAQ, and one button repeated down the page. Puts everything in the order that makes people buy instead of the order you feel like writing it in. Use when the user says \"/sales-page\", \"build me a sales page\", \"a page to sell my thing\", \"I need a page for my course\", \"write my sales page\", \"product page\", \"checkout page for my offer\", \"a page that sells\", \"how do I sell this online\", or \"people keep asking for a link to buy\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 9666,
+      "bytes": 11153,
+      "hash": "cc2eddb91f11",
+      "descTokens": 146,
+      "skillTokens": 2417
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "session-wrapup",
+      "dirName": "session-wrapup",
+      "group": "",
+      "repoPath": "session-wrapup",
+      "description": "Close out a build session properly so reopening tomorrow takes five minutes instead of thirty. Summarizes what actually changed, what's working, what's half-finished, and writes ONE line for tomorrow's first move — then prompts you to save a checkpoint before you close the laptop. Use when the user says \"wrap up\", \"I'm done for tonight\", \"end of session\", \"log what we did\", \"save where I got to\", \"what did we do today\", \"I'm stopping here\", \"before I close this\", \"session wrapup\", or types /session-wrapup.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 6639,
+      "bytes": 7835,
+      "hash": "6cbe6622c0a6",
+      "descTokens": 129,
+      "skillTokens": 1660
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "simple-game",
+      "dirName": "simple-game",
+      "group": "",
+      "repoPath": "simple-game",
+      "description": "Build a playable browser game in one sitting — one file, opens in any browser, works on a phone, no accounts or databases. Pick from a menu of classics tagged by how long they take, then make it yours with a reskin, one twist, your name on the title screen, and a saved high score. Use when the user says \"/simple-game\", \"build me a game\", \"I want to make a game\", \"make a browser game\", \"can we build snake\", \"build a game I can send to my friends\", \"something fun to build\", \"I don't know what to build first\", \"make a game with Claude\", or \"build a game my kid can play\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8833,
+      "bytes": 10303,
+      "hash": "df847fa9217c",
+      "descTokens": 144,
+      "skillTokens": 2209
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "simple-tracker",
+      "dirName": "simple-tracker",
+      "group": "",
+      "repoPath": "simple-tracker",
+      "description": "Build a small personal tracker or dashboard that runs entirely in your browser and saves your data on your own machine — habits, workouts, client pipeline, reading list, money in, anything you currently keep in a messy spreadsheet. No login, no database, no monthly bill, one HTML file you open like a bookmark. Use when the user says \"build me a tracker\", \"habit tracker\", \"I want a dashboard for my stuff\", \"replace my spreadsheet\", \"something to log my workouts\", \"track my clients\", \"personal dashboard\", \"app to keep track of\", \"reading list app\", or types /simple-tracker.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 9902,
+      "bytes": 11185,
+      "hash": "85dcedbf8433",
+      "descTokens": 145,
+      "skillTokens": 2476
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "skill-starter",
+      "dirName": "skill-starter",
+      "group": "",
+      "repoPath": "skill-starter",
+      "description": "Turn a job you keep asking Claude to do into your own reusable skill, so you type one slash command instead of re-explaining every time. Interviews you for the job, the words you actually use to ask for it, the steps, and the file it should save — then writes a working SKILL.md into ~/.claude/skills/ and tells you how to test it. Use when the user says \"make me a skill\", \"turn this into a skill\", \"I keep asking for the same thing\", \"how do I make my own slash command\", \"build a skill for this\", \"I do this every week, can Claude just do it\", \"custom skill\", \"skill starter\", or types /skill-starter.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 7784,
+      "bytes": 8962,
+      "hash": "e3f2138db18d",
+      "descTokens": 152,
+      "skillTokens": 1946
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "stuck-unstick",
+      "dirName": "stuck-unstick",
+      "group": "",
+      "repoPath": "stuck-unstick",
+      "description": "Get out of the loop where Claude keeps giving you the wrong thing and you keep re-asking. Diagnoses which of the five common traps you're in — the ask is too big, you're describing the fix instead of what you saw, the chat is polluted, you changed three things at once, or you're trying to edit code yourself — then hands you the exact next sentence to send. Use when the user says \"I'm stuck\", \"Claude keeps giving me the wrong thing\", \"we're going in circles\", \"it's not listening to me\", \"I've asked five times\", \"it broke and now it's worse\", \"this isn't working\", \"I keep having to redo this\", \"help I'm going round in circles\", or types /stuck-unstick.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8017,
+      "bytes": 9221,
+      "hash": "d5675bc07e60",
+      "descTokens": 166,
+      "skillTokens": 2005
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "testimonial-ask",
+      "dirName": "testimonial-ask",
+      "group": "",
+      "repoPath": "testimonial-ask",
+      "description": "Get the exact message to send asking for a testimonial, the three questions that produce a quote worth using, and a draft-it-for-them version that gets the highest reply rate. Also covers turning a rambling reply into a clean quote and asking permission to use it. Use when the user says \"ask for a testimonial\", \"how do I get a review\", \"my client said they loved it, now what\", \"get a quote from a client\", \"I need social proof\", \"how do I ask for feedback without being awkward\", \"write a testimonial request\", or \"/testimonial-ask\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 9917,
+      "bytes": 11190,
+      "hash": "cac6f1633a5e",
+      "descTokens": 134,
+      "skillTokens": 2480
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "thread-writer",
+      "dirName": "thread-writer",
+      "group": "",
+      "repoPath": "thread-writer",
+      "description": "Turn one idea into an X thread or a long LinkedIn post that people actually read to the end. Builds a hook that makes a specific promise, one idea per line, a real example early so people trust you, and an ending that lands instead of trailing off. Use when the user says \"write a thread\", \"turn this into a thread\", \"long LinkedIn post\", \"I have an idea but it's too big for one post\", \"how do I explain this in a post\", \"write this up as a thread\", \"make this into a post series\", or \"/thread-writer\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8061,
+      "bytes": 9235,
+      "hash": "fafd5308299e",
+      "descTokens": 126,
+      "skillTokens": 2016
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "waitlist-page",
+      "dirName": "waitlist-page",
+      "group": "",
+      "repoPath": "waitlist-page",
+      "description": "Build a one-page \"coming soon\" that collects emails before the thing exists, so you find out if anyone wants it before you spend three months building it. One promise, one field, one button, an honest date, and a real place the emails land — all free, no backend. Use when the user says \"build a waitlist page\", \"coming soon page\", \"collect emails before I build\", \"I want to see if anyone wants this\", \"landing page for an idea\", \"pre-launch page\", \"validate my idea\", \"early access signup\", \"should I build this first\", or types /waitlist-page.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 10755,
+      "bytes": 12004,
+      "hash": "1ff173fdda1c",
+      "descTokens": 137,
+      "skillTokens": 2689
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "warm-outreach",
+      "dirName": "warm-outreach",
+      "group": "",
+      "repoPath": "warm-outreach",
+      "description": "Build a prioritized warm-network outreach list and a genuine, low-pressure first message so you can land your first customer from people who ALREADY know and trust you — before you ever touch cold outreach. Trigger whenever the user says \"who should I reach out to\", \"I need my first customer\", \"warm outreach\", \"make an outreach list\", \"who do I already know\", \"help me start selling\", \"I don't know who to talk to\", or \"how do I get my first client without being salesy\".",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 6422,
+      "bytes": 7732,
+      "hash": "954fc7ebb6da",
+      "descTokens": 119,
+      "skillTokens": 1606
+    },
+    {
+      "repo": "duncan-buildroom/freeskills",
+      "name": "weekly-review",
+      "dirName": "weekly-review",
+      "group": "",
+      "repoPath": "weekly-review",
+      "description": "A 20-minute Sunday reset that looks at what you actually shipped this week, why the stalled things stalled, and picks the ONE thing for next week — then makes you say what you're dropping. Writes a review file with your wins, your one thing, and three specific moves scheduled into the hours you actually have. Use when the user says \"weekly review\", \"review my week\", \"what did I get done this week\", \"plan my week\", \"sunday reset\", \"I feel like I did nothing this week\", \"what should I focus on next week\", \"reset for the week\", or types /weekly-review.",
+      "modelInvocable": true,
+      "files": [
+        "README.md"
+      ],
+      "entryBytes": 8053,
+      "bytes": 9340,
+      "hash": "e98bcbdb94d3",
+      "descTokens": 140,
+      "skillTokens": 2014
     }
   ]
 }

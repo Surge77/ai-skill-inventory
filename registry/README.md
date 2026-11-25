@@ -3,8 +3,8 @@
 [← back to the atlas](../README.md)
 
 The atlas scans this machine, so a skill that was looked at and passed over leaves no row
-anywhere. This is that shelf: **274 skills across 7 tracked repos**,
-**251 of them not on this disk**. Nothing here is loaded or loadable until it
+anywhere. This is that shelf: **329 skills across 8 tracked repos**,
+**306 of them not on this disk**. Nothing here is loaded or loadable until it
 is copied in.
 
 Generated **2026-09-07** from a shallow clone of each repo at the commit recorded on its page.
@@ -13,6 +13,7 @@ Generated **2026-09-07** from a shallow clone of each repo at the commit recorde
 |---|---:|---:|---:|---|---|---|
 | [MengTo/Skills](mengto-skills.md) | 132 | 0 | 5,846 | MIT | 2026-08-28 | evaluated, not installed — mostly game dev and video, out of scope |
 | [Owl-Listener/designer-skills](owl-listener-designer-skills.md) | 111 | 0 | 2,557 | MIT | 2026-09-05 | evaluated, not installed — encyclopedic, restates known theory |
+| [duncan-buildroom/freeskills](duncan-buildroom-freeskills.md) | 55 | 0 | 92 | — | 2026-10-14 | tracked for fable-goal, not installed — goal-prompt writer, overlaps prompt-optimizer |
 | [emilkowalski/skills](emilkowalski-skills.md) | 12 | 12 | 35,960 | MIT | 2026-08-21 | installed 2026-09-07 — animation craft |
 | [jakubkrehel/skills](jakubkrehel-skills.md) | 11 | 11 | 5,938 | MIT | 2026-08-29 | installed 2026-09-07 — interface review |
 | [ConardLi/garden-skills](conardli-garden-skills.md) | 5 | 0 | 12,227 | MIT | 2026-07-12 | evaluated, not installed — overlaps the existing design pile |
@@ -29,7 +30,7 @@ they show as ⚠️ rather than as installed, because a name match is not the sa
 
 The decision, with the evidence behind each grade, is in [../SOURCES.md](../SOURCES.md).
 The short version: a skill earns a slot by encoding a decision the model would not reach on
-its own. Installing all 251 would add roughly **17,508 tokens
+its own. Installing all 306 would add roughly **25,294 tokens
 to every request**, permanently, before one of them fired.
 
 ## Searching the shelf

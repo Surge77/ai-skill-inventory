@@ -6,6 +6,7 @@
     { "repo": "codeswithroh/tastemaker", "starred": "2026-09-07", "note": "evaluated, not installed — duplicates design-dna" },
     { "repo": "elayadesign/ai-design-skills", "starred": "2026-09-07", "note": "evaluated, not installed — overlaps landing-page-copywriter" },
     { "repo": "MengTo/Skills", "starred": "2026-09-07", "note": "evaluated, not installed — mostly game dev and video, out of scope" },
-    { "repo": "Owl-Listener/designer-skills", "starred": "2026-09-07", "note": "evaluated, not installed — encyclopedic, restates known theory" }
+    { "repo": "Owl-Listener/designer-skills", "starred": "2026-09-07", "note": "evaluated, not installed — encyclopedic, restates known theory" },
+    { "repo": "duncan-buildroom/freeskills", "starred": "2026-11-25", "note": "tracked for fable-goal, not installed — goal-prompt writer, overlaps prompt-optimizer" }
   ]
 }
