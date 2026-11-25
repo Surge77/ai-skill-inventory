@@ -12,6 +12,30 @@ judgment; the registry holds the shelf.
 
 ---
 
+## 2026-11-25 — `fable-goal` from duncan-buildroom/freeskills, tracked
+
+[duncan-buildroom/freeskills](https://github.com/duncan-buildroom/freeskills) — 55 skills,
+92 stars, no license file, last push 2026-10-14. Evaluated for one skill only:
+`fable-goal` (11 KB, ~136 description tokens). **Tracked, not installed.**
+
+`fable-goal` turns a rambling request into one copy-paste prompt for a long autonomous run:
+outcome, quantity, quality bar, named tools, explicit creative freedom, three self-check
+passes, and a list of the assumptions it filled. It is pure markdown — no scripts or hooks.
+
+Not installed because:
+
+- **Overlap.** `prompt-optimizer` (ECC) already turns a raw ask into a ready-to-paste prompt;
+  `writing-plans` and `ralph-loop` cover the autonomous-run side.
+- **Rule conflict.** Its prompts tell the session never to stop and ask. The global
+  CLAUDE.md requires a confirmation before irreversible actions (push, deploy, delete).
+- **Creator-oriented.** Its optional `/personalize` brand profile (niche, offer, audience)
+  does not fit engineering work.
+
+If installed later: copy only `fable-goal/`, not the repo, and add a "stop before push,
+deploy or delete" line. No license file — personal use only, do not redistribute.
+
+---
+
 ## 2026-09-07 — seven starred design/skill repos, evaluated
 
 Seven repositories starred on GitHub in one sitting, all "skills for designers and
